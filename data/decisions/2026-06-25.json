@@ -1,0 +1,247 @@
+{
+  "run_date": "2026-06-25",
+  "yesterday_date": null,
+  "macro": {
+    "market_regime": "risk_off",
+    "qqq_return_1d": -0.004245819649992704,
+    "spy_return_1d": -0.0004635170636431143,
+    "vix_change": null,
+    "ten_year_yield_change": null,
+    "notes": "regime=risk_off, QQQ -0.42%"
+  },
+  "performance_review": {
+    "reviewed_date": null,
+    "benchmark": "QQQ",
+    "outcomes": [],
+    "hit_rate": null,
+    "avg_pick_return_pct": null,
+    "benchmark_return_pct": null,
+    "avg_excess_return_pct": null,
+    "narrative": "No prior decision found; this is the first run or a gap day."
+  },
+  "candidates": [
+    {
+      "ticker": "HD",
+      "candidate_score": 0.3175,
+      "score_breakdown": {
+        "momentum": 0.1557,
+        "relative_strength": 0.25,
+        "volume_confirmation": 0.0302,
+        "catalyst": 0.0,
+        "earnings_risk_penalty": -0.015,
+        "volatility_penalty": -0.0034,
+        "weak_evidence_penalty": -0.1,
+        "total": 0.3175
+      },
+      "catalyst_assessment": "0 news item(s) in 72h; no source-backed catalyst found.",
+      "catalyst_is_real": false,
+      "evidence_sources": [
+        "price/volume (yfinance)"
+      ],
+      "reasoning_summary": "Top-6 by transparent score.",
+      "risk_notes": "",
+      "model_used": "deterministic",
+      "created_at": "2026-06-25T11:34:26.962796+00:00"
+    },
+    {
+      "ticker": "MA",
+      "candidate_score": 0.221,
+      "score_breakdown": {
+        "momentum": -0.0214,
+        "relative_strength": 0.2154,
+        "volume_confirmation": -0.018,
+        "catalyst": 0.06,
+        "earnings_risk_penalty": -0.015,
+        "volatility_penalty": -0.0,
+        "weak_evidence_penalty": -0.0,
+        "total": 0.221
+      },
+      "catalyst_assessment": "0 news item(s) in 72h; filing: Insider transaction (Form 4) filed..",
+      "catalyst_is_real": true,
+      "evidence_sources": [
+        "SEC filing: Form 4",
+        "price/volume (yfinance)"
+      ],
+      "reasoning_summary": "Top-6 by transparent score.",
+      "risk_notes": "",
+      "model_used": "deterministic",
+      "created_at": "2026-06-25T11:34:26.962796+00:00"
+    },
+    {
+      "ticker": "JNJ",
+      "candidate_score": 0.1911,
+      "score_breakdown": {
+        "momentum": 0.101,
+        "relative_strength": 0.1535,
+        "volume_confirmation": -0.0083,
+        "catalyst": 0.0,
+        "earnings_risk_penalty": -0.015,
+        "volatility_penalty": -0.0,
+        "weak_evidence_penalty": -0.04,
+        "total": 0.1911
+      },
+      "catalyst_assessment": "0 news item(s) in 72h; no source-backed catalyst found.",
+      "catalyst_is_real": false,
+      "evidence_sources": [
+        "price/volume (yfinance)"
+      ],
+      "reasoning_summary": "Top-6 by transparent score.",
+      "risk_notes": "",
+      "model_used": "deterministic",
+      "created_at": "2026-06-25T11:34:26.962796+00:00"
+    },
+    {
+      "ticker": "JPM",
+      "candidate_score": 0.1591,
+      "score_breakdown": {
+        "momentum": 0.117,
+        "relative_strength": 0.0273,
+        "volume_confirmation": -0.0302,
+        "catalyst": 0.06,
+        "earnings_risk_penalty": -0.015,
+        "volatility_penalty": -0.0,
+        "weak_evidence_penalty": -0.0,
+        "total": 0.1591
+      },
+      "catalyst_assessment": "0 news item(s) in 72h; filing: Material event report (8-K) filed..",
+      "catalyst_is_real": true,
+      "evidence_sources": [
+        "SEC filing: 8-K, Form 4",
+        "price/volume (yfinance)"
+      ],
+      "reasoning_summary": "Top-6 by transparent score.",
+      "risk_notes": "",
+      "model_used": "deterministic",
+      "created_at": "2026-06-25T11:34:26.962796+00:00"
+    },
+    {
+      "ticker": "V",
+      "candidate_score": 0.1493,
+      "score_breakdown": {
+        "momentum": 0.0163,
+        "relative_strength": 0.1958,
+        "volume_confirmation": -0.0078,
+        "catalyst": 0.0,
+        "earnings_risk_penalty": -0.015,
+        "volatility_penalty": -0.0,
+        "weak_evidence_penalty": -0.04,
+        "total": 0.1493
+      },
+      "catalyst_assessment": "0 news item(s) in 72h; no source-backed catalyst found.",
+      "catalyst_is_real": false,
+      "evidence_sources": [
+        "price/volume (yfinance)"
+      ],
+      "reasoning_summary": "Top-6 by transparent score.",
+      "risk_notes": "",
+      "model_used": "deterministic",
+      "created_at": "2026-06-25T11:34:26.962796+00:00"
+    },
+    {
+      "ticker": "LLY",
+      "candidate_score": 0.1469,
+      "score_breakdown": {
+        "momentum": 0.0508,
+        "relative_strength": 0.168,
+        "volume_confirmation": -0.0169,
+        "catalyst": 0.0,
+        "earnings_risk_penalty": -0.015,
+        "volatility_penalty": -0.0,
+        "weak_evidence_penalty": -0.04,
+        "total": 0.1469
+      },
+      "catalyst_assessment": "0 news item(s) in 72h; no source-backed catalyst found.",
+      "catalyst_is_real": false,
+      "evidence_sources": [
+        "price/volume (yfinance)"
+      ],
+      "reasoning_summary": "Top-6 by transparent score.",
+      "risk_notes": "",
+      "model_used": "deterministic",
+      "created_at": "2026-06-25T11:34:26.962796+00:00"
+    }
+  ],
+  "risk_review": {
+    "portfolio_risk": "No severe single-sector concentration detected.",
+    "ticker_risks": {
+      "HD": "thin evidence",
+      "MA": "no major flags",
+      "JNJ": "thin evidence",
+      "JPM": "no major flags",
+      "V": "thin evidence",
+      "LLY": "thin evidence"
+    },
+    "model_used": "deterministic"
+  },
+  "committee_decision": {
+    "picks": [
+      {
+        "ticker": "HD",
+        "action": "long",
+        "probability_band": "high",
+        "confidence": 3,
+        "horizon_days": 1,
+        "entry_reference_price": 342.8599853515625,
+        "thesis": "0 news item(s) in 72h; no source-backed catalyst found.",
+        "evidence_sources": [
+          "price/volume (yfinance)"
+        ],
+        "reasoning_summary": "candidate_score=0.3175; 0 news item(s) in 72h; no source-backed catalyst found.",
+        "risk_notes": "thin evidence",
+        "model_used": "deterministic",
+        "created_at": "2026-06-25T11:34:26.965798+00:00"
+      },
+      {
+        "ticker": "MA",
+        "action": "long",
+        "probability_band": "high",
+        "confidence": 4,
+        "horizon_days": 1,
+        "entry_reference_price": 494.4100036621094,
+        "thesis": "0 news item(s) in 72h; filing: Insider transaction (Form 4) filed..",
+        "evidence_sources": [
+          "SEC filing: Form 4",
+          "price/volume (yfinance)"
+        ],
+        "reasoning_summary": "candidate_score=0.221; 0 news item(s) in 72h; filing: Insider transaction (Form 4) filed..",
+        "risk_notes": "no major flags",
+        "model_used": "deterministic",
+        "created_at": "2026-06-25T11:34:26.965798+00:00"
+      },
+      {
+        "ticker": "JNJ",
+        "action": "long",
+        "probability_band": "medium",
+        "confidence": 2,
+        "horizon_days": 1,
+        "entry_reference_price": 241.0,
+        "thesis": "0 news item(s) in 72h; no source-backed catalyst found.",
+        "evidence_sources": [
+          "price/volume (yfinance)"
+        ],
+        "reasoning_summary": "candidate_score=0.1911; 0 news item(s) in 72h; no source-backed catalyst found.",
+        "risk_notes": "thin evidence",
+        "model_used": "deterministic",
+        "created_at": "2026-06-25T11:34:26.965798+00:00"
+      }
+    ],
+    "rejected": [
+      {
+        "ticker": "JPM",
+        "reason": "daily pick limit reached"
+      },
+      {
+        "ticker": "V",
+        "reason": "daily pick limit reached"
+      },
+      {
+        "ticker": "LLY",
+        "reason": "daily pick limit reached"
+      }
+    ],
+    "committee_summary": "Selected 3 paper pick(s) by transparent score; 3 rejected. Paper tracking only."
+  },
+  "warnings": [
+    "no price data for CVX"
+  ]
+}

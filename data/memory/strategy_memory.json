@@ -1,0 +1,38 @@
+{
+  "version": 1,
+  "current_rules": {
+    "max_picks_per_day": 3,
+    "minimum_evidence_sources": 2,
+    "avoid_earnings_within_days": 1,
+    "benchmark": "QQQ",
+    "confidence_penalty_if_no_catalyst": true
+  },
+  "promoted_rules": [],
+  "tentative_lessons": [
+    {
+      "text": "Require volume confirmation or a filing/news catalyst before high confidence.",
+      "count": 1
+    }
+  ],
+  "observations": [
+    {
+      "text": "No prior decision found; this is the first run or a gap day."
+    },
+    {
+      "text": "Made 3 paper pick(s) in risk_off regime."
+    }
+  ],
+  "deprecated_rules": [],
+  "agent_weights": {
+    "momentum": 1.0,
+    "relative_strength": 1.0,
+    "volume_confirmation": 1.0,
+    "catalyst": 1.0,
+    "news": 1.0
+  },
+  "recent_performance": {
+    "last_5_days_hit_rate": null,
+    "last_20_days_vs_benchmark": null,
+    "common_failure_mode": null
+  }
+}

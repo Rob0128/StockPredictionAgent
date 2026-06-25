@@ -1,0 +1,2 @@
+Generated decision records are written here as YYYY-MM-DD.json by the daily
+workflow and committed back by CI so the performance feedback loop persists.

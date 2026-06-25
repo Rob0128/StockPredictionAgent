@@ -1,0 +1,22 @@
+# ── Python ───────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+build/
+dist/
+.venv/
+venv/
+.env
+
+# ── Tooling ──────────────────────────────────────────────────
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+
+# ── Runtime caches (price/news caches are regenerated) ───────
+data/cache/
+
+# Keep generated artifacts tracked so the GitHub Actions feedback
+# loop can read yesterday's picks. Do NOT ignore:
+#   data/decisions/  data/reports/  data/memory/

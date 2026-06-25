@@ -1,0 +1,61 @@
+name: Daily Paper Portfolio
+
+on:
+  schedule:
+    # ~22:30 UTC on weekdays (after US market close). Cron is UTC.
+    - cron: "30 22 * * 1-5"
+  workflow_dispatch:
+    inputs:
+      date:
+        description: "Trading day to analyse (today | yesterday | YYYY-MM-DD)"
+        required: false
+        default: "today"
+
+# Allow the workflow to commit generated artifacts back to the repo so the
+# performance feedback loop and strategy memory persist across runs.
+permissions:
+  contents: write
+
+concurrency:
+  group: daily-paper-portfolio
+  cancel-in-progress: false
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -e .
+
+      - name: Run daily workflow
+        env:
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          FINNHUB_API_KEY: ${{ secrets.FINNHUB_API_KEY }}
+          FRED_API_KEY: ${{ secrets.FRED_API_KEY }}
+          SEC_USER_AGENT: ${{ secrets.SEC_USER_AGENT }}
+          MODEL_CHEAP: gpt-4o-mini
+          MODEL_SMART: gpt-4o
+        run: |
+          python -m market_journal.main --date "${{ github.event.inputs.date || 'today' }}"
+
+      - name: Commit artifacts
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/decisions data/reports data/memory
+          if git diff --cached --quiet; then
+            echo "No artifact changes to commit."
+          else
+            git commit -m "chore: daily paper portfolio artifacts [skip ci]"
+            git push
+          fi
