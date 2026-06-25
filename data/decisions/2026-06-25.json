@@ -2,12 +2,12 @@
   "run_date": "2026-06-25",
   "yesterday_date": null,
   "macro": {
-    "market_regime": "risk_off",
-    "qqq_return_1d": -0.004277923571292743,
-    "spy_return_1d": -0.0036550006975541653,
+    "market_regime": "risk_on",
+    "qqq_return_1d": 0.008105611726665704,
+    "spy_return_1d": 0.0014456352254531687,
     "vix_change": null,
     "ten_year_yield_change": null,
-    "notes": "regime=risk_off, QQQ -0.43%"
+    "notes": "regime=risk_on, QQQ +0.81%"
   },
   "performance_review": {
     "reviewed_date": null,
@@ -21,109 +21,17 @@
   },
   "candidates": [
     {
-      "ticker": "BAC",
-      "candidate_score": 0.2506,
-      "score_breakdown": {
-        "momentum": 0.2332,
-        "relative_strength": 0.2072,
-        "volume_confirmation": -0.1348,
-        "catalyst": 0.0,
-        "earnings_risk_penalty": -0.015,
-        "volatility_penalty": -0.0,
-        "weak_evidence_penalty": -0.04,
-        "total": 0.2506
-      },
-      "catalyst_assessment": "0 news item(s) in 72h; no source-backed catalyst found.",
-      "catalyst_is_real": false,
-      "evidence_sources": [
-        "price/volume (yfinance)"
-      ],
-      "reasoning_summary": "Top-6 by transparent score.",
-      "risk_notes": "",
-      "model_used": "deterministic",
-      "created_at": "2026-06-25T13:56:39.070378+00:00"
-    },
-    {
-      "ticker": "JPM",
-      "candidate_score": 0.2084,
-      "score_breakdown": {
-        "momentum": 0.1753,
-        "relative_strength": 0.2064,
-        "volume_confirmation": -0.1183,
-        "catalyst": 0.0,
-        "earnings_risk_penalty": -0.015,
-        "volatility_penalty": -0.0,
-        "weak_evidence_penalty": -0.04,
-        "total": 0.2084
-      },
-      "catalyst_assessment": "0 news item(s) in 72h; no source-backed catalyst found.",
-      "catalyst_is_real": false,
-      "evidence_sources": [
-        "price/volume (yfinance)"
-      ],
-      "reasoning_summary": "Top-6 by transparent score.",
-      "risk_notes": "",
-      "model_used": "deterministic",
-      "created_at": "2026-06-25T13:56:39.070410+00:00"
-    },
-    {
-      "ticker": "JNJ",
-      "candidate_score": 0.1755,
-      "score_breakdown": {
-        "momentum": 0.1714,
-        "relative_strength": 0.25,
-        "volume_confirmation": -0.1309,
-        "catalyst": 0.0,
-        "earnings_risk_penalty": -0.015,
-        "volatility_penalty": -0.0,
-        "weak_evidence_penalty": -0.1,
-        "total": 0.1755
-      },
-      "catalyst_assessment": "0 news item(s) in 72h; no source-backed catalyst found.",
-      "catalyst_is_real": false,
-      "evidence_sources": [
-        "price/volume (yfinance)"
-      ],
-      "reasoning_summary": "Top-6 by transparent score.",
-      "risk_notes": "",
-      "model_used": "deterministic",
-      "created_at": "2026-06-25T13:56:39.070427+00:00"
-    },
-    {
-      "ticker": "HD",
-      "candidate_score": 0.1744,
-      "score_breakdown": {
-        "momentum": 0.2068,
-        "relative_strength": 0.1628,
-        "volume_confirmation": -0.1382,
-        "catalyst": 0.0,
-        "earnings_risk_penalty": -0.015,
-        "volatility_penalty": -0.002,
-        "weak_evidence_penalty": -0.04,
-        "total": 0.1744
-      },
-      "catalyst_assessment": "0 news item(s) in 72h; no source-backed catalyst found.",
-      "catalyst_is_real": false,
-      "evidence_sources": [
-        "price/volume (yfinance)"
-      ],
-      "reasoning_summary": "Top-6 by transparent score.",
-      "risk_notes": "",
-      "model_used": "deterministic",
-      "created_at": "2026-06-25T13:56:39.070440+00:00"
-    },
-    {
       "ticker": "UNH",
-      "candidate_score": 0.1439,
+      "candidate_score": 0.2272,
       "score_breakdown": {
-        "momentum": 0.1472,
-        "relative_strength": 0.25,
-        "volume_confirmation": -0.1384,
+        "momentum": 0.1706,
+        "relative_strength": 0.1984,
+        "volume_confirmation": -0.0268,
         "catalyst": 0.0,
         "earnings_risk_penalty": -0.015,
         "volatility_penalty": -0.0,
         "weak_evidence_penalty": -0.1,
-        "total": 0.1439
+        "total": 0.2272
       },
       "catalyst_assessment": "0 news item(s) in 72h; no source-backed catalyst found.",
       "catalyst_is_real": false,
@@ -133,20 +41,20 @@
       "reasoning_summary": "Top-6 by transparent score.",
       "risk_notes": "",
       "model_used": "deterministic",
-      "created_at": "2026-06-25T13:56:39.070452+00:00"
+      "created_at": "2026-06-25T22:59:43.696795+00:00"
     },
     {
       "ticker": "ASML",
-      "candidate_score": 0.0074,
+      "candidate_score": 0.2254,
       "score_breakdown": {
-        "momentum": 0.0567,
-        "relative_strength": 0.1945,
-        "volume_confirmation": -0.1184,
+        "momentum": 0.157,
+        "relative_strength": 0.25,
+        "volume_confirmation": 0.0066,
         "catalyst": 0.0,
         "earnings_risk_penalty": -0.015,
-        "volatility_penalty": -0.0703,
-        "weak_evidence_penalty": -0.04,
-        "total": 0.0074
+        "volatility_penalty": -0.0732,
+        "weak_evidence_penalty": -0.1,
+        "total": 0.2254
       },
       "catalyst_assessment": "0 news item(s) in 72h; no source-backed catalyst found.",
       "catalyst_is_real": false,
@@ -156,84 +64,176 @@
       "reasoning_summary": "Top-6 by transparent score.",
       "risk_notes": "",
       "model_used": "deterministic",
-      "created_at": "2026-06-25T13:56:39.070465+00:00"
+      "created_at": "2026-06-25T22:59:43.696827+00:00"
+    },
+    {
+      "ticker": "HD",
+      "candidate_score": 0.1627,
+      "score_breakdown": {
+        "momentum": 0.1988,
+        "relative_strength": -0.0233,
+        "volume_confirmation": 0.0441,
+        "catalyst": 0.0,
+        "earnings_risk_penalty": -0.015,
+        "volatility_penalty": -0.0019,
+        "weak_evidence_penalty": -0.04,
+        "total": 0.1627
+      },
+      "catalyst_assessment": "0 news item(s) in 72h; no source-backed catalyst found.",
+      "catalyst_is_real": false,
+      "evidence_sources": [
+        "price/volume (yfinance)"
+      ],
+      "reasoning_summary": "Top-6 by transparent score.",
+      "risk_notes": "",
+      "model_used": "deterministic",
+      "created_at": "2026-06-25T22:59:43.696843+00:00"
+    },
+    {
+      "ticker": "JNJ",
+      "candidate_score": 0.1583,
+      "score_breakdown": {
+        "momentum": 0.1526,
+        "relative_strength": 0.0999,
+        "volume_confirmation": 0.0208,
+        "catalyst": 0.0,
+        "earnings_risk_penalty": -0.015,
+        "volatility_penalty": -0.0,
+        "weak_evidence_penalty": -0.1,
+        "total": 0.1583
+      },
+      "catalyst_assessment": "0 news item(s) in 72h; no source-backed catalyst found.",
+      "catalyst_is_real": false,
+      "evidence_sources": [
+        "price/volume (yfinance)"
+      ],
+      "reasoning_summary": "Top-6 by transparent score.",
+      "risk_notes": "",
+      "model_used": "deterministic",
+      "created_at": "2026-06-25T22:59:43.696856+00:00"
+    },
+    {
+      "ticker": "AMD",
+      "candidate_score": 0.1321,
+      "score_breakdown": {
+        "momentum": 0.1602,
+        "relative_strength": 0.2072,
+        "volume_confirmation": -0.0204,
+        "catalyst": 0.0,
+        "earnings_risk_penalty": -0.015,
+        "volatility_penalty": -0.1,
+        "weak_evidence_penalty": -0.1,
+        "total": 0.1321
+      },
+      "catalyst_assessment": "0 news item(s) in 72h; no source-backed catalyst found.",
+      "catalyst_is_real": false,
+      "evidence_sources": [
+        "price/volume (yfinance)"
+      ],
+      "reasoning_summary": "Top-6 by transparent score.",
+      "risk_notes": "",
+      "model_used": "deterministic",
+      "created_at": "2026-06-25T22:59:43.696869+00:00"
+    },
+    {
+      "ticker": "BAC",
+      "candidate_score": 0.1151,
+      "score_breakdown": {
+        "momentum": 0.2194,
+        "relative_strength": -0.0017,
+        "volume_confirmation": -0.0476,
+        "catalyst": 0.0,
+        "earnings_risk_penalty": -0.015,
+        "volatility_penalty": -0.0,
+        "weak_evidence_penalty": -0.04,
+        "total": 0.1151
+      },
+      "catalyst_assessment": "0 news item(s) in 72h; no source-backed catalyst found.",
+      "catalyst_is_real": false,
+      "evidence_sources": [
+        "price/volume (yfinance)"
+      ],
+      "reasoning_summary": "Top-6 by transparent score.",
+      "risk_notes": "",
+      "model_used": "deterministic",
+      "created_at": "2026-06-25T22:59:43.696881+00:00"
     }
   ],
   "risk_review": {
     "portfolio_risk": "No severe single-sector concentration detected.",
     "ticker_risks": {
-      "BAC": "thin evidence",
-      "JPM": "thin evidence",
-      "JNJ": "thin evidence",
-      "HD": "thin evidence",
       "UNH": "thin evidence",
-      "ASML": "elevated volatility; thin evidence"
+      "ASML": "elevated volatility; thin evidence",
+      "HD": "thin evidence",
+      "JNJ": "thin evidence",
+      "AMD": "elevated volatility; thin evidence",
+      "BAC": "thin evidence"
     },
     "model_used": "deterministic"
   },
   "committee_decision": {
     "picks": [
       {
-        "ticker": "BAC",
-        "action": "long",
-        "probability_band": "high",
-        "confidence": 3,
-        "horizon_days": 1,
-        "entry_reference_price": 58.439998626708984,
-        "thesis": "0 news item(s) in 72h; no source-backed catalyst found.",
-        "evidence_sources": [
-          "price/volume (yfinance)"
-        ],
-        "reasoning_summary": "candidate_score=0.2506; 0 news item(s) in 72h; no source-backed catalyst found.",
-        "risk_notes": "thin evidence",
-        "model_used": "deterministic",
-        "created_at": "2026-06-25T13:56:39.071837+00:00"
-      },
-      {
-        "ticker": "JPM",
+        "ticker": "UNH",
         "action": "long",
         "probability_band": "high",
         "confidence": 2,
         "horizon_days": 1,
-        "entry_reference_price": 337.5299987792969,
+        "entry_reference_price": 415.5299987792969,
         "thesis": "0 news item(s) in 72h; no source-backed catalyst found.",
         "evidence_sources": [
           "price/volume (yfinance)"
         ],
-        "reasoning_summary": "candidate_score=0.2084; 0 news item(s) in 72h; no source-backed catalyst found.",
+        "reasoning_summary": "candidate_score=0.2272; 0 news item(s) in 72h; no source-backed catalyst found.",
         "risk_notes": "thin evidence",
         "model_used": "deterministic",
-        "created_at": "2026-06-25T13:56:39.071854+00:00"
+        "created_at": "2026-06-25T22:59:43.698243+00:00"
       },
       {
-        "ticker": "JNJ",
+        "ticker": "ASML",
+        "action": "long",
+        "probability_band": "high",
+        "confidence": 2,
+        "horizon_days": 1,
+        "entry_reference_price": 1841.1800537109375,
+        "thesis": "0 news item(s) in 72h; no source-backed catalyst found.",
+        "evidence_sources": [
+          "price/volume (yfinance)"
+        ],
+        "reasoning_summary": "candidate_score=0.2254; 0 news item(s) in 72h; no source-backed catalyst found.",
+        "risk_notes": "elevated volatility; thin evidence",
+        "model_used": "deterministic",
+        "created_at": "2026-06-25T22:59:43.698259+00:00"
+      },
+      {
+        "ticker": "HD",
         "action": "long",
         "probability_band": "medium",
         "confidence": 2,
         "horizon_days": 1,
-        "entry_reference_price": 246.33999633789062,
+        "entry_reference_price": 345.0,
         "thesis": "0 news item(s) in 72h; no source-backed catalyst found.",
         "evidence_sources": [
           "price/volume (yfinance)"
         ],
-        "reasoning_summary": "candidate_score=0.1755; 0 news item(s) in 72h; no source-backed catalyst found.",
+        "reasoning_summary": "candidate_score=0.1627; 0 news item(s) in 72h; no source-backed catalyst found.",
         "risk_notes": "thin evidence",
         "model_used": "deterministic",
-        "created_at": "2026-06-25T13:56:39.071863+00:00"
+        "created_at": "2026-06-25T22:59:43.698269+00:00"
       }
     ],
     "rejected": [
       {
-        "ticker": "HD",
+        "ticker": "JNJ",
         "reason": "daily pick limit reached"
       },
       {
-        "ticker": "UNH",
+        "ticker": "AMD",
         "reason": "daily pick limit reached"
       },
       {
-        "ticker": "ASML",
-        "reason": "score below threshold"
+        "ticker": "BAC",
+        "reason": "daily pick limit reached"
       }
     ],
     "committee_summary": "Selected 3 paper pick(s) by transparent score; 3 rejected. Paper tracking only."
