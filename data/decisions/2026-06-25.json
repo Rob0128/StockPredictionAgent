@@ -3,11 +3,11 @@
   "yesterday_date": null,
   "macro": {
     "market_regime": "risk_off",
-    "qqq_return_1d": -0.004277923571292743,
-    "spy_return_1d": -0.0036550006975541653,
+    "qqq_return_1d": -0.004245819649992704,
+    "spy_return_1d": -0.0004635170636431143,
     "vix_change": null,
-    "ten_year_yield_change": null,
-    "notes": "regime=risk_off, QQQ -0.43%"
+    "ten_year_yield_change": -0.009999999999999787,
+    "notes": "regime=risk_off, QQQ -0.42%, 10y -0.01pp"
   },
   "performance_review": {
     "reviewed_date": null,
@@ -21,248 +21,232 @@
   },
   "candidates": [
     {
-      "ticker": "BAC",
-      "candidate_score": 0.2506,
+      "ticker": "HD",
+      "candidate_score": 0.6325,
       "score_breakdown": {
-        "momentum": 0.2332,
-        "relative_strength": 0.2072,
-        "volume_confirmation": -0.1348,
-        "catalyst": 0.0,
-        "earnings_risk_penalty": -0.015,
-        "volatility_penalty": -0.0,
-        "weak_evidence_penalty": -0.04,
-        "total": 0.2506
+        "momentum": 0.1557,
+        "relative_strength": 0.25,
+        "volume_confirmation": 0.0302,
+        "catalyst": 0.2,
+        "earnings_risk_penalty": -0.0,
+        "volatility_penalty": -0.0034,
+        "weak_evidence_penalty": -0.0,
+        "total": 0.6325
       },
-      "catalyst_assessment": "0 news item(s) in 72h; no source-backed catalyst found.",
-      "catalyst_is_real": false,
+      "catalyst_assessment": "The recent upgrade related to a new housing bill is a concrete catalyst that likely contributed to Home Depot's 5.67% increase.",
+      "catalyst_is_real": true,
       "evidence_sources": [
+        "15 news items (Finnhub)",
         "price/volume (yfinance)"
       ],
       "reasoning_summary": "Top-6 by transparent score.",
       "risk_notes": "",
-      "model_used": "deterministic",
-      "created_at": "2026-06-25T13:56:39.070378+00:00"
-    },
-    {
-      "ticker": "JPM",
-      "candidate_score": 0.2084,
-      "score_breakdown": {
-        "momentum": 0.1753,
-        "relative_strength": 0.2064,
-        "volume_confirmation": -0.1183,
-        "catalyst": 0.0,
-        "earnings_risk_penalty": -0.015,
-        "volatility_penalty": -0.0,
-        "weak_evidence_penalty": -0.04,
-        "total": 0.2084
-      },
-      "catalyst_assessment": "0 news item(s) in 72h; no source-backed catalyst found.",
-      "catalyst_is_real": false,
-      "evidence_sources": [
-        "price/volume (yfinance)"
-      ],
-      "reasoning_summary": "Top-6 by transparent score.",
-      "risk_notes": "",
-      "model_used": "deterministic",
-      "created_at": "2026-06-25T13:56:39.070410+00:00"
+      "model_used": "gpt-4o-mini",
+      "created_at": "2026-06-25T15:01:18.828730+00:00"
     },
     {
       "ticker": "JNJ",
-      "candidate_score": 0.1755,
+      "candidate_score": 0.4461,
       "score_breakdown": {
-        "momentum": 0.1714,
-        "relative_strength": 0.25,
-        "volume_confirmation": -0.1309,
-        "catalyst": 0.0,
-        "earnings_risk_penalty": -0.015,
+        "momentum": 0.101,
+        "relative_strength": 0.1535,
+        "volume_confirmation": -0.0083,
+        "catalyst": 0.2,
+        "earnings_risk_penalty": -0.0,
         "volatility_penalty": -0.0,
-        "weak_evidence_penalty": -0.1,
-        "total": 0.1755
+        "weak_evidence_penalty": -0.0,
+        "total": 0.4461
       },
-      "catalyst_assessment": "0 news item(s) in 72h; no source-backed catalyst found.",
-      "catalyst_is_real": false,
+      "catalyst_assessment": "The recent 0.80% increase in JNJ's stock price is likely driven by the announcement regarding the advancement of their cardiac ablation technology in Europe, which is a concrete and identifiable catalyst.",
+      "catalyst_is_real": true,
       "evidence_sources": [
+        "15 news items (Finnhub)",
         "price/volume (yfinance)"
       ],
       "reasoning_summary": "Top-6 by transparent score.",
       "risk_notes": "",
-      "model_used": "deterministic",
-      "created_at": "2026-06-25T13:56:39.070427+00:00"
+      "model_used": "gpt-4o-mini",
+      "created_at": "2026-06-25T15:01:18.828730+00:00"
     },
     {
-      "ticker": "HD",
-      "candidate_score": 0.1744,
+      "ticker": "V",
+      "candidate_score": 0.4043,
       "score_breakdown": {
-        "momentum": 0.2068,
-        "relative_strength": 0.1628,
-        "volume_confirmation": -0.1382,
-        "catalyst": 0.0,
-        "earnings_risk_penalty": -0.015,
-        "volatility_penalty": -0.002,
-        "weak_evidence_penalty": -0.04,
-        "total": 0.1744
-      },
-      "catalyst_assessment": "0 news item(s) in 72h; no source-backed catalyst found.",
-      "catalyst_is_real": false,
-      "evidence_sources": [
-        "price/volume (yfinance)"
-      ],
-      "reasoning_summary": "Top-6 by transparent score.",
-      "risk_notes": "",
-      "model_used": "deterministic",
-      "created_at": "2026-06-25T13:56:39.070440+00:00"
-    },
-    {
-      "ticker": "UNH",
-      "candidate_score": 0.1439,
-      "score_breakdown": {
-        "momentum": 0.1472,
-        "relative_strength": 0.25,
-        "volume_confirmation": -0.1384,
-        "catalyst": 0.0,
-        "earnings_risk_penalty": -0.015,
+        "momentum": 0.0163,
+        "relative_strength": 0.1958,
+        "volume_confirmation": -0.0078,
+        "catalyst": 0.2,
+        "earnings_risk_penalty": -0.0,
         "volatility_penalty": -0.0,
-        "weak_evidence_penalty": -0.1,
-        "total": 0.1439
+        "weak_evidence_penalty": -0.0,
+        "total": 0.4043
       },
-      "catalyst_assessment": "0 news item(s) in 72h; no source-backed catalyst found.",
-      "catalyst_is_real": false,
+      "catalyst_assessment": "The recent partnership announcement between Evo and Visa to power a global game community likely contributed to Visa's 1.14% gain, providing a concrete catalyst for the stock's movement.",
+      "catalyst_is_real": true,
       "evidence_sources": [
+        "15 news items (Finnhub)",
         "price/volume (yfinance)"
       ],
       "reasoning_summary": "Top-6 by transparent score.",
       "risk_notes": "",
-      "model_used": "deterministic",
-      "created_at": "2026-06-25T13:56:39.070452+00:00"
+      "model_used": "gpt-4o-mini",
+      "created_at": "2026-06-25T15:01:18.828730+00:00"
     },
     {
-      "ticker": "ASML",
-      "candidate_score": 0.0074,
+      "ticker": "LLY",
+      "candidate_score": 0.4019,
       "score_breakdown": {
-        "momentum": 0.0567,
-        "relative_strength": 0.1945,
-        "volume_confirmation": -0.1184,
-        "catalyst": 0.0,
-        "earnings_risk_penalty": -0.015,
-        "volatility_penalty": -0.0703,
-        "weak_evidence_penalty": -0.04,
-        "total": 0.0074
+        "momentum": 0.0508,
+        "relative_strength": 0.168,
+        "volume_confirmation": -0.0169,
+        "catalyst": 0.2,
+        "earnings_risk_penalty": -0.0,
+        "volatility_penalty": -0.0,
+        "weak_evidence_penalty": -0.0,
+        "total": 0.4019
       },
-      "catalyst_assessment": "0 news item(s) in 72h; no source-backed catalyst found.",
+      "catalyst_assessment": "The recent 1-day move of +0.92% for LLY appears to be unexplained from available public sources, as the news items do not indicate a specific catalyst such as earnings, guidance, or significant corporate actions.",
       "catalyst_is_real": false,
       "evidence_sources": [
+        "15 news items (Finnhub)",
         "price/volume (yfinance)"
       ],
       "reasoning_summary": "Top-6 by transparent score.",
       "risk_notes": "",
-      "model_used": "deterministic",
-      "created_at": "2026-06-25T13:56:39.070465+00:00"
+      "model_used": "gpt-4o-mini",
+      "created_at": "2026-06-25T15:01:18.828730+00:00"
+    },
+    {
+      "ticker": "MA",
+      "candidate_score": 0.376,
+      "score_breakdown": {
+        "momentum": -0.0214,
+        "relative_strength": 0.2154,
+        "volume_confirmation": -0.018,
+        "catalyst": 0.2,
+        "earnings_risk_penalty": -0.0,
+        "volatility_penalty": -0.0,
+        "weak_evidence_penalty": -0.0,
+        "total": 0.376
+      },
+      "catalyst_assessment": "The recent 1.30% move in Mastercard's stock appears to be unexplained from available public sources, as the news items do not indicate a concrete catalyst such as earnings, guidance, or significant regulatory changes.",
+      "catalyst_is_real": false,
+      "evidence_sources": [
+        "15 news items (Finnhub)",
+        "SEC filing: Form 4",
+        "price/volume (yfinance)"
+      ],
+      "reasoning_summary": "Top-6 by transparent score.",
+      "risk_notes": "",
+      "model_used": "gpt-4o-mini",
+      "created_at": "2026-06-25T15:01:18.828730+00:00"
+    },
+    {
+      "ticker": "BAC",
+      "candidate_score": 0.3318,
+      "score_breakdown": {
+        "momentum": 0.1553,
+        "relative_strength": 0.0142,
+        "volume_confirmation": -0.0378,
+        "catalyst": 0.2,
+        "earnings_risk_penalty": -0.0,
+        "volatility_penalty": -0.0,
+        "weak_evidence_penalty": -0.0,
+        "total": 0.3318
+      },
+      "catalyst_assessment": "The recent 1-day move of -0.31% for BAC appears to be unexplained from available public sources, as there are no concrete catalysts identified in the news items.",
+      "catalyst_is_real": false,
+      "evidence_sources": [
+        "15 news items (Finnhub)",
+        "price/volume (yfinance)"
+      ],
+      "reasoning_summary": "Top-6 by transparent score.",
+      "risk_notes": "",
+      "model_used": "gpt-4o-mini",
+      "created_at": "2026-06-25T15:01:18.828730+00:00"
     }
   ],
   "risk_review": {
-    "portfolio_risk": "No severe single-sector concentration detected.",
+    "portfolio_risk": "The current portfolio exhibits potential sector crowding, particularly in the financial sector (XLF), which could amplify risks in a risk-off market regime. Additionally, the presence of multiple candidates with low scores and recent negative performance suggests a reliance on past performance rather than forward-looking catalysts.",
     "ticker_risks": {
-      "BAC": "thin evidence",
-      "JPM": "thin evidence",
-      "JNJ": "thin evidence",
-      "HD": "thin evidence",
-      "UNH": "thin evidence",
-      "ASML": "elevated volatility; thin evidence"
+      "HD": "Chasing yesterday's move with a significant 1-day gain; potential overconfidence in a volatile market.",
+      "JNJ": "Sector crowding in healthcare (XLV) could lead to concentration risk; ensure diversification.",
+      "V": "Weak evidence of sustained momentum with a negative 5-day performance; reassess catalyst strength.",
+      "LLY": "Absence of a real catalyst raises concerns about the sustainability of recent gains.",
+      "MA": "Recent negative 5-day performance suggests potential overconfidence; verify catalyst validity.",
+      "BAC": "Negative 1-day performance in a risk-off regime highlights vulnerability; reassess sector exposure."
     },
-    "model_used": "deterministic"
+    "model_used": "gpt-4o"
   },
   "committee_decision": {
     "picks": [
       {
-        "ticker": "BAC",
+        "ticker": "HD",
         "action": "long",
-        "probability_band": "high",
+        "probability_band": "medium",
         "confidence": 3,
         "horizon_days": 1,
-        "entry_reference_price": 58.439998626708984,
-        "thesis": "0 news item(s) in 72h; no source-backed catalyst found.",
+        "entry_reference_price": 342.86,
+        "thesis": "Home Depot's recent upgrade related to a new housing bill presents a tangible catalyst that could drive short-term performance.",
         "evidence_sources": [
+          "15 news items (Finnhub)",
           "price/volume (yfinance)"
         ],
-        "reasoning_summary": "candidate_score=0.2506; 0 news item(s) in 72h; no source-backed catalyst found.",
-        "risk_notes": "thin evidence",
-        "model_used": "deterministic",
-        "created_at": "2026-06-25T13:56:39.071837+00:00"
-      },
-      {
-        "ticker": "JPM",
-        "action": "long",
-        "probability_band": "high",
-        "confidence": 2,
-        "horizon_days": 1,
-        "entry_reference_price": 337.5299987792969,
-        "thesis": "0 news item(s) in 72h; no source-backed catalyst found.",
-        "evidence_sources": [
-          "price/volume (yfinance)"
-        ],
-        "reasoning_summary": "candidate_score=0.2084; 0 news item(s) in 72h; no source-backed catalyst found.",
-        "risk_notes": "thin evidence",
-        "model_used": "deterministic",
-        "created_at": "2026-06-25T13:56:39.071854+00:00"
+        "reasoning_summary": "The recent upgrade related to a new housing bill is a concrete catalyst that likely contributed to Home Depot's 5.67% increase. This catalyst provides a strong basis for potential short-term outperformance.",
+        "risk_notes": "Chasing yesterday's move with a significant 1-day gain; potential overconfidence in a volatile market.",
+        "model_used": "gpt-4o",
+        "created_at": "2026-06-25T15:01:45.645308+00:00"
       },
       {
         "ticker": "JNJ",
-        "action": "long",
-        "probability_band": "medium",
+        "action": "watch",
+        "probability_band": "low",
         "confidence": 2,
         "horizon_days": 1,
-        "entry_reference_price": 246.33999633789062,
-        "thesis": "0 news item(s) in 72h; no source-backed catalyst found.",
+        "entry_reference_price": 241.0,
+        "thesis": "Johnson & Johnson's recent stock price increase is driven by the advancement of their clinical trials, but sector crowding in healthcare poses a risk.",
         "evidence_sources": [
+          "15 news items (Finnhub)",
           "price/volume (yfinance)"
         ],
-        "reasoning_summary": "candidate_score=0.1755; 0 news item(s) in 72h; no source-backed catalyst found.",
-        "risk_notes": "thin evidence",
-        "model_used": "deterministic",
-        "created_at": "2026-06-25T13:56:39.071863+00:00"
+        "reasoning_summary": "The recent 0.80% increase in JNJ's stock price is likely driven by the announcement regarding the advancement of their clinical trials. However, sector crowding in healthcare (XLV) could lead to concentration risk.",
+        "risk_notes": "Sector crowding in healthcare (XLV) could lead to concentration risk; ensure diversification.",
+        "model_used": "gpt-4o",
+        "created_at": "2026-06-25T15:01:45.645308+00:00"
+      },
+      {
+        "ticker": "V",
+        "action": "avoid",
+        "probability_band": "low",
+        "confidence": 1,
+        "horizon_days": 1,
+        "entry_reference_price": 332.23,
+        "thesis": "Visa's recent partnership announcement lacks sufficient evidence of sustained momentum, especially given the negative 5-day performance.",
+        "evidence_sources": [
+          "15 news items (Finnhub)",
+          "price/volume (yfinance)"
+        ],
+        "reasoning_summary": "The recent partnership announcement between Evo and Visa to power a global game community likely contributed to Visa's 1.14% increase. However, weak evidence of sustained momentum with a negative 5-day performance suggests caution.",
+        "risk_notes": "Weak evidence of sustained momentum with a negative 5-day performance; reassess catalyst strength.",
+        "model_used": "gpt-4o",
+        "created_at": "2026-06-25T15:01:45.645308+00:00"
       }
     ],
     "rejected": [
       {
-        "ticker": "HD",
-        "reason": "daily pick limit reached"
+        "ticker": "LLY",
+        "reason": "Absence of a real catalyst raises concerns about the sustainability of recent gains."
       },
       {
-        "ticker": "UNH",
-        "reason": "daily pick limit reached"
+        "ticker": "MA",
+        "reason": "Recent negative 5-day performance suggests potential overconfidence; verify catalyst validity."
       },
       {
-        "ticker": "ASML",
-        "reason": "score below threshold"
+        "ticker": "BAC",
+        "reason": "Negative 1-day performance in a risk-off regime highlights vulnerability; reassess sector exposure."
       }
     ],
-    "committee_summary": "Selected 3 paper pick(s) by transparent score; 3 rejected. Paper tracking only."
+    "committee_summary": "Today's picks focus on identifying candidates with tangible catalysts while being cautious of sector crowding and recent negative performance. Home Depot is selected for its concrete catalyst, while Johnson & Johnson is watched due to sector risks. Visa is avoided due to weak momentum evidence."
   },
-  "warnings": [
-    "edgar ticker map failed: 403 Client Error: Forbidden for url: https://www.sec.gov/files/company_tickers.json",
-    "edgar ticker map failed: 403 Client Error: Forbidden for url: https://www.sec.gov/files/company_tickers.json",
-    "edgar ticker map failed: 403 Client Error: Forbidden for url: https://www.sec.gov/files/company_tickers.json",
-    "edgar ticker map failed: 403 Client Error: Forbidden for url: https://www.sec.gov/files/company_tickers.json",
-    "edgar ticker map failed: 403 Client Error: Forbidden for url: https://www.sec.gov/files/company_tickers.json",
-    "edgar ticker map failed: 403 Client Error: Forbidden for url: https://www.sec.gov/files/company_tickers.json",
-    "edgar ticker map failed: 403 Client Error: Forbidden for url: https://www.sec.gov/files/company_tickers.json",
-    "edgar ticker map failed: 403 Client Error: Forbidden for url: https://www.sec.gov/files/company_tickers.json",
-    "edgar ticker map failed: 403 Client Error: Forbidden for url: https://www.sec.gov/files/company_tickers.json",
-    "edgar ticker map failed: 403 Client Error: Forbidden for url: https://www.sec.gov/files/company_tickers.json",
-    "edgar ticker map failed: 403 Client Error: Forbidden for url: https://www.sec.gov/files/company_tickers.json",
-    "edgar ticker map failed: 403 Client Error: Forbidden for url: https://www.sec.gov/files/company_tickers.json",
-    "edgar ticker map failed: 403 Client Error: Forbidden for url: https://www.sec.gov/files/company_tickers.json",
-    "edgar ticker map failed: 403 Client Error: Forbidden for url: https://www.sec.gov/files/company_tickers.json",
-    "edgar ticker map failed: 403 Client Error: Forbidden for url: https://www.sec.gov/files/company_tickers.json",
-    "edgar ticker map failed: 403 Client Error: Forbidden for url: https://www.sec.gov/files/company_tickers.json",
-    "edgar ticker map failed: 403 Client Error: Forbidden for url: https://www.sec.gov/files/company_tickers.json",
-    "edgar ticker map failed: 403 Client Error: Forbidden for url: https://www.sec.gov/files/company_tickers.json",
-    "edgar ticker map failed: 403 Client Error: Forbidden for url: https://www.sec.gov/files/company_tickers.json",
-    "edgar ticker map failed: 403 Client Error: Forbidden for url: https://www.sec.gov/files/company_tickers.json",
-    "edgar ticker map failed: 403 Client Error: Forbidden for url: https://www.sec.gov/files/company_tickers.json",
-    "edgar ticker map failed: 403 Client Error: Forbidden for url: https://www.sec.gov/files/company_tickers.json",
-    "edgar ticker map failed: 403 Client Error: Forbidden for url: https://www.sec.gov/files/company_tickers.json",
-    "edgar ticker map failed: 403 Client Error: Forbidden for url: https://www.sec.gov/files/company_tickers.json",
-    "edgar ticker map failed: 403 Client Error: Forbidden for url: https://www.sec.gov/files/company_tickers.json"
-  ]
+  "warnings": []
 }

@@ -17,6 +17,9 @@ venv/
 # ── Runtime caches (price/news caches are regenerated) ───────
 data/cache/
 
+# ── Local scheduled-run logs ─────────────────────────────────
+logs/
+
 # Keep generated artifacts tracked so the GitHub Actions feedback
 # loop can read yesterday's picks. Do NOT ignore:
 #   data/decisions/  data/reports/  data/memory/

@@ -7,6 +7,7 @@ rejections. Honours max_picks_per_day and the no-trading framing.
 """
 from __future__ import annotations
 
+from datetime import datetime, timezone
 from typing import Dict, List
 
 from market_journal.agents.llm import get_llm, model_name
@@ -138,11 +139,18 @@ def decide(
     )
     try:
         decision: CommitteeDecision = structured.invoke(prompt)
-        # Enforce limit and stamp models/entry prices defensively.
+        # Enforce limit and stamp audit fields from code, not the model.
         decision.picks = decision.picks[:max_picks]
+        smart_model = model_name(smart=True)
+        now_iso = datetime.now(timezone.utc).isoformat()
+        candidates_by_ticker = {c.get("ticker"): c for c in candidates}
         for p in decision.picks:
-            if not p.model_used or p.model_used == "gpt-4o":
-                p.model_used = model_name(smart=True)
+            # Audit fields must be system-stamped (the LLM hallucinates these).
+            p.model_used = smart_model
+            p.created_at = now_iso
+            # Ground evidence_sources in real candidate evidence, not invented text.
+            cand = candidates_by_ticker.get(p.ticker, {})
+            p.evidence_sources = list(cand.get("evidence_sources", []))
             if p.entry_reference_price is None:
                 price = features_by_ticker.get(p.ticker, {}).get("price", {})
                 p.entry_reference_price = price.get("close")

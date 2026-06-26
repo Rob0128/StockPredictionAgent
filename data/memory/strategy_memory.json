@@ -12,6 +12,38 @@
     {
       "text": "Require volume confirmation or a filing/news catalyst before high confidence.",
       "count": 1
+    },
+    {
+      "text": "In a risk-off market regime, it may be prudent to focus on companies with strong fundamentals and stable business models, as they might be less volatile.",
+      "count": 1
+    },
+    {
+      "text": "Maintaining a watchlist with confidence levels can help in adjusting strategies based on market conditions without making hasty decisions.",
+      "count": 1
+    },
+    {
+      "text": "In a risk-off market regime, maintaining a watch status on potential picks may help mitigate exposure to volatility.",
+      "count": 1
+    },
+    {
+      "text": "Varying confidence levels among picks can provide a nuanced approach to decision-making, allowing for flexibility in response to market changes.",
+      "count": 1
+    },
+    {
+      "text": "In a risk-off market regime, it may be beneficial to diversify strategies across different confidence levels to manage risk.",
+      "count": 1
+    },
+    {
+      "text": "Tracking the performance of initial picks in a new or gap day can provide valuable insights for future decision-making.",
+      "count": 1
+    },
+    {
+      "text": "A high market beta in a risk-on regime may lead to underperformance if stock-specific factors are not adequately considered.",
+      "count": 1
+    },
+    {
+      "text": "A low hit rate might indicate that the current selection criteria need refinement to improve the consistency of positive excess returns.",
+      "count": 1
     }
   ],
   "observations": [
@@ -20,6 +52,42 @@
     },
     {
       "text": "Made 3 paper pick(s) in risk_off regime."
+    },
+    {
+      "text": "The market is currently in a risk-off regime, indicated by a slight decline in major indices like QQQ (-0.42%) and a minor decrease in the 10-year yield (-0.01pp)."
+    },
+    {
+      "text": "Today's picks include companies with a strong market presence and relatively stable business models, suggesting a cautious approach in uncertain market conditions."
+    },
+    {
+      "text": "No prior performance data is available for today's picks, indicating this is either the first run or a gap day in the strategy's execution."
+    },
+    {
+      "text": "The market is currently in a risk-off regime, indicated by a slight decline in the Nasdaq-100 (QQQ) and a minor decrease in the 10-year Treasury yield."
+    },
+    {
+      "text": "Today's picks are all on 'watch' status, suggesting a cautious approach with no immediate action recommended."
+    },
+    {
+      "text": "The confidence levels for today's picks vary slightly, with HD and JNJ having a higher confidence level than V."
+    },
+    {
+      "text": "The market is currently in a risk-off regime, indicated by a slight decline in QQQ and a stable 10-year yield."
+    },
+    {
+      "text": "Today's picks include a mix of long, watch, and avoid strategies, reflecting varied confidence levels."
+    },
+    {
+      "text": "There is no prior performance data available, suggesting this is the first run or a gap day."
+    },
+    {
+      "text": "The portfolio's average pick return of 0.573% was below the QQQ benchmark return of 0.811%, indicating a reliance on market movements rather than stock-specific selection."
+    },
+    {
+      "text": "The hit rate of 33.3% suggests that only a third of the picks yielded positive excess returns, pointing to potential issues in stock selection criteria."
+    },
+    {
+      "text": "The negative excess returns, particularly from Visa, highlight potential misjudgments in the thesis calibration for certain picks."
     }
   ],
   "deprecated_rules": [],
@@ -31,8 +99,8 @@
     "news": 1.0
   },
   "recent_performance": {
-    "last_5_days_hit_rate": null,
-    "last_20_days_vs_benchmark": null,
+    "last_5_days_hit_rate": 0.333,
+    "last_20_days_vs_benchmark": -0.237,
     "common_failure_mode": null
   }
 }
