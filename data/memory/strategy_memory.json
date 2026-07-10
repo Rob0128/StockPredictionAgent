@@ -56,6 +56,9 @@
     },
     {
       "text": "Reviewed 2026-07-08: 3 pick(s), hit rate 0.333, avg excess vs QQQ -0.517%."
+    },
+    {
+      "text": "Reviewed 2026-07-09: 3 pick(s), hit rate 0.667, avg excess vs QQQ 2.27%."
     }
   ],
   "deprecated_rules": [],
@@ -67,8 +70,8 @@
     "news": 1.0
   },
   "recent_performance": {
-    "last_5_days_hit_rate": 0.333,
-    "last_20_days_vs_benchmark": -0.517,
+    "last_5_days_hit_rate": 0.667,
+    "last_20_days_vs_benchmark": 2.27,
     "common_failure_mode": null
   }
 }
