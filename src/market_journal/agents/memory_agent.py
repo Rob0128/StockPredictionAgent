@@ -7,11 +7,59 @@ a tentative lesson to a rule is handled deterministically in storage.memory
 """
 from __future__ import annotations
 
-from typing import Any, Dict, List
+from typing import Any, Dict, List, Optional
 
 from pydantic import BaseModel, Field
 
 from market_journal.agents.llm import get_llm
+
+
+class _LessonMatch(BaseModel):
+    match_index: int = Field(
+        description=(
+            "0-based index of the existing lesson that expresses the SAME "
+            "underlying idea as the new lesson, or -1 if none of them match."
+        )
+    )
+
+
+def make_lesson_matcher():
+    """Return a semantic matcher callable, or None when no LLM is available.
+
+    The callable takes (new_text, existing_texts) and returns the index of the
+    existing lesson that means the same thing, or None. Used by
+    storage.memory.integrate_update so paraphrased lessons increment the same
+    counter instead of creating near-duplicates. Falls back (via a None return)
+    to the deterministic exact-text matching in storage.memory when unavailable.
+    """
+    llm = get_llm(smart=False, temperature=0.0)
+    if llm is None:
+        return None
+    structured = llm.with_structured_output(_LessonMatch)
+
+    def _match(new_text: str, existing_texts: List[str]) -> Optional[int]:
+        if not existing_texts:
+            return None
+        listing = "\n".join(f"{i}: {t}" for i, t in enumerate(existing_texts))
+        prompt = (
+            "You de-duplicate a strategy journal's tentative lessons. Decide "
+            "whether the NEW lesson expresses the same underlying, reusable idea "
+            "as any EXISTING lesson (paraphrases and rewordings count as a match; "
+            "merely sharing a topic does NOT). Return the index of the matching "
+            "existing lesson, or -1 if none genuinely match.\n\n"
+            f"NEW lesson:\n{new_text}\n\n"
+            f"EXISTING lessons:\n{listing}"
+        )
+        try:
+            res: _LessonMatch = structured.invoke(prompt)
+            idx = res.match_index
+            if isinstance(idx, int) and 0 <= idx < len(existing_texts):
+                return idx
+            return None
+        except Exception:  # noqa: BLE001 - never break the workflow on matching
+            return None
+
+    return _match
 
 
 class _MemoryProposal(BaseModel):

@@ -1,0 +1,291 @@
+{
+  "run_date": "2026-07-07",
+  "yesterday_date": "2026-07-04",
+  "macro": {
+    "market_regime": "risk_off",
+    "qqq_return_1d": -0.018358762114970062,
+    "spy_return_1d": -0.004498994717024298,
+    "vix_change": null,
+    "ten_year_yield_change": 0.009999999999999787,
+    "notes": "regime=risk_off, QQQ -1.84%, 10y +0.01pp"
+  },
+  "performance_review": {
+    "reviewed_date": "2026-07-04",
+    "benchmark": "QQQ",
+    "outcomes": [
+      {
+        "ticker": "HD",
+        "action": "watch",
+        "entry_reference_price": 357.8999938964844,
+        "close_price": 348.80999755859375,
+        "return_pct": -0.525,
+        "benchmark_return_pct": -1.836,
+        "excess_return_pct": 1.311,
+        "outperformed": true,
+        "original_thesis": "Home Depot's recent performance, while modest, suggests resilience in the consumer discretionary sector. In a risk-off environment, its stable business model may offer relative safety compared to more volatile tech stocks.",
+        "original_confidence": 3
+      },
+      {
+        "ticker": "LLY",
+        "action": "watch",
+        "entry_reference_price": 1213.9100341796875,
+        "close_price": 1232.0,
+        "return_pct": 2.662,
+        "benchmark_return_pct": -1.836,
+        "excess_return_pct": 4.497,
+        "outperformed": true,
+        "original_thesis": "Eli Lilly's recent gains, despite lacking a clear catalyst, may be supported by its strong pipeline and market position in pharmaceuticals, offering potential stability in a volatile market.",
+        "original_confidence": 2
+      },
+      {
+        "ticker": "JNJ",
+        "action": "watch",
+        "entry_reference_price": 263.0400085449219,
+        "close_price": 267.2099914550781,
+        "return_pct": 3.039,
+        "benchmark_return_pct": -1.836,
+        "excess_return_pct": 4.874,
+        "outperformed": true,
+        "original_thesis": "Johnson & Johnson's strong market position and diversified portfolio may offer relative safety in a risk-off market, despite the lack of a clear catalyst for recent gains.",
+        "original_confidence": 2
+      }
+    ],
+    "hit_rate": 1.0,
+    "avg_pick_return_pct": 1.725,
+    "benchmark_return_pct": -1.836,
+    "avg_excess_return_pct": 3.561,
+    "narrative": "The portfolio's average pick return of 1.725% and a hit rate of 1.0 suggest a strong performance relative to the benchmark QQQ return of -1.836%. However, the outperformance appears to be more driven by stock-specific factors, particularly in the cases of LLY and JNJ, which showed significant positive excess returns. The confidence in these picks seems well-calibrated, as they not only outperformed the benchmark but also aligned with the underlying theses, although the modest performance of HD raises questions about the robustness of the overall strategy."
+  },
+  "candidates": [
+    {
+      "ticker": "JNJ",
+      "candidate_score": 0.5649,
+      "score_breakdown": {
+        "momentum": 0.2381,
+        "relative_strength": 0.25,
+        "volume_confirmation": -0.1232,
+        "catalyst": 0.2,
+        "earnings_risk_penalty": -0.0,
+        "volatility_penalty": -0.0,
+        "weak_evidence_penalty": -0.0,
+        "total": 0.5649
+      },
+      "catalyst_assessment": "The recent 3.04% move in JNJ appears to be unexplained from available public sources, as none of the news items indicate a concrete catalyst such as earnings, guidance, or significant corporate actions.",
+      "catalyst_is_real": false,
+      "evidence_sources": [
+        "15 news items (Finnhub)",
+        "price/volume (yfinance)"
+      ],
+      "reasoning_summary": "Top-6 by transparent score.",
+      "risk_notes": "",
+      "model_used": "gpt-4o-mini",
+      "created_at": "2026-07-07T14:12:28.602620+00:00"
+    },
+    {
+      "ticker": "BAC",
+      "candidate_score": 0.5614,
+      "score_breakdown": {
+        "momentum": 0.2331,
+        "relative_strength": 0.25,
+        "volume_confirmation": -0.1217,
+        "catalyst": 0.2,
+        "earnings_risk_penalty": -0.0,
+        "volatility_penalty": -0.0,
+        "weak_evidence_penalty": -0.0,
+        "total": 0.5614
+      },
+      "catalyst_assessment": "The recent 1-day move of BAC is unexplained from available public sources, as none of the news items directly pertain to Bank of America or indicate a specific catalyst affecting its stock.",
+      "catalyst_is_real": false,
+      "evidence_sources": [
+        "15 news items (Finnhub)",
+        "price/volume (yfinance)"
+      ],
+      "reasoning_summary": "Top-6 by transparent score.",
+      "risk_notes": "",
+      "model_used": "gpt-4o-mini",
+      "created_at": "2026-07-07T14:12:28.602620+00:00"
+    },
+    {
+      "ticker": "MA",
+      "candidate_score": 0.5548,
+      "score_breakdown": {
+        "momentum": 0.2282,
+        "relative_strength": 0.25,
+        "volume_confirmation": -0.1234,
+        "catalyst": 0.2,
+        "earnings_risk_penalty": -0.0,
+        "volatility_penalty": -0.0,
+        "weak_evidence_penalty": -0.0,
+        "total": 0.5548
+      },
+      "catalyst_assessment": "The recent 1.34% move in Mastercard's stock appears to be unexplained from available public sources, as the news items do not provide a concrete catalyst directly impacting MA.",
+      "catalyst_is_real": false,
+      "evidence_sources": [
+        "15 news items (Finnhub)",
+        "SEC filing: Form 4",
+        "price/volume (yfinance)"
+      ],
+      "reasoning_summary": "Top-6 by transparent score.",
+      "risk_notes": "",
+      "model_used": "gpt-4o-mini",
+      "created_at": "2026-07-07T14:12:28.602620+00:00"
+    },
+    {
+      "ticker": "JPM",
+      "candidate_score": 0.4882,
+      "score_breakdown": {
+        "momentum": 0.1723,
+        "relative_strength": 0.25,
+        "volume_confirmation": -0.1341,
+        "catalyst": 0.2,
+        "earnings_risk_penalty": -0.0,
+        "volatility_penalty": -0.0,
+        "weak_evidence_penalty": -0.0,
+        "total": 0.4882
+      },
+      "catalyst_assessment": "The recent 1-day move of JPMorgan's stock appears to be unexplained from available public sources, as none of the news items indicate a concrete catalyst directly impacting the stock.",
+      "catalyst_is_real": false,
+      "evidence_sources": [
+        "15 news items (Finnhub)",
+        "price/volume (yfinance)"
+      ],
+      "reasoning_summary": "Top-6 by transparent score.",
+      "risk_notes": "",
+      "model_used": "gpt-4o-mini",
+      "created_at": "2026-07-07T14:12:28.602620+00:00"
+    },
+    {
+      "ticker": "META",
+      "candidate_score": 0.4831,
+      "score_breakdown": {
+        "momentum": 0.1975,
+        "relative_strength": 0.25,
+        "volume_confirmation": -0.1238,
+        "catalyst": 0.2,
+        "earnings_risk_penalty": -0.0,
+        "volatility_penalty": -0.0405,
+        "weak_evidence_penalty": -0.0,
+        "total": 0.4831
+      },
+      "catalyst_assessment": "The recent 1.98% move in META appears unexplained from available public sources, as the news items do not indicate a specific catalyst such as earnings, guidance, or significant regulatory changes.",
+      "catalyst_is_real": false,
+      "evidence_sources": [
+        "15 news items (Finnhub)",
+        "SEC filing: Form 4",
+        "price/volume (yfinance)"
+      ],
+      "reasoning_summary": "Top-6 by transparent score.",
+      "risk_notes": "",
+      "model_used": "gpt-4o-mini",
+      "created_at": "2026-07-07T14:12:28.602620+00:00"
+    },
+    {
+      "ticker": "AAPL",
+      "candidate_score": 0.4568,
+      "score_breakdown": {
+        "momentum": 0.2098,
+        "relative_strength": 0.1963,
+        "volume_confirmation": -0.1353,
+        "catalyst": 0.2,
+        "earnings_risk_penalty": -0.0,
+        "volatility_penalty": -0.014,
+        "weak_evidence_penalty": -0.0,
+        "total": 0.4568
+      },
+      "catalyst_assessment": "The recent 1-day move of AAPL is unexplained from available public sources, as none of the news items directly pertain to Apple or provide a concrete catalyst for the decline.",
+      "catalyst_is_real": false,
+      "evidence_sources": [
+        "15 news items (Finnhub)",
+        "price/volume (yfinance)"
+      ],
+      "reasoning_summary": "Top-6 by transparent score.",
+      "risk_notes": "",
+      "model_used": "gpt-4o-mini",
+      "created_at": "2026-07-07T14:12:28.602620+00:00"
+    }
+  ],
+  "risk_review": {
+    "portfolio_risk": "The portfolio exhibits sector crowding with a significant concentration in the financial sector (XLF), which may be vulnerable in a risk-off market regime. Additionally, the recent upward momentum in several candidates could indicate chasing yesterday's move, increasing the risk of overconfidence.",
+    "ticker_risks": {
+      "JNJ": "Recent price surge may reflect temporary sentiment rather than fundamental change.",
+      "BAC": "Potential overconfidence in financials amid broader market risk-off sentiment.",
+      "MA": "Sector crowding in financials could amplify downside risk in adverse conditions.",
+      "JPM": "Lack of real catalysts suggests reliance on sector momentum, increasing vulnerability.",
+      "META": "High recent gains may be chasing momentum, risking a pullback in a risk-off market.",
+      "AAPL": "Significant recent gains without catalysts may indicate chasing past performance."
+    },
+    "model_used": "gpt-4o"
+  },
+  "committee_decision": {
+    "picks": [
+      {
+        "ticker": "JNJ",
+        "action": "watch",
+        "probability_band": "medium",
+        "confidence": 3,
+        "horizon_days": 1,
+        "entry_reference_price": 267.2099914550781,
+        "thesis": "JNJ has shown a significant unexplained price surge, which may indicate temporary sentiment-driven momentum.",
+        "evidence_sources": [
+          "15 news items (Finnhub)",
+          "price/volume (yfinance)"
+        ],
+        "reasoning_summary": "Despite the lack of a clear catalyst, JNJ's recent price action warrants observation due to its potential to outperform in the short term if sentiment persists.",
+        "risk_notes": "The recent price surge may not be sustainable without fundamental support, posing a risk of reversal.",
+        "model_used": "gpt-4o",
+        "created_at": "2026-07-07T14:12:46.888848+00:00"
+      },
+      {
+        "ticker": "META",
+        "action": "watch",
+        "probability_band": "medium",
+        "confidence": 3,
+        "horizon_days": 1,
+        "entry_reference_price": 612.1950073242188,
+        "thesis": "META's recent unexplained gains suggest momentum that could continue in the short term, despite the risk-off market.",
+        "evidence_sources": [
+          "15 news items (Finnhub)",
+          "SEC filing: Form 4",
+          "price/volume (yfinance)"
+        ],
+        "reasoning_summary": "META's strong recent performance, although lacking a catalyst, indicates potential for continued momentum-driven gains.",
+        "risk_notes": "High recent gains without catalysts increase the risk of a pullback, especially in a risk-off environment.",
+        "model_used": "gpt-4o",
+        "created_at": "2026-07-07T14:12:46.888848+00:00"
+      },
+      {
+        "ticker": "AAPL",
+        "action": "avoid",
+        "probability_band": "low",
+        "confidence": 2,
+        "horizon_days": 1,
+        "entry_reference_price": 311.8299865722656,
+        "thesis": "AAPL's significant recent gains lack a clear catalyst, suggesting a potential risk of chasing past performance.",
+        "evidence_sources": [
+          "15 news items (Finnhub)",
+          "price/volume (yfinance)"
+        ],
+        "reasoning_summary": "The absence of a catalyst for AAPL's recent gains, combined with a risk-off market, suggests caution against potential overconfidence.",
+        "risk_notes": "Recent gains without catalysts may lead to a pullback, especially in a risk-off market regime.",
+        "model_used": "gpt-4o",
+        "created_at": "2026-07-07T14:12:46.888848+00:00"
+      }
+    ],
+    "rejected": [
+      {
+        "ticker": "BAC",
+        "reason": "Potential overconfidence in financials amid broader market risk-off sentiment."
+      },
+      {
+        "ticker": "MA",
+        "reason": "Sector crowding in financials could amplify downside risk in adverse conditions."
+      },
+      {
+        "ticker": "JPM",
+        "reason": "Lack of real catalysts suggests reliance on sector momentum, increasing vulnerability."
+      }
+    ],
+    "committee_summary": "Today's selections focus on monitoring stocks with recent unexplained momentum, while avoiding overconfidence in financials due to sector crowding and risk-off market conditions."
+  },
+  "warnings": []
+}

@@ -1,0 +1,275 @@
+{
+  "run_date": "2026-06-30",
+  "yesterday_date": "2026-06-29",
+  "macro": {
+    "market_regime": "risk_on",
+    "qqq_return_1d": 0.017014704222517007,
+    "spy_return_1d": 0.007786800986842105,
+    "vix_change": null,
+    "ten_year_yield_change": 0.0,
+    "notes": "regime=risk_on, QQQ +1.70%, 10y +0.00pp"
+  },
+  "performance_review": {
+    "reviewed_date": "2026-06-29",
+    "benchmark": "QQQ",
+    "outcomes": [
+      {
+        "ticker": "ASML",
+        "action": "long",
+        "entry_reference_price": 1883.11,
+        "close_price": 1989.43994140625,
+        "return_pct": 5.647,
+        "benchmark_return_pct": 1.701,
+        "excess_return_pct": 3.945,
+        "outperformed": true,
+        "original_thesis": "ASML's recent price surge is supported by a real catalyst, with Wells Fargo lifting its price target, indicating potential for further short-term gains.",
+        "original_confidence": 4
+      },
+      {
+        "ticker": "JNJ",
+        "action": "long",
+        "entry_reference_price": 258.51,
+        "close_price": 253.97000122070312,
+        "return_pct": -1.756,
+        "benchmark_return_pct": 1.701,
+        "excess_return_pct": -3.458,
+        "outperformed": false,
+        "original_thesis": "JNJ's recent price increase is supported by a real catalyst, with CHMP approval for expanded use, indicating potential for continued positive sentiment.",
+        "original_confidence": 4
+      },
+      {
+        "ticker": "MA",
+        "action": "watch",
+        "entry_reference_price": 509.64,
+        "close_price": 513.5999755859375,
+        "return_pct": 0.777,
+        "benchmark_return_pct": 1.701,
+        "excess_return_pct": -0.924,
+        "outperformed": false,
+        "original_thesis": "Mastercard's recent gains are supported by a real catalyst, but financial sector exposure could be sensitive to interest rate changes.",
+        "original_confidence": 3
+      }
+    ],
+    "hit_rate": 0.333,
+    "avg_pick_return_pct": 1.556,
+    "benchmark_return_pct": 1.701,
+    "avg_excess_return_pct": -0.146,
+    "narrative": "The portfolio's performance shows a mix of stock-specific skill and market beta influences. The standout performer, ASML, significantly outperformed both the benchmark and its peers, suggesting a strong stock-specific thesis supported by a credible catalyst. However, the overall average return of the picks lagged behind the benchmark, indicating that the other selections, particularly JNJ and MA, did not deliver the expected results, which may reflect a miscalibration of confidence in those theses. The hit rate of 33.3% further suggests that the portfolio's overall performance may be more influenced by market conditions than by consistent stock-picking skill."
+  },
+  "candidates": [
+    {
+      "ticker": "ASML",
+      "candidate_score": 0.6917,
+      "score_breakdown": {
+        "momentum": 0.3,
+        "relative_strength": 0.25,
+        "volume_confirmation": 0.025,
+        "catalyst": 0.2,
+        "earnings_risk_penalty": -0.0,
+        "volatility_penalty": -0.0832,
+        "weak_evidence_penalty": -0.0,
+        "total": 0.6917
+      },
+      "catalyst_assessment": "The recent 5.65% increase in ASML's stock is primarily driven by the announcement of significant investments by Samsung and SK in the semiconductor sector, which has positively impacted chip tool stocks.",
+      "catalyst_is_real": true,
+      "evidence_sources": [
+        "15 news items (Finnhub)",
+        "price/volume (yfinance)"
+      ],
+      "reasoning_summary": "Top-6 by transparent score.",
+      "risk_notes": "",
+      "model_used": "gpt-4o-mini",
+      "created_at": "2026-06-30T21:31:33.987637+00:00"
+    },
+    {
+      "ticker": "AMD",
+      "candidate_score": 0.6558,
+      "score_breakdown": {
+        "momentum": 0.3,
+        "relative_strength": 0.25,
+        "volume_confirmation": 0.0058,
+        "catalyst": 0.2,
+        "earnings_risk_penalty": -0.0,
+        "volatility_penalty": -0.1,
+        "weak_evidence_penalty": -0.0,
+        "total": 0.6558
+      },
+      "catalyst_assessment": "The recent 7.68% move in AMD's stock appears to be unexplained from available public sources, as the news items primarily discuss broader market trends and competitor movements rather than specific catalysts directly related to AMD.",
+      "catalyst_is_real": false,
+      "evidence_sources": [
+        "15 news items (Finnhub)",
+        "price/volume (yfinance)"
+      ],
+      "reasoning_summary": "Top-6 by transparent score.",
+      "risk_notes": "",
+      "model_used": "gpt-4o-mini",
+      "created_at": "2026-06-30T21:31:33.987637+00:00"
+    },
+    {
+      "ticker": "TSLA",
+      "candidate_score": 0.3798,
+      "score_breakdown": {
+        "momentum": 0.1975,
+        "relative_strength": 0.0532,
+        "volume_confirmation": -0.0189,
+        "catalyst": 0.2,
+        "earnings_risk_penalty": -0.0,
+        "volatility_penalty": -0.052,
+        "weak_evidence_penalty": -0.0,
+        "total": 0.3798
+      },
+      "catalyst_assessment": "The recent 2.13% move in TSLA appears unexplained from available public sources, as the news items do not indicate a concrete catalyst such as earnings, guidance, or significant regulatory changes.",
+      "catalyst_is_real": false,
+      "evidence_sources": [
+        "15 news items (Finnhub)",
+        "price/volume (yfinance)"
+      ],
+      "reasoning_summary": "Top-6 by transparent score.",
+      "risk_notes": "",
+      "model_used": "gpt-4o-mini",
+      "created_at": "2026-06-30T21:31:33.987637+00:00"
+    },
+    {
+      "ticker": "HD",
+      "candidate_score": 0.2902,
+      "score_breakdown": {
+        "momentum": 0.3,
+        "relative_strength": -0.1461,
+        "volume_confirmation": -0.0637,
+        "catalyst": 0.2,
+        "earnings_risk_penalty": -0.0,
+        "volatility_penalty": -0.0,
+        "weak_evidence_penalty": -0.0,
+        "total": 0.2902
+      },
+      "catalyst_assessment": "The recent 1-day move of Home Depot (HD) appears to be unexplained from available public sources, as there are no concrete catalysts such as earnings, guidance, or significant news directly impacting the stock.",
+      "catalyst_is_real": false,
+      "evidence_sources": [
+        "10 news items (Finnhub)",
+        "price/volume (yfinance)"
+      ],
+      "reasoning_summary": "Top-6 by transparent score.",
+      "risk_notes": "",
+      "model_used": "gpt-4o-mini",
+      "created_at": "2026-06-30T21:31:33.987637+00:00"
+    },
+    {
+      "ticker": "AAPL",
+      "candidate_score": 0.2142,
+      "score_breakdown": {
+        "momentum": -0.0966,
+        "relative_strength": 0.1254,
+        "volume_confirmation": -0.0069,
+        "catalyst": 0.2,
+        "earnings_risk_penalty": -0.0,
+        "volatility_penalty": -0.0077,
+        "weak_evidence_penalty": -0.0,
+        "total": 0.2142
+      },
+      "catalyst_assessment": "The recent 2.70% move in AAPL appears to be unexplained from available public sources, as the news items do not indicate a specific catalyst such as earnings, guidance, or regulatory changes.",
+      "catalyst_is_real": false,
+      "evidence_sources": [
+        "15 news items (Finnhub)",
+        "price/volume (yfinance)"
+      ],
+      "reasoning_summary": "Top-6 by transparent score.",
+      "risk_notes": "",
+      "model_used": "gpt-4o-mini",
+      "created_at": "2026-06-30T21:31:33.987637+00:00"
+    },
+    {
+      "ticker": "LLY",
+      "candidate_score": 0.1795,
+      "score_breakdown": {
+        "momentum": 0.2801,
+        "relative_strength": -0.25,
+        "volume_confirmation": -0.0422,
+        "catalyst": 0.2,
+        "earnings_risk_penalty": -0.0,
+        "volatility_penalty": -0.0084,
+        "weak_evidence_penalty": -0.0,
+        "total": 0.1795
+      },
+      "catalyst_assessment": "The recent 1-day move of -2.48% for LLY appears unexplained from available public sources, as the news items do not indicate a direct catalyst affecting the stock.",
+      "catalyst_is_real": false,
+      "evidence_sources": [
+        "15 news items (Finnhub)",
+        "price/volume (yfinance)"
+      ],
+      "reasoning_summary": "Top-6 by transparent score.",
+      "risk_notes": "",
+      "model_used": "gpt-4o-mini",
+      "created_at": "2026-06-30T21:31:33.987637+00:00"
+    }
+  ],
+  "risk_review": {
+    "portfolio_risk": "The portfolio exhibits sector crowding, with a significant concentration in the XLK sector, increasing vulnerability to sector-specific downturns. Additionally, the recent strong performance of these candidates may suggest a risk of chasing past gains.",
+    "ticker_risks": {
+      "ASML": "Recent strong gains may reflect overconfidence; ensure catalysts are sustainable.",
+      "AMD": "High volatility and recent gains suggest potential for reversal; no clear catalyst.",
+      "TSLA": "Moderate score with no real catalyst; potential for overvaluation.",
+      "HD": "Low score and minimal movement; lacks compelling evidence for inclusion.",
+      "AAPL": "Recent negative performance despite sector gains; potential underlying issues.",
+      "LLY": "Negative short-term performance raises concerns; ensure no underlying issues."
+    },
+    "model_used": "gpt-4o"
+  },
+  "committee_decision": {
+    "picks": [
+      {
+        "ticker": "ASML",
+        "action": "long",
+        "probability_band": "high",
+        "confidence": 4,
+        "horizon_days": 1,
+        "entry_reference_price": 1989.44,
+        "thesis": "ASML's recent significant investment announcement by Samsung is a strong catalyst, indicating potential for continued positive momentum.",
+        "evidence_sources": [
+          "15 news items (Finnhub)",
+          "price/volume (yfinance)"
+        ],
+        "reasoning_summary": "ASML's strong catalyst from Samsung's investment announcement supports the likelihood of continued positive performance, aligning with the current risk-on market regime.",
+        "risk_notes": "Recent strong gains may reflect overconfidence; ensure catalysts are sustainable.",
+        "model_used": "gpt-4o",
+        "created_at": "2026-06-30T21:31:58.770480+00:00"
+      },
+      {
+        "ticker": "AMD",
+        "action": "watch",
+        "probability_band": "medium",
+        "confidence": 2,
+        "horizon_days": 1,
+        "entry_reference_price": 580.91,
+        "thesis": "AMD's unexplained recent gains warrant caution, but the stock's high volatility could present opportunities if a catalyst emerges.",
+        "evidence_sources": [
+          "15 news items (Finnhub)",
+          "price/volume (yfinance)"
+        ],
+        "reasoning_summary": "Despite the lack of a clear catalyst, AMD's recent gains and high volatility suggest potential for movement, though confidence is penalized due to the absence of a real catalyst.",
+        "risk_notes": "High volatility and recent gains suggest potential for reversal; no clear catalyst.",
+        "model_used": "gpt-4o",
+        "created_at": "2026-06-30T21:31:58.770480+00:00"
+      }
+    ],
+    "rejected": [
+      {
+        "ticker": "TSLA",
+        "reason": "Moderate score with no real catalyst; potential for overvaluation."
+      },
+      {
+        "ticker": "HD",
+        "reason": "Low score and minimal movement; lacks compelling evidence for inclusion."
+      },
+      {
+        "ticker": "AAPL",
+        "reason": "Recent negative performance despite sector gains; potential underlying issues."
+      },
+      {
+        "ticker": "LLY",
+        "reason": "Negative short-term performance raises concerns; ensure no underlying issues."
+      }
+    ],
+    "committee_summary": "Today's picks focus on ASML due to its strong catalyst from Samsung's investment, while AMD is placed on watch due to its unexplained gains and high volatility. Other candidates were rejected due to lack of catalysts or negative performance trends."
+  },
+  "warnings": []
+}

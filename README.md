@@ -81,9 +81,11 @@ data/memory/strategy_memory.json # conservative learning state
 
 `strategy_memory.json` separates `observations`, `tentative_lessons`,
 `promoted_rules`, and `deprecated_rules`. A tentative lesson is **only promoted
-to a rule after appearing ≥3 times** (within the last ~20 runs). The Memory
-agent proposes notes; promotion is deterministic, so the strategy is not
-rewritten every day.
+to a rule after appearing ≥3 times across ≥2 separate weeks** (within the last
+~60 runs), so a single unusual week can't mint a rule on its own. Paraphrased
+lessons are merged by a semantic matcher (LLM, with an exact-text fallback) so
+re-wordings count toward the same idea. The Memory agent proposes notes;
+promotion is deterministic, so the strategy is not rewritten every day.
 
 ## Scheduling (GitHub Actions)
 

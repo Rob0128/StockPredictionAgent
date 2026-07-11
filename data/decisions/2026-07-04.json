@@ -1,0 +1,278 @@
+{
+  "run_date": "2026-07-04",
+  "yesterday_date": "2026-07-03",
+  "macro": {
+    "market_regime": "risk_off",
+    "qqq_return_1d": -0.017333877050142724,
+    "spy_return_1d": -0.0013140694806872053,
+    "vix_change": null,
+    "ten_year_yield_change": 0.040000000000000036,
+    "notes": "regime=risk_off, QQQ -1.73%, 10y +0.04pp"
+  },
+  "performance_review": {
+    "reviewed_date": "2026-07-03",
+    "benchmark": "QQQ",
+    "outcomes": [
+      {
+        "ticker": "V",
+        "action": "long",
+        "entry_reference_price": 362.13,
+        "close_price": 362.1300048828125,
+        "return_pct": 3.147,
+        "benchmark_return_pct": -1.733,
+        "excess_return_pct": 4.881,
+        "outperformed": true,
+        "original_thesis": "Visa's recent announcement of the Visa Threat Intelligence Platform provides a tangible catalyst that could drive short-term performance.",
+        "original_confidence": 4
+      },
+      {
+        "ticker": "MA",
+        "action": "long",
+        "entry_reference_price": 539.39,
+        "close_price": 539.3900146484375,
+        "return_pct": 3.244,
+        "benchmark_return_pct": -1.733,
+        "excess_return_pct": 4.978,
+        "outperformed": true,
+        "original_thesis": "Mastercard's partnership with VEON to expand digital financial services is a significant development that could enhance its market position.",
+        "original_confidence": 3
+      }
+    ],
+    "hit_rate": 1.0,
+    "avg_pick_return_pct": 3.196,
+    "benchmark_return_pct": -1.733,
+    "avg_excess_return_pct": 4.929,
+    "narrative": "The portfolio's average pick return of 3.196% and hit rate of 1.0 suggest strong stock-specific skill, particularly given the negative benchmark return of -1.733%. Both Visa and Mastercard outperformed the market significantly, indicating that the positive performance is likely driven by the specific catalysts mentioned in their theses rather than general market beta. However, without additional context on the broader market conditions or the rationale behind the confidence levels in these picks, it's difficult to fully assess whether the confidence was well-calibrated. Overall, the results appear promising but should be interpreted cautiously."
+  },
+  "candidates": [
+    {
+      "ticker": "V",
+      "candidate_score": 0.762,
+      "score_breakdown": {
+        "momentum": 0.3,
+        "relative_strength": 0.25,
+        "volume_confirmation": 0.012,
+        "catalyst": 0.2,
+        "earnings_risk_penalty": -0.0,
+        "volatility_penalty": -0.0,
+        "weak_evidence_penalty": -0.0,
+        "total": 0.762
+      },
+      "catalyst_assessment": "The recent 3.15% move in Visa's stock appears unexplained from available public sources, as the news items do not indicate a concrete catalyst such as earnings, guidance, or significant corporate actions.",
+      "catalyst_is_real": false,
+      "evidence_sources": [
+        "15 news items (Finnhub)",
+        "SEC filing: Form 4",
+        "price/volume (yfinance)"
+      ],
+      "reasoning_summary": "Top-6 by transparent score.",
+      "risk_notes": "",
+      "model_used": "gpt-4o-mini",
+      "created_at": "2026-07-03T23:15:32.853048+00:00"
+    },
+    {
+      "ticker": "MA",
+      "candidate_score": 0.737,
+      "score_breakdown": {
+        "momentum": 0.3,
+        "relative_strength": 0.25,
+        "volume_confirmation": -0.013,
+        "catalyst": 0.2,
+        "earnings_risk_penalty": -0.0,
+        "volatility_penalty": -0.0,
+        "weak_evidence_penalty": -0.0,
+        "total": 0.737
+      },
+      "catalyst_assessment": "The recent 3.24% move in MA stock appears unexplained from available public sources, as the news items do not directly relate to Mastercard's operations or performance.",
+      "catalyst_is_real": false,
+      "evidence_sources": [
+        "15 news items (Finnhub)",
+        "SEC filing: Form 4",
+        "price/volume (yfinance)"
+      ],
+      "reasoning_summary": "Top-6 by transparent score.",
+      "risk_notes": "",
+      "model_used": "gpt-4o-mini",
+      "created_at": "2026-07-03T23:15:32.853048+00:00"
+    },
+    {
+      "ticker": "JNJ",
+      "candidate_score": 0.7312,
+      "score_breakdown": {
+        "momentum": 0.3,
+        "relative_strength": 0.25,
+        "volume_confirmation": -0.0188,
+        "catalyst": 0.2,
+        "earnings_risk_penalty": -0.0,
+        "volatility_penalty": -0.0,
+        "weak_evidence_penalty": -0.0,
+        "total": 0.7312
+      },
+      "catalyst_assessment": "The recent 3.57% move in JNJ appears unexplained from available public sources, as the news items do not provide a concrete catalyst such as earnings, guidance, or regulatory changes.",
+      "catalyst_is_real": false,
+      "evidence_sources": [
+        "15 news items (Finnhub)",
+        "price/volume (yfinance)"
+      ],
+      "reasoning_summary": "Top-6 by transparent score.",
+      "risk_notes": "",
+      "model_used": "gpt-4o-mini",
+      "created_at": "2026-07-03T23:15:32.853048+00:00"
+    },
+    {
+      "ticker": "LLY",
+      "candidate_score": 0.7222,
+      "score_breakdown": {
+        "momentum": 0.2879,
+        "relative_strength": 0.25,
+        "volume_confirmation": -0.0083,
+        "catalyst": 0.2,
+        "earnings_risk_penalty": -0.0,
+        "volatility_penalty": -0.0074,
+        "weak_evidence_penalty": -0.0,
+        "total": 0.7222
+      },
+      "catalyst_assessment": "The recent 1.86% move in LLY stock appears unexplained from available public sources, as none of the news items directly relate to LLY or provide a concrete catalyst for the price change.",
+      "catalyst_is_real": false,
+      "evidence_sources": [
+        "15 news items (Finnhub)",
+        "price/volume (yfinance)"
+      ],
+      "reasoning_summary": "Top-6 by transparent score.",
+      "risk_notes": "",
+      "model_used": "gpt-4o-mini",
+      "created_at": "2026-07-03T23:15:32.854051+00:00"
+    },
+    {
+      "ticker": "AAPL",
+      "candidate_score": 0.6623,
+      "score_breakdown": {
+        "momentum": 0.2127,
+        "relative_strength": 0.25,
+        "volume_confirmation": 0.0136,
+        "catalyst": 0.2,
+        "earnings_risk_penalty": -0.0,
+        "volatility_penalty": -0.0141,
+        "weak_evidence_penalty": -0.0,
+        "total": 0.6623
+      },
+      "catalyst_assessment": "The recent 4.84% move in AAPL appears to be unexplained from available public sources, as the news items do not indicate a specific catalyst such as earnings, guidance, or significant corporate actions.",
+      "catalyst_is_real": false,
+      "evidence_sources": [
+        "15 news items (Finnhub)",
+        "price/volume (yfinance)"
+      ],
+      "reasoning_summary": "Top-6 by transparent score.",
+      "risk_notes": "",
+      "model_used": "gpt-4o-mini",
+      "created_at": "2026-07-03T23:15:32.854051+00:00"
+    },
+    {
+      "ticker": "HD",
+      "candidate_score": 0.6281,
+      "score_breakdown": {
+        "momentum": 0.2396,
+        "relative_strength": 0.25,
+        "volume_confirmation": -0.0614,
+        "catalyst": 0.2,
+        "earnings_risk_penalty": -0.0,
+        "volatility_penalty": -0.0,
+        "weak_evidence_penalty": -0.0,
+        "total": 0.6281
+      },
+      "catalyst_assessment": "The recent 2.01% move in Home Depot's stock appears to be unexplained from available public sources, as none of the news items directly relate to a concrete catalyst such as earnings, guidance, or significant corporate actions.",
+      "catalyst_is_real": false,
+      "evidence_sources": [
+        "7 news items (Finnhub)",
+        "price/volume (yfinance)"
+      ],
+      "reasoning_summary": "Top-6 by transparent score.",
+      "risk_notes": "",
+      "model_used": "gpt-4o-mini",
+      "created_at": "2026-07-03T23:15:32.854051+00:00"
+    }
+  ],
+  "risk_review": {
+    "portfolio_risk": "The current portfolio candidates exhibit significant sector crowding, particularly within the Financials (XLF) and Health Care (XLV) sectors, which may increase vulnerability to sector-specific downturns. Additionally, the recent strong performance across these names suggests potential overconfidence and a risk of chasing past gains, especially in a risk-off market regime.",
+    "ticker_risks": {
+      "V": "Visa's recent surge may be a result of sector momentum rather than company-specific catalysts, increasing the risk of a reversal.",
+      "MA": "Mastercard's performance mirrors Visa's, indicating potential factor crowding and susceptibility to sector-wide corrections.",
+      "JNJ": "Johnson & Johnson's gains lack a clear catalyst, raising concerns about sustainability in a risk-off environment.",
+      "LLY": "Eli Lilly's volatility suggests heightened sensitivity to market shifts, with no evident catalyst to support recent gains.",
+      "AAPL": "Apple's sharp rise may reflect overconfidence, with the risk of retracement as tech sentiment cools.",
+      "HD": "Home Depot's modest gains could be vulnerable to consumer discretionary sector pressures in a risk-off market."
+    },
+    "model_used": "gpt-4o"
+  },
+  "committee_decision": {
+    "picks": [
+      {
+        "ticker": "HD",
+        "action": "watch",
+        "probability_band": "medium",
+        "confidence": 3,
+        "horizon_days": 1,
+        "entry_reference_price": 357.8999938964844,
+        "thesis": "Home Depot's recent performance, while modest, suggests resilience in the consumer discretionary sector. In a risk-off environment, its stable business model may offer relative safety compared to more volatile tech stocks.",
+        "evidence_sources": [
+          "7 news items (Finnhub)",
+          "price/volume (yfinance)"
+        ],
+        "reasoning_summary": "Despite the lack of a clear catalyst, Home Depot's stable business model and modest gains suggest it could outperform in a risk-off market, where consumer discretionary stocks may offer a safer haven.",
+        "risk_notes": "Potential vulnerability to broader consumer discretionary sector pressures, especially if economic conditions worsen.",
+        "model_used": "gpt-4o",
+        "created_at": "2026-07-03T23:15:53.589683+00:00"
+      },
+      {
+        "ticker": "LLY",
+        "action": "watch",
+        "probability_band": "medium",
+        "confidence": 2,
+        "horizon_days": 1,
+        "entry_reference_price": 1213.9100341796875,
+        "thesis": "Eli Lilly's recent gains, despite lacking a clear catalyst, may be supported by its strong pipeline and market position in pharmaceuticals, offering potential stability in a volatile market.",
+        "evidence_sources": [
+          "15 news items (Finnhub)",
+          "price/volume (yfinance)"
+        ],
+        "reasoning_summary": "While the recent price movement lacks a clear catalyst, Eli Lilly's robust pipeline and market position could provide stability in a risk-off environment, warranting a watch position.",
+        "risk_notes": "Heightened sensitivity to market shifts without a clear catalyst, increasing the risk of volatility.",
+        "model_used": "gpt-4o",
+        "created_at": "2026-07-03T23:15:53.589683+00:00"
+      },
+      {
+        "ticker": "JNJ",
+        "action": "watch",
+        "probability_band": "medium",
+        "confidence": 2,
+        "horizon_days": 1,
+        "entry_reference_price": 263.0400085449219,
+        "thesis": "Johnson & Johnson's strong market position and diversified portfolio may offer relative safety in a risk-off market, despite the lack of a clear catalyst for recent gains.",
+        "evidence_sources": [
+          "15 news items (Finnhub)",
+          "price/volume (yfinance)"
+        ],
+        "reasoning_summary": "The absence of a clear catalyst for recent gains is concerning, but J&J's diversified portfolio and strong market position may provide a buffer against broader market volatility.",
+        "risk_notes": "Lack of a clear catalyst raises concerns about sustainability of recent gains in a risk-off environment.",
+        "model_used": "gpt-4o",
+        "created_at": "2026-07-03T23:15:53.589683+00:00"
+      }
+    ],
+    "rejected": [
+      {
+        "ticker": "V",
+        "reason": "Recent surge lacks a clear catalyst, increasing risk of reversal in a risk-off market."
+      },
+      {
+        "ticker": "MA",
+        "reason": "Performance mirrors Visa's, indicating potential sector-wide corrections without a clear catalyst."
+      },
+      {
+        "ticker": "AAPL",
+        "reason": "Sharp rise may reflect overconfidence, with risk of retracement as tech sentiment cools."
+      }
+    ],
+    "committee_summary": "In today's risk-off market environment, the committee has chosen to watch Home Depot, Eli Lilly, and Johnson & Johnson. These picks, while lacking clear catalysts, offer potential stability due to their market positions and sector resilience. Visa, Mastercard, and Apple were rejected due to the absence of catalysts and increased risk of reversals."
+  },
+  "warnings": []
+}

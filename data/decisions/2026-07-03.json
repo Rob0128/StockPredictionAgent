@@ -1,0 +1,267 @@
+{
+  "run_date": "2026-07-03",
+  "yesterday_date": "2026-06-30",
+  "macro": {
+    "market_regime": "risk_off",
+    "qqq_return_1d": -0.017333877050142724,
+    "spy_return_1d": -0.0013140694806872053,
+    "vix_change": null,
+    "ten_year_yield_change": 0.040000000000000036,
+    "notes": "regime=risk_off, QQQ -1.73%, 10y +0.04pp"
+  },
+  "performance_review": {
+    "reviewed_date": "2026-06-30",
+    "benchmark": "QQQ",
+    "outcomes": [
+      {
+        "ticker": "ASML",
+        "action": "long",
+        "entry_reference_price": 1989.44,
+        "close_price": 1769.3199462890625,
+        "return_pct": -4.0,
+        "benchmark_return_pct": -1.733,
+        "excess_return_pct": -2.267,
+        "outperformed": false,
+        "original_thesis": "ASML's recent significant investment announcement by Samsung is a strong catalyst, indicating potential for continued positive momentum.",
+        "original_confidence": 4
+      },
+      {
+        "ticker": "AMD",
+        "action": "watch",
+        "entry_reference_price": 580.91,
+        "close_price": 517.8200073242188,
+        "return_pct": -4.263,
+        "benchmark_return_pct": -1.733,
+        "excess_return_pct": -2.53,
+        "outperformed": false,
+        "original_thesis": "AMD's unexplained recent gains warrant caution, but the stock's high volatility could present opportunities if a catalyst emerges.",
+        "original_confidence": 2
+      }
+    ],
+    "hit_rate": 0.0,
+    "avg_pick_return_pct": -4.132,
+    "benchmark_return_pct": -1.733,
+    "avg_excess_return_pct": -2.398,
+    "narrative": "The prior-day picks underperformed the benchmark QQQ significantly, indicating that the results are more likely attributable to market beta rather than stock-specific skill. With an average pick return of -4.132% and a hit rate of 0.0%, it suggests a lack of effective stock selection. Additionally, the confidence in the investment theses appears to have been miscalibrated, as both picks resulted in negative returns, contradicting the anticipated outcomes."
+  },
+  "candidates": [
+    {
+      "ticker": "JNJ",
+      "candidate_score": 0.7297,
+      "score_breakdown": {
+        "momentum": 0.3,
+        "relative_strength": 0.25,
+        "volume_confirmation": -0.0203,
+        "catalyst": 0.2,
+        "earnings_risk_penalty": -0.0,
+        "volatility_penalty": -0.0,
+        "weak_evidence_penalty": -0.0,
+        "total": 0.7297
+      },
+      "catalyst_assessment": "The recent 3.57% move in JNJ stock appears to be unexplained from available public sources, as there are no concrete catalysts identified in the news items.",
+      "catalyst_is_real": false,
+      "evidence_sources": [
+        "15 news items (Finnhub)",
+        "price/volume (yfinance)"
+      ],
+      "reasoning_summary": "Top-6 by transparent score.",
+      "risk_notes": "",
+      "model_used": "gpt-4o-mini",
+      "created_at": "2026-07-03T05:18:54.692603+00:00"
+    },
+    {
+      "ticker": "V",
+      "candidate_score": 0.7157,
+      "score_breakdown": {
+        "momentum": 0.3,
+        "relative_strength": 0.25,
+        "volume_confirmation": -0.0343,
+        "catalyst": 0.2,
+        "earnings_risk_penalty": -0.0,
+        "volatility_penalty": -0.0,
+        "weak_evidence_penalty": -0.0,
+        "total": 0.7157
+      },
+      "catalyst_assessment": "The recent 3.15% increase in Visa's stock is likely driven by the announcement of the Visa Threat Intelligence Platform, which strengthens its cyber and fraud defense capabilities, indicating a strategic move in response to market demands.",
+      "catalyst_is_real": true,
+      "evidence_sources": [
+        "15 news items (Finnhub)",
+        "SEC filing: Form 4",
+        "price/volume (yfinance)"
+      ],
+      "reasoning_summary": "Top-6 by transparent score.",
+      "risk_notes": "",
+      "model_used": "gpt-4o-mini",
+      "created_at": "2026-07-03T05:18:54.692603+00:00"
+    },
+    {
+      "ticker": "MA",
+      "candidate_score": 0.6966,
+      "score_breakdown": {
+        "momentum": 0.3,
+        "relative_strength": 0.25,
+        "volume_confirmation": -0.0534,
+        "catalyst": 0.2,
+        "earnings_risk_penalty": -0.0,
+        "volatility_penalty": -0.0,
+        "weak_evidence_penalty": -0.0,
+        "total": 0.6966
+      },
+      "catalyst_assessment": "The recent partnership announcement between VEON and Mastercard to expand digital financial services is a concrete catalyst that likely contributed to the stock's 3.24% increase.",
+      "catalyst_is_real": true,
+      "evidence_sources": [
+        "15 news items (Finnhub)",
+        "SEC filing: Form 4",
+        "price/volume (yfinance)"
+      ],
+      "reasoning_summary": "Top-6 by transparent score.",
+      "risk_notes": "",
+      "model_used": "gpt-4o-mini",
+      "created_at": "2026-07-03T05:18:54.692603+00:00"
+    },
+    {
+      "ticker": "LLY",
+      "candidate_score": 0.6789,
+      "score_breakdown": {
+        "momentum": 0.2879,
+        "relative_strength": 0.25,
+        "volume_confirmation": -0.0516,
+        "catalyst": 0.2,
+        "earnings_risk_penalty": -0.0,
+        "volatility_penalty": -0.0074,
+        "weak_evidence_penalty": -0.0,
+        "total": 0.6789
+      },
+      "catalyst_assessment": "The recent 1.86% move in LLY stock appears to be unexplained from available public sources, as none of the news items directly relate to a specific catalyst affecting the company.",
+      "catalyst_is_real": false,
+      "evidence_sources": [
+        "15 news items (Finnhub)",
+        "price/volume (yfinance)"
+      ],
+      "reasoning_summary": "Top-6 by transparent score.",
+      "risk_notes": "",
+      "model_used": "gpt-4o-mini",
+      "created_at": "2026-07-03T05:18:54.692603+00:00"
+    },
+    {
+      "ticker": "AAPL",
+      "candidate_score": 0.6551,
+      "score_breakdown": {
+        "momentum": 0.2127,
+        "relative_strength": 0.25,
+        "volume_confirmation": 0.0064,
+        "catalyst": 0.2,
+        "earnings_risk_penalty": -0.0,
+        "volatility_penalty": -0.0141,
+        "weak_evidence_penalty": -0.0,
+        "total": 0.6551
+      },
+      "catalyst_assessment": "The recent 4.84% move in AAPL stock appears to be unexplained from available public sources, as the news items do not provide a concrete catalyst such as earnings, guidance, or significant corporate actions.",
+      "catalyst_is_real": false,
+      "evidence_sources": [
+        "15 news items (Finnhub)",
+        "price/volume (yfinance)"
+      ],
+      "reasoning_summary": "Top-6 by transparent score.",
+      "risk_notes": "",
+      "model_used": "gpt-4o-mini",
+      "created_at": "2026-07-03T05:18:54.692603+00:00"
+    },
+    {
+      "ticker": "HD",
+      "candidate_score": 0.6059,
+      "score_breakdown": {
+        "momentum": 0.2396,
+        "relative_strength": 0.25,
+        "volume_confirmation": -0.0837,
+        "catalyst": 0.2,
+        "earnings_risk_penalty": -0.0,
+        "volatility_penalty": -0.0,
+        "weak_evidence_penalty": -0.0,
+        "total": 0.6059
+      },
+      "catalyst_assessment": "The recent 2.01% move in Home Depot's stock appears to be unexplained from available public sources, as there are no concrete catalysts such as earnings, guidance, or significant news directly related to the company.",
+      "catalyst_is_real": false,
+      "evidence_sources": [
+        "13 news items (Finnhub)",
+        "price/volume (yfinance)"
+      ],
+      "reasoning_summary": "Top-6 by transparent score.",
+      "risk_notes": "",
+      "model_used": "gpt-4o-mini",
+      "created_at": "2026-07-03T05:18:54.692603+00:00"
+    }
+  ],
+  "risk_review": {
+    "portfolio_risk": "The current selection shows a significant concentration in sectors like XLV and XLF, which may lead to sector crowding. Additionally, the recent upward momentum in these stocks could indicate a tendency to chase yesterday's moves, especially in a risk-off market regime.",
+    "ticker_risks": {
+      "JNJ": "The recent price surge may be driven by short-term sentiment rather than substantial catalysts, increasing the risk of a pullback.",
+      "V": "Despite a real catalyst, the rapid price increase suggests potential overconfidence in sustained momentum.",
+      "MA": "The stock's recent gains might be overestimating the impact of the catalyst, posing a risk of correction.",
+      "LLY": "Lack of real catalysts raises concerns about the sustainability of recent gains in a volatile market.",
+      "AAPL": "The significant recent gains could be a result of chasing past performance, with no real catalyst to support future growth.",
+      "HD": "The modest increase in a risk-off environment suggests limited upside potential without a clear catalyst."
+    },
+    "model_used": "gpt-4o"
+  },
+  "committee_decision": {
+    "picks": [
+      {
+        "ticker": "V",
+        "action": "long",
+        "probability_band": "medium",
+        "confidence": 4,
+        "horizon_days": 1,
+        "entry_reference_price": 362.13,
+        "thesis": "Visa's recent announcement of the Visa Threat Intelligence Platform provides a tangible catalyst that could drive short-term performance.",
+        "evidence_sources": [
+          "15 news items (Finnhub)",
+          "SEC filing: Form 4",
+          "price/volume (yfinance)"
+        ],
+        "reasoning_summary": "Visa's new platform announcement is a concrete catalyst that aligns with market trends towards enhanced cybersecurity, potentially boosting investor confidence.",
+        "risk_notes": "Despite the real catalyst, the rapid price increase suggests potential overconfidence in sustained momentum.",
+        "model_used": "gpt-4o",
+        "created_at": "2026-07-03T05:19:14.714959+00:00"
+      },
+      {
+        "ticker": "MA",
+        "action": "long",
+        "probability_band": "medium",
+        "confidence": 3,
+        "horizon_days": 1,
+        "entry_reference_price": 539.39,
+        "thesis": "Mastercard's partnership with VEON to expand digital financial services is a significant development that could enhance its market position.",
+        "evidence_sources": [
+          "15 news items (Finnhub)",
+          "SEC filing: Form 4",
+          "price/volume (yfinance)"
+        ],
+        "reasoning_summary": "The partnership with VEON is a strategic move that could open new revenue streams, supporting short-term stock performance.",
+        "risk_notes": "The stock's recent gains might be overestimating the impact of the catalyst, posing a risk of correction.",
+        "model_used": "gpt-4o",
+        "created_at": "2026-07-03T05:19:14.714959+00:00"
+      }
+    ],
+    "rejected": [
+      {
+        "ticker": "JNJ",
+        "reason": "Lack of a real catalyst and recent unexplained price surge increase the risk of a pullback."
+      },
+      {
+        "ticker": "LLY",
+        "reason": "No real catalyst to support recent gains in a volatile market."
+      },
+      {
+        "ticker": "AAPL",
+        "reason": "Significant gains without a real catalyst suggest chasing past performance."
+      },
+      {
+        "ticker": "HD",
+        "reason": "Modest increase in a risk-off environment with no clear catalyst limits upside potential."
+      }
+    ],
+    "committee_summary": "In today's risk-off market regime, the committee selected Visa and Mastercard as the paper picks due to their concrete catalysts and potential for short-term performance. Other candidates were rejected due to lack of real catalysts or unexplained recent price movements, which increase the risk of corrections."
+  },
+  "warnings": []
+}

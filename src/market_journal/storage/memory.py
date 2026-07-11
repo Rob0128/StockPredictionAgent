@@ -15,12 +15,15 @@ deterministically here so the system does not rewrite its strategy every day.
 from __future__ import annotations
 
 import json
-from typing import Any, Dict, List
+from datetime import datetime
+from typing import Any, Callable, Dict, List, Optional
 
 from market_journal.config import MEMORY_FILE, ensure_dirs
 
-PROMOTION_THRESHOLD = 3  # appearances required to promote a tentative lesson
-PROMOTION_WINDOW = 20  # over this many recent runs
+PROMOTION_THRESHOLD = 3  # in-window appearances required to promote a lesson
+PROMOTION_WINDOW = 60  # over this many recent runs (~12 trading weeks)
+MIN_DISTINCT_WEEKS = 2  # appearances must span >= this many separate weeks
+RUNS_PER_WEEK = 5  # trading days per week, for date-less period bucketing
 MAX_OBSERVATIONS = 40  # cap rolling observations
 
 
@@ -34,6 +37,7 @@ def default_memory() -> Dict[str, Any]:
             "benchmark": "QQQ",
             "confidence_penalty_if_no_catalyst": True,
         },
+        "run_counter": 0,
         "promoted_rules": [],
         "tentative_lessons": [
             {
@@ -83,19 +87,108 @@ def _norm(text: str) -> str:
     return " ".join(text.lower().split())
 
 
+LessonMatcher = Callable[[str, List[str]], Optional[int]]
+
+
+def _find_match(
+    text: str,
+    items: List[Dict[str, Any]],
+    lesson_matcher: Optional[LessonMatcher],
+) -> Optional[int]:
+    """Return the index of the existing item that means the same as `text`.
+
+    Exact normalized-text equality is tried first (cheap, deterministic). If no
+    exact match and a semantic `lesson_matcher` is supplied, ask it to decide
+    whether the new text is a paraphrase of any existing item. Returns None when
+    nothing matches.
+    """
+    if not items:
+        return None
+    key = _norm(text)
+    for i, it in enumerate(items):
+        if _norm(it.get("text", "")) == key:
+            return i
+    if lesson_matcher is not None:
+        idx = lesson_matcher(text, [it.get("text", "") for it in items])
+        if isinstance(idx, int) and 0 <= idx < len(items):
+            return idx
+    return None
+
+
+def _period_key(current_run: int, run_date: Optional[str]) -> str:
+    """Return a calendar-week key for an appearance.
+
+    Uses the ISO year-week of `run_date` when available so appearances are
+    grouped by real weeks; falls back to bucketing by run index (~5 trading
+    days per week) when no date is supplied (e.g. in tests).
+    """
+    if run_date:
+        try:
+            d = datetime.strptime(run_date, "%Y-%m-%d").date()
+            iso = d.isocalendar()
+            return f"{iso[0]}-W{iso[1]:02d}"
+        except ValueError:
+            pass
+    return f"run-{current_run // RUNS_PER_WEEK}"
+
+
+def _in_window(lesson: Dict[str, Any], current_run: int) -> List[Dict[str, Any]]:
+    """Appearances still inside the promotion window."""
+    return [
+        a
+        for a in lesson.get("appearances", [])
+        if a.get("run", 0) > current_run - PROMOTION_WINDOW
+    ]
+
+
+def _record_appearance(
+    lesson: Dict[str, Any], current_run: int, run_date: Optional[str]
+) -> None:
+    """Log that a lesson was seen this run (with its week) and prune stale hits."""
+    apps = list(lesson.get("appearances", []))
+    apps.append({"run": current_run, "week": _period_key(current_run, run_date)})
+    apps = [a for a in apps if a.get("run", 0) > current_run - PROMOTION_WINDOW]
+    lesson["appearances"] = apps
+    lesson["count"] = len(apps)
+
+
+def _qualifies_for_promotion(lesson: Dict[str, Any], current_run: int) -> bool:
+    """A lesson promotes only with enough in-window hits across separate weeks.
+
+    Legacy lessons that predate appearance tracking fall back to their raw
+    cumulative `count` (with no week information available).
+    """
+    apps = lesson.get("appearances")
+    if apps:
+        in_window = _in_window(lesson, current_run)
+        distinct_weeks = len({a.get("week") for a in in_window})
+        return len(in_window) >= PROMOTION_THRESHOLD and distinct_weeks >= MIN_DISTINCT_WEEKS
+    return int(lesson.get("count", 1)) >= PROMOTION_THRESHOLD
+
+
 def integrate_update(
     memory: Dict[str, Any],
     new_observations: List[str],
     new_tentative_lessons: List[str],
     performance_summary: Dict[str, Any],
+    lesson_matcher: Optional[LessonMatcher] = None,
+    run_date: Optional[str] = None,
 ) -> Dict[str, Any]:
     """Merge an agent's proposed update conservatively and apply promotion logic.
 
     - Observations are appended (capped, deduped).
-    - Tentative lessons increment a counter when re-proposed.
-    - A tentative lesson with count >= PROMOTION_THRESHOLD is promoted.
+    - Tentative lessons record each run they were seen in, tagged with the
+      calendar week. Matching is semantic when `lesson_matcher` is provided (an
+      LLM judges paraphrases), and falls back to exact normalized-text equality.
+    - A lesson is promoted only once it appears >= PROMOTION_THRESHOLD times
+      within the last PROMOTION_WINDOW runs AND across >= MIN_DISTINCT_WEEKS
+      separate weeks — so a single unusual week cannot promote a rule on its own.
     """
     mem = json.loads(json.dumps(memory))  # deep copy
+
+    # Advance the run clock (one integrate_update call == one run).
+    current_run = int(mem.get("run_counter", 0)) + 1
+    mem["run_counter"] = current_run
 
     # Observations (rolling, deduped, capped).
     obs = mem.get("observations", [])
@@ -106,29 +199,31 @@ def integrate_update(
             existing_obs.add(_norm(text))
     mem["observations"] = obs[-MAX_OBSERVATIONS:]
 
-    # Tentative lessons (increment counts; add new ones).
+    # Tentative lessons (record this run's appearance; add new ones).
     lessons = mem.get("tentative_lessons", [])
-    by_norm = {_norm(item.get("text", "")): item for item in lessons}
+    promoted = mem.get("promoted_rules", [])
     for text in new_tentative_lessons:
         if not text:
             continue
-        key = _norm(text)
-        if key in by_norm:
-            by_norm[key]["count"] = int(by_norm[key].get("count", 1)) + 1
+        # Already captured as a permanent rule? Don't re-open it as tentative.
+        if _find_match(text, promoted, lesson_matcher) is not None:
+            continue
+        i = _find_match(text, lessons, lesson_matcher)
+        if i is not None:
+            _record_appearance(lessons[i], current_run, run_date)
         else:
-            new_lesson = {"text": text, "count": 1}
+            new_lesson = {"text": text}
+            _record_appearance(new_lesson, current_run, run_date)
             lessons.append(new_lesson)
-            by_norm[key] = new_lesson
 
-    # Promotion: move lessons that cleared the threshold into promoted_rules.
-    promoted = mem.get("promoted_rules", [])
-    promoted_norms = {_norm(r.get("text", "")) for r in promoted}
+    # Promotion: enough in-window hits across separate weeks graduate to rules.
     remaining: List[Dict[str, Any]] = []
     for lesson in lessons:
-        if int(lesson.get("count", 1)) >= PROMOTION_THRESHOLD:
-            if _norm(lesson["text"]) not in promoted_norms:
-                promoted.append({"text": lesson["text"], "promoted_from_count": lesson["count"]})
-                promoted_norms.add(_norm(lesson["text"]))
+        if _qualifies_for_promotion(lesson, current_run):
+            if _find_match(lesson["text"], promoted, lesson_matcher) is None:
+                promoted.append(
+                    {"text": lesson["text"], "promoted_from_count": lesson.get("count", 1)}
+                )
         else:
             remaining.append(lesson)
     mem["tentative_lessons"] = remaining

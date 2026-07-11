@@ -1,6 +1,6 @@
 {
   "run_date": "2026-06-26",
-  "yesterday_date": "2026-06-25",
+  "yesterday_date": null,
   "macro": {
     "market_regime": "risk_on",
     "qqq_return_1d": 0.008105611726665704,
@@ -10,51 +10,14 @@
     "notes": "regime=risk_on, QQQ +0.81%, 10y -0.09pp"
   },
   "performance_review": {
-    "reviewed_date": "2026-06-25",
+    "reviewed_date": null,
     "benchmark": "QQQ",
-    "outcomes": [
-      {
-        "ticker": "HD",
-        "action": "long",
-        "entry_reference_price": 342.86,
-        "close_price": 345.0,
-        "return_pct": 0.624,
-        "benchmark_return_pct": 0.811,
-        "excess_return_pct": -0.186,
-        "outperformed": false,
-        "original_thesis": "Home Depot's recent upgrade related to a new housing bill presents a tangible catalyst that could drive short-term performance.",
-        "original_confidence": 3
-      },
-      {
-        "ticker": "JNJ",
-        "action": "watch",
-        "entry_reference_price": 241.0,
-        "close_price": 244.8800048828125,
-        "return_pct": 1.61,
-        "benchmark_return_pct": 0.811,
-        "excess_return_pct": 0.799,
-        "outperformed": true,
-        "original_thesis": "Johnson & Johnson's recent stock price increase is driven by the advancement of their clinical trials, but sector crowding in healthcare poses a risk.",
-        "original_confidence": 2
-      },
-      {
-        "ticker": "V",
-        "action": "avoid",
-        "entry_reference_price": 332.23,
-        "close_price": 330.5199890136719,
-        "return_pct": -0.515,
-        "benchmark_return_pct": 0.811,
-        "excess_return_pct": -1.325,
-        "outperformed": false,
-        "original_thesis": "Visa's recent partnership announcement lacks sufficient evidence of sustained momentum, especially given the negative 5-day performance.",
-        "original_confidence": 1
-      }
-    ],
-    "hit_rate": 0.333,
-    "avg_pick_return_pct": 0.573,
-    "benchmark_return_pct": 0.811,
-    "avg_excess_return_pct": -0.237,
-    "narrative": "The portfolio's performance appears to reflect more market beta than stock-specific skill, as the average pick return of 0.573% underperformed the QQQ benchmark return of 0.811% by a notable margin. The hit rate of 33.3% suggests that the majority of picks did not yield positive excess returns, indicating a lack of consistent stock selection success. While JNJ outperformed, the overall results do not support a strong confidence in the strategy, as the negative excess returns from the other picks, particularly Visa, highlight potential misjudgments in thesis calibration."
+    "outcomes": [],
+    "hit_rate": null,
+    "avg_pick_return_pct": null,
+    "benchmark_return_pct": null,
+    "avg_excess_return_pct": null,
+    "narrative": "No prior decision found; this is the first run or a gap day."
   },
   "candidates": [
     {
@@ -80,7 +43,7 @@
       "reasoning_summary": "Top-6 by transparent score.",
       "risk_notes": "",
       "model_used": "gpt-4o-mini",
-      "created_at": "2026-06-26T06:13:34.761160+00:00"
+      "created_at": "2026-06-26T21:30:15.204473+00:00"
     },
     {
       "ticker": "ASML",
@@ -95,7 +58,7 @@
         "weak_evidence_penalty": -0.0,
         "total": 0.5408
       },
-      "catalyst_assessment": "The recent 4.45% move in ASML's stock appears to be unexplained from available public sources, as there are no concrete catalysts directly linked to the company in the news items.",
+      "catalyst_assessment": "The recent 4.45% move in ASML's stock appears to be unexplained from available public sources, as the news items primarily discuss broader market trends and other companies rather than specific developments related to ASML.",
       "catalyst_is_real": false,
       "evidence_sources": [
         "15 news items (Finnhub)",
@@ -104,7 +67,7 @@
       "reasoning_summary": "Top-6 by transparent score.",
       "risk_notes": "",
       "model_used": "gpt-4o-mini",
-      "created_at": "2026-06-26T06:13:34.764176+00:00"
+      "created_at": "2026-06-26T21:30:15.204473+00:00"
     },
     {
       "ticker": "JNJ",
@@ -119,7 +82,7 @@
         "weak_evidence_penalty": -0.0,
         "total": 0.4749
       },
-      "catalyst_assessment": "The recent 1.61% increase in JNJ's stock appears to be unexplained from available public sources, as there are no concrete catalysts identified in the news items.",
+      "catalyst_assessment": "The recent 1.61% increase in JNJ's stock appears to be unexplained from available public sources, as there are no specific catalysts identified in the news items.",
       "catalyst_is_real": false,
       "evidence_sources": [
         "15 news items (Finnhub)",
@@ -128,7 +91,7 @@
       "reasoning_summary": "Top-6 by transparent score.",
       "risk_notes": "",
       "model_used": "gpt-4o-mini",
-      "created_at": "2026-06-26T06:13:34.764176+00:00"
+      "created_at": "2026-06-26T21:30:15.204473+00:00"
     },
     {
       "ticker": "AMD",
@@ -143,7 +106,7 @@
         "weak_evidence_penalty": -0.0,
         "total": 0.4482
       },
-      "catalyst_assessment": "AMD's acquisition of MEXT to address AI memory bottlenecks in data centers serves as a concrete catalyst for the stock's 2.47% increase.",
+      "catalyst_assessment": "AMD's recent acquisition of MEXT to address AI memory bottlenecks in data centers serves as a concrete catalyst for the stock's 2.47% increase.",
       "catalyst_is_real": true,
       "evidence_sources": [
         "15 news items (Finnhub)",
@@ -152,7 +115,7 @@
       "reasoning_summary": "Top-6 by transparent score.",
       "risk_notes": "",
       "model_used": "gpt-4o-mini",
-      "created_at": "2026-06-26T06:13:34.764176+00:00"
+      "created_at": "2026-06-26T21:30:15.204473+00:00"
     },
     {
       "ticker": "HD",
@@ -167,7 +130,7 @@
         "weak_evidence_penalty": -0.0,
         "total": 0.4187
       },
-      "catalyst_assessment": "The recent upgrade related to a new housing bill is a concrete catalyst that likely contributed to Home Depot's stock move.",
+      "catalyst_assessment": "The recent move in Home Depot's stock can be attributed to a positive rating upgrade linked to a new housing bill, which is a concrete catalyst affecting investor sentiment.",
       "catalyst_is_real": true,
       "evidence_sources": [
         "15 news items (Finnhub)",
@@ -176,7 +139,7 @@
       "reasoning_summary": "Top-6 by transparent score.",
       "risk_notes": "",
       "model_used": "gpt-4o-mini",
-      "created_at": "2026-06-26T06:13:34.764176+00:00"
+      "created_at": "2026-06-26T21:30:15.204473+00:00"
     },
     {
       "ticker": "BAC",
@@ -191,7 +154,7 @@
         "weak_evidence_penalty": -0.0,
         "total": 0.395
       },
-      "catalyst_assessment": "The recent 1-day move of Bank of America (+0.80%) appears to be unexplained from available public sources, as none of the news items indicate a concrete catalyst directly impacting BAC's stock.",
+      "catalyst_assessment": "The recent 1-day move of Bank of America (BAC) appears to be unexplained from available public sources, as none of the news items indicate a specific catalyst directly impacting BAC's stock price.",
       "catalyst_is_real": false,
       "evidence_sources": [
         "15 news items (Finnhub)",
@@ -200,18 +163,18 @@
       "reasoning_summary": "Top-6 by transparent score.",
       "risk_notes": "",
       "model_used": "gpt-4o-mini",
-      "created_at": "2026-06-26T06:13:34.764176+00:00"
+      "created_at": "2026-06-26T21:30:15.204473+00:00"
     }
   ],
   "risk_review": {
-    "portfolio_risk": "The portfolio exhibits sector crowding, particularly in healthcare (XLV) and technology (XLK), which may increase vulnerability to sector-specific downturns. Additionally, the presence of multiple names with recent positive momentum may indicate a risk of chasing past performance.",
+    "portfolio_risk": "The current candidate picks exhibit sector crowding, particularly in healthcare (XLV) and technology (XLK), which may increase exposure to sector-specific risks. Additionally, the lack of real catalysts for most picks suggests a potential over-reliance on past performance rather than forward-looking factors.",
     "ticker_risks": {
-      "UNH": "Potential sector crowding in healthcare (XLV) with no real catalyst to justify recent price action.",
-      "ASML": "Recent volatility spike and lack of real catalyst suggest chasing yesterday's move in tech (XLK).",
-      "JNJ": "Sector crowding in healthcare (XLV) with no real catalyst, risking overconfidence in recent gains.",
-      "AMD": "High volatility and real catalyst present, but risk of overconfidence in tech (XLK) persists.",
-      "HD": "Real catalyst present, but recent gains may reflect chasing past performance in consumer discretionary (XLY).",
-      "BAC": "Low earnings risk, but absence of catalyst and sector crowding in financials (XLF) could limit upside."
+      "UNH": "Sector crowding in XLV could amplify risks if healthcare sentiment shifts.",
+      "ASML": "Chasing yesterday's move with recent volatility may lead to overconfidence.",
+      "JNJ": "Sector concentration in XLV without a real catalyst increases vulnerability.",
+      "AMD": "High volatility and recent catalyst may lead to unpredictable price swings.",
+      "HD": "Recent gains may be driven by short-term catalysts, risking a pullback.",
+      "BAC": "Lack of real catalyst and sector concentration in XLF may limit upside potential."
     },
     "model_used": "gpt-4o"
   },
@@ -224,15 +187,15 @@
         "confidence": 4,
         "horizon_days": 1,
         "entry_reference_price": 532.57,
-        "thesis": "AMD's acquisition of MEXT addresses AI memory bottlenecks, providing a concrete catalyst for potential short-term gains.",
+        "thesis": "AMD's acquisition of MEXT positions it strategically to address AI memory bottlenecks, potentially boosting its market share in data centers.",
         "evidence_sources": [
           "15 news items (Finnhub)",
           "price/volume (yfinance)"
         ],
-        "reasoning_summary": "The acquisition of MEXT by AMD is a strategic move to enhance its AI capabilities, which is likely to drive investor interest and stock performance in the short term. The presence of a real catalyst and the current risk-on market regime support a positive outlook.",
-        "risk_notes": "Despite the real catalyst, the tech sector's high volatility and existing portfolio exposure to XLK pose risks of overconfidence and sector-specific downturns.",
+        "reasoning_summary": "The acquisition serves as a concrete catalyst, aligning with the current market's risk-on sentiment and providing a tangible growth opportunity.",
+        "risk_notes": "High volatility and recent catalyst may lead to unpredictable price swings.",
         "model_used": "gpt-4o",
-        "created_at": "2026-06-26T06:14:04.149567+00:00"
+        "created_at": "2026-06-26T21:30:41.669524+00:00"
       },
       {
         "ticker": "HD",
@@ -241,36 +204,36 @@
         "confidence": 3,
         "horizon_days": 1,
         "entry_reference_price": 345.0,
-        "thesis": "Home Depot's stock is buoyed by a recent upgrade linked to a new housing bill, presenting a tangible catalyst for short-term performance.",
+        "thesis": "Home Depot's positive rating upgrade linked to a new housing bill could drive short-term gains as investors react to potential sector growth.",
         "evidence_sources": [
           "15 news items (Finnhub)",
           "price/volume (yfinance)"
         ],
-        "reasoning_summary": "The upgrade related to a new housing bill provides a clear catalyst for Home Depot's stock, aligning with the risk-on market sentiment. This positions HD favorably for potential outperformance in the short term.",
-        "risk_notes": "The consumer discretionary sector's recent gains may reflect a risk of chasing past performance, necessitating caution despite the real catalyst.",
+        "reasoning_summary": "The rating upgrade and housing bill provide a real catalyst, aligning with the risk-on market regime, although gains may be short-lived.",
+        "risk_notes": "Recent gains may be driven by short-term catalysts, risking a pullback.",
         "model_used": "gpt-4o",
-        "created_at": "2026-06-26T06:14:04.149567+00:00"
+        "created_at": "2026-06-26T21:30:41.669524+00:00"
       }
     ],
     "rejected": [
       {
         "ticker": "UNH",
-        "reason": "Lack of real catalyst and sector crowding in healthcare."
+        "reason": "Lack of real catalyst and sector crowding in XLV increases risk without clear upside potential."
       },
       {
         "ticker": "ASML",
-        "reason": "Recent volatility spike with no real catalyst, risking chasing past performance."
+        "reason": "Unexplained recent move and volatility suggest overconfidence without a real catalyst."
       },
       {
         "ticker": "JNJ",
-        "reason": "Sector crowding in healthcare with no real catalyst."
+        "reason": "Sector concentration in XLV without a real catalyst increases vulnerability."
       },
       {
         "ticker": "BAC",
-        "reason": "Absence of catalyst and sector crowding in financials limit upside."
+        "reason": "Lack of real catalyst and sector concentration in XLF may limit upside potential."
       }
     ],
-    "committee_summary": "The committee selected AMD and HD as today's picks due to their real catalysts and alignment with the current risk-on market regime. Other candidates were rejected due to lack of catalysts or sector crowding concerns."
+    "committee_summary": "Today's picks focus on AMD and HD, both of which have real catalysts that align with the current risk-on market regime. AMD's acquisition and HD's rating upgrade provide tangible growth opportunities, while other candidates lack real catalysts or exhibit sector crowding risks."
   },
   "warnings": []
 }

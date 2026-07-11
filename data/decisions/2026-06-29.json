@@ -1,0 +1,276 @@
+{
+  "run_date": "2026-06-29",
+  "yesterday_date": "2026-06-26",
+  "macro": {
+    "market_regime": "risk_on",
+    "qqq_return_1d": 0.02485421088314548,
+    "spy_return_1d": 0.0164748623801593,
+    "vix_change": null,
+    "ten_year_yield_change": -0.020000000000000462,
+    "notes": "regime=risk_on, QQQ +2.49%, 10y -0.02pp"
+  },
+  "performance_review": {
+    "reviewed_date": "2026-06-26",
+    "benchmark": "QQQ",
+    "outcomes": [
+      {
+        "ticker": "AMD",
+        "action": "long",
+        "entry_reference_price": 532.57,
+        "close_price": 539.489990234375,
+        "return_pct": 3.434,
+        "benchmark_return_pct": 2.485,
+        "excess_return_pct": 0.948,
+        "outperformed": true,
+        "original_thesis": "AMD's acquisition of MEXT positions it strategically to address AI memory bottlenecks, potentially boosting its market share in data centers.",
+        "original_confidence": 4
+      },
+      {
+        "ticker": "HD",
+        "action": "long",
+        "entry_reference_price": 345.0,
+        "close_price": 350.80999755859375,
+        "return_pct": 0.559,
+        "benchmark_return_pct": 2.485,
+        "excess_return_pct": -1.926,
+        "outperformed": false,
+        "original_thesis": "Home Depot's positive rating upgrade linked to a new housing bill could drive short-term gains as investors react to potential sector growth.",
+        "original_confidence": 3
+      }
+    ],
+    "hit_rate": 0.5,
+    "avg_pick_return_pct": 1.996,
+    "benchmark_return_pct": 2.485,
+    "avg_excess_return_pct": -0.489,
+    "narrative": "The PAPER portfolio's average pick return of 1.996% and an excess return of -0.489% relative to the QQQ benchmark suggests that the overall performance was below market expectations, indicating a lack of stock-specific skill. While AMD's strong performance can be attributed to a well-founded thesis, Home Depot's significant underperformance detracts from the overall assessment, highlighting a mixed hit rate of 0.5. Confidence in the picks appears to have been overestimated, given the negative excess return overall."
+  },
+  "candidates": [
+    {
+      "ticker": "ASML",
+      "candidate_score": 0.495,
+      "score_breakdown": {
+        "momentum": 0.1581,
+        "relative_strength": 0.25,
+        "volume_confirmation": -0.0342,
+        "catalyst": 0.2,
+        "earnings_risk_penalty": -0.0,
+        "volatility_penalty": -0.0789,
+        "weak_evidence_penalty": -0.0,
+        "total": 0.495
+      },
+      "catalyst_assessment": "The recent 4.93% increase in ASML's stock price is likely driven by Wells Fargo lifting its price target on the company, which is a concrete catalyst identifiable from the news headlines.",
+      "catalyst_is_real": true,
+      "evidence_sources": [
+        "12 news items (Finnhub)",
+        "price/volume (yfinance)"
+      ],
+      "reasoning_summary": "Top-6 by transparent score.",
+      "risk_notes": "",
+      "model_used": "gpt-4o-mini",
+      "created_at": "2026-06-29T21:30:55.746132+00:00"
+    },
+    {
+      "ticker": "TSLA",
+      "candidate_score": 0.3874,
+      "score_breakdown": {
+        "momentum": -0.0358,
+        "relative_strength": 0.25,
+        "volume_confirmation": 0.029,
+        "catalyst": 0.2,
+        "earnings_risk_penalty": -0.0,
+        "volatility_penalty": -0.0558,
+        "weak_evidence_penalty": -0.0,
+        "total": 0.3874
+      },
+      "catalyst_assessment": "The recent 8.46% move in TSLA appears to be largely driven by broader market trends and speculation rather than a specific, identifiable catalyst, as no concrete news or filings directly explain the surge.",
+      "catalyst_is_real": false,
+      "evidence_sources": [
+        "15 news items (Finnhub)",
+        "price/volume (yfinance)"
+      ],
+      "reasoning_summary": "Top-6 by transparent score.",
+      "risk_notes": "",
+      "model_used": "gpt-4o-mini",
+      "created_at": "2026-06-29T21:30:55.746132+00:00"
+    },
+    {
+      "ticker": "LLY",
+      "candidate_score": 0.3869,
+      "score_breakdown": {
+        "momentum": 0.3,
+        "relative_strength": -0.085,
+        "volume_confirmation": -0.0206,
+        "catalyst": 0.2,
+        "earnings_risk_penalty": -0.0,
+        "volatility_penalty": -0.0075,
+        "weak_evidence_penalty": -0.0,
+        "total": 0.3869
+      },
+      "catalyst_assessment": "The recent 1.81% move in Eli Lilly's stock appears to be unexplained from available public sources, as there are no specific catalysts identified in the news items.",
+      "catalyst_is_real": false,
+      "evidence_sources": [
+        "15 news items (Finnhub)",
+        "price/volume (yfinance)"
+      ],
+      "reasoning_summary": "Top-6 by transparent score.",
+      "risk_notes": "",
+      "model_used": "gpt-4o-mini",
+      "created_at": "2026-06-29T21:30:55.746132+00:00"
+    },
+    {
+      "ticker": "JNJ",
+      "candidate_score": 0.3689,
+      "score_breakdown": {
+        "momentum": 0.3,
+        "relative_strength": -0.1217,
+        "volume_confirmation": -0.0094,
+        "catalyst": 0.2,
+        "earnings_risk_penalty": -0.0,
+        "volatility_penalty": -0.0,
+        "weak_evidence_penalty": -0.0,
+        "total": 0.3689
+      },
+      "catalyst_assessment": "The recent 1.51% increase in JNJ's stock price is likely explained by the news of J&J winning CHMP approval for the expanded use of its multiple myeloma drug Tecvayli, which is a concrete catalyst.",
+      "catalyst_is_real": true,
+      "evidence_sources": [
+        "15 news items (Finnhub)",
+        "price/volume (yfinance)"
+      ],
+      "reasoning_summary": "Top-6 by transparent score.",
+      "risk_notes": "",
+      "model_used": "gpt-4o-mini",
+      "created_at": "2026-06-29T21:30:55.746132+00:00"
+    },
+    {
+      "ticker": "GOOGL",
+      "candidate_score": 0.3446,
+      "score_breakdown": {
+        "momentum": -0.0638,
+        "relative_strength": 0.25,
+        "volume_confirmation": -0.03,
+        "catalyst": 0.2,
+        "earnings_risk_penalty": -0.0,
+        "volatility_penalty": -0.0117,
+        "weak_evidence_penalty": -0.0,
+        "total": 0.3446
+      },
+      "catalyst_assessment": "The stock's 4.82% increase is likely driven by its inclusion in the Dow Jones Industrial Average, as indicated by the headline \"Alphabet shares rise on Dow debut.\" This significant index addition typically boosts investor sentiment and stock performance.",
+      "catalyst_is_real": true,
+      "evidence_sources": [
+        "15 news items (Finnhub)",
+        "price/volume (yfinance)"
+      ],
+      "reasoning_summary": "Top-6 by transparent score.",
+      "risk_notes": "",
+      "model_used": "gpt-4o-mini",
+      "created_at": "2026-06-29T21:30:55.746132+00:00"
+    },
+    {
+      "ticker": "MA",
+      "candidate_score": 0.2644,
+      "score_breakdown": {
+        "momentum": 0.133,
+        "relative_strength": -0.0447,
+        "volume_confirmation": -0.024,
+        "catalyst": 0.2,
+        "earnings_risk_penalty": -0.0,
+        "volatility_penalty": -0.0,
+        "weak_evidence_penalty": -0.0,
+        "total": 0.2644
+      },
+      "catalyst_assessment": "The recent 2.13% increase in Mastercard's stock is likely driven by the early court approval in the merchant fee settlement with Visa, which is a concrete and identifiable catalyst.",
+      "catalyst_is_real": true,
+      "evidence_sources": [
+        "12 news items (Finnhub)",
+        "price/volume (yfinance)"
+      ],
+      "reasoning_summary": "Top-6 by transparent score.",
+      "risk_notes": "",
+      "model_used": "gpt-4o-mini",
+      "created_at": "2026-06-29T21:30:55.746132+00:00"
+    }
+  ],
+  "risk_review": {
+    "portfolio_risk": "The current selection shows a potential concentration in technology and healthcare sectors, which could expose the portfolio to sector-specific risks. Additionally, the recent positive market regime may lead to overconfidence in short-term gains, overlooking potential volatility.",
+    "ticker_risks": {
+      "ASML": "Recent price surge may be driven by short-term catalysts, risking a reversal if market sentiment shifts.",
+      "TSLA": "Significant daily gain without a real catalyst suggests vulnerability to profit-taking and volatility.",
+      "LLY": "Strong recent performance could be chasing past momentum, with no real catalyst to sustain growth.",
+      "JNJ": "Despite a real catalyst, the rapid price increase could lead to overvaluation concerns.",
+      "GOOGL": "Price increase may be influenced by broader tech sector movements, risking sector crowding.",
+      "MA": "Moderate gains with a real catalyst, but financial sector exposure could be sensitive to interest rate changes."
+    },
+    "model_used": "gpt-4o"
+  },
+  "committee_decision": {
+    "picks": [
+      {
+        "ticker": "ASML",
+        "action": "long",
+        "probability_band": "medium",
+        "confidence": 4,
+        "horizon_days": 1,
+        "entry_reference_price": 1883.11,
+        "thesis": "ASML's recent price surge is supported by a real catalyst, with Wells Fargo lifting its price target, indicating potential for further short-term gains.",
+        "evidence_sources": [
+          "12 news items (Finnhub)",
+          "price/volume (yfinance)"
+        ],
+        "reasoning_summary": "ASML's upward movement is backed by a tangible catalyst, suggesting the potential for continued positive momentum in the short term.",
+        "risk_notes": "The recent price surge may be driven by short-term catalysts, risking a reversal if market sentiment shifts.",
+        "model_used": "gpt-4o",
+        "created_at": "2026-06-29T21:31:13.622430+00:00"
+      },
+      {
+        "ticker": "JNJ",
+        "action": "long",
+        "probability_band": "medium",
+        "confidence": 4,
+        "horizon_days": 1,
+        "entry_reference_price": 258.51,
+        "thesis": "JNJ's recent price increase is supported by a real catalyst, with CHMP approval for expanded use, indicating potential for continued positive sentiment.",
+        "evidence_sources": [
+          "15 news items (Finnhub)",
+          "price/volume (yfinance)"
+        ],
+        "reasoning_summary": "JNJ's price movement is backed by a significant catalyst, suggesting potential for sustained momentum in the short term.",
+        "risk_notes": "Despite a real catalyst, the rapid price increase could lead to overvaluation concerns.",
+        "model_used": "gpt-4o",
+        "created_at": "2026-06-29T21:31:13.622430+00:00"
+      },
+      {
+        "ticker": "MA",
+        "action": "watch",
+        "probability_band": "low",
+        "confidence": 3,
+        "horizon_days": 1,
+        "entry_reference_price": 509.64,
+        "thesis": "Mastercard's recent gains are supported by a real catalyst, but financial sector exposure could be sensitive to interest rate changes.",
+        "evidence_sources": [
+          "12 news items (Finnhub)",
+          "price/volume (yfinance)"
+        ],
+        "reasoning_summary": "While Mastercard has a real catalyst, the financial sector's sensitivity to interest rate changes warrants a cautious approach.",
+        "risk_notes": "Moderate gains with a real catalyst, but financial sector exposure could be sensitive to interest rate changes.",
+        "model_used": "gpt-4o",
+        "created_at": "2026-06-29T21:31:13.622430+00:00"
+      }
+    ],
+    "rejected": [
+      {
+        "ticker": "TSLA",
+        "reason": "Significant daily gain without a real catalyst suggests vulnerability to profit-taking and volatility."
+      },
+      {
+        "ticker": "LLY",
+        "reason": "Strong recent performance lacks a real catalyst, risking momentum chasing without sustained growth potential."
+      },
+      {
+        "ticker": "GOOGL",
+        "reason": "Price increase may be influenced by broader tech sector movements, risking sector crowding."
+      }
+    ],
+    "committee_summary": "Today's picks focus on stocks with real catalysts supporting recent price movements. ASML and JNJ are selected for their tangible catalysts, while MA is put on watch due to sector sensitivity. TSLA, LLY, and GOOGL are rejected due to lack of real catalysts or sector crowding concerns."
+  },
+  "warnings": []
+}

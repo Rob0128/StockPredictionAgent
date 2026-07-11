@@ -244,6 +244,8 @@ def node_update_memory(state: GraphState) -> dict:
         new_observations=proposal.get("observations", []),
         new_tentative_lessons=proposal.get("tentative_lessons", []),
         performance_summary=proposal.get("performance_summary", {}),
+        lesson_matcher=memory_agent.make_lesson_matcher(),
+        run_date=state["run_date"],
     )
     memory_store.save_memory(new_mem)
     return {"new_memory": new_mem}

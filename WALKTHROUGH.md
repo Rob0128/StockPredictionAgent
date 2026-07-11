@@ -206,9 +206,10 @@ File: [src/market_journal/graph.py](src/market_journal/graph.py)
 ([propose_update()](src/market_journal/agents/memory_agent.py#L26), gpt-4o) for
 a few cautious observations and lessons, then merges them conservatively with
 [integrate_update()](src/market_journal/storage/memory.py#L86). A tentative
-lesson only becomes a hard "rule" after it shows up **≥3 times**
-(`PROMOTION_THRESHOLD`, [memory.py line 22](src/market_journal/storage/memory.py#L22)),
-so the strategy isn't rewritten every day. Saved to
+lesson only becomes a hard "rule" after it shows up **≥3 times across ≥2
+separate weeks** (`PROMOTION_THRESHOLD` / `MIN_DISTINCT_WEEKS`, within the
+`PROMOTION_WINDOW` of recent runs), so the strategy isn't rewritten every day
+and one strange week can't promote a rule alone. Saved to
 `data/memory/strategy_memory.json`.
 
 ---

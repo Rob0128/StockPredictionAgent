@@ -1,0 +1,281 @@
+{
+  "run_date": "2026-07-10",
+  "yesterday_date": "2026-07-08",
+  "macro": {
+    "market_regime": "neutral",
+    "qqq_return_1d": 0.0030831495111483163,
+    "spy_return_1d": 0.004310159688801989,
+    "vix_change": null,
+    "ten_year_yield_change": -0.019999999999999574,
+    "notes": "regime=neutral, QQQ +0.31%, 10y -0.02pp"
+  },
+  "performance_review": {
+    "reviewed_date": "2026-07-08",
+    "benchmark": "QQQ",
+    "outcomes": [
+      {
+        "ticker": "UNH",
+        "action": "long",
+        "entry_reference_price": 428.19,
+        "close_price": 424.6199951171875,
+        "return_pct": -1.635,
+        "benchmark_return_pct": 0.308,
+        "excess_return_pct": -1.944,
+        "outperformed": false,
+        "original_thesis": "UnitedHealth Group (UNH) has a real catalyst with the opening of Shield Blood Test coverage for adults 45 and older, potentially driving near-term interest and price appreciation.",
+        "original_confidence": 3
+      },
+      {
+        "ticker": "JNJ",
+        "action": "watch",
+        "entry_reference_price": 267.24,
+        "close_price": 256.9800109863281,
+        "return_pct": -0.818,
+        "benchmark_return_pct": 0.308,
+        "excess_return_pct": -1.127,
+        "outperformed": false,
+        "original_thesis": "Johnson & Johnson (JNJ) has experienced unexplained recent gains, which may not be sustainable without a clear catalyst.",
+        "original_confidence": 2
+      }
+    ],
+    "hit_rate": 0.0,
+    "avg_pick_return_pct": -1.227,
+    "benchmark_return_pct": 0.308,
+    "avg_excess_return_pct": -1.535,
+    "narrative": "The performance of the PAPER portfolio's picks indicates a significant underperformance relative to the benchmark QQQ, with an average excess return of -1.535% and a hit rate of 0.0%. This suggests that the results are more likely attributable to stock-specific issues rather than market beta, as the overall market was up. Additionally, the lack of successful picks and the negative returns imply that the confidence in these selections was not well-calibrated, raising concerns about the robustness of the underlying investment thesis."
+  },
+  "candidates": [
+    {
+      "ticker": "META",
+      "candidate_score": 0.8403,
+      "score_breakdown": {
+        "momentum": 0.3,
+        "relative_strength": 0.25,
+        "volume_confirmation": 0.1421,
+        "catalyst": 0.2,
+        "earnings_risk_penalty": -0.0,
+        "volatility_penalty": -0.0518,
+        "weak_evidence_penalty": -0.0,
+        "total": 0.8403
+      },
+      "catalyst_assessment": "The recent 5.97% move in META stock appears to be unexplained from available public sources, as the news items do not provide a concrete catalyst directly linked to the stock's performance.",
+      "catalyst_is_real": false,
+      "evidence_sources": [
+        "15 news items (Finnhub)",
+        "SEC filing: Form 4",
+        "price/volume (yfinance)"
+      ],
+      "reasoning_summary": "Top-6 by transparent score.",
+      "risk_notes": "",
+      "model_used": "gpt-4o-mini",
+      "created_at": "2026-07-10T21:30:59.300798+00:00"
+    },
+    {
+      "ticker": "NVDA",
+      "candidate_score": 0.6534,
+      "score_breakdown": {
+        "momentum": 0.2121,
+        "relative_strength": 0.25,
+        "volume_confirmation": 0.0004,
+        "catalyst": 0.2,
+        "earnings_risk_penalty": -0.0,
+        "volatility_penalty": -0.0091,
+        "weak_evidence_penalty": -0.0,
+        "total": 0.6534
+      },
+      "catalyst_assessment": "The recent 4.03% increase in NVDA's stock price can be attributed to the announcement regarding the Nvidia Vera CPU, which expands its market reach, indicating a concrete catalyst for the move.",
+      "catalyst_is_real": true,
+      "evidence_sources": [
+        "15 news items (Finnhub)",
+        "SEC filing: Form 4",
+        "price/volume (yfinance)"
+      ],
+      "reasoning_summary": "Top-6 by transparent score.",
+      "risk_notes": "",
+      "model_used": "gpt-4o-mini",
+      "created_at": "2026-07-10T21:30:59.300798+00:00"
+    },
+    {
+      "ticker": "AMD",
+      "candidate_score": 0.5689,
+      "score_breakdown": {
+        "momentum": 0.3,
+        "relative_strength": 0.2168,
+        "volume_confirmation": -0.048,
+        "catalyst": 0.2,
+        "earnings_risk_penalty": -0.0,
+        "volatility_penalty": -0.1,
+        "weak_evidence_penalty": -0.0,
+        "total": 0.5689
+      },
+      "catalyst_assessment": "The recent 2.04% move in AMD's stock appears unexplained from available public sources, as none of the news items directly relate to AMD's performance or specific developments.",
+      "catalyst_is_real": false,
+      "evidence_sources": [
+        "15 news items (Finnhub)",
+        "price/volume (yfinance)"
+      ],
+      "reasoning_summary": "Top-6 by transparent score.",
+      "risk_notes": "",
+      "model_used": "gpt-4o-mini",
+      "created_at": "2026-07-10T21:30:59.300798+00:00"
+    },
+    {
+      "ticker": "AVGO",
+      "candidate_score": 0.2956,
+      "score_breakdown": {
+        "momentum": 0.2872,
+        "relative_strength": -0.0741,
+        "volume_confirmation": -0.0787,
+        "catalyst": 0.2,
+        "earnings_risk_penalty": -0.0,
+        "volatility_penalty": -0.0389,
+        "weak_evidence_penalty": -0.0,
+        "total": 0.2956
+      },
+      "catalyst_assessment": "The recent 1-day move of AVGO appears to be unexplained from available public sources, as the news items do not provide a concrete catalyst directly impacting the stock.",
+      "catalyst_is_real": false,
+      "evidence_sources": [
+        "15 news items (Finnhub)",
+        "SEC filing: 8-K",
+        "price/volume (yfinance)"
+      ],
+      "reasoning_summary": "Top-6 by transparent score.",
+      "risk_notes": "",
+      "model_used": "gpt-4o-mini",
+      "created_at": "2026-07-10T21:30:59.300798+00:00"
+    },
+    {
+      "ticker": "HD",
+      "candidate_score": 0.2529,
+      "score_breakdown": {
+        "momentum": 0.0183,
+        "relative_strength": 0.1301,
+        "volume_confirmation": -0.0937,
+        "catalyst": 0.2,
+        "earnings_risk_penalty": -0.0,
+        "volatility_penalty": -0.0018,
+        "weak_evidence_penalty": -0.0,
+        "total": 0.2529
+      },
+      "catalyst_assessment": "The recent 1.35% move in HD appears to be unexplained from available public sources, as there are no concrete catalysts identified in the news items.",
+      "catalyst_is_real": false,
+      "evidence_sources": [
+        "15 news items (Finnhub)",
+        "price/volume (yfinance)"
+      ],
+      "reasoning_summary": "Top-6 by transparent score.",
+      "risk_notes": "",
+      "model_used": "gpt-4o-mini",
+      "created_at": "2026-07-10T21:30:59.300798+00:00"
+    },
+    {
+      "ticker": "WMT",
+      "candidate_score": 0.2452,
+      "score_breakdown": {
+        "momentum": -0.0334,
+        "relative_strength": 0.1497,
+        "volume_confirmation": -0.0711,
+        "catalyst": 0.2,
+        "earnings_risk_penalty": -0.0,
+        "volatility_penalty": -0.0,
+        "weak_evidence_penalty": -0.0,
+        "total": 0.2452
+      },
+      "catalyst_assessment": "The recent 1.51% move in WMT appears to be unexplained from available public sources, as there are no concrete catalysts such as earnings, guidance, or significant news directly impacting the stock.",
+      "catalyst_is_real": false,
+      "evidence_sources": [
+        "15 news items (Finnhub)",
+        "price/volume (yfinance)"
+      ],
+      "reasoning_summary": "Top-6 by transparent score.",
+      "risk_notes": "",
+      "model_used": "gpt-4o-mini",
+      "created_at": "2026-07-10T21:30:59.300798+00:00"
+    }
+  ],
+  "risk_review": {
+    "portfolio_risk": "The portfolio exhibits sector crowding, particularly in the technology sector (XLK), which could lead to amplified volatility if the sector faces downturns. Diversification across sectors is limited, increasing concentration risk.",
+    "ticker_risks": {
+      "META": "META's recent surge may be driven by speculative momentum rather than fundamental changes, posing a risk of retracement.",
+      "NVDA": "NVDA's real catalyst may already be priced in, leading to potential overvaluation concerns.",
+      "AMD": "AMD's high volatility suggests susceptibility to market swings, with no real catalyst to support recent gains.",
+      "AVGO": "AVGO's recent performance lacks a clear catalyst, raising questions about sustainability of gains.",
+      "HD": "HD's negative 5-day performance indicates potential underlying issues not reflected in the low earnings risk.",
+      "WMT": "WMT's modest gains amidst low volatility suggest limited upside potential without a clear catalyst."
+    },
+    "model_used": "gpt-4o"
+  },
+  "committee_decision": {
+    "picks": [
+      {
+        "ticker": "NVDA",
+        "action": "long",
+        "probability_band": "medium",
+        "confidence": 4,
+        "horizon_days": 1,
+        "entry_reference_price": 210.96,
+        "thesis": "Nvidia's recent announcement of the Vera CPU presents a tangible catalyst that could drive short-term gains, especially given the market's positive reception.",
+        "evidence_sources": [
+          "15 news items (Finnhub)",
+          "SEC filing: Form 4",
+          "price/volume (yfinance)"
+        ],
+        "reasoning_summary": "The real catalyst provided by the Nvidia Vera CPU announcement supports the recent stock price increase, suggesting potential for further gains. The market's reaction indicates confidence in Nvidia's strategic direction.",
+        "risk_notes": "The catalyst may already be priced in, leading to potential overvaluation concerns. Monitor for any signs of market correction.",
+        "model_used": "gpt-4o",
+        "created_at": "2026-07-10T21:31:17.773227+00:00"
+      },
+      {
+        "ticker": "META",
+        "action": "watch",
+        "probability_band": "low",
+        "confidence": 2,
+        "horizon_days": 1,
+        "entry_reference_price": 669.21,
+        "thesis": "META's recent surge lacks a clear catalyst, suggesting speculative momentum rather than fundamental changes.",
+        "evidence_sources": [
+          "15 news items (Finnhub)",
+          "SEC filing: Form 4",
+          "price/volume (yfinance)"
+        ],
+        "reasoning_summary": "Without a real catalyst, META's recent price movement appears speculative. Monitoring is advised to assess if any underlying factors emerge.",
+        "risk_notes": "High risk of retracement due to speculative nature of recent gains. Lack of fundamental support increases volatility risk.",
+        "model_used": "gpt-4o",
+        "created_at": "2026-07-10T21:31:17.773227+00:00"
+      },
+      {
+        "ticker": "AMD",
+        "action": "avoid",
+        "probability_band": "low",
+        "confidence": 1,
+        "horizon_days": 1,
+        "entry_reference_price": 557.89,
+        "thesis": "AMD's recent gains are unsupported by a real catalyst, increasing the risk of volatility and potential downturn.",
+        "evidence_sources": [
+          "15 news items (Finnhub)",
+          "price/volume (yfinance)"
+        ],
+        "reasoning_summary": "The absence of a real catalyst and high volatility suggest caution. The stock's recent performance may not be sustainable.",
+        "risk_notes": "High susceptibility to market swings without a clear catalyst. Potential for significant price correction.",
+        "model_used": "gpt-4o",
+        "created_at": "2026-07-10T21:31:17.773227+00:00"
+      }
+    ],
+    "rejected": [
+      {
+        "ticker": "AVGO",
+        "reason": "Lacks a clear catalyst and recent performance is unexplained."
+      },
+      {
+        "ticker": "HD",
+        "reason": "Negative 5-day performance indicates potential underlying issues."
+      },
+      {
+        "ticker": "WMT",
+        "reason": "Modest gains with no clear catalyst suggest limited upside potential."
+      }
+    ],
+    "committee_summary": "Today's picks focus on stocks with tangible catalysts or those warranting caution due to speculative movements. NVDA is selected for its real catalyst, while META is monitored for potential developments. AMD is flagged for avoidance due to high volatility and lack of catalyst."
+  },
+  "warnings": []
+}

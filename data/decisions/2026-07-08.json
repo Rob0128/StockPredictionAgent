@@ -1,0 +1,278 @@
+{
+  "run_date": "2026-07-08",
+  "yesterday_date": "2026-07-07",
+  "macro": {
+    "market_regime": "risk_off",
+    "qqq_return_1d": -0.0185246873533641,
+    "spy_return_1d": -0.0047518996712316835,
+    "vix_change": null,
+    "ten_year_yield_change": -0.009999999999999787,
+    "notes": "regime=risk_off, QQQ -1.85%, 10y -0.01pp"
+  },
+  "performance_review": {
+    "reviewed_date": "2026-07-07",
+    "benchmark": "QQQ",
+    "outcomes": [
+      {
+        "ticker": "JNJ",
+        "action": "watch",
+        "entry_reference_price": 267.2099914550781,
+        "close_price": 267.239990234375,
+        "return_pct": 3.05,
+        "benchmark_return_pct": -1.852,
+        "excess_return_pct": 4.903,
+        "outperformed": true,
+        "original_thesis": "JNJ has shown a significant unexplained price surge, which may indicate temporary sentiment-driven momentum.",
+        "original_confidence": 3
+      },
+      {
+        "ticker": "META",
+        "action": "watch",
+        "entry_reference_price": 612.1950073242188,
+        "close_price": 615.5800170898438,
+        "return_pct": 2.547,
+        "benchmark_return_pct": -1.852,
+        "excess_return_pct": 4.4,
+        "outperformed": true,
+        "original_thesis": "META's recent unexplained gains suggest momentum that could continue in the short term, despite the risk-off market.",
+        "original_confidence": 3
+      },
+      {
+        "ticker": "AAPL",
+        "action": "avoid",
+        "entry_reference_price": 311.8299865722656,
+        "close_price": 310.6600036621094,
+        "return_pct": -0.64,
+        "benchmark_return_pct": -1.852,
+        "excess_return_pct": 1.213,
+        "outperformed": true,
+        "original_thesis": "AAPL's significant recent gains lack a clear catalyst, suggesting a potential risk of chasing past performance.",
+        "original_confidence": 2
+      }
+    ],
+    "hit_rate": 1.0,
+    "avg_pick_return_pct": 1.653,
+    "benchmark_return_pct": -1.852,
+    "avg_excess_return_pct": 3.505,
+    "narrative": "The portfolio's average pick return of 1.653% and a hit rate of 100% indicate strong performance relative to the benchmark QQQ, which declined by -1.852%. However, the outperformance appears to be largely driven by stock-specific factors, as the positive returns from JNJ and META align with their respective theses of unexplained price surges and momentum. The confidence in these picks seems well-calibrated, given the successful outcomes, but the single-day performance should be interpreted cautiously, as it may not necessarily indicate sustained skill over time."
+  },
+  "candidates": [
+    {
+      "ticker": "JNJ",
+      "candidate_score": 0.687,
+      "score_breakdown": {
+        "momentum": 0.2385,
+        "relative_strength": 0.25,
+        "volume_confirmation": -0.0015,
+        "catalyst": 0.2,
+        "earnings_risk_penalty": -0.0,
+        "volatility_penalty": -0.0,
+        "weak_evidence_penalty": -0.0,
+        "total": 0.687
+      },
+      "catalyst_assessment": "The recent 3.05% increase in JNJ's stock price appears to be unexplained from available public sources, as the news items do not provide a concrete catalyst such as earnings, guidance, or regulatory changes.",
+      "catalyst_is_real": false,
+      "evidence_sources": [
+        "15 news items (Finnhub)",
+        "price/volume (yfinance)"
+      ],
+      "reasoning_summary": "Top-6 by transparent score.",
+      "risk_notes": "",
+      "model_used": "gpt-4o-mini",
+      "created_at": "2026-07-08T21:30:20.695324+00:00"
+    },
+    {
+      "ticker": "META",
+      "candidate_score": 0.6208,
+      "score_breakdown": {
+        "momentum": 0.2152,
+        "relative_strength": 0.25,
+        "volume_confirmation": -0.0032,
+        "catalyst": 0.2,
+        "earnings_risk_penalty": -0.0,
+        "volatility_penalty": -0.0412,
+        "weak_evidence_penalty": -0.0,
+        "total": 0.6208
+      },
+      "catalyst_assessment": "The recent 2.55% move in META appears to be unexplained from available public sources, as the news items do not indicate a concrete catalyst such as earnings, guidance, or significant corporate actions.",
+      "catalyst_is_real": false,
+      "evidence_sources": [
+        "15 news items (Finnhub)",
+        "SEC filing: Form 4",
+        "price/volume (yfinance)"
+      ],
+      "reasoning_summary": "Top-6 by transparent score.",
+      "risk_notes": "",
+      "model_used": "gpt-4o-mini",
+      "created_at": "2026-07-08T21:30:20.695324+00:00"
+    },
+    {
+      "ticker": "BAC",
+      "candidate_score": 0.5911,
+      "score_breakdown": {
+        "momentum": 0.196,
+        "relative_strength": 0.2232,
+        "volume_confirmation": -0.0281,
+        "catalyst": 0.2,
+        "earnings_risk_penalty": -0.0,
+        "volatility_penalty": -0.0,
+        "weak_evidence_penalty": -0.0,
+        "total": 0.5911
+      },
+      "catalyst_assessment": "The recent 1-day move of Bank of America (BAC) appears unexplained from available public sources, as the news items do not indicate a specific catalyst directly impacting BAC's stock performance.",
+      "catalyst_is_real": false,
+      "evidence_sources": [
+        "15 news items (Finnhub)",
+        "price/volume (yfinance)"
+      ],
+      "reasoning_summary": "Top-6 by transparent score.",
+      "risk_notes": "",
+      "model_used": "gpt-4o-mini",
+      "created_at": "2026-07-08T21:30:20.695324+00:00"
+    },
+    {
+      "ticker": "JPM",
+      "candidate_score": 0.5621,
+      "score_breakdown": {
+        "momentum": 0.1569,
+        "relative_strength": 0.25,
+        "volume_confirmation": -0.0447,
+        "catalyst": 0.2,
+        "earnings_risk_penalty": -0.0,
+        "volatility_penalty": -0.0,
+        "weak_evidence_penalty": -0.0,
+        "total": 0.5621
+      },
+      "catalyst_assessment": "The recent 1-day move of JPMorgan (+0.44%) appears to be unexplained from available public sources, as none of the news items directly relate to a specific catalyst affecting the stock.",
+      "catalyst_is_real": false,
+      "evidence_sources": [
+        "15 news items (Finnhub)",
+        "price/volume (yfinance)"
+      ],
+      "reasoning_summary": "Top-6 by transparent score.",
+      "risk_notes": "",
+      "model_used": "gpt-4o-mini",
+      "created_at": "2026-07-08T21:30:20.695324+00:00"
+    },
+    {
+      "ticker": "UNH",
+      "candidate_score": 0.5543,
+      "score_breakdown": {
+        "momentum": 0.1222,
+        "relative_strength": 0.25,
+        "volume_confirmation": -0.0179,
+        "catalyst": 0.2,
+        "earnings_risk_penalty": -0.0,
+        "volatility_penalty": -0.0,
+        "weak_evidence_penalty": -0.0,
+        "total": 0.5543
+      },
+      "catalyst_assessment": "The recent 2.44% increase in UNH stock can be attributed to the opening of Shield Blood Test coverage for adults 45 and older, which is a concrete catalyst indicating potential growth in their healthcare services.",
+      "catalyst_is_real": true,
+      "evidence_sources": [
+        "15 news items (Finnhub)",
+        "SEC filing: Form 4",
+        "price/volume (yfinance)"
+      ],
+      "reasoning_summary": "Top-6 by transparent score.",
+      "risk_notes": "",
+      "model_used": "gpt-4o-mini",
+      "created_at": "2026-07-08T21:30:20.695324+00:00"
+    },
+    {
+      "ticker": "MA",
+      "candidate_score": 0.5484,
+      "score_breakdown": {
+        "momentum": 0.1767,
+        "relative_strength": 0.1969,
+        "volume_confirmation": -0.0251,
+        "catalyst": 0.2,
+        "earnings_risk_penalty": -0.0,
+        "volatility_penalty": -0.0,
+        "weak_evidence_penalty": -0.0,
+        "total": 0.5484
+      },
+      "catalyst_assessment": "The recent 1-day move of Mastercard (MA) appears unexplained from available public sources, as the news items do not indicate a specific catalyst impacting the stock directly.",
+      "catalyst_is_real": false,
+      "evidence_sources": [
+        "15 news items (Finnhub)",
+        "price/volume (yfinance)"
+      ],
+      "reasoning_summary": "Top-6 by transparent score.",
+      "risk_notes": "",
+      "model_used": "gpt-4o-mini",
+      "created_at": "2026-07-08T21:30:20.695324+00:00"
+    }
+  ],
+  "risk_review": {
+    "portfolio_risk": "The current candidate picks exhibit a noticeable concentration in the financial (XLF) and healthcare (XLV) sectors, which could amplify sector-specific risks. Additionally, the recent market regime shift to risk-off suggests heightened caution, particularly for stocks with recent upward momentum that may not be sustainable.",
+    "ticker_risks": {
+      "JNJ": "Recent gains may be unsustainable in a risk-off environment, with no real catalyst to support further upside.",
+      "META": "Chasing recent momentum could be risky, especially with no real catalyst and potential overconfidence in continued gains.",
+      "BAC": "Minimal movement despite sector concentration suggests limited upside potential without a clear catalyst.",
+      "JPM": "Sector crowding in financials could pose a risk, especially with limited recent movement and no real catalyst.",
+      "UNH": "Despite a real catalyst, sector crowding in healthcare could lead to overexposure in a risk-off market.",
+      "MA": "Recent gains in financials may not be sustainable without a real catalyst, posing a risk of chasing past performance."
+    },
+    "model_used": "gpt-4o"
+  },
+  "committee_decision": {
+    "picks": [
+      {
+        "ticker": "UNH",
+        "action": "long",
+        "probability_band": "medium",
+        "confidence": 3,
+        "horizon_days": 1,
+        "entry_reference_price": 428.19,
+        "thesis": "UnitedHealth Group (UNH) has a real catalyst with the opening of Shield Blood Test coverage for adults 45 and older, potentially driving near-term interest and price appreciation.",
+        "evidence_sources": [
+          "15 news items (Finnhub)",
+          "SEC filing: Form 4",
+          "price/volume (yfinance)"
+        ],
+        "reasoning_summary": "Despite the risk-off market regime, UNH's real catalyst provides a tangible reason for potential outperformance, distinguishing it from other candidates lacking clear drivers.",
+        "risk_notes": "Sector crowding in healthcare could lead to overexposure, especially in a risk-off market environment.",
+        "model_used": "gpt-4o",
+        "created_at": "2026-07-08T21:30:38.385345+00:00"
+      },
+      {
+        "ticker": "JNJ",
+        "action": "watch",
+        "probability_band": "low",
+        "confidence": 2,
+        "horizon_days": 1,
+        "entry_reference_price": 267.24,
+        "thesis": "Johnson & Johnson (JNJ) has experienced unexplained recent gains, which may not be sustainable without a clear catalyst.",
+        "evidence_sources": [
+          "15 news items (Finnhub)",
+          "price/volume (yfinance)"
+        ],
+        "reasoning_summary": "The lack of a real catalyst and recent unexplained gains suggest caution. Monitoring is advised to assess if further information emerges to justify the price movement.",
+        "risk_notes": "Recent gains may be unsustainable in a risk-off environment, with no real catalyst to support further upside.",
+        "model_used": "gpt-4o",
+        "created_at": "2026-07-08T21:30:38.385345+00:00"
+      }
+    ],
+    "rejected": [
+      {
+        "ticker": "META",
+        "reason": "No real catalyst and potential overconfidence in continued gains."
+      },
+      {
+        "ticker": "BAC",
+        "reason": "Minimal movement and no clear catalyst suggest limited upside potential."
+      },
+      {
+        "ticker": "JPM",
+        "reason": "Sector crowding in financials with limited movement and no real catalyst."
+      },
+      {
+        "ticker": "MA",
+        "reason": "Recent gains may not be sustainable without a real catalyst."
+      }
+    ],
+    "committee_summary": "In a risk-off market regime, the committee has selected UNH for a 'long' position due to its real catalyst, while JNJ is on 'watch' due to unexplained gains. Other candidates were rejected due to lack of catalysts and sector-specific risks."
+  },
+  "warnings": []
+}
