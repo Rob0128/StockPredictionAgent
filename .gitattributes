@@ -1,0 +1,6 @@
+# Generated daily artifacts: always keep the local copy on merge.
+# Requires enabling the driver once per clone:
+#   git config merge.ours.driver true
+data/memory/**    merge=ours
+data/decisions/** merge=ours
+data/reports/**   merge=ours
