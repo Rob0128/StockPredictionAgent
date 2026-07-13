@@ -1,0 +1,305 @@
+{
+  "run_date": "2026-07-13",
+  "yesterday_date": "2026-07-10",
+  "macro": {
+    "market_regime": "risk_off",
+    "qqq_return_1d": -0.01897977883957574,
+    "spy_return_1d": -0.007656174850540876,
+    "vix_change": null,
+    "ten_year_yield_change": null,
+    "notes": "regime=risk_off, QQQ -1.90%"
+  },
+  "performance_review": {
+    "reviewed_date": "2026-07-10",
+    "benchmark": "QQQ",
+    "outcomes": [
+      {
+        "ticker": "NVDA",
+        "action": "long",
+        "entry_reference_price": 210.96,
+        "close_price": 203.52999877929688,
+        "return_pct": -3.522,
+        "benchmark_return_pct": -1.898,
+        "excess_return_pct": -1.624,
+        "outperformed": false,
+        "original_thesis": "Nvidia's recent announcement of the Vera CPU presents a tangible catalyst that could drive short-term gains, especially given the market's positive reception.",
+        "original_confidence": 4
+      },
+      {
+        "ticker": "META",
+        "action": "watch",
+        "entry_reference_price": 669.21,
+        "close_price": 656.72998046875,
+        "return_pct": -1.865,
+        "benchmark_return_pct": -1.898,
+        "excess_return_pct": 0.033,
+        "outperformed": true,
+        "original_thesis": "META's recent surge lacks a clear catalyst, suggesting speculative momentum rather than fundamental changes.",
+        "original_confidence": 2
+      },
+      {
+        "ticker": "AMD",
+        "action": "avoid",
+        "entry_reference_price": 557.89,
+        "close_price": 534.3900146484375,
+        "return_pct": -4.212,
+        "benchmark_return_pct": -1.898,
+        "excess_return_pct": -2.314,
+        "outperformed": false,
+        "original_thesis": "AMD's recent gains are unsupported by a real catalyst, increasing the risk of volatility and potential downturn.",
+        "original_confidence": 1
+      }
+    ],
+    "hit_rate": 0.333,
+    "avg_pick_return_pct": -3.2,
+    "benchmark_return_pct": -1.898,
+    "avg_excess_return_pct": -1.302,
+    "narrative": "Reviewed 2026-07-10: 3 pick(s), hit rate 0.333, avg excess vs QQQ -1.302%."
+  },
+  "candidates": [
+    {
+      "ticker": "V",
+      "candidate_score": 0.2868,
+      "score_breakdown": {
+        "momentum": 0.1481,
+        "relative_strength": 0.25,
+        "volume_confirmation": 0.0037,
+        "catalyst": 0.0,
+        "earnings_risk_penalty": -0.015,
+        "volatility_penalty": -0.0,
+        "weak_evidence_penalty": -0.1,
+        "total": 0.2868
+      },
+      "catalyst_assessment": "0 news item(s) in 72h; no source-backed catalyst found.",
+      "catalyst_is_real": false,
+      "evidence_sources": [
+        "price/volume (yfinance)"
+      ],
+      "reasoning_summary": "Top-6 by transparent score.",
+      "risk_notes": "",
+      "model_used": "deterministic",
+      "created_at": "2026-07-13T22:48:03.256766+00:00"
+    },
+    {
+      "ticker": "UNH",
+      "candidate_score": 0.2575,
+      "score_breakdown": {
+        "momentum": 0.1175,
+        "relative_strength": 0.25,
+        "volume_confirmation": -0.0549,
+        "catalyst": 0.0,
+        "earnings_risk_penalty": -0.015,
+        "volatility_penalty": -0.0,
+        "weak_evidence_penalty": -0.04,
+        "total": 0.2575
+      },
+      "catalyst_assessment": "0 news item(s) in 72h; no source-backed catalyst found.",
+      "catalyst_is_real": false,
+      "evidence_sources": [
+        "price/volume (yfinance)"
+      ],
+      "reasoning_summary": "Top-6 by transparent score.",
+      "risk_notes": "",
+      "model_used": "deterministic",
+      "created_at": "2026-07-13T22:48:03.256799+00:00"
+    },
+    {
+      "ticker": "AAPL",
+      "candidate_score": 0.2492,
+      "score_breakdown": {
+        "momentum": 0.1148,
+        "relative_strength": 0.25,
+        "volume_confirmation": -0.0538,
+        "catalyst": 0.0,
+        "earnings_risk_penalty": -0.015,
+        "volatility_penalty": -0.0068,
+        "weak_evidence_penalty": -0.04,
+        "total": 0.2492
+      },
+      "catalyst_assessment": "0 news item(s) in 72h; no source-backed catalyst found.",
+      "catalyst_is_real": false,
+      "evidence_sources": [
+        "price/volume (yfinance)"
+      ],
+      "reasoning_summary": "Top-6 by transparent score.",
+      "risk_notes": "",
+      "model_used": "deterministic",
+      "created_at": "2026-07-13T22:48:03.256815+00:00"
+    },
+    {
+      "ticker": "CVX",
+      "candidate_score": 0.2276,
+      "score_breakdown": {
+        "momentum": 0.1276,
+        "relative_strength": 0.25,
+        "volume_confirmation": -0.035,
+        "catalyst": 0.0,
+        "earnings_risk_penalty": -0.015,
+        "volatility_penalty": -0.0,
+        "weak_evidence_penalty": -0.1,
+        "total": 0.2276
+      },
+      "catalyst_assessment": "0 news item(s) in 72h; no source-backed catalyst found.",
+      "catalyst_is_real": false,
+      "evidence_sources": [
+        "price/volume (yfinance)"
+      ],
+      "reasoning_summary": "Top-6 by transparent score.",
+      "risk_notes": "",
+      "model_used": "deterministic",
+      "created_at": "2026-07-13T22:48:03.256832+00:00"
+    },
+    {
+      "ticker": "XOM",
+      "candidate_score": 0.2271,
+      "score_breakdown": {
+        "momentum": 0.0894,
+        "relative_strength": 0.25,
+        "volume_confirmation": 0.0028,
+        "catalyst": 0.0,
+        "earnings_risk_penalty": -0.015,
+        "volatility_penalty": -0.0,
+        "weak_evidence_penalty": -0.1,
+        "total": 0.2271
+      },
+      "catalyst_assessment": "0 news item(s) in 72h; no source-backed catalyst found.",
+      "catalyst_is_real": false,
+      "evidence_sources": [
+        "price/volume (yfinance)"
+      ],
+      "reasoning_summary": "Top-6 by transparent score.",
+      "risk_notes": "",
+      "model_used": "deterministic",
+      "created_at": "2026-07-13T22:48:03.256846+00:00"
+    },
+    {
+      "ticker": "JNJ",
+      "candidate_score": 0.1983,
+      "score_breakdown": {
+        "momentum": 0.0871,
+        "relative_strength": 0.25,
+        "volume_confirmation": -0.0838,
+        "catalyst": 0.0,
+        "earnings_risk_penalty": -0.015,
+        "volatility_penalty": -0.0,
+        "weak_evidence_penalty": -0.04,
+        "total": 0.1983
+      },
+      "catalyst_assessment": "0 news item(s) in 72h; no source-backed catalyst found.",
+      "catalyst_is_real": false,
+      "evidence_sources": [
+        "price/volume (yfinance)"
+      ],
+      "reasoning_summary": "Top-6 by transparent score.",
+      "risk_notes": "",
+      "model_used": "deterministic",
+      "created_at": "2026-07-13T22:48:03.256859+00:00"
+    }
+  ],
+  "risk_review": {
+    "portfolio_risk": "No severe single-sector concentration detected.",
+    "ticker_risks": {
+      "V": "thin evidence",
+      "UNH": "thin evidence",
+      "AAPL": "thin evidence",
+      "CVX": "thin evidence",
+      "XOM": "thin evidence",
+      "JNJ": "thin evidence"
+    },
+    "model_used": "deterministic"
+  },
+  "committee_decision": {
+    "picks": [
+      {
+        "ticker": "V",
+        "action": "long",
+        "probability_band": "high",
+        "confidence": 3,
+        "horizon_days": 1,
+        "entry_reference_price": 357.75,
+        "thesis": "0 news item(s) in 72h; no source-backed catalyst found.",
+        "evidence_sources": [
+          "price/volume (yfinance)"
+        ],
+        "reasoning_summary": "candidate_score=0.2868; 0 news item(s) in 72h; no source-backed catalyst found.",
+        "risk_notes": "thin evidence",
+        "model_used": "deterministic",
+        "created_at": "2026-07-13T22:48:03.258214+00:00"
+      },
+      {
+        "ticker": "UNH",
+        "action": "long",
+        "probability_band": "high",
+        "confidence": 3,
+        "horizon_days": 1,
+        "entry_reference_price": 429.0899963378906,
+        "thesis": "0 news item(s) in 72h; no source-backed catalyst found.",
+        "evidence_sources": [
+          "price/volume (yfinance)"
+        ],
+        "reasoning_summary": "candidate_score=0.2575; 0 news item(s) in 72h; no source-backed catalyst found.",
+        "risk_notes": "thin evidence",
+        "model_used": "deterministic",
+        "created_at": "2026-07-13T22:48:03.258231+00:00"
+      },
+      {
+        "ticker": "AAPL",
+        "action": "long",
+        "probability_band": "high",
+        "confidence": 2,
+        "horizon_days": 1,
+        "entry_reference_price": 317.30999755859375,
+        "thesis": "0 news item(s) in 72h; no source-backed catalyst found.",
+        "evidence_sources": [
+          "price/volume (yfinance)"
+        ],
+        "reasoning_summary": "candidate_score=0.2492; 0 news item(s) in 72h; no source-backed catalyst found.",
+        "risk_notes": "thin evidence",
+        "model_used": "deterministic",
+        "created_at": "2026-07-13T22:48:03.258240+00:00"
+      }
+    ],
+    "rejected": [
+      {
+        "ticker": "CVX",
+        "reason": "daily pick limit reached"
+      },
+      {
+        "ticker": "XOM",
+        "reason": "daily pick limit reached"
+      },
+      {
+        "ticker": "JNJ",
+        "reason": "daily pick limit reached"
+      }
+    ],
+    "committee_summary": "Selected 3 paper pick(s) by transparent score; 3 rejected. Paper tracking only."
+  },
+  "warnings": [
+    "edgar ticker map failed: 403 Client Error: Forbidden for url: https://www.sec.gov/files/company_tickers.json",
+    "edgar ticker map failed: 403 Client Error: Forbidden for url: https://www.sec.gov/files/company_tickers.json",
+    "edgar ticker map failed: 403 Client Error: Forbidden for url: https://www.sec.gov/files/company_tickers.json",
+    "edgar ticker map failed: 403 Client Error: Forbidden for url: https://www.sec.gov/files/company_tickers.json",
+    "edgar ticker map failed: 403 Client Error: Forbidden for url: https://www.sec.gov/files/company_tickers.json",
+    "edgar ticker map failed: 403 Client Error: Forbidden for url: https://www.sec.gov/files/company_tickers.json",
+    "edgar ticker map failed: 403 Client Error: Forbidden for url: https://www.sec.gov/files/company_tickers.json",
+    "edgar ticker map failed: 403 Client Error: Forbidden for url: https://www.sec.gov/files/company_tickers.json",
+    "edgar ticker map failed: 403 Client Error: Forbidden for url: https://www.sec.gov/files/company_tickers.json",
+    "edgar ticker map failed: 403 Client Error: Forbidden for url: https://www.sec.gov/files/company_tickers.json",
+    "edgar ticker map failed: 403 Client Error: Forbidden for url: https://www.sec.gov/files/company_tickers.json",
+    "edgar ticker map failed: 403 Client Error: Forbidden for url: https://www.sec.gov/files/company_tickers.json",
+    "edgar ticker map failed: 403 Client Error: Forbidden for url: https://www.sec.gov/files/company_tickers.json",
+    "edgar ticker map failed: 403 Client Error: Forbidden for url: https://www.sec.gov/files/company_tickers.json",
+    "edgar ticker map failed: 403 Client Error: Forbidden for url: https://www.sec.gov/files/company_tickers.json",
+    "edgar ticker map failed: 403 Client Error: Forbidden for url: https://www.sec.gov/files/company_tickers.json",
+    "edgar ticker map failed: 403 Client Error: Forbidden for url: https://www.sec.gov/files/company_tickers.json",
+    "edgar ticker map failed: 403 Client Error: Forbidden for url: https://www.sec.gov/files/company_tickers.json",
+    "edgar ticker map failed: 403 Client Error: Forbidden for url: https://www.sec.gov/files/company_tickers.json",
+    "edgar ticker map failed: 403 Client Error: Forbidden for url: https://www.sec.gov/files/company_tickers.json",
+    "edgar ticker map failed: 403 Client Error: Forbidden for url: https://www.sec.gov/files/company_tickers.json",
+    "edgar ticker map failed: 403 Client Error: Forbidden for url: https://www.sec.gov/files/company_tickers.json",
+    "edgar ticker map failed: 403 Client Error: Forbidden for url: https://www.sec.gov/files/company_tickers.json",
+    "edgar ticker map failed: 403 Client Error: Forbidden for url: https://www.sec.gov/files/company_tickers.json",
+    "edgar ticker map failed: 403 Client Error: Forbidden for url: https://www.sec.gov/files/company_tickers.json"
+  ]
+}
