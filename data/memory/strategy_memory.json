@@ -103,6 +103,9 @@
     },
     {
       "text": "Made 3 paper pick(s) in neutral regime."
+    },
+    {
+      "text": "Reviewed 2026-07-15: 3 pick(s), hit rate 0.667, avg excess vs QQQ 1.356%."
     }
   ],
   "deprecated_rules": [],
@@ -114,9 +117,9 @@
     "news": 1.0
   },
   "recent_performance": {
-    "last_5_days_hit_rate": 1.0,
-    "last_20_days_vs_benchmark": 1.305,
+    "last_5_days_hit_rate": 0.667,
+    "last_20_days_vs_benchmark": 1.356,
     "common_failure_mode": null
   },
-  "run_counter": 3
+  "run_counter": 4
 }
