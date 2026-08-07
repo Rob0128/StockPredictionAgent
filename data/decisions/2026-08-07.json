@@ -2,12 +2,12 @@
   "run_date": "2026-08-07",
   "yesterday_date": "2026-08-05",
   "macro": {
-    "market_regime": "neutral",
-    "qqq_return_1d": -0.003694358600311447,
-    "spy_return_1d": -0.0015978130449319902,
+    "market_regime": "risk_on",
+    "qqq_return_1d": 0.011726026161803071,
+    "spy_return_1d": 0.0061153484724176385,
     "vix_change": null,
     "ten_year_yield_change": null,
-    "notes": "regime=neutral, QQQ -0.37%"
+    "notes": "regime=risk_on, QQQ +1.17%"
   },
   "performance_review": {
     "reviewed_date": "2026-08-05",
@@ -17,10 +17,10 @@
         "ticker": "NVDA",
         "action": "long",
         "entry_reference_price": 219.22000122070312,
-        "close_price": 218.99000549316406,
-        "return_pct": -0.105,
-        "benchmark_return_pct": -0.369,
-        "excess_return_pct": 0.265,
+        "close_price": 223.9600067138672,
+        "return_pct": 2.27,
+        "benchmark_return_pct": 1.173,
+        "excess_return_pct": 1.097,
         "outperformed": true,
         "original_thesis": "0 news item(s) in 72h; no source-backed catalyst found.",
         "original_confidence": 3
@@ -29,11 +29,11 @@
         "ticker": "CRM",
         "action": "long",
         "entry_reference_price": 192.97999572753906,
-        "close_price": 186.77000427246094,
-        "return_pct": -3.218,
-        "benchmark_return_pct": -0.369,
-        "excess_return_pct": -2.849,
-        "outperformed": false,
+        "close_price": 192.74000549316406,
+        "return_pct": 3.196,
+        "benchmark_return_pct": 1.173,
+        "excess_return_pct": 2.024,
+        "outperformed": true,
         "original_thesis": "0 news item(s) in 72h; no source-backed catalyst found.",
         "original_confidence": 3
       },
@@ -41,34 +41,34 @@
         "ticker": "HD",
         "action": "long",
         "entry_reference_price": 353.1400146484375,
-        "close_price": 349.5199890136719,
-        "return_pct": -1.025,
-        "benchmark_return_pct": -0.369,
-        "excess_return_pct": -0.656,
-        "outperformed": false,
+        "close_price": 355.6199951171875,
+        "return_pct": 1.745,
+        "benchmark_return_pct": 1.173,
+        "excess_return_pct": 0.573,
+        "outperformed": true,
         "original_thesis": "0 news item(s) in 72h; no source-backed catalyst found.",
         "original_confidence": 3
       }
     ],
-    "hit_rate": 0.333,
-    "avg_pick_return_pct": -1.449,
-    "benchmark_return_pct": -0.369,
-    "avg_excess_return_pct": -1.08,
-    "narrative": "Reviewed 2026-08-05: 3 pick(s), hit rate 0.333, avg excess vs QQQ -1.08%."
+    "hit_rate": 1.0,
+    "avg_pick_return_pct": 2.404,
+    "benchmark_return_pct": 1.173,
+    "avg_excess_return_pct": 1.231,
+    "narrative": "Reviewed 2026-08-05: 3 pick(s), hit rate 1.0, avg excess vs QQQ 1.231%."
   },
   "candidates": [
     {
-      "ticker": "MSFT",
-      "candidate_score": 0.3482,
+      "ticker": "CRM",
+      "candidate_score": 0.3453,
       "score_breakdown": {
         "momentum": 0.3,
         "relative_strength": 0.25,
-        "volume_confirmation": -0.0251,
+        "volume_confirmation": -0.047,
         "catalyst": 0.0,
         "earnings_risk_penalty": -0.015,
-        "volatility_penalty": -0.0617,
+        "volatility_penalty": -0.0427,
         "weak_evidence_penalty": -0.1,
-        "total": 0.3482
+        "total": 0.3453
       },
       "catalyst_assessment": "0 news item(s) in 72h; no source-backed catalyst found.",
       "catalyst_is_real": false,
@@ -78,20 +78,20 @@
       "reasoning_summary": "Top-6 by transparent score.",
       "risk_notes": "",
       "model_used": "deterministic",
-      "created_at": "2026-08-07T00:27:43.065015+00:00"
+      "created_at": "2026-08-07T22:45:08.152712+00:00"
     },
     {
       "ticker": "NVDA",
-      "candidate_score": 0.2337,
+      "candidate_score": 0.2554,
       "score_breakdown": {
-        "momentum": 0.3,
-        "relative_strength": 0.0331,
-        "volume_confirmation": -0.0189,
+        "momentum": 0.2821,
+        "relative_strength": 0.1371,
+        "volume_confirmation": -0.0265,
         "catalyst": 0.0,
         "earnings_risk_penalty": -0.015,
-        "volatility_penalty": -0.0255,
-        "weak_evidence_penalty": -0.04,
-        "total": 0.2337
+        "volatility_penalty": -0.0223,
+        "weak_evidence_penalty": -0.1,
+        "total": 0.2554
       },
       "catalyst_assessment": "0 news item(s) in 72h; no source-backed catalyst found.",
       "catalyst_is_real": false,
@@ -101,20 +101,20 @@
       "reasoning_summary": "Top-6 by transparent score.",
       "risk_notes": "",
       "model_used": "deterministic",
-      "created_at": "2026-08-07T00:27:43.065046+00:00"
+      "created_at": "2026-08-07T22:45:08.152747+00:00"
     },
     {
-      "ticker": "XOM",
-      "candidate_score": 0.2082,
+      "ticker": "ORCL",
+      "candidate_score": 0.1788,
       "score_breakdown": {
-        "momentum": 0.1273,
-        "relative_strength": 0.25,
-        "volume_confirmation": -0.0541,
+        "momentum": 0.2921,
+        "relative_strength": 0.1627,
+        "volume_confirmation": -0.0798,
         "catalyst": 0.0,
         "earnings_risk_penalty": -0.015,
-        "volatility_penalty": -0.0,
+        "volatility_penalty": -0.0813,
         "weak_evidence_penalty": -0.1,
-        "total": 0.2082
+        "total": 0.1788
       },
       "catalyst_assessment": "0 news item(s) in 72h; no source-backed catalyst found.",
       "catalyst_is_real": false,
@@ -124,20 +124,20 @@
       "reasoning_summary": "Top-6 by transparent score.",
       "risk_notes": "",
       "model_used": "deterministic",
-      "created_at": "2026-08-07T00:27:43.065063+00:00"
+      "created_at": "2026-08-07T22:45:08.152763+00:00"
     },
     {
       "ticker": "AVGO",
-      "candidate_score": 0.1946,
+      "candidate_score": 0.1357,
       "score_breakdown": {
-        "momentum": 0.2101,
-        "relative_strength": 0.1145,
-        "volume_confirmation": -0.0499,
+        "momentum": 0.2613,
+        "relative_strength": 0.0671,
+        "volume_confirmation": -0.0522,
         "catalyst": 0.0,
         "earnings_risk_penalty": -0.015,
-        "volatility_penalty": -0.025,
-        "weak_evidence_penalty": -0.04,
-        "total": 0.1946
+        "volatility_penalty": -0.0255,
+        "weak_evidence_penalty": -0.1,
+        "total": 0.1357
       },
       "catalyst_assessment": "0 news item(s) in 72h; no source-backed catalyst found.",
       "catalyst_is_real": false,
@@ -147,20 +147,20 @@
       "reasoning_summary": "Top-6 by transparent score.",
       "risk_notes": "",
       "model_used": "deterministic",
-      "created_at": "2026-08-07T00:27:43.065079+00:00"
+      "created_at": "2026-08-07T22:45:08.152776+00:00"
     },
     {
-      "ticker": "CVX",
-      "candidate_score": 0.1889,
+      "ticker": "HD",
+      "candidate_score": 0.1168,
       "score_breakdown": {
-        "momentum": 0.0758,
-        "relative_strength": 0.2353,
-        "volume_confirmation": -0.0072,
+        "momentum": 0.1714,
+        "relative_strength": 0.0716,
+        "volume_confirmation": -0.0112,
         "catalyst": 0.0,
         "earnings_risk_penalty": -0.015,
         "volatility_penalty": -0.0,
         "weak_evidence_penalty": -0.1,
-        "total": 0.1889
+        "total": 0.1168
       },
       "catalyst_assessment": "0 news item(s) in 72h; no source-backed catalyst found.",
       "catalyst_is_real": false,
@@ -170,20 +170,20 @@
       "reasoning_summary": "Top-6 by transparent score.",
       "risk_notes": "",
       "model_used": "deterministic",
-      "created_at": "2026-08-07T00:27:43.065093+00:00"
+      "created_at": "2026-08-07T22:45:08.152789+00:00"
     },
     {
-      "ticker": "MA",
-      "candidate_score": 0.1761,
+      "ticker": "ASML",
+      "candidate_score": -0.0127,
       "score_breakdown": {
-        "momentum": 0.1166,
-        "relative_strength": 0.166,
-        "volume_confirmation": -0.0515,
+        "momentum": 0.0861,
+        "relative_strength": 0.122,
+        "volume_confirmation": -0.0682,
         "catalyst": 0.0,
         "earnings_risk_penalty": -0.015,
-        "volatility_penalty": -0.0,
-        "weak_evidence_penalty": -0.04,
-        "total": 0.1761
+        "volatility_penalty": -0.0376,
+        "weak_evidence_penalty": -0.1,
+        "total": -0.0127
       },
       "catalyst_assessment": "0 news item(s) in 72h; no source-backed catalyst found.",
       "catalyst_is_real": false,
@@ -193,70 +193,70 @@
       "reasoning_summary": "Top-6 by transparent score.",
       "risk_notes": "",
       "model_used": "deterministic",
-      "created_at": "2026-08-07T00:27:43.065106+00:00"
+      "created_at": "2026-08-07T22:45:08.152804+00:00"
     }
   ],
   "risk_review": {
-    "portfolio_risk": "No severe single-sector concentration detected.",
+    "portfolio_risk": "Sector concentration in XLK.",
     "ticker_risks": {
-      "MSFT": "elevated volatility; thin evidence",
+      "CRM": "elevated volatility; thin evidence",
       "NVDA": "thin evidence",
-      "XOM": "thin evidence",
+      "ORCL": "elevated volatility; thin evidence",
       "AVGO": "thin evidence",
-      "CVX": "thin evidence",
-      "MA": "thin evidence"
+      "HD": "thin evidence",
+      "ASML": "elevated volatility; thin evidence"
     },
     "model_used": "deterministic"
   },
   "committee_decision": {
     "picks": [
       {
-        "ticker": "MSFT",
+        "ticker": "CRM",
         "action": "long",
         "probability_band": "high",
         "confidence": 3,
         "horizon_days": 1,
-        "entry_reference_price": 499.8599853515625,
+        "entry_reference_price": 192.74000549316406,
         "thesis": "0 news item(s) in 72h; no source-backed catalyst found.",
         "evidence_sources": [
           "price/volume (yfinance)"
         ],
-        "reasoning_summary": "candidate_score=0.3482; 0 news item(s) in 72h; no source-backed catalyst found.",
+        "reasoning_summary": "candidate_score=0.3453; 0 news item(s) in 72h; no source-backed catalyst found.",
         "risk_notes": "elevated volatility; thin evidence",
         "model_used": "deterministic",
-        "created_at": "2026-08-07T00:27:43.066536+00:00"
+        "created_at": "2026-08-07T22:45:08.154386+00:00"
       },
       {
         "ticker": "NVDA",
         "action": "long",
         "probability_band": "high",
-        "confidence": 2,
+        "confidence": 3,
         "horizon_days": 1,
-        "entry_reference_price": 218.99000549316406,
+        "entry_reference_price": 223.9600067138672,
         "thesis": "0 news item(s) in 72h; no source-backed catalyst found.",
         "evidence_sources": [
           "price/volume (yfinance)"
         ],
-        "reasoning_summary": "candidate_score=0.2337; 0 news item(s) in 72h; no source-backed catalyst found.",
+        "reasoning_summary": "candidate_score=0.2554; 0 news item(s) in 72h; no source-backed catalyst found.",
         "risk_notes": "thin evidence",
         "model_used": "deterministic",
-        "created_at": "2026-08-07T00:27:43.066554+00:00"
+        "created_at": "2026-08-07T22:45:08.154403+00:00"
       },
       {
-        "ticker": "XOM",
+        "ticker": "ORCL",
         "action": "long",
-        "probability_band": "high",
+        "probability_band": "medium",
         "confidence": 2,
         "horizon_days": 1,
-        "entry_reference_price": 154.83999633789062,
+        "entry_reference_price": 147.02000427246094,
         "thesis": "0 news item(s) in 72h; no source-backed catalyst found.",
         "evidence_sources": [
           "price/volume (yfinance)"
         ],
-        "reasoning_summary": "candidate_score=0.2082; 0 news item(s) in 72h; no source-backed catalyst found.",
-        "risk_notes": "thin evidence",
+        "reasoning_summary": "candidate_score=0.1788; 0 news item(s) in 72h; no source-backed catalyst found.",
+        "risk_notes": "elevated volatility; thin evidence",
         "model_used": "deterministic",
-        "created_at": "2026-08-07T00:27:43.066564+00:00"
+        "created_at": "2026-08-07T22:45:08.154413+00:00"
       }
     ],
     "rejected": [
@@ -265,12 +265,12 @@
         "reason": "daily pick limit reached"
       },
       {
-        "ticker": "CVX",
+        "ticker": "HD",
         "reason": "daily pick limit reached"
       },
       {
-        "ticker": "MA",
-        "reason": "daily pick limit reached"
+        "ticker": "ASML",
+        "reason": "score below threshold"
       }
     ],
     "committee_summary": "Selected 3 paper pick(s) by transparent score; 3 rejected. Paper tracking only."
