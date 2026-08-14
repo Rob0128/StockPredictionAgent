@@ -37,7 +37,7 @@ def ensure_dirs() -> None:
 UNIVERSE: List[str] = [
     "AAPL", "MSFT", "NVDA", "AMZN", "GOOGL", "META", "TSLA", "AMD", "AVGO", "NFLX",
     "JPM", "BAC", "V", "MA", "UNH", "LLY", "JNJ", "XOM", "CVX", "COST",
-    "WMT", "HD", "CRM", "ORCL", "ASML",
+    "WMT", "HD", "CRM", "ORCL", "ASML", "ONDS",
 ]
 
 BENCHMARK_PRIMARY = "QQQ"
@@ -52,6 +52,7 @@ SECTOR_ETF: Dict[str, str] = {
     "JPM": "XLF", "BAC": "XLF", "V": "XLF", "MA": "XLF",
     "UNH": "XLV", "LLY": "XLV", "JNJ": "XLV",
     "XOM": "XLE", "CVX": "XLE",
+    "ONDS": "XLI",
 }
 
 # All symbols we need OHLCV for each run (universe + benchmarks + sector ETFs).

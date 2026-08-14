@@ -1,0 +1,267 @@
+{
+  "run_date": "2026-07-14",
+  "yesterday_date": "2026-07-13",
+  "macro": {
+    "market_regime": "risk_on",
+    "qqq_return_1d": 0.011169826504217252,
+    "spy_return_1d": 0.0035506416973015626,
+    "vix_change": null,
+    "ten_year_yield_change": 0.0600000000000005,
+    "notes": "regime=risk_on, QQQ +1.12%, 10y +0.06pp"
+  },
+  "performance_review": {
+    "reviewed_date": "2026-07-13",
+    "benchmark": "QQQ",
+    "outcomes": [
+      {
+        "ticker": "CVX",
+        "action": "watch",
+        "entry_reference_price": 182.2,
+        "close_price": 181.75999450683594,
+        "return_pct": -0.241,
+        "benchmark_return_pct": 1.117,
+        "excess_return_pct": -1.358,
+        "outperformed": false,
+        "original_thesis": "Chevron's recent price movement is driven by geopolitical tensions affecting crude oil prices, which could sustain its upward momentum in the short term.",
+        "original_confidence": 3
+      },
+      {
+        "ticker": "AAPL",
+        "action": "long",
+        "entry_reference_price": 317.31,
+        "close_price": 314.8599853515625,
+        "return_pct": -0.772,
+        "benchmark_return_pct": 1.117,
+        "excess_return_pct": -1.889,
+        "outperformed": false,
+        "original_thesis": "Apple's price target hike by Citi, ahead of a major product launch, provides a solid catalyst for potential short-term gains.",
+        "original_confidence": 4
+      }
+    ],
+    "hit_rate": 0.0,
+    "avg_pick_return_pct": -0.507,
+    "benchmark_return_pct": 1.117,
+    "avg_excess_return_pct": -1.624,
+    "narrative": "The prior-day picks underperformed significantly, with an average return of -0.507% compared to the benchmark QQQ return of 1.117%. The negative excess returns and a hit rate of 0.0 suggest that the performance is more indicative of market beta rather than stock-specific skill. Additionally, the lack of successful picks raises concerns about the confidence calibration in the investment theses, as both picks failed to deliver on their anticipated outcomes."
+  },
+  "candidates": [
+    {
+      "ticker": "NVDA",
+      "candidate_score": 0.5782,
+      "score_breakdown": {
+        "momentum": 0.1746,
+        "relative_strength": 0.25,
+        "volume_confirmation": -0.0281,
+        "catalyst": 0.2,
+        "earnings_risk_penalty": -0.0,
+        "volatility_penalty": -0.0182,
+        "weak_evidence_penalty": -0.0,
+        "total": 0.5782
+      },
+      "catalyst_assessment": "The recent 4.06% move in NVDA appears to be unexplained from available public sources, as none of the news items directly relate to Nvidia or provide a concrete catalyst.",
+      "catalyst_is_real": false,
+      "evidence_sources": [
+        "15 news items (Finnhub)",
+        "price/volume (yfinance)"
+      ],
+      "reasoning_summary": "Top-6 by transparent score.",
+      "risk_notes": "",
+      "model_used": "gpt-4o-mini",
+      "created_at": "2026-07-14T21:31:01.402063+00:00"
+    },
+    {
+      "ticker": "AMD",
+      "candidate_score": 0.4401,
+      "score_breakdown": {
+        "momentum": 0.1974,
+        "relative_strength": 0.1818,
+        "volume_confirmation": -0.0424,
+        "catalyst": 0.2,
+        "earnings_risk_penalty": -0.0,
+        "volatility_penalty": -0.0967,
+        "weak_evidence_penalty": -0.0,
+        "total": 0.4401
+      },
+      "catalyst_assessment": "The recent 2.57% increase in AMD's stock price is likely driven by analyst upgrades, particularly from Goldman Sachs, which raised its price target, indicating positive sentiment and potential upside for the stock.",
+      "catalyst_is_real": true,
+      "evidence_sources": [
+        "15 news items (Finnhub)",
+        "price/volume (yfinance)"
+      ],
+      "reasoning_summary": "Top-6 by transparent score.",
+      "risk_notes": "",
+      "model_used": "gpt-4o-mini",
+      "created_at": "2026-07-14T21:31:01.402063+00:00"
+    },
+    {
+      "ticker": "META",
+      "candidate_score": 0.3371,
+      "score_breakdown": {
+        "momentum": 0.3,
+        "relative_strength": -0.0576,
+        "volume_confirmation": -0.0524,
+        "catalyst": 0.2,
+        "earnings_risk_penalty": -0.0,
+        "volatility_penalty": -0.0529,
+        "weak_evidence_penalty": -0.0,
+        "total": 0.3371
+      },
+      "catalyst_assessment": "The recent 1-day move of META stock appears to be unexplained from available public sources, as there are no concrete catalysts identified in the news items.",
+      "catalyst_is_real": false,
+      "evidence_sources": [
+        "15 news items (Finnhub)",
+        "price/volume (yfinance)"
+      ],
+      "reasoning_summary": "Top-6 by transparent score.",
+      "risk_notes": "",
+      "model_used": "gpt-4o-mini",
+      "created_at": "2026-07-14T21:31:01.402063+00:00"
+    },
+    {
+      "ticker": "BAC",
+      "candidate_score": 0.3236,
+      "score_breakdown": {
+        "momentum": 0.1214,
+        "relative_strength": 0.0957,
+        "volume_confirmation": 0.0565,
+        "catalyst": 0.2,
+        "earnings_risk_penalty": -0.15,
+        "volatility_penalty": -0.0,
+        "weak_evidence_penalty": -0.0,
+        "total": 0.3236
+      },
+      "catalyst_assessment": "The recent 1-day move in Bank of America (BAC) is likely explained by the strong Q2 earnings report, which indicates growth across all business segments, serving as a concrete catalyst for the stock's performance.",
+      "catalyst_is_real": true,
+      "evidence_sources": [
+        "15 news items (Finnhub)",
+        "SEC filing: 8-K, Form 4",
+        "price/volume (yfinance)"
+      ],
+      "reasoning_summary": "Top-6 by transparent score.",
+      "risk_notes": "",
+      "model_used": "gpt-4o-mini",
+      "created_at": "2026-07-14T21:31:01.402063+00:00"
+    },
+    {
+      "ticker": "JPM",
+      "candidate_score": 0.3183,
+      "score_breakdown": {
+        "momentum": 0.1024,
+        "relative_strength": 0.1728,
+        "volume_confirmation": -0.0069,
+        "catalyst": 0.2,
+        "earnings_risk_penalty": -0.15,
+        "volatility_penalty": -0.0,
+        "weak_evidence_penalty": -0.0,
+        "total": 0.3183
+      },
+      "catalyst_assessment": "The recent 2.50% increase in JPMorgan Chase's stock appears to be unexplained from available public sources, as the news items do not indicate a specific catalyst directly impacting the stock.",
+      "catalyst_is_real": false,
+      "evidence_sources": [
+        "15 news items (Finnhub)",
+        "SEC filing: 8-K",
+        "price/volume (yfinance)"
+      ],
+      "reasoning_summary": "Top-6 by transparent score.",
+      "risk_notes": "",
+      "model_used": "gpt-4o-mini",
+      "created_at": "2026-07-14T21:31:01.402063+00:00"
+    },
+    {
+      "ticker": "AVGO",
+      "candidate_score": 0.2515,
+      "score_breakdown": {
+        "momentum": 0.1111,
+        "relative_strength": 0.0251,
+        "volume_confirmation": -0.0439,
+        "catalyst": 0.2,
+        "earnings_risk_penalty": -0.0,
+        "volatility_penalty": -0.0407,
+        "weak_evidence_penalty": -0.0,
+        "total": 0.2515
+      },
+      "catalyst_assessment": "The recent 1.32% increase in AVGO's stock price is likely driven by the news of Broadcom securing a key supplier role with Apple through 2031, which is a significant long-term contract and a concrete catalyst.",
+      "catalyst_is_real": true,
+      "evidence_sources": [
+        "15 news items (Finnhub)",
+        "SEC filing: Form 4",
+        "price/volume (yfinance)"
+      ],
+      "reasoning_summary": "Top-6 by transparent score.",
+      "risk_notes": "",
+      "model_used": "gpt-4o-mini",
+      "created_at": "2026-07-14T21:31:01.402063+00:00"
+    }
+  ],
+  "risk_review": {
+    "portfolio_risk": "The portfolio exhibits sector crowding, with a significant concentration in technology (XLK) stocks, potentially increasing vulnerability to sector-specific downturns. Additionally, the presence of high earnings risk in financials (XLF) could amplify volatility.",
+    "ticker_risks": {
+      "NVDA": "Chasing recent gains; recent price surge may not be sustainable without a real catalyst.",
+      "AMD": "High volatility and recent price increase suggest potential overconfidence in short-term catalysts.",
+      "META": "Lack of real catalysts raises concerns about the sustainability of recent price movements.",
+      "BAC": "High earnings risk could lead to significant volatility; exercise caution.",
+      "JPM": "Earnings risk is high, and absence of real catalysts may lead to unexpected downside.",
+      "AVGO": "Recent gains driven by catalysts may not be sustainable; volatility remains elevated."
+    },
+    "model_used": "gpt-4o"
+  },
+  "committee_decision": {
+    "picks": [
+      {
+        "ticker": "AMD",
+        "action": "long",
+        "probability_band": "medium",
+        "confidence": 4,
+        "horizon_days": 1,
+        "entry_reference_price": 548.13,
+        "thesis": "AMD's recent price increase is driven by positive analyst upgrades, indicating potential for short-term outperformance.",
+        "evidence_sources": [
+          "15 news items (Finnhub)",
+          "price/volume (yfinance)"
+        ],
+        "reasoning_summary": "Analyst upgrades from reputable sources like Goldman Sachs provide a credible catalyst for AMD's recent price surge, suggesting potential for continued momentum.",
+        "risk_notes": "High volatility and recent price increase suggest potential overconfidence in short-term catalysts.",
+        "model_used": "gpt-4o",
+        "created_at": "2026-07-14T21:31:17.950136+00:00"
+      },
+      {
+        "ticker": "AVGO",
+        "action": "watch",
+        "probability_band": "medium",
+        "confidence": 3,
+        "horizon_days": 1,
+        "entry_reference_price": 389.11,
+        "thesis": "Broadcom's new supplier role with a major client presents a tangible catalyst for potential short-term gains.",
+        "evidence_sources": [
+          "15 news items (Finnhub)",
+          "SEC filing: Form 4",
+          "price/volume (yfinance)"
+        ],
+        "reasoning_summary": "The announcement of Broadcom's new supplier role provides a real catalyst, though the sustainability of gains remains uncertain.",
+        "risk_notes": "Recent gains driven by catalysts may not be sustainable; volatility remains elevated.",
+        "model_used": "gpt-4o",
+        "created_at": "2026-07-14T21:31:17.950136+00:00"
+      }
+    ],
+    "rejected": [
+      {
+        "ticker": "NVDA",
+        "reason": "Lack of real catalyst and recent unexplained price surge increase risk."
+      },
+      {
+        "ticker": "META",
+        "reason": "Absence of real catalysts raises concerns about sustainability of recent gains."
+      },
+      {
+        "ticker": "BAC",
+        "reason": "High earnings risk and recent earnings report increase potential volatility."
+      },
+      {
+        "ticker": "JPM",
+        "reason": "Unexplained price increase and high earnings risk suggest potential downside."
+      }
+    ],
+    "committee_summary": "Today's selections focus on candidates with tangible catalysts and analyst support. AMD is chosen for its strong analyst upgrades, while AVGO is placed on watch due to its new supplier role. NVDA, META, BAC, and JPM are rejected due to lack of real catalysts or high earnings risk."
+  },
+  "warnings": []
+}

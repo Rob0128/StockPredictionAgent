@@ -1,0 +1,278 @@
+{
+  "run_date": "2026-08-05",
+  "yesterday_date": "2026-08-04",
+  "macro": {
+    "market_regime": "risk_off",
+    "qqq_return_1d": -0.00904881952598908,
+    "spy_return_1d": -0.0019966020100065907,
+    "vix_change": null,
+    "ten_year_yield_change": -0.07000000000000028,
+    "notes": "regime=risk_off, QQQ -0.90%, 10y -0.07pp"
+  },
+  "performance_review": {
+    "reviewed_date": "2026-08-04",
+    "benchmark": "QQQ",
+    "outcomes": [
+      {
+        "ticker": "ASML",
+        "action": "long",
+        "entry_reference_price": 1711.89,
+        "close_price": 1678.219970703125,
+        "return_pct": -1.967,
+        "benchmark_return_pct": -0.905,
+        "excess_return_pct": -1.062,
+        "outperformed": false,
+        "original_thesis": "ASML's recent dividend raise and reaffirmation of guidance provide a strong fundamental catalyst in a risk-on market regime.",
+        "original_confidence": 4
+      },
+      {
+        "ticker": "ORCL",
+        "action": "watch",
+        "entry_reference_price": 145.74,
+        "close_price": 144.38999938964844,
+        "return_pct": -0.926,
+        "benchmark_return_pct": -0.905,
+        "excess_return_pct": -0.021,
+        "outperformed": false,
+        "original_thesis": "Oracle's integration with Google Gemini presents a strategic growth opportunity, but recent gains may reflect overconfidence.",
+        "original_confidence": 3
+      },
+      {
+        "ticker": "ONDS",
+        "action": "watch",
+        "entry_reference_price": 8.86,
+        "close_price": 8.869999885559082,
+        "return_pct": 0.113,
+        "benchmark_return_pct": -0.905,
+        "excess_return_pct": 1.018,
+        "outperformed": true,
+        "original_thesis": "Redwire's $20M follow-on purchase orders provide a short-term catalyst, but high volatility suggests speculative trading.",
+        "original_confidence": 2
+      }
+    ],
+    "hit_rate": 0.333,
+    "avg_pick_return_pct": -0.927,
+    "benchmark_return_pct": -0.905,
+    "avg_excess_return_pct": -0.022,
+    "narrative": "The prior-day picks underperformed the benchmark QQQ, suggesting that the results may reflect more market beta than stock-specific skill. The average pick return of -0.927% and a hit rate of only 33.3% indicate a lack of effective stock selection, particularly as ASML and ORCL both posted negative returns despite their positive theses. The lone positive return from ONDS, while notable, does not sufficiently offset the overall performance, and the confidence in these picks appears to have been overestimated given the outcomes."
+  },
+  "candidates": [
+    {
+      "ticker": "NVDA",
+      "candidate_score": 0.7545,
+      "score_breakdown": {
+        "momentum": 0.3,
+        "relative_strength": 0.25,
+        "volume_confirmation": 0.0302,
+        "catalyst": 0.2,
+        "earnings_risk_penalty": -0.0,
+        "volatility_penalty": -0.0257,
+        "weak_evidence_penalty": -0.0,
+        "total": 0.7545
+      },
+      "catalyst_assessment": "The recent 3.43% move in NVDA appears to be unexplained from available public sources, as there are no concrete catalysts identified in the news items.",
+      "catalyst_is_real": false,
+      "evidence_sources": [
+        "15 news items (Finnhub)",
+        "price/volume (yfinance)"
+      ],
+      "reasoning_summary": "Top-6 by transparent score.",
+      "risk_notes": "",
+      "model_used": "gpt-4o-mini",
+      "created_at": "2026-08-05T21:31:33.783051+00:00"
+    },
+    {
+      "ticker": "CRM",
+      "candidate_score": 0.5862,
+      "score_breakdown": {
+        "momentum": 0.2341,
+        "relative_strength": 0.2434,
+        "volume_confirmation": -0.0516,
+        "catalyst": 0.2,
+        "earnings_risk_penalty": -0.0,
+        "volatility_penalty": -0.0397,
+        "weak_evidence_penalty": -0.0,
+        "total": 0.5862
+      },
+      "catalyst_assessment": "The recent 1-day move of +1.04% for CRM appears to be unexplained from available public sources, as there are no specific catalysts identified in the news items.",
+      "catalyst_is_real": false,
+      "evidence_sources": [
+        "15 news items (Finnhub)",
+        "SEC filing: 8-K",
+        "price/volume (yfinance)"
+      ],
+      "reasoning_summary": "Top-6 by transparent score.",
+      "risk_notes": "",
+      "model_used": "gpt-4o-mini",
+      "created_at": "2026-08-05T21:31:33.783051+00:00"
+    },
+    {
+      "ticker": "HD",
+      "candidate_score": 0.5626,
+      "score_breakdown": {
+        "momentum": 0.1396,
+        "relative_strength": 0.25,
+        "volume_confirmation": -0.0269,
+        "catalyst": 0.2,
+        "earnings_risk_penalty": -0.0,
+        "volatility_penalty": -0.0,
+        "weak_evidence_penalty": -0.0,
+        "total": 0.5626
+      },
+      "catalyst_assessment": "The recent 1.41% move in Home Depot's stock appears to be unexplained from available public sources, as the news items do not indicate any concrete catalyst such as earnings, guidance, or significant analyst action.",
+      "catalyst_is_real": false,
+      "evidence_sources": [
+        "14 news items (Finnhub)",
+        "price/volume (yfinance)"
+      ],
+      "reasoning_summary": "Top-6 by transparent score.",
+      "risk_notes": "",
+      "model_used": "gpt-4o-mini",
+      "created_at": "2026-08-05T21:31:33.783051+00:00"
+    },
+    {
+      "ticker": "AVGO",
+      "candidate_score": 0.5587,
+      "score_breakdown": {
+        "momentum": 0.3,
+        "relative_strength": 0.1167,
+        "volume_confirmation": -0.0304,
+        "catalyst": 0.2,
+        "earnings_risk_penalty": -0.0,
+        "volatility_penalty": -0.0276,
+        "weak_evidence_penalty": -0.0,
+        "total": 0.5587
+      },
+      "catalyst_assessment": "The recent 1-day move of +0.03% for AVGO appears unexplained from available public sources, as none of the news items directly relate to a specific catalyst affecting Broadcom.",
+      "catalyst_is_real": false,
+      "evidence_sources": [
+        "15 news items (Finnhub)",
+        "price/volume (yfinance)"
+      ],
+      "reasoning_summary": "Top-6 by transparent score.",
+      "risk_notes": "",
+      "model_used": "gpt-4o-mini",
+      "created_at": "2026-08-05T21:31:33.783051+00:00"
+    },
+    {
+      "ticker": "BAC",
+      "candidate_score": 0.5203,
+      "score_breakdown": {
+        "momentum": 0.1661,
+        "relative_strength": 0.1827,
+        "volume_confirmation": -0.0135,
+        "catalyst": 0.2,
+        "earnings_risk_penalty": -0.015,
+        "volatility_penalty": -0.0,
+        "weak_evidence_penalty": -0.0,
+        "total": 0.5203
+      },
+      "catalyst_assessment": "The recent 1-day move of +0.56% for BAC appears to be unexplained from available public sources, as the news items do not indicate a concrete catalyst directly impacting the stock.",
+      "catalyst_is_real": false,
+      "evidence_sources": [
+        "15 news items (Finnhub)",
+        "SEC filing: Form 4, 10-Q",
+        "price/volume (yfinance)"
+      ],
+      "reasoning_summary": "Top-6 by transparent score.",
+      "risk_notes": "",
+      "model_used": "gpt-4o-mini",
+      "created_at": "2026-08-05T21:31:33.783051+00:00"
+    },
+    {
+      "ticker": "JPM",
+      "candidate_score": 0.4484,
+      "score_breakdown": {
+        "momentum": 0.1798,
+        "relative_strength": 0.1732,
+        "volume_confirmation": -0.0896,
+        "catalyst": 0.2,
+        "earnings_risk_penalty": -0.015,
+        "volatility_penalty": -0.0,
+        "weak_evidence_penalty": -0.0,
+        "total": 0.4484
+      },
+      "catalyst_assessment": "The recent 1-day move of JPM is unexplained from available public sources, as there are no concrete catalysts directly impacting the stock.",
+      "catalyst_is_real": false,
+      "evidence_sources": [
+        "15 news items (Finnhub)",
+        "price/volume (yfinance)"
+      ],
+      "reasoning_summary": "Top-6 by transparent score.",
+      "risk_notes": "",
+      "model_used": "gpt-4o-mini",
+      "created_at": "2026-08-05T21:31:33.783051+00:00"
+    }
+  ],
+  "risk_review": {
+    "portfolio_risk": "The portfolio exhibits sector crowding in technology (XLK) with three out of six picks, which could amplify risk in a risk-off market regime. Additionally, the absence of real catalysts and reliance on recent upward momentum may indicate overconfidence and chasing past performance.",
+    "ticker_risks": {
+      "NVDA": "High recent gains may reflect chasing yesterday's move; absence of real catalysts increases vulnerability.",
+      "CRM": "Sector crowding in XLK with no real catalysts; recent gains may not be sustainable.",
+      "HD": "Moderate gains in a consumer discretionary sector (XLY) could be susceptible to broader economic downturns.",
+      "AVGO": "Significant recent gains without catalysts suggest potential overconfidence and chasing past performance.",
+      "BAC": "Earnings risk is unknown, which could introduce unexpected volatility in the financial sector (XLF).",
+      "JPM": "Unknown earnings risk and sector concentration in XLF could lead to unforeseen downside."
+    },
+    "model_used": "gpt-4o"
+  },
+  "committee_decision": {
+    "picks": [
+      {
+        "ticker": "HD",
+        "action": "watch",
+        "probability_band": "medium",
+        "confidence": 3,
+        "horizon_days": 1,
+        "entry_reference_price": 353.14,
+        "thesis": "Home Depot's moderate gains in the consumer discretionary sector (XLY) could offer relative stability in a risk-off market regime.",
+        "evidence_sources": [
+          "14 news items (Finnhub)",
+          "price/volume (yfinance)"
+        ],
+        "reasoning_summary": "Despite the lack of a real catalyst, Home Depot's position in the consumer discretionary sector may provide a buffer against broader market downturns. The stock's recent performance suggests potential resilience.",
+        "risk_notes": "Moderate gains in a consumer discretionary sector could be susceptible to broader economic downturns.",
+        "model_used": "gpt-4o",
+        "created_at": "2026-08-05T21:31:59.122974+00:00"
+      },
+      {
+        "ticker": "BAC",
+        "action": "watch",
+        "probability_band": "low",
+        "confidence": 2,
+        "horizon_days": 1,
+        "entry_reference_price": 63.25,
+        "thesis": "Bank of America's recent price movement suggests potential for stability, but the absence of a catalyst and unknown earnings risk warrant caution.",
+        "evidence_sources": [
+          "15 news items (Finnhub)",
+          "SEC filing: Form 4, 10-Q",
+          "price/volume (yfinance)"
+        ],
+        "reasoning_summary": "While BAC's recent gains are unexplained, its position in the financial sector could provide some stability. However, the lack of a catalyst and potential earnings risk reduce confidence.",
+        "risk_notes": "Earnings risk is unknown, which could introduce unexpected volatility in the financial sector.",
+        "model_used": "gpt-4o",
+        "created_at": "2026-08-05T21:31:59.122974+00:00"
+      }
+    ],
+    "rejected": [
+      {
+        "ticker": "NVDA",
+        "reason": "High recent gains without a real catalyst increase vulnerability in a risk-off market."
+      },
+      {
+        "ticker": "CRM",
+        "reason": "Sector crowding in XLK with no real catalysts; recent gains may not be sustainable."
+      },
+      {
+        "ticker": "AVGO",
+        "reason": "Significant recent gains without catalysts suggest potential overconfidence."
+      },
+      {
+        "ticker": "JPM",
+        "reason": "Unknown earnings risk and sector concentration in XLF could lead to unforeseen downside."
+      }
+    ],
+    "committee_summary": "In today's risk-off market regime, the committee has opted to watch Home Depot and Bank of America. Both picks show potential for stability, albeit with caution due to the absence of real catalysts. The remaining candidates were rejected due to high recent gains without catalysts or sector concentration risks."
+  },
+  "warnings": []
+}

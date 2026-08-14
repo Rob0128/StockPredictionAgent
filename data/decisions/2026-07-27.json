@@ -1,0 +1,258 @@
+{
+  "run_date": "2026-07-27",
+  "yesterday_date": "2026-07-24",
+  "macro": {
+    "market_regime": "risk_off",
+    "qqq_return_1d": -0.014220513531138063,
+    "spy_return_1d": 0.0012328079719267052,
+    "vix_change": null,
+    "ten_year_yield_change": -0.019999999999999574,
+    "notes": "regime=risk_off, QQQ -1.42%, 10y -0.02pp"
+  },
+  "performance_review": {
+    "reviewed_date": "2026-07-24",
+    "benchmark": "QQQ",
+    "outcomes": [
+      {
+        "ticker": "LLY",
+        "action": "watch",
+        "entry_reference_price": 1185.87,
+        "close_price": 1197.530029296875,
+        "return_pct": 0.983,
+        "benchmark_return_pct": -1.422,
+        "excess_return_pct": 2.405,
+        "outperformed": true,
+        "original_thesis": "Eli Lilly's stock is buoyed by positive developments in its obesity drug pipeline, which could provide a competitive edge in the pharmaceutical sector.",
+        "original_confidence": 4
+      }
+    ],
+    "hit_rate": 1.0,
+    "avg_pick_return_pct": 0.983,
+    "benchmark_return_pct": -1.422,
+    "avg_excess_return_pct": 2.405,
+    "narrative": "The PAPER portfolio's average pick return of 0.983% against a benchmark decline of -1.422% suggests a notable outperformance, indicating potential stock-specific skill rather than mere market beta. The 1.0 hit rate further reinforces this, as it implies all picks were successful. However, the reliance on a single thesis for LLY raises questions about the robustness of the strategy, and while the confidence appears well-calibrated given the results, it would benefit from a broader range of picks to assess consistency over time."
+  },
+  "candidates": [
+    {
+      "ticker": "AAPL",
+      "candidate_score": 0.6223,
+      "score_breakdown": {
+        "momentum": 0.2864,
+        "relative_strength": 0.25,
+        "volume_confirmation": -0.0392,
+        "catalyst": 0.2,
+        "earnings_risk_penalty": -0.075,
+        "volatility_penalty": -0.0,
+        "weak_evidence_penalty": -0.0,
+        "total": 0.6223
+      },
+      "catalyst_assessment": "The recent 4.74% move in AAPL appears unexplained from available public sources, as the news items do not provide a concrete catalyst directly impacting Apple's stock.",
+      "catalyst_is_real": false,
+      "evidence_sources": [
+        "15 news items (Finnhub)",
+        "price/volume (yfinance)"
+      ],
+      "reasoning_summary": "Top-6 by transparent score.",
+      "risk_notes": "",
+      "model_used": "gpt-4o-mini",
+      "created_at": "2026-07-27T21:39:03.212070+00:00"
+    },
+    {
+      "ticker": "CRM",
+      "candidate_score": 0.6,
+      "score_breakdown": {
+        "momentum": 0.2169,
+        "relative_strength": 0.25,
+        "volume_confirmation": -0.0136,
+        "catalyst": 0.2,
+        "earnings_risk_penalty": -0.0,
+        "volatility_penalty": -0.0533,
+        "weak_evidence_penalty": -0.0,
+        "total": 0.6
+      },
+      "catalyst_assessment": "Salesforce's significant 10.62% increase is primarily driven by the announcement of winning a $1.6 billion federal AI contract, which highlights strong demand for its AI solutions.",
+      "catalyst_is_real": true,
+      "evidence_sources": [
+        "15 news items (Finnhub)",
+        "SEC filing: Form 4",
+        "price/volume (yfinance)"
+      ],
+      "reasoning_summary": "Top-6 by transparent score.",
+      "risk_notes": "",
+      "model_used": "gpt-4o-mini",
+      "created_at": "2026-07-27T21:39:03.212070+00:00"
+    },
+    {
+      "ticker": "ONDS",
+      "candidate_score": 0.5911,
+      "score_breakdown": {
+        "momentum": 0.3,
+        "relative_strength": 0.25,
+        "volume_confirmation": -0.0619,
+        "catalyst": 0.2,
+        "earnings_risk_penalty": -0.0,
+        "volatility_penalty": -0.0971,
+        "weak_evidence_penalty": -0.0,
+        "total": 0.5911
+      },
+      "catalyst_assessment": "The stock's move can be attributed to Ondas backing an AI counter-drone startup, FPF Defense, which indicates strategic investment and potential growth opportunities. This is a concrete catalyst that likely influenced investor sentiment.",
+      "catalyst_is_real": true,
+      "evidence_sources": [
+        "6 news items (Finnhub)",
+        "SEC filing: 8-K",
+        "price/volume (yfinance)"
+      ],
+      "reasoning_summary": "Top-6 by transparent score.",
+      "risk_notes": "",
+      "model_used": "gpt-4o-mini",
+      "created_at": "2026-07-27T21:39:03.212070+00:00"
+    },
+    {
+      "ticker": "JNJ",
+      "candidate_score": 0.583,
+      "score_breakdown": {
+        "momentum": 0.1951,
+        "relative_strength": 0.25,
+        "volume_confirmation": -0.0471,
+        "catalyst": 0.2,
+        "earnings_risk_penalty": -0.015,
+        "volatility_penalty": -0.0,
+        "weak_evidence_penalty": -0.0,
+        "total": 0.583
+      },
+      "catalyst_assessment": "The recent 2.58% move in JNJ stock appears unexplained from available public sources, as the news items do not indicate a specific catalyst such as earnings, guidance, or significant corporate actions.",
+      "catalyst_is_real": false,
+      "evidence_sources": [
+        "15 news items (Finnhub)",
+        "SEC filing: 10-Q",
+        "price/volume (yfinance)"
+      ],
+      "reasoning_summary": "Top-6 by transparent score.",
+      "risk_notes": "",
+      "model_used": "gpt-4o-mini",
+      "created_at": "2026-07-27T21:39:03.212070+00:00"
+    },
+    {
+      "ticker": "BAC",
+      "candidate_score": 0.5466,
+      "score_breakdown": {
+        "momentum": 0.1065,
+        "relative_strength": 0.25,
+        "volume_confirmation": 0.0051,
+        "catalyst": 0.2,
+        "earnings_risk_penalty": -0.015,
+        "volatility_penalty": -0.0,
+        "weak_evidence_penalty": -0.0,
+        "total": 0.5466
+      },
+      "catalyst_assessment": "The recent 1-day move of Bank of America (+1.39%) appears unexplained from available public sources, as the news items do not indicate a specific catalyst such as earnings, guidance, or analyst action directly impacting the stock.",
+      "catalyst_is_real": false,
+      "evidence_sources": [
+        "15 news items (Finnhub)",
+        "SEC filing: 8-K, Form 4",
+        "price/volume (yfinance)"
+      ],
+      "reasoning_summary": "Top-6 by transparent score.",
+      "risk_notes": "",
+      "model_used": "gpt-4o-mini",
+      "created_at": "2026-07-27T21:39:03.212070+00:00"
+    },
+    {
+      "ticker": "JPM",
+      "candidate_score": 0.5234,
+      "score_breakdown": {
+        "momentum": 0.1552,
+        "relative_strength": 0.25,
+        "volume_confirmation": -0.0667,
+        "catalyst": 0.2,
+        "earnings_risk_penalty": -0.015,
+        "volatility_penalty": -0.0,
+        "weak_evidence_penalty": -0.0,
+        "total": 0.5234
+      },
+      "catalyst_assessment": "The recent 1.80% move in JPMorgan's stock appears to be unexplained from available public sources, as the news items do not indicate a specific catalyst such as earnings, guidance, or regulatory changes.",
+      "catalyst_is_real": false,
+      "evidence_sources": [
+        "15 news items (Finnhub)",
+        "SEC filing: 8-K",
+        "price/volume (yfinance)"
+      ],
+      "reasoning_summary": "Top-6 by transparent score.",
+      "risk_notes": "",
+      "model_used": "gpt-4o-mini",
+      "created_at": "2026-07-27T21:39:03.212070+00:00"
+    }
+  ],
+  "risk_review": {
+    "portfolio_risk": "The current portfolio candidates exhibit significant sector crowding, particularly in the technology (XLK) and financial (XLF) sectors, which may amplify risk in a risk-off market regime. Additionally, the reliance on recent momentum could lead to overconfidence and potential underperformance if market conditions shift.",
+    "ticker_risks": {
+      "AAPL": "Recent price surge may be driven by short-term momentum rather than sustainable growth, increasing vulnerability to a pullback.",
+      "CRM": "The significant one-day gain suggests potential overreaction to news, posing a risk of correction if the catalyst impact is overestimated.",
+      "ONDS": "The high volatility and recent sharp gains indicate potential overconfidence, with risk of reversal if momentum wanes.",
+      "JNJ": "Lack of clear earnings risk assessment and absence of a real catalyst could lead to unexpected volatility.",
+      "BAC": "Uncertainty around earnings risk and lack of a catalyst may result in limited upside potential in a risk-off environment.",
+      "JPM": "Similar to BAC, the absence of a catalyst and unknown earnings risk could limit performance amid broader financial sector pressures."
+    },
+    "model_used": "gpt-4o"
+  },
+  "committee_decision": {
+    "picks": [
+      {
+        "ticker": "CRM",
+        "action": "long",
+        "probability_band": "medium",
+        "confidence": 4,
+        "horizon_days": 1,
+        "entry_reference_price": 173.6,
+        "thesis": "Salesforce's recent contract win with the federal government for AI solutions provides a strong catalyst for potential short-term gains.",
+        "evidence_sources": [
+          "15 news items (Finnhub)",
+          "SEC filing: Form 4",
+          "price/volume (yfinance)"
+        ],
+        "reasoning_summary": "The significant contract win is a tangible catalyst that could drive further investor interest and momentum in the short term, despite the risk of an overreaction.",
+        "risk_notes": "The 10.62% gain may reflect an overreaction, posing a risk of correction if the catalyst's impact is overestimated.",
+        "model_used": "gpt-4o",
+        "created_at": "2026-07-27T21:39:19.926897+00:00"
+      },
+      {
+        "ticker": "ONDS",
+        "action": "watch",
+        "probability_band": "medium",
+        "confidence": 3,
+        "horizon_days": 1,
+        "entry_reference_price": 8.02,
+        "thesis": "Ondas' strategic investment in an AI counter-drone startup could signal future growth opportunities, but current volatility suggests caution.",
+        "evidence_sources": [
+          "6 news items (Finnhub)",
+          "SEC filing: 8-K",
+          "price/volume (yfinance)"
+        ],
+        "reasoning_summary": "The strategic move into AI and defense sectors is promising, but the recent sharp gains and high volatility suggest monitoring for stability before committing.",
+        "risk_notes": "High volatility and recent sharp gains indicate potential overconfidence, with risk of reversal if momentum wanes.",
+        "model_used": "gpt-4o",
+        "created_at": "2026-07-27T21:39:19.926897+00:00"
+      }
+    ],
+    "rejected": [
+      {
+        "ticker": "AAPL",
+        "reason": "Recent price surge lacks a clear catalyst, increasing vulnerability to a pullback."
+      },
+      {
+        "ticker": "JNJ",
+        "reason": "Lack of a real catalyst and unexplained price movement increase volatility risk."
+      },
+      {
+        "ticker": "BAC",
+        "reason": "Absence of a catalyst and earnings uncertainty limit upside potential in a risk-off environment."
+      },
+      {
+        "ticker": "JPM",
+        "reason": "Similar to BAC, the absence of a catalyst and unknown earnings risk could limit performance."
+      }
+    ],
+    "committee_summary": "The committee has selected Salesforce (CRM) for a 'long' position due to its strong catalyst from a federal AI contract, despite the risk of overreaction. Ondas (ONDS) is placed on 'watch' due to its strategic investment in AI, though high volatility warrants caution. Other candidates were rejected due to lack of catalysts or unexplained price movements, which pose risks in the current risk-off market regime."
+  },
+  "warnings": []
+}

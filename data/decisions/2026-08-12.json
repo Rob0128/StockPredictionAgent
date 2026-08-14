@@ -1,0 +1,279 @@
+{
+  "run_date": "2026-08-12",
+  "yesterday_date": "2026-08-11",
+  "macro": {
+    "market_regime": "risk_on",
+    "qqq_return_1d": 0.0073073977462570355,
+    "spy_return_1d": 0.0025046624297863224,
+    "vix_change": null,
+    "ten_year_yield_change": -0.019999999999999574,
+    "notes": "regime=risk_on, QQQ +0.73%, 10y -0.02pp"
+  },
+  "performance_review": {
+    "reviewed_date": "2026-08-11",
+    "benchmark": "QQQ",
+    "outcomes": [
+      {
+        "ticker": "ONDS",
+        "action": "long",
+        "entry_reference_price": 9.74,
+        "close_price": 9.770000457763672,
+        "return_pct": 0.308,
+        "benchmark_return_pct": 0.731,
+        "excess_return_pct": -0.423,
+        "outperformed": false,
+        "original_thesis": "ONDS has recently secured a significant multi-million-dollar contract, which is expected to drive short-term momentum.",
+        "original_confidence": 3
+      },
+      {
+        "ticker": "HD",
+        "action": "watch",
+        "entry_reference_price": 354.48,
+        "close_price": 343.42999267578125,
+        "return_pct": -3.117,
+        "benchmark_return_pct": 0.731,
+        "excess_return_pct": -3.848,
+        "outperformed": false,
+        "original_thesis": "Home Depot's recent price movement is supported by a maintained Overweight rating from Wells Fargo, indicating potential stability.",
+        "original_confidence": 2
+      }
+    ],
+    "hit_rate": 0.0,
+    "avg_pick_return_pct": -1.405,
+    "benchmark_return_pct": 0.731,
+    "avg_excess_return_pct": -2.135,
+    "narrative": "The PAPER portfolio's prior-day picks significantly underperformed the benchmark QQQ return, suggesting that the results are more indicative of market beta rather than stock-specific skill. With an average pick return of -1.405% and a hit rate of 0.0, it appears that the confidence in these selections was not well-calibrated, as neither pick generated positive excess returns. The negative performance, particularly in the case of Home Depot, raises concerns about the validity of the underlying theses."
+  },
+  "candidates": [
+    {
+      "ticker": "ORCL",
+      "candidate_score": 0.7112,
+      "score_breakdown": {
+        "momentum": 0.2991,
+        "relative_strength": 0.25,
+        "volume_confirmation": 0.0386,
+        "catalyst": 0.2,
+        "earnings_risk_penalty": -0.0,
+        "volatility_penalty": -0.0765,
+        "weak_evidence_penalty": -0.0,
+        "total": 0.7112
+      },
+      "catalyst_assessment": "The recent 5.36% increase in Oracle's stock appears to be driven by news regarding its partnership with Quantinuum, which is seen as a significant development in the quantum computing space. This partnership is likely viewed positively by investors, contributing to the stock's upward movement.",
+      "catalyst_is_real": true,
+      "evidence_sources": [
+        "15 news items (Finnhub)",
+        "price/volume (yfinance)"
+      ],
+      "reasoning_summary": "Top-6 by transparent score.",
+      "risk_notes": "",
+      "model_used": "gpt-4o-mini",
+      "created_at": "2026-08-12T21:32:03.178701+00:00"
+    },
+    {
+      "ticker": "NVDA",
+      "candidate_score": 0.5148,
+      "score_breakdown": {
+        "momentum": 0.1054,
+        "relative_strength": 0.25,
+        "volume_confirmation": -0.0222,
+        "catalyst": 0.2,
+        "earnings_risk_penalty": -0.0,
+        "volatility_penalty": -0.0185,
+        "weak_evidence_penalty": -0.0,
+        "total": 0.5148
+      },
+      "catalyst_assessment": "The recent 3.03% move in NVDA appears to be unexplained from available public sources, as the news items do not provide a concrete catalyst directly related to the stock.",
+      "catalyst_is_real": false,
+      "evidence_sources": [
+        "15 news items (Finnhub)",
+        "SEC filing: Form 4",
+        "price/volume (yfinance)"
+      ],
+      "reasoning_summary": "Top-6 by transparent score.",
+      "risk_notes": "",
+      "model_used": "gpt-4o-mini",
+      "created_at": "2026-08-12T21:32:03.178701+00:00"
+    },
+    {
+      "ticker": "WMT",
+      "candidate_score": 0.5056,
+      "score_breakdown": {
+        "momentum": 0.0959,
+        "relative_strength": 0.2122,
+        "volume_confirmation": -0.0025,
+        "catalyst": 0.2,
+        "earnings_risk_penalty": -0.0,
+        "volatility_penalty": -0.0,
+        "weak_evidence_penalty": -0.0,
+        "total": 0.5056
+      },
+      "catalyst_assessment": "The recent 2.43% move in WMT stock appears to be unexplained from available public sources, as none of the news items provide a concrete catalyst such as earnings, guidance, or significant corporate actions.",
+      "catalyst_is_real": false,
+      "evidence_sources": [
+        "15 news items (Finnhub)",
+        "price/volume (yfinance)"
+      ],
+      "reasoning_summary": "Top-6 by transparent score.",
+      "risk_notes": "",
+      "model_used": "gpt-4o-mini",
+      "created_at": "2026-08-12T21:32:03.178701+00:00"
+    },
+    {
+      "ticker": "BAC",
+      "candidate_score": 0.323,
+      "score_breakdown": {
+        "momentum": 0.1071,
+        "relative_strength": 0.0669,
+        "volume_confirmation": -0.036,
+        "catalyst": 0.2,
+        "earnings_risk_penalty": -0.015,
+        "volatility_penalty": -0.0,
+        "weak_evidence_penalty": -0.0,
+        "total": 0.323
+      },
+      "catalyst_assessment": "The recent 1-day move in Bank of America (BAC) is likely explained by their partnership with Jio Financial in a $1.9 billion deal, which is a significant development for the company.",
+      "catalyst_is_real": true,
+      "evidence_sources": [
+        "11 news items (Finnhub)",
+        "SEC filing: Form 4",
+        "price/volume (yfinance)"
+      ],
+      "reasoning_summary": "Top-6 by transparent score.",
+      "risk_notes": "",
+      "model_used": "gpt-4o-mini",
+      "created_at": "2026-08-12T21:32:03.178701+00:00"
+    },
+    {
+      "ticker": "XOM",
+      "candidate_score": 0.2436,
+      "score_breakdown": {
+        "momentum": 0.2229,
+        "relative_strength": -0.0953,
+        "volume_confirmation": -0.0691,
+        "catalyst": 0.2,
+        "earnings_risk_penalty": -0.015,
+        "volatility_penalty": -0.0,
+        "weak_evidence_penalty": -0.0,
+        "total": 0.2436
+      },
+      "catalyst_assessment": "The recent 1-day move of -0.03% for XOM appears to be unexplained from available public sources, as there are no concrete catalysts identified in the news items.",
+      "catalyst_is_real": false,
+      "evidence_sources": [
+        "15 news items (Finnhub)",
+        "price/volume (yfinance)"
+      ],
+      "reasoning_summary": "Top-6 by transparent score.",
+      "risk_notes": "",
+      "model_used": "gpt-4o-mini",
+      "created_at": "2026-08-12T21:32:03.184198+00:00"
+    },
+    {
+      "ticker": "ASML",
+      "candidate_score": 0.2419,
+      "score_breakdown": {
+        "momentum": 0.138,
+        "relative_strength": -0.0171,
+        "volume_confirmation": -0.0304,
+        "catalyst": 0.2,
+        "earnings_risk_penalty": -0.015,
+        "volatility_penalty": -0.0337,
+        "weak_evidence_penalty": -0.0,
+        "total": 0.2419
+      },
+      "catalyst_assessment": "The recent 1-day move of ASML can be attributed to the positive sentiment around AI demand, as indicated by the headline stating that ASML stock rose 1.7% due to strengthening AI demand signals.",
+      "catalyst_is_real": true,
+      "evidence_sources": [
+        "14 news items (Finnhub)",
+        "price/volume (yfinance)"
+      ],
+      "reasoning_summary": "Top-6 by transparent score.",
+      "risk_notes": "",
+      "model_used": "gpt-4o-mini",
+      "created_at": "2026-08-12T21:32:03.184198+00:00"
+    }
+  ],
+  "risk_review": {
+    "portfolio_risk": "The portfolio exhibits significant sector crowding in XLK, increasing vulnerability to sector-specific downturns. Additionally, the reliance on recent positive momentum may lead to overconfidence and potential underestimation of future volatility.",
+    "ticker_risks": {
+      "ORCL": "Chasing yesterday's move; recent surge may not sustain without new catalysts.",
+      "NVDA": "Factor crowding in tech sector; lacks a real catalyst to justify recent gains.",
+      "WMT": "Weak evidence of sustained momentum; lacks a real catalyst to support continued growth.",
+      "BAC": "Earnings risk unknown; potential for unexpected volatility.",
+      "XOM": "Recent gains may be misleading; lacks a real catalyst and earnings risk is unknown.",
+      "ASML": "High recent gains with unknown earnings risk; potential for overconfidence in tech sector."
+    },
+    "model_used": "gpt-4o"
+  },
+  "committee_decision": {
+    "picks": [
+      {
+        "ticker": "ORCL",
+        "action": "long",
+        "probability_band": "medium",
+        "confidence": 4,
+        "horizon_days": 1,
+        "entry_reference_price": 153.28,
+        "thesis": "Oracle's recent partnership with Quantinuum is expected to drive further interest and potential gains, leveraging the current positive sentiment in the tech sector.",
+        "evidence_sources": [
+          "15 news items (Finnhub)",
+          "price/volume (yfinance)"
+        ],
+        "reasoning_summary": "Oracle's strategic partnership with Quantinuum provides a tangible catalyst that aligns with the broader tech sector's momentum, making it a compelling short-term pick.",
+        "risk_notes": "The recent surge may not sustain without further catalysts, and there's a risk of chasing yesterday's move.",
+        "model_used": "gpt-4o",
+        "created_at": "2026-08-12T21:32:21.143637+00:00"
+      },
+      {
+        "ticker": "BAC",
+        "action": "watch",
+        "probability_band": "low",
+        "confidence": 3,
+        "horizon_days": 1,
+        "entry_reference_price": 64.81,
+        "thesis": "Bank of America's partnership with Jio Financial could provide a boost, but the potential earnings risk and market volatility warrant a cautious approach.",
+        "evidence_sources": [
+          "11 news items (Finnhub)",
+          "SEC filing: Form 4",
+          "price/volume (yfinance)"
+        ],
+        "reasoning_summary": "While the partnership with Jio Financial is a positive development, the unknown earnings risk and potential for volatility suggest a 'watch' stance.",
+        "risk_notes": "Earnings risk is unknown, and there's potential for unexpected volatility.",
+        "model_used": "gpt-4o",
+        "created_at": "2026-08-12T21:32:21.143637+00:00"
+      },
+      {
+        "ticker": "ASML",
+        "action": "long",
+        "probability_band": "medium",
+        "confidence": 4,
+        "horizon_days": 1,
+        "entry_reference_price": 1810.07,
+        "thesis": "ASML's position in the AI demand narrative provides a strong catalyst, aligning with the current tech sector momentum.",
+        "evidence_sources": [
+          "14 news items (Finnhub)",
+          "price/volume (yfinance)"
+        ],
+        "reasoning_summary": "ASML's involvement in AI technology positions it well to benefit from current market trends, supported by recent positive sentiment.",
+        "risk_notes": "High recent gains with unknown earnings risk; potential for overconfidence in tech sector.",
+        "model_used": "gpt-4o",
+        "created_at": "2026-08-12T21:32:21.143637+00:00"
+      }
+    ],
+    "rejected": [
+      {
+        "ticker": "NVDA",
+        "reason": "Lacks a real catalyst to justify recent gains, increasing risk of factor crowding."
+      },
+      {
+        "ticker": "WMT",
+        "reason": "Weak evidence of sustained momentum and lacks a real catalyst."
+      },
+      {
+        "ticker": "XOM",
+        "reason": "Recent gains may be misleading; lacks a real catalyst and earnings risk is unknown."
+      }
+    ],
+    "committee_summary": "Today's picks focus on leveraging tangible catalysts and aligning with the current tech sector momentum, while maintaining caution around potential earnings risks and market volatility. Oracle and ASML present strong short-term opportunities due to their strategic partnerships and involvement in AI demand, respectively. Bank of America is placed on watch due to potential volatility despite a promising partnership."
+  },
+  "warnings": []
+}

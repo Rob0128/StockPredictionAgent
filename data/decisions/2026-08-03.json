@@ -1,0 +1,290 @@
+{
+  "run_date": "2026-08-03",
+  "yesterday_date": "2026-07-31",
+  "macro": {
+    "market_regime": "risk_on",
+    "qqq_return_1d": 0.01755841983359161,
+    "spy_return_1d": 0.014243006567347586,
+    "vix_change": null,
+    "ten_year_yield_change": 0.07000000000000028,
+    "notes": "regime=risk_on, QQQ +1.76%, 10y +0.07pp"
+  },
+  "performance_review": {
+    "reviewed_date": "2026-07-31",
+    "benchmark": "QQQ",
+    "outcomes": [
+      {
+        "ticker": "GOOGL",
+        "action": "long",
+        "entry_reference_price": 356.13,
+        "close_price": 373.510009765625,
+        "return_pct": 4.88,
+        "benchmark_return_pct": 1.756,
+        "excess_return_pct": 3.124,
+        "outperformed": true,
+        "original_thesis": "GOOGL's recent price increase is driven by positive sentiment surrounding AI developments, which could sustain momentum in the short term.",
+        "original_confidence": 4
+      },
+      {
+        "ticker": "CVX",
+        "action": "watch",
+        "entry_reference_price": 196.83,
+        "close_price": 193.17999267578125,
+        "return_pct": -1.854,
+        "benchmark_return_pct": 1.756,
+        "excess_return_pct": -3.61,
+        "outperformed": false,
+        "original_thesis": "Chevron's recent earnings report highlights significant profits, but the stock's minimal recent gains suggest limited short-term upside.",
+        "original_confidence": 3
+      },
+      {
+        "ticker": "MSFT",
+        "action": "avoid",
+        "entry_reference_price": 464.72,
+        "close_price": 487.6499938964844,
+        "return_pct": 4.934,
+        "benchmark_return_pct": 1.756,
+        "excess_return_pct": 3.178,
+        "outperformed": true,
+        "original_thesis": "MSFT's recent surge lacks a real catalyst, suggesting the move may be driven by overconfidence rather than fundamental changes.",
+        "original_confidence": 2
+      }
+    ],
+    "hit_rate": 0.667,
+    "avg_pick_return_pct": 2.653,
+    "benchmark_return_pct": 1.756,
+    "avg_excess_return_pct": 0.897,
+    "narrative": "The PAPER portfolio's average pick return of 2.653% and excess return of 0.897% relative to the QQQ benchmark suggests some degree of stock-specific skill, particularly with GOOGL and MSFT outperforming the benchmark significantly. However, the negative return from CVX indicates that not all picks were successful, which tempers the overall assessment of skill. The hit rate of 0.667 indicates a reasonable level of confidence, but the mixed results suggest that while there may be some skill involved, it is not consistently reliable across all selections."
+  },
+  "candidates": [
+    {
+      "ticker": "AMZN",
+      "candidate_score": 0.7881,
+      "score_breakdown": {
+        "momentum": 0.3,
+        "relative_strength": 0.25,
+        "volume_confirmation": 0.1198,
+        "catalyst": 0.2,
+        "earnings_risk_penalty": -0.015,
+        "volatility_penalty": -0.0667,
+        "weak_evidence_penalty": -0.0,
+        "total": 0.7881
+      },
+      "catalyst_assessment": "The recent 4.58% increase in AMZN's stock price appears to be driven by positive sentiment following strong performance in its AWS segment, as indicated by Wall Street raising targets and comments from Amazon's cloud chief about surging demand.",
+      "catalyst_is_real": true,
+      "evidence_sources": [
+        "15 news items (Finnhub)",
+        "SEC filing: 10-Q, 8-K",
+        "price/volume (yfinance)"
+      ],
+      "reasoning_summary": "Top-6 by transparent score.",
+      "risk_notes": "",
+      "model_used": "gpt-4o-mini",
+      "created_at": "2026-08-03T21:32:12.318743+00:00"
+    },
+    {
+      "ticker": "MSFT",
+      "candidate_score": 0.7689,
+      "score_breakdown": {
+        "momentum": 0.3,
+        "relative_strength": 0.25,
+        "volume_confirmation": 0.096,
+        "catalyst": 0.2,
+        "earnings_risk_penalty": -0.015,
+        "volatility_penalty": -0.0621,
+        "weak_evidence_penalty": -0.0,
+        "total": 0.7689
+      },
+      "catalyst_assessment": "The recent 4.93% increase in MSFT's stock price is likely driven by positive sentiment surrounding its AI investments, as highlighted by multiple news articles discussing how Microsoft's AI spending is yielding significant returns and positioning the company ahead of competitors like Google.",
+      "catalyst_is_real": true,
+      "evidence_sources": [
+        "15 news items (Finnhub)",
+        "SEC filing: 10-K, 8-K",
+        "price/volume (yfinance)"
+      ],
+      "reasoning_summary": "Top-6 by transparent score.",
+      "risk_notes": "",
+      "model_used": "gpt-4o-mini",
+      "created_at": "2026-08-03T21:32:12.318743+00:00"
+    },
+    {
+      "ticker": "GOOGL",
+      "candidate_score": 0.5779,
+      "score_breakdown": {
+        "momentum": 0.2819,
+        "relative_strength": 0.25,
+        "volume_confirmation": 0.037,
+        "catalyst": 0.06,
+        "earnings_risk_penalty": -0.015,
+        "volatility_penalty": -0.036,
+        "weak_evidence_penalty": -0.0,
+        "total": 0.5779
+      },
+      "catalyst_assessment": "The recent 4.88% increase in GOOGL's stock price appears to be unexplained from available public sources, as there are no significant news items or concrete catalysts identified beyond an insider transaction.",
+      "catalyst_is_real": false,
+      "evidence_sources": [
+        "SEC filing: Form 4",
+        "price/volume (yfinance)"
+      ],
+      "reasoning_summary": "Top-6 by transparent score.",
+      "risk_notes": "",
+      "model_used": "gpt-4o-mini",
+      "created_at": "2026-08-03T21:32:12.318743+00:00"
+    },
+    {
+      "ticker": "NVDA",
+      "candidate_score": 0.4666,
+      "score_breakdown": {
+        "momentum": 0.1608,
+        "relative_strength": 0.1473,
+        "volume_confirmation": -0.0018,
+        "catalyst": 0.2,
+        "earnings_risk_penalty": -0.015,
+        "volatility_penalty": -0.0247,
+        "weak_evidence_penalty": -0.0,
+        "total": 0.4666
+      },
+      "catalyst_assessment": "The recent 2.93% move in NVDA appears unexplained from available public sources, as there are no specific news items or filings directly related to the company that would account for this increase.",
+      "catalyst_is_real": false,
+      "evidence_sources": [
+        "15 news items (Finnhub)",
+        "price/volume (yfinance)"
+      ],
+      "reasoning_summary": "Top-6 by transparent score.",
+      "risk_notes": "",
+      "model_used": "gpt-4o-mini",
+      "created_at": "2026-08-03T21:32:12.318743+00:00"
+    },
+    {
+      "ticker": "ORCL",
+      "candidate_score": 0.4063,
+      "score_breakdown": {
+        "momentum": 0.3,
+        "relative_strength": 0.25,
+        "volume_confirmation": 0.0382,
+        "catalyst": 0.0,
+        "earnings_risk_penalty": -0.0,
+        "volatility_penalty": -0.0819,
+        "weak_evidence_penalty": -0.1,
+        "total": 0.4063
+      },
+      "catalyst_assessment": "The recent 9.22% move in ORCL appears to be unexplained from available public sources, as there are no news items or filings that could account for such a significant change.",
+      "catalyst_is_real": false,
+      "evidence_sources": [
+        "price/volume (yfinance)"
+      ],
+      "reasoning_summary": "Top-6 by transparent score.",
+      "risk_notes": "",
+      "model_used": "gpt-4o-mini",
+      "created_at": "2026-08-03T21:32:12.318743+00:00"
+    },
+    {
+      "ticker": "META",
+      "candidate_score": 0.3924,
+      "score_breakdown": {
+        "momentum": -0.0311,
+        "relative_strength": 0.25,
+        "volume_confirmation": 0.0375,
+        "catalyst": 0.2,
+        "earnings_risk_penalty": -0.015,
+        "volatility_penalty": -0.049,
+        "weak_evidence_penalty": -0.0,
+        "total": 0.3924
+      },
+      "catalyst_assessment": "The recent 6.02% rally in META stock appears to be driven by positive sentiment surrounding strong earnings results from AI hyperscalers like Amazon and Microsoft, which have boosted the entire sector.",
+      "catalyst_is_real": true,
+      "evidence_sources": [
+        "15 news items (Finnhub)",
+        "SEC filing: 10-Q, Form 4, 8-K",
+        "price/volume (yfinance)"
+      ],
+      "reasoning_summary": "Top-6 by transparent score.",
+      "risk_notes": "",
+      "model_used": "gpt-4o-mini",
+      "created_at": "2026-08-03T21:32:12.318743+00:00"
+    }
+  ],
+  "risk_review": {
+    "portfolio_risk": "The current candidate picks exhibit significant sector crowding, particularly in technology and communication services, which could amplify portfolio volatility in the event of sector-wide downturns. Additionally, the reliance on recent positive momentum may indicate a tendency to chase past performance, increasing susceptibility to sudden reversals.",
+    "ticker_risks": {
+      "AMZN": "Chasing recent gains with unknown earnings risk could lead to volatility if expectations are not met.",
+      "MSFT": "High recent gains and sector concentration increase vulnerability to tech sector corrections.",
+      "GOOGL": "Lack of recent catalysts and unknown earnings risk may lead to overreliance on past performance.",
+      "NVDA": "Low score and absence of real catalysts suggest limited upside potential amidst sector crowding.",
+      "ORCL": "Significant recent price movement without real catalysts raises concerns of overreaction to low earnings risk.",
+      "META": "Negative 5-day performance despite real catalysts indicates potential overconfidence in recovery."
+    },
+    "model_used": "gpt-4o"
+  },
+  "committee_decision": {
+    "picks": [
+      {
+        "ticker": "AMZN",
+        "action": "long",
+        "probability_band": "medium",
+        "confidence": 3,
+        "horizon_days": 1,
+        "entry_reference_price": 284.0199890136719,
+        "thesis": "AMZN's recent price surge is driven by strong performance and positive sentiment, making it a potential outperformer in the current risk-on market regime.",
+        "evidence_sources": [
+          "15 news items (Finnhub)",
+          "SEC filing: 10-Q, 8-K",
+          "price/volume (yfinance)"
+        ],
+        "reasoning_summary": "AMZN's strong recent performance and positive market sentiment provide a compelling case for potential short-term gains, despite the risk of volatility from chasing recent gains.",
+        "risk_notes": "Chasing recent gains with unknown earnings risk could lead to volatility if expectations are not met.",
+        "model_used": "gpt-4o",
+        "created_at": "2026-08-03T21:32:26.394480+00:00"
+      },
+      {
+        "ticker": "MSFT",
+        "action": "long",
+        "probability_band": "medium",
+        "confidence": 3,
+        "horizon_days": 1,
+        "entry_reference_price": 487.6499938964844,
+        "thesis": "MSFT's recent gains are driven by positive sentiment surrounding its AI investments, positioning it well for short-term outperformance.",
+        "evidence_sources": [
+          "15 news items (Finnhub)",
+          "SEC filing: 10-K, 8-K",
+          "price/volume (yfinance)"
+        ],
+        "reasoning_summary": "MSFT's focus on AI and recent positive sentiment make it a strong candidate for short-term gains, though sector concentration poses a risk.",
+        "risk_notes": "High recent gains and sector concentration increase vulnerability to tech sector corrections.",
+        "model_used": "gpt-4o",
+        "created_at": "2026-08-03T21:32:26.394480+00:00"
+      }
+    ],
+    "rejected": [
+      {
+        "ticker": "GOOGL",
+        "reason": "Lack of real catalysts and unknown earnings risk increase uncertainty."
+      },
+      {
+        "ticker": "NVDA",
+        "reason": "Low score and absence of real catalysts suggest limited upside potential."
+      },
+      {
+        "ticker": "ORCL",
+        "reason": "Significant price movement without real catalysts raises concerns of overreaction."
+      },
+      {
+        "ticker": "META",
+        "reason": "Negative 5-day performance despite real catalysts indicates potential overconfidence in recovery."
+      }
+    ],
+    "committee_summary": "Today's picks focus on AMZN and MSFT, both benefiting from strong recent performance and positive sentiment. However, the committee remains cautious of sector crowding and the potential for volatility. Other candidates were rejected due to lack of real catalysts or unexplained price movements."
+  },
+  "warnings": [
+    "finnhub news failed for AAPL: 503 Server Error: Service Unavailable for url: https://finnhub.io/api/v1/company-news?symbol=AAPL&from=2026-07-31&to=2026-08-03&token=d8uisp1r01qrt65qs3kgd8uisp1r01qrt65qs3l0",
+    "finnhub earnings failed for NVDA: 503 Server Error: Service Unavailable for url: https://finnhub.io/api/v1/calendar/earnings?symbol=NVDA&from=2026-08-03&to=2026-10-02&token=d8uisp1r01qrt65qs3kgd8uisp1r01qrt65qs3l0",
+    "finnhub news failed for GOOGL: 503 Server Error: Service Unavailable for url: https://finnhub.io/api/v1/company-news?symbol=GOOGL&from=2026-07-31&to=2026-08-03&token=d8uisp1r01qrt65qs3kgd8uisp1r01qrt65qs3l0",
+    "finnhub earnings failed for GOOGL: 503 Server Error: Service Unavailable for url: https://finnhub.io/api/v1/calendar/earnings?symbol=GOOGL&from=2026-08-03&to=2026-10-02&token=d8uisp1r01qrt65qs3kgd8uisp1r01qrt65qs3l0",
+    "finnhub earnings failed for NFLX: HTTPSConnectionPool(host='finnhub.io', port=443): Read timed out. (read timeout=12)",
+    "finnhub earnings failed for BAC: 503 Server Error: Service Unavailable for url: https://finnhub.io/api/v1/calendar/earnings?symbol=BAC&from=2026-08-03&to=2026-10-02&token=d8uisp1r01qrt65qs3kgd8uisp1r01qrt65qs3l0",
+    "finnhub news failed for MA: 503 Server Error: Service Unavailable for url: https://finnhub.io/api/v1/company-news?symbol=MA&from=2026-07-31&to=2026-08-03&token=d8uisp1r01qrt65qs3kgd8uisp1r01qrt65qs3l0",
+    "finnhub earnings failed for MA: 503 Server Error: Service Unavailable for url: https://finnhub.io/api/v1/calendar/earnings?symbol=MA&from=2026-08-03&to=2026-10-02&token=d8uisp1r01qrt65qs3kgd8uisp1r01qrt65qs3l0",
+    "finnhub news failed for WMT: 503 Server Error: Service Unavailable for url: https://finnhub.io/api/v1/company-news?symbol=WMT&from=2026-07-31&to=2026-08-03&token=d8uisp1r01qrt65qs3kgd8uisp1r01qrt65qs3l0",
+    "finnhub news failed for ORCL: 503 Server Error: Service Unavailable for url: https://finnhub.io/api/v1/company-news?symbol=ORCL&from=2026-07-31&to=2026-08-03&token=d8uisp1r01qrt65qs3kgd8uisp1r01qrt65qs3l0"
+  ]
+}

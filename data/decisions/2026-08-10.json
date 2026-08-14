@@ -1,0 +1,294 @@
+{
+  "run_date": "2026-08-10",
+  "yesterday_date": "2026-08-07",
+  "macro": {
+    "market_regime": "neutral",
+    "qqq_return_1d": -0.002987475059352747,
+    "spy_return_1d": -0.0002974167367321983,
+    "vix_change": null,
+    "ten_year_yield_change": -0.040000000000000036,
+    "notes": "regime=neutral, QQQ -0.30%, 10y -0.04pp"
+  },
+  "performance_review": {
+    "reviewed_date": "2026-08-07",
+    "benchmark": "QQQ",
+    "outcomes": [
+      {
+        "ticker": "CRM",
+        "action": "long",
+        "entry_reference_price": 192.74,
+        "close_price": 197.50999450683594,
+        "return_pct": 2.475,
+        "benchmark_return_pct": -0.299,
+        "excess_return_pct": 2.774,
+        "outperformed": true,
+        "original_thesis": "CRM's recent Department of Defense authorization provides a solid catalyst, potentially driving further short-term gains.",
+        "original_confidence": 4
+      },
+      {
+        "ticker": "ONDS",
+        "action": "watch",
+        "entry_reference_price": 9.11,
+        "close_price": 9.3100004196167,
+        "return_pct": 2.195,
+        "benchmark_return_pct": -0.299,
+        "excess_return_pct": 2.494,
+        "outperformed": true,
+        "original_thesis": "ONDS's significant $50M order from the U.S. provides a strong catalyst, but recent sharp gains suggest potential overextension.",
+        "original_confidence": 3
+      },
+      {
+        "ticker": "NVDA",
+        "action": "long",
+        "entry_reference_price": 223.96,
+        "close_price": 217.5500030517578,
+        "return_pct": -2.862,
+        "benchmark_return_pct": -0.299,
+        "excess_return_pct": -2.563,
+        "outperformed": false,
+        "original_thesis": "Nvidia's partnership with SpaceX provides a concrete catalyst, supporting continued momentum in a risk-on market.",
+        "original_confidence": 4
+      }
+    ],
+    "hit_rate": 0.667,
+    "avg_pick_return_pct": 0.603,
+    "benchmark_return_pct": -0.299,
+    "avg_excess_return_pct": 0.901,
+    "narrative": "The portfolio's average pick return of 0.603% and excess return of 0.901% against a benchmark decline of -0.299% suggests a degree of stock-specific skill, particularly with the strong performances of CRM and ONDS. However, the negative return from NVDA indicates that not all picks were successful, which tempers the overall assessment of skill. The hit rate of 0.667 indicates a reasonable level of confidence in the selections, but the mixed results suggest that while there is some skill evident, it may not be consistently reliable across all picks."
+  },
+  "candidates": [
+    {
+      "ticker": "LLY",
+      "candidate_score": 0.665,
+      "score_breakdown": {
+        "momentum": 0.2283,
+        "relative_strength": 0.25,
+        "volume_confirmation": 0.0116,
+        "catalyst": 0.2,
+        "earnings_risk_penalty": -0.015,
+        "volatility_penalty": -0.01,
+        "weak_evidence_penalty": -0.0,
+        "total": 0.665
+      },
+      "catalyst_assessment": "The recent 3.90% increase in Eli Lilly's stock is primarily driven by the approval of its obesity pill by the UK MHRA, which is a concrete catalyst linked to the company's product pipeline.",
+      "catalyst_is_real": true,
+      "evidence_sources": [
+        "15 news items (Finnhub)",
+        "SEC filing: Form 4, 10-Q, 8-K",
+        "price/volume (yfinance)"
+      ],
+      "reasoning_summary": "Top-6 by transparent score.",
+      "risk_notes": "",
+      "model_used": "gpt-4o-mini",
+      "created_at": "2026-08-10T21:32:04.614134+00:00"
+    },
+    {
+      "ticker": "CRM",
+      "candidate_score": 0.6356,
+      "score_breakdown": {
+        "momentum": 0.2962,
+        "relative_strength": 0.25,
+        "volume_confirmation": -0.0715,
+        "catalyst": 0.2,
+        "earnings_risk_penalty": -0.0,
+        "volatility_penalty": -0.0391,
+        "weak_evidence_penalty": -0.0,
+        "total": 0.6356
+      },
+      "catalyst_assessment": "The recent 2.47% move in CRM stock appears unexplained from available public sources, as the news items do not provide a concrete catalyst directly impacting Salesforce.",
+      "catalyst_is_real": false,
+      "evidence_sources": [
+        "15 news items (Finnhub)",
+        "SEC filing: 8-K",
+        "price/volume (yfinance)"
+      ],
+      "reasoning_summary": "Top-6 by transparent score.",
+      "risk_notes": "",
+      "model_used": "gpt-4o-mini",
+      "created_at": "2026-08-10T21:32:04.614134+00:00"
+    },
+    {
+      "ticker": "ORCL",
+      "candidate_score": 0.6116,
+      "score_breakdown": {
+        "momentum": 0.2947,
+        "relative_strength": 0.25,
+        "volume_confirmation": -0.0609,
+        "catalyst": 0.2,
+        "earnings_risk_penalty": -0.0,
+        "volatility_penalty": -0.0722,
+        "weak_evidence_penalty": -0.0,
+        "total": 0.6116
+      },
+      "catalyst_assessment": "The recent 2.74% move in ORCL appears to be unexplained from available public sources, as there are no concrete catalysts identified in the news items.",
+      "catalyst_is_real": false,
+      "evidence_sources": [
+        "15 news items (Finnhub)",
+        "price/volume (yfinance)"
+      ],
+      "reasoning_summary": "Top-6 by transparent score.",
+      "risk_notes": "",
+      "model_used": "gpt-4o-mini",
+      "created_at": "2026-08-10T21:32:04.614134+00:00"
+    },
+    {
+      "ticker": "XOM",
+      "candidate_score": 0.5995,
+      "score_breakdown": {
+        "momentum": 0.1818,
+        "relative_strength": 0.25,
+        "volume_confirmation": -0.0173,
+        "catalyst": 0.2,
+        "earnings_risk_penalty": -0.015,
+        "volatility_penalty": -0.0,
+        "weak_evidence_penalty": -0.0,
+        "total": 0.5995
+      },
+      "catalyst_assessment": "The recent 4.41% increase in XOM's stock price is likely driven by renewed fears over oil supply, as indicated by the headline \"Exxon Stock Jumps 3.3% as Oil Supply Fears Return.\" This suggests a concrete catalyst related to market sentiment on oil supply dynamics.",
+      "catalyst_is_real": true,
+      "evidence_sources": [
+        "15 news items (Finnhub)",
+        "price/volume (yfinance)"
+      ],
+      "reasoning_summary": "Top-6 by transparent score.",
+      "risk_notes": "",
+      "model_used": "gpt-4o-mini",
+      "created_at": "2026-08-10T21:32:04.614134+00:00"
+    },
+    {
+      "ticker": "MSFT",
+      "candidate_score": 0.5794,
+      "score_breakdown": {
+        "momentum": 0.3,
+        "relative_strength": 0.1891,
+        "volume_confirmation": -0.0329,
+        "catalyst": 0.2,
+        "earnings_risk_penalty": -0.015,
+        "volatility_penalty": -0.0618,
+        "weak_evidence_penalty": -0.0,
+        "total": 0.5794
+      },
+      "catalyst_assessment": "The recent rise in Microsoft's stock can be attributed to JPMorgan's endorsement of the company's AI potential, which is a concrete catalyst. This positive analyst action likely contributed to the stock's 1.21% increase.",
+      "catalyst_is_real": true,
+      "evidence_sources": [
+        "15 news items (Finnhub)",
+        "SEC filing: Form 4",
+        "price/volume (yfinance)"
+      ],
+      "reasoning_summary": "Top-6 by transparent score.",
+      "risk_notes": "",
+      "model_used": "gpt-4o-mini",
+      "created_at": "2026-08-10T21:32:04.614134+00:00"
+    },
+    {
+      "ticker": "ONDS",
+      "candidate_score": 0.5252,
+      "score_breakdown": {
+        "momentum": 0.3,
+        "relative_strength": 0.25,
+        "volume_confirmation": -0.0298,
+        "catalyst": 0.18,
+        "earnings_risk_penalty": -0.075,
+        "volatility_penalty": -0.1,
+        "weak_evidence_penalty": -0.0,
+        "total": 0.5252
+      },
+      "catalyst_assessment": "The recent 1-day move of +2.20% for ONDS is likely explained by the announcement of significant contracts related to counter-drone technology for both the U.S. Army and the Jacksonville Jaguars, which indicates strong business development and expansion in the defense sector.",
+      "catalyst_is_real": true,
+      "evidence_sources": [
+        "4 news items (Finnhub)",
+        "SEC filing: 8-K",
+        "price/volume (yfinance)"
+      ],
+      "reasoning_summary": "Top-6 by transparent score.",
+      "risk_notes": "",
+      "model_used": "gpt-4o-mini",
+      "created_at": "2026-08-10T21:32:04.614134+00:00"
+    }
+  ],
+  "risk_review": {
+    "portfolio_risk": "The current portfolio exhibits a potential overconcentration in the technology sector (XLK), which could lead to sector crowding risk. Additionally, the recent upward momentum across several candidates may suggest a risk of chasing yesterday's move, particularly in a neutral market regime.",
+    "ticker_risks": {
+      "LLY": "LLY's recent surge may be driven by short-term catalysts, with unknown earnings risk posing potential volatility.",
+      "CRM": "CRM's lack of a real catalyst and recent gains could indicate overconfidence in sustained momentum.",
+      "ORCL": "ORCL's performance may be buoyed by sector trends, lacking a distinct catalyst, raising concerns of factor crowding.",
+      "XOM": "XOM's unknown earnings risk and significant recent gains suggest vulnerability to event-driven volatility.",
+      "MSFT": "MSFT's unknown earnings risk and reliance on a catalyst in a crowded sector could lead to unexpected downturns.",
+      "ONDS": "ONDS's high volatility and medium earnings risk highlight potential instability despite recent strong performance."
+    },
+    "model_used": "gpt-4o"
+  },
+  "committee_decision": {
+    "picks": [
+      {
+        "ticker": "LLY",
+        "action": "long",
+        "probability_band": "medium",
+        "confidence": 4,
+        "horizon_days": 1,
+        "entry_reference_price": 1231.93994140625,
+        "thesis": "Eli Lilly's recent approval of its obesity pill by the UK MHRA provides a strong catalyst for potential short-term gains.",
+        "evidence_sources": [
+          "15 news items (Finnhub)",
+          "SEC filing: Form 4, 10-Q, 8-K",
+          "price/volume (yfinance)"
+        ],
+        "reasoning_summary": "The approval of the obesity pill is a significant development for Eli Lilly, likely to drive investor interest and stock performance in the short term.",
+        "risk_notes": "The recent surge may be driven by short-term catalysts, with unknown earnings risk posing potential volatility.",
+        "model_used": "gpt-4o",
+        "created_at": "2026-08-10T21:32:27.542428+00:00"
+      },
+      {
+        "ticker": "XOM",
+        "action": "long",
+        "probability_band": "medium",
+        "confidence": 4,
+        "horizon_days": 1,
+        "entry_reference_price": 159.7899932861328,
+        "thesis": "Renewed fears over oil supply have driven recent gains in XOM, suggesting potential for continued short-term outperformance.",
+        "evidence_sources": [
+          "15 news items (Finnhub)",
+          "price/volume (yfinance)"
+        ],
+        "reasoning_summary": "The heightened concerns over oil supply provide a tangible catalyst for XOM, aligning with recent market movements.",
+        "risk_notes": "XOM's unknown earnings risk and significant recent gains suggest vulnerability to event-driven volatility.",
+        "model_used": "gpt-4o",
+        "created_at": "2026-08-10T21:32:27.542428+00:00"
+      },
+      {
+        "ticker": "MSFT",
+        "action": "watch",
+        "probability_band": "low",
+        "confidence": 3,
+        "horizon_days": 1,
+        "entry_reference_price": 506.05999755859375,
+        "thesis": "JPMorgan's endorsement of Microsoft's AI potential offers a catalyst, but sector crowding risk tempers confidence.",
+        "evidence_sources": [
+          "15 news items (Finnhub)",
+          "SEC filing: Form 4",
+          "price/volume (yfinance)"
+        ],
+        "reasoning_summary": "While the AI endorsement is positive, the crowded tech sector and unknown earnings risk suggest caution.",
+        "risk_notes": "MSFT's unknown earnings risk and reliance on a catalyst in a crowded sector could lead to unexpected downturns.",
+        "model_used": "gpt-4o",
+        "created_at": "2026-08-10T21:32:27.542428+00:00"
+      }
+    ],
+    "rejected": [
+      {
+        "ticker": "CRM",
+        "reason": "Lack of a real catalyst and recent gains could indicate overconfidence in sustained momentum."
+      },
+      {
+        "ticker": "ORCL",
+        "reason": "Performance may be buoyed by sector trends, lacking a distinct catalyst, raising concerns of factor crowding."
+      },
+      {
+        "ticker": "ONDS",
+        "reason": "High volatility and medium earnings risk highlight potential instability despite recent strong performance."
+      }
+    ],
+    "committee_summary": "Today's picks focus on candidates with tangible catalysts and manageable risk profiles, while avoiding those with unexplained momentum or sector crowding risks."
+  },
+  "warnings": []
+}

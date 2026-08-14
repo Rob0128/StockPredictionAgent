@@ -1,0 +1,290 @@
+{
+  "run_date": "2026-08-13",
+  "yesterday_date": "2026-08-12",
+  "macro": {
+    "market_regime": "risk_on",
+    "qqq_return_1d": 0.011565558900105515,
+    "spy_return_1d": 0.0069774556519524075,
+    "vix_change": null,
+    "ten_year_yield_change": -0.020000000000000462,
+    "notes": "regime=risk_on, QQQ +1.16%, 10y -0.02pp"
+  },
+  "performance_review": {
+    "reviewed_date": "2026-08-12",
+    "benchmark": "QQQ",
+    "outcomes": [
+      {
+        "ticker": "ORCL",
+        "action": "long",
+        "entry_reference_price": 153.28,
+        "close_price": 156.22000122070312,
+        "return_pct": 1.918,
+        "benchmark_return_pct": 1.157,
+        "excess_return_pct": 0.762,
+        "outperformed": true,
+        "original_thesis": "Oracle's recent partnership with Quantinuum is expected to drive further interest and potential gains, leveraging the current positive sentiment in the tech sector.",
+        "original_confidence": 4
+      },
+      {
+        "ticker": "BAC",
+        "action": "watch",
+        "entry_reference_price": 64.81,
+        "close_price": 64.08999633789062,
+        "return_pct": -1.111,
+        "benchmark_return_pct": 1.157,
+        "excess_return_pct": -2.267,
+        "outperformed": false,
+        "original_thesis": "Bank of America's partnership with Jio Financial could provide a boost, but the potential earnings risk and market volatility warrant a cautious approach.",
+        "original_confidence": 3
+      },
+      {
+        "ticker": "ASML",
+        "action": "long",
+        "entry_reference_price": 1810.07,
+        "close_price": 1847.9000244140625,
+        "return_pct": 2.09,
+        "benchmark_return_pct": 1.157,
+        "excess_return_pct": 0.933,
+        "outperformed": true,
+        "original_thesis": "ASML's position in the AI demand narrative provides a strong catalyst, aligning with the current tech sector momentum.",
+        "original_confidence": 4
+      }
+    ],
+    "hit_rate": 0.667,
+    "avg_pick_return_pct": 0.966,
+    "benchmark_return_pct": 1.157,
+    "avg_excess_return_pct": -0.191,
+    "narrative": "The portfolio's average pick return of 0.966% and a negative excess return of -0.191% relative to the QQQ benchmark suggests that the overall performance is more reflective of market beta rather than stock-specific skill. While individual picks like ORCL and ASML outperformed the benchmark, the overall hit rate of 0.667 indicates that not all selections were successful, particularly with BAC underperforming significantly. The confidence in the picks appears to have been somewhat miscalibrated, as the overall returns did not meet expectations when compared to the benchmark."
+  },
+  "candidates": [
+    {
+      "ticker": "CRM",
+      "candidate_score": 0.7376,
+      "score_breakdown": {
+        "momentum": 0.3,
+        "relative_strength": 0.25,
+        "volume_confirmation": 0.0277,
+        "catalyst": 0.2,
+        "earnings_risk_penalty": -0.0,
+        "volatility_penalty": -0.0401,
+        "weak_evidence_penalty": -0.0,
+        "total": 0.7376
+      },
+      "catalyst_assessment": "The recent 4.16% move in CRM appears to be unexplained from available public sources, as the news items do not indicate a specific catalyst such as earnings, guidance, or regulatory changes.",
+      "catalyst_is_real": false,
+      "evidence_sources": [
+        "15 news items (Finnhub)",
+        "price/volume (yfinance)"
+      ],
+      "reasoning_summary": "Top-6 by transparent score.",
+      "risk_notes": "",
+      "model_used": "gpt-4o-mini",
+      "created_at": "2026-08-13T21:32:03.528280+00:00"
+    },
+    {
+      "ticker": "NFLX",
+      "candidate_score": 0.5791,
+      "score_breakdown": {
+        "momentum": 0.1739,
+        "relative_strength": 0.25,
+        "volume_confirmation": -0.0108,
+        "catalyst": 0.2,
+        "earnings_risk_penalty": -0.015,
+        "volatility_penalty": -0.019,
+        "weak_evidence_penalty": -0.0,
+        "total": 0.5791
+      },
+      "catalyst_assessment": "The recent 5.43% increase in NFLX stock is primarily driven by Bill Ackman's return to the stock, as indicated by his significant insider transaction and public statements, which have generated positive sentiment among investors.",
+      "catalyst_is_real": true,
+      "evidence_sources": [
+        "15 news items (Finnhub)",
+        "SEC filing: Form 4",
+        "price/volume (yfinance)"
+      ],
+      "reasoning_summary": "Top-6 by transparent score.",
+      "risk_notes": "",
+      "model_used": "gpt-4o-mini",
+      "created_at": "2026-08-13T21:32:03.529355+00:00"
+    },
+    {
+      "ticker": "ORCL",
+      "candidate_score": 0.4959,
+      "score_breakdown": {
+        "momentum": 0.3,
+        "relative_strength": 0.0952,
+        "volume_confirmation": -0.0339,
+        "catalyst": 0.2,
+        "earnings_risk_penalty": -0.0,
+        "volatility_penalty": -0.0655,
+        "weak_evidence_penalty": -0.0,
+        "total": 0.4959
+      },
+      "catalyst_assessment": "Oracle's stock increase of 1.92% is likely driven by the news of its AWS partnership expanding to 22 regions, which indicates a significant development in its cloud services and AI capabilities.",
+      "catalyst_is_real": true,
+      "evidence_sources": [
+        "15 news items (Finnhub)",
+        "price/volume (yfinance)"
+      ],
+      "reasoning_summary": "Top-6 by transparent score.",
+      "risk_notes": "",
+      "model_used": "gpt-4o-mini",
+      "created_at": "2026-08-13T21:32:03.529355+00:00"
+    },
+    {
+      "ticker": "ASML",
+      "candidate_score": 0.4236,
+      "score_breakdown": {
+        "momentum": 0.194,
+        "relative_strength": 0.1167,
+        "volume_confirmation": -0.0382,
+        "catalyst": 0.2,
+        "earnings_risk_penalty": -0.015,
+        "volatility_penalty": -0.0338,
+        "weak_evidence_penalty": -0.0,
+        "total": 0.4236
+      },
+      "catalyst_assessment": "The recent 1-day move of ASML is unexplained from available public sources, as none of the news items indicate a specific catalyst directly impacting the stock.",
+      "catalyst_is_real": false,
+      "evidence_sources": [
+        "15 news items (Finnhub)",
+        "price/volume (yfinance)"
+      ],
+      "reasoning_summary": "Top-6 by transparent score.",
+      "risk_notes": "",
+      "model_used": "gpt-4o-mini",
+      "created_at": "2026-08-13T21:32:03.529355+00:00"
+    },
+    {
+      "ticker": "TSLA",
+      "candidate_score": 0.3057,
+      "score_breakdown": {
+        "momentum": -0.0417,
+        "relative_strength": 0.25,
+        "volume_confirmation": -0.022,
+        "catalyst": 0.2,
+        "earnings_risk_penalty": -0.015,
+        "volatility_penalty": -0.0656,
+        "weak_evidence_penalty": -0.0,
+        "total": 0.3057
+      },
+      "catalyst_assessment": "The recent 3.80% move in TSLA appears to be unexplained from available public sources, as none of the news items indicate a concrete catalyst such as earnings, guidance, or significant corporate actions.",
+      "catalyst_is_real": false,
+      "evidence_sources": [
+        "15 news items (Finnhub)",
+        "price/volume (yfinance)"
+      ],
+      "reasoning_summary": "Top-6 by transparent score.",
+      "risk_notes": "",
+      "model_used": "gpt-4o-mini",
+      "created_at": "2026-08-13T21:32:03.529355+00:00"
+    },
+    {
+      "ticker": "MSFT",
+      "candidate_score": 0.3041,
+      "score_breakdown": {
+        "momentum": 0.2758,
+        "relative_strength": -0.0316,
+        "volume_confirmation": -0.0621,
+        "catalyst": 0.2,
+        "earnings_risk_penalty": -0.015,
+        "volatility_penalty": -0.063,
+        "weak_evidence_penalty": -0.0,
+        "total": 0.3041
+      },
+      "catalyst_assessment": "The stock's rise can be attributed to Bill Ackman's reaffirmation of his investment in Microsoft's Azure, which likely boosted investor confidence in the company's cloud business.",
+      "catalyst_is_real": true,
+      "evidence_sources": [
+        "15 news items (Finnhub)",
+        "price/volume (yfinance)"
+      ],
+      "reasoning_summary": "Top-6 by transparent score.",
+      "risk_notes": "",
+      "model_used": "gpt-4o-mini",
+      "created_at": "2026-08-13T21:32:03.529355+00:00"
+    }
+  ],
+  "risk_review": {
+    "portfolio_risk": "The current selection exhibits significant sector crowding in technology (XLK), which may lead to heightened volatility if market sentiment shifts. Additionally, the absence of clear catalysts for some picks increases the risk of chasing recent momentum without substantial evidence.",
+    "ticker_risks": {
+      "CRM": "Recent gains may be driven by short-term momentum rather than fundamental changes; risk of overconfidence.",
+      "NFLX": "Earnings risk is unknown, and recent price action may be influenced by speculative catalysts.",
+      "ORCL": "Despite a real catalyst, the stock's recent surge could be susceptible to profit-taking.",
+      "ASML": "Lack of a real catalyst suggests recent price movement may not be sustainable.",
+      "TSLA": "Potential overreaction to short-term news with no real catalyst; earnings risk remains unknown.",
+      "MSFT": "Negative weekly performance despite a real catalyst indicates potential underlying issues."
+    },
+    "model_used": "gpt-4o"
+  },
+  "committee_decision": {
+    "picks": [
+      {
+        "ticker": "NFLX",
+        "action": "long",
+        "probability_band": "medium",
+        "confidence": 4,
+        "horizon_days": 1,
+        "entry_reference_price": 78.24,
+        "thesis": "NFLX's recent price increase is driven by a significant catalyst, namely Bill Ackman's renewed interest in the stock, which could signal further institutional support.",
+        "evidence_sources": [
+          "15 news items (Finnhub)",
+          "SEC filing: Form 4",
+          "price/volume (yfinance)"
+        ],
+        "reasoning_summary": "The involvement of a high-profile investor like Bill Ackman provides a tangible catalyst that could sustain NFLX's momentum. Despite the risk of speculative influence, the catalyst's credibility supports a positive outlook.",
+        "risk_notes": "Earnings risk remains unknown, and the stock's recent performance may be influenced by speculative trading.",
+        "model_used": "gpt-4o",
+        "created_at": "2026-08-13T21:32:22.198759+00:00"
+      },
+      {
+        "ticker": "ORCL",
+        "action": "long",
+        "probability_band": "medium",
+        "confidence": 4,
+        "horizon_days": 1,
+        "entry_reference_price": 156.22,
+        "thesis": "ORCL's stock is benefiting from a real catalyst, the expansion of its AWS partnership, which enhances its cloud service capabilities and market reach.",
+        "evidence_sources": [
+          "15 news items (Finnhub)",
+          "price/volume (yfinance)"
+        ],
+        "reasoning_summary": "The expansion of Oracle's AWS partnership is a concrete development that could drive further growth in its cloud services, supporting the stock's recent upward trend.",
+        "risk_notes": "The stock's recent surge may lead to profit-taking, but the real catalyst provides a solid foundation for continued interest.",
+        "model_used": "gpt-4o",
+        "created_at": "2026-08-13T21:32:22.198759+00:00"
+      },
+      {
+        "ticker": "MSFT",
+        "action": "watch",
+        "probability_band": "low",
+        "confidence": 3,
+        "horizon_days": 1,
+        "entry_reference_price": 496.88,
+        "thesis": "MSFT's recent performance is influenced by Bill Ackman's reaffirmation of his investment, but the negative weekly performance suggests underlying issues.",
+        "evidence_sources": [
+          "15 news items (Finnhub)",
+          "price/volume (yfinance)"
+        ],
+        "reasoning_summary": "While the reaffirmation by a notable investor is a positive sign, the negative weekly performance indicates potential challenges that could affect short-term gains.",
+        "risk_notes": "Despite a real catalyst, the negative weekly performance suggests caution due to potential underlying issues.",
+        "model_used": "gpt-4o",
+        "created_at": "2026-08-13T21:32:22.198759+00:00"
+      }
+    ],
+    "rejected": [
+      {
+        "ticker": "CRM",
+        "reason": "Lack of a real catalyst and potential overconfidence due to unexplained recent gains."
+      },
+      {
+        "ticker": "ASML",
+        "reason": "Absence of a real catalyst and unexplained price movement raise sustainability concerns."
+      },
+      {
+        "ticker": "TSLA",
+        "reason": "No real catalyst and potential overreaction to short-term news; earnings risk remains unknown."
+      }
+    ],
+    "committee_summary": "Today's picks focus on stocks with tangible catalysts, such as NFLX and ORCL, which have credible developments supporting their recent performance. MSFT is placed on watch due to mixed signals from investor interest and negative weekly performance. CRM, ASML, and TSLA are rejected due to the lack of real catalysts and unexplained price movements, which increase the risk of unsustainable gains."
+  },
+  "warnings": []
+}

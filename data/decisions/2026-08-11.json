@@ -1,0 +1,278 @@
+{
+  "run_date": "2026-08-11",
+  "yesterday_date": "2026-08-10",
+  "macro": {
+    "market_regime": "neutral",
+    "qqq_return_1d": -0.0033570309855424736,
+    "spy_return_1d": -0.0031952597501650965,
+    "vix_change": null,
+    "ten_year_yield_change": 0.0699999999999994,
+    "notes": "regime=neutral, QQQ -0.34%, 10y +0.07pp"
+  },
+  "performance_review": {
+    "reviewed_date": "2026-08-10",
+    "benchmark": "QQQ",
+    "outcomes": [
+      {
+        "ticker": "LLY",
+        "action": "long",
+        "entry_reference_price": 1231.93994140625,
+        "close_price": 1215.02001953125,
+        "return_pct": -1.373,
+        "benchmark_return_pct": -0.336,
+        "excess_return_pct": -1.038,
+        "outperformed": false,
+        "original_thesis": "Eli Lilly's recent approval of its obesity pill by the UK MHRA provides a strong catalyst for potential short-term gains.",
+        "original_confidence": 4
+      },
+      {
+        "ticker": "XOM",
+        "action": "long",
+        "entry_reference_price": 159.7899932861328,
+        "close_price": 159.8000030517578,
+        "return_pct": 0.006,
+        "benchmark_return_pct": -0.336,
+        "excess_return_pct": 0.342,
+        "outperformed": true,
+        "original_thesis": "Renewed fears over oil supply have driven recent gains in XOM, suggesting potential for continued short-term outperformance.",
+        "original_confidence": 4
+      },
+      {
+        "ticker": "MSFT",
+        "action": "watch",
+        "entry_reference_price": 506.05999755859375,
+        "close_price": 503.80999755859375,
+        "return_pct": -0.445,
+        "benchmark_return_pct": -0.336,
+        "excess_return_pct": -0.109,
+        "outperformed": false,
+        "original_thesis": "JPMorgan's endorsement of Microsoft's AI potential offers a catalyst, but sector crowding risk tempers confidence.",
+        "original_confidence": 3
+      }
+    ],
+    "hit_rate": 0.333,
+    "avg_pick_return_pct": -0.604,
+    "benchmark_return_pct": -0.336,
+    "avg_excess_return_pct": -0.268,
+    "narrative": "The PAPER portfolio's performance appears to reflect a combination of stock-specific factors and broader market beta influences. The average pick return of -0.604% and a hit rate of only 33.3% suggest that the selections did not demonstrate strong stock-specific skill, as they underperformed the benchmark QQQ return of -0.336%. Additionally, the confidence in the picks, particularly with LLY and MSFT, seems miscalibrated given their significant underperformance relative to expectations. Overall, the results indicate a need for more rigorous analysis and possibly a reassessment of the underlying investment theses."
+  },
+  "candidates": [
+    {
+      "ticker": "ONDS",
+      "candidate_score": 0.5067,
+      "score_breakdown": {
+        "momentum": 0.3,
+        "relative_strength": 0.25,
+        "volume_confirmation": -0.0483,
+        "catalyst": 0.18,
+        "earnings_risk_penalty": -0.075,
+        "volatility_penalty": -0.1,
+        "weak_evidence_penalty": -0.0,
+        "total": 0.5067
+      },
+      "catalyst_assessment": "The stock's 4.62% increase is likely driven by the announcement of a multi-million-dollar contract for tactical attack drones and a counter-drone deal, both of which are concrete catalysts indicating positive business developments.",
+      "catalyst_is_real": true,
+      "evidence_sources": [
+        "5 news items (Finnhub)",
+        "SEC filing: 8-K",
+        "price/volume (yfinance)"
+      ],
+      "reasoning_summary": "Top-6 by transparent score.",
+      "risk_notes": "",
+      "model_used": "gpt-4o-mini",
+      "created_at": "2026-08-11T21:31:25.541792+00:00"
+    },
+    {
+      "ticker": "ASML",
+      "candidate_score": 0.4756,
+      "score_breakdown": {
+        "momentum": 0.108,
+        "relative_strength": 0.25,
+        "volume_confirmation": -0.0325,
+        "catalyst": 0.2,
+        "earnings_risk_penalty": -0.015,
+        "volatility_penalty": -0.0349,
+        "weak_evidence_penalty": -0.0,
+        "total": 0.4756
+      },
+      "catalyst_assessment": "The recent 3.80% increase in ASML's stock appears to be unexplained from available public sources, as the news items do not indicate a specific catalyst such as earnings, guidance, or regulatory changes.",
+      "catalyst_is_real": false,
+      "evidence_sources": [
+        "15 news items (Finnhub)",
+        "price/volume (yfinance)"
+      ],
+      "reasoning_summary": "Top-6 by transparent score.",
+      "risk_notes": "",
+      "model_used": "gpt-4o-mini",
+      "created_at": "2026-08-11T21:31:25.541792+00:00"
+    },
+    {
+      "ticker": "CVX",
+      "candidate_score": 0.4626,
+      "score_breakdown": {
+        "momentum": 0.1576,
+        "relative_strength": 0.1542,
+        "volume_confirmation": -0.0341,
+        "catalyst": 0.2,
+        "earnings_risk_penalty": -0.015,
+        "volatility_penalty": -0.0,
+        "weak_evidence_penalty": -0.0,
+        "total": 0.4626
+      },
+      "catalyst_assessment": "The recent 1-day move of CVX is unexplained from available public sources, as the news items do not provide a concrete catalyst directly impacting the stock.",
+      "catalyst_is_real": false,
+      "evidence_sources": [
+        "15 news items (Finnhub)",
+        "SEC filing: Form 4, 10-Q",
+        "price/volume (yfinance)"
+      ],
+      "reasoning_summary": "Top-6 by transparent score.",
+      "risk_notes": "",
+      "model_used": "gpt-4o-mini",
+      "created_at": "2026-08-11T21:31:25.541792+00:00"
+    },
+    {
+      "ticker": "HD",
+      "candidate_score": 0.4159,
+      "score_breakdown": {
+        "momentum": 0.0917,
+        "relative_strength": 0.1738,
+        "volume_confirmation": -0.0496,
+        "catalyst": 0.2,
+        "earnings_risk_penalty": -0.0,
+        "volatility_penalty": -0.0,
+        "weak_evidence_penalty": -0.0,
+        "total": 0.4159
+      },
+      "catalyst_assessment": "The recent 1-day move of +1.05% for Home Depot (HD) is likely explained by Wells Fargo maintaining an Overweight rating and raising the price target to $400, which is a concrete analyst action.",
+      "catalyst_is_real": true,
+      "evidence_sources": [
+        "15 news items (Finnhub)",
+        "price/volume (yfinance)"
+      ],
+      "reasoning_summary": "Top-6 by transparent score.",
+      "risk_notes": "",
+      "model_used": "gpt-4o-mini",
+      "created_at": "2026-08-11T21:31:25.541792+00:00"
+    },
+    {
+      "ticker": "CRM",
+      "candidate_score": 0.4025,
+      "score_breakdown": {
+        "momentum": 0.2753,
+        "relative_strength": 0.0394,
+        "volume_confirmation": -0.0754,
+        "catalyst": 0.2,
+        "earnings_risk_penalty": -0.0,
+        "volatility_penalty": -0.0368,
+        "weak_evidence_penalty": -0.0,
+        "total": 0.4025
+      },
+      "catalyst_assessment": "The recent 1-day move of CRM is unexplained from available public sources, as there are no concrete catalysts identified in the news items.",
+      "catalyst_is_real": false,
+      "evidence_sources": [
+        "15 news items (Finnhub)",
+        "price/volume (yfinance)"
+      ],
+      "reasoning_summary": "Top-6 by transparent score.",
+      "risk_notes": "",
+      "model_used": "gpt-4o-mini",
+      "created_at": "2026-08-11T21:31:25.541792+00:00"
+    },
+    {
+      "ticker": "XOM",
+      "candidate_score": 0.3711,
+      "score_breakdown": {
+        "momentum": 0.1899,
+        "relative_strength": 0.0427,
+        "volume_confirmation": -0.0466,
+        "catalyst": 0.2,
+        "earnings_risk_penalty": -0.015,
+        "volatility_penalty": -0.0,
+        "weak_evidence_penalty": -0.0,
+        "total": 0.3711
+      },
+      "catalyst_assessment": "The recent 1-day move of +0.01% for XOM appears unexplained from available public sources, as there are no concrete catalysts identified in the news items.",
+      "catalyst_is_real": false,
+      "evidence_sources": [
+        "15 news items (Finnhub)",
+        "price/volume (yfinance)"
+      ],
+      "reasoning_summary": "Top-6 by transparent score.",
+      "risk_notes": "",
+      "model_used": "gpt-4o-mini",
+      "created_at": "2026-08-11T21:31:25.541792+00:00"
+    }
+  ],
+  "risk_review": {
+    "portfolio_risk": "The portfolio exhibits potential sector crowding with significant exposure to the Energy (XLE) and Technology (XLK) sectors, increasing vulnerability to sector-specific downturns. Additionally, reliance on recent price movements may indicate overconfidence in short-term trends.",
+    "ticker_risks": {
+      "ONDS": "Recent price surge may be driven by short-term catalysts, risking a pullback if momentum fades.",
+      "ASML": "High news volume without a real catalyst suggests potential overreaction to market noise.",
+      "CVX": "Earnings risk is unknown, posing uncertainty ahead of potential earnings announcements.",
+      "HD": "Low earnings risk but limited recent price movement may indicate a lack of strong catalysts.",
+      "CRM": "Minimal price change despite low earnings risk suggests market skepticism or lack of new drivers.",
+      "XOM": "Unknown earnings risk and reliance on sector trends may lead to volatility if sector sentiment shifts."
+    },
+    "model_used": "gpt-4o"
+  },
+  "committee_decision": {
+    "picks": [
+      {
+        "ticker": "ONDS",
+        "action": "long",
+        "probability_band": "medium",
+        "confidence": 3,
+        "horizon_days": 1,
+        "entry_reference_price": 9.74,
+        "thesis": "ONDS has recently secured a significant multi-million-dollar contract, which is expected to drive short-term momentum.",
+        "evidence_sources": [
+          "5 news items (Finnhub)",
+          "SEC filing: 8-K",
+          "price/volume (yfinance)"
+        ],
+        "reasoning_summary": "The recent contract announcement provides a tangible catalyst that could sustain the current upward momentum, despite the risk of a pullback if the momentum fades.",
+        "risk_notes": "The recent price surge may be driven by short-term catalysts, risking a pullback if momentum fades.",
+        "model_used": "gpt-4o",
+        "created_at": "2026-08-11T21:31:44.557050+00:00"
+      },
+      {
+        "ticker": "HD",
+        "action": "watch",
+        "probability_band": "low",
+        "confidence": 2,
+        "horizon_days": 1,
+        "entry_reference_price": 354.48,
+        "thesis": "Home Depot's recent price movement is supported by a maintained Overweight rating from Wells Fargo, indicating potential stability.",
+        "evidence_sources": [
+          "15 news items (Finnhub)",
+          "price/volume (yfinance)"
+        ],
+        "reasoning_summary": "While the Overweight rating provides some support, the lack of significant price movement suggests limited immediate upside potential.",
+        "risk_notes": "Low earnings risk but limited recent price movement may indicate a lack of strong catalysts.",
+        "model_used": "gpt-4o",
+        "created_at": "2026-08-11T21:31:44.557050+00:00"
+      }
+    ],
+    "rejected": [
+      {
+        "ticker": "ASML",
+        "reason": "No real catalyst identified; potential overreaction to market noise."
+      },
+      {
+        "ticker": "CVX",
+        "reason": "Unexplained price movement with unknown earnings risk."
+      },
+      {
+        "ticker": "CRM",
+        "reason": "Minimal price change with no real catalyst; market skepticism."
+      },
+      {
+        "ticker": "XOM",
+        "reason": "Unexplained price movement with reliance on sector trends."
+      }
+    ],
+    "committee_summary": "Today's picks focus on ONDS due to a tangible catalyst and HD for its stability despite limited movement. Other candidates were rejected due to lack of real catalysts or unexplained price movements."
+  },
+  "warnings": []
+}

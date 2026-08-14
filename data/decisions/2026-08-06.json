@@ -1,0 +1,283 @@
+{
+  "run_date": "2026-08-06",
+  "yesterday_date": "2026-08-05",
+  "macro": {
+    "market_regime": "neutral",
+    "qqq_return_1d": -0.003694358600311447,
+    "spy_return_1d": -0.0015978130449319902,
+    "vix_change": null,
+    "ten_year_yield_change": 0.0,
+    "notes": "regime=neutral, QQQ -0.37%, 10y +0.00pp"
+  },
+  "performance_review": {
+    "reviewed_date": "2026-08-05",
+    "benchmark": "QQQ",
+    "outcomes": [
+      {
+        "ticker": "HD",
+        "action": "watch",
+        "entry_reference_price": 353.14,
+        "close_price": 349.5199890136719,
+        "return_pct": -1.025,
+        "benchmark_return_pct": -0.369,
+        "excess_return_pct": -0.656,
+        "outperformed": false,
+        "original_thesis": "Home Depot's moderate gains in the consumer discretionary sector (XLY) could offer relative stability in a risk-off market regime.",
+        "original_confidence": 3
+      },
+      {
+        "ticker": "BAC",
+        "action": "watch",
+        "entry_reference_price": 63.25,
+        "close_price": 63.0,
+        "return_pct": -0.395,
+        "benchmark_return_pct": -0.369,
+        "excess_return_pct": -0.026,
+        "outperformed": false,
+        "original_thesis": "Bank of America's recent price movement suggests potential for stability, but the absence of a catalyst and unknown earnings risk warrant caution.",
+        "original_confidence": 2
+      }
+    ],
+    "hit_rate": 0.0,
+    "avg_pick_return_pct": -0.71,
+    "benchmark_return_pct": -0.369,
+    "avg_excess_return_pct": -0.341,
+    "narrative": "The PAPER portfolio's prior-day picks underperformed the benchmark QQQ return of -0.369%, with an average pick return of -0.71% and a hit rate of 0.0%. This suggests that the underperformance is more indicative of market beta rather than stock-specific skill, as none of the picks generated positive excess returns. Additionally, the lack of successful picks raises concerns about the confidence calibration in the investment theses, as the anticipated stability and gains did not materialize."
+  },
+  "candidates": [
+    {
+      "ticker": "MSFT",
+      "candidate_score": 0.6482,
+      "score_breakdown": {
+        "momentum": 0.3,
+        "relative_strength": 0.25,
+        "volume_confirmation": -0.0251,
+        "catalyst": 0.2,
+        "earnings_risk_penalty": -0.015,
+        "volatility_penalty": -0.0617,
+        "weak_evidence_penalty": -0.0,
+        "total": 0.6482
+      },
+      "catalyst_assessment": "The recent 2.54% move in MSFT appears to be unexplained from available public sources, as the news items do not indicate a specific catalyst such as earnings, guidance, or significant corporate actions.",
+      "catalyst_is_real": false,
+      "evidence_sources": [
+        "15 news items (Finnhub)",
+        "SEC filing: Form 4",
+        "price/volume (yfinance)"
+      ],
+      "reasoning_summary": "Top-6 by transparent score.",
+      "risk_notes": "",
+      "model_used": "gpt-4o-mini",
+      "created_at": "2026-08-06T21:31:31.685243+00:00"
+    },
+    {
+      "ticker": "XOM",
+      "candidate_score": 0.5082,
+      "score_breakdown": {
+        "momentum": 0.1273,
+        "relative_strength": 0.25,
+        "volume_confirmation": -0.0541,
+        "catalyst": 0.2,
+        "earnings_risk_penalty": -0.015,
+        "volatility_penalty": -0.0,
+        "weak_evidence_penalty": -0.0,
+        "total": 0.5082
+      },
+      "catalyst_assessment": "The recent 2.12% increase in XOM's stock price is likely driven by strong earnings reports indicating significant profits due to rising oil prices, as highlighted in the news about Exxon making $160 million a day last quarter.",
+      "catalyst_is_real": true,
+      "evidence_sources": [
+        "15 news items (Finnhub)",
+        "SEC filing: 10-Q",
+        "price/volume (yfinance)"
+      ],
+      "reasoning_summary": "Top-6 by transparent score.",
+      "risk_notes": "",
+      "model_used": "gpt-4o-mini",
+      "created_at": "2026-08-06T21:31:31.685243+00:00"
+    },
+    {
+      "ticker": "CVX",
+      "candidate_score": 0.4889,
+      "score_breakdown": {
+        "momentum": 0.0758,
+        "relative_strength": 0.2353,
+        "volume_confirmation": -0.0072,
+        "catalyst": 0.2,
+        "earnings_risk_penalty": -0.015,
+        "volatility_penalty": -0.0,
+        "weak_evidence_penalty": -0.0,
+        "total": 0.4889
+      },
+      "catalyst_assessment": "The recent 1-day move in Chevron's stock appears to be supported by positive sentiment from its earnings performance, as indicated by the headline 'Chevron (CVX) Earnings Surge Keeps Its Valuation Story In Focus', suggesting that strong earnings are driving investor interest.",
+      "catalyst_is_real": true,
+      "evidence_sources": [
+        "15 news items (Finnhub)",
+        "SEC filing: 10-Q, Form 4",
+        "price/volume (yfinance)"
+      ],
+      "reasoning_summary": "Top-6 by transparent score.",
+      "risk_notes": "",
+      "model_used": "gpt-4o-mini",
+      "created_at": "2026-08-06T21:31:31.685243+00:00"
+    },
+    {
+      "ticker": "NVDA",
+      "candidate_score": 0.4887,
+      "score_breakdown": {
+        "momentum": 0.3,
+        "relative_strength": 0.0331,
+        "volume_confirmation": -0.0189,
+        "catalyst": 0.2,
+        "earnings_risk_penalty": -0.0,
+        "volatility_penalty": -0.0255,
+        "weak_evidence_penalty": -0.0,
+        "total": 0.4887
+      },
+      "catalyst_assessment": "The recent 1-day move of NVDA is unexplained from available public sources, as there are no concrete catalysts identified in the news items.",
+      "catalyst_is_real": false,
+      "evidence_sources": [
+        "15 news items (Finnhub)",
+        "price/volume (yfinance)"
+      ],
+      "reasoning_summary": "Top-6 by transparent score.",
+      "risk_notes": "",
+      "model_used": "gpt-4o-mini",
+      "created_at": "2026-08-06T21:31:31.685243+00:00"
+    },
+    {
+      "ticker": "AVGO",
+      "candidate_score": 0.4496,
+      "score_breakdown": {
+        "momentum": 0.2101,
+        "relative_strength": 0.1145,
+        "volume_confirmation": -0.0499,
+        "catalyst": 0.2,
+        "earnings_risk_penalty": -0.0,
+        "volatility_penalty": -0.025,
+        "weak_evidence_penalty": -0.0,
+        "total": 0.4496
+      },
+      "catalyst_assessment": "The recent 1-day move of +0.55% for AVGO appears to be unexplained from available public sources, as none of the news items indicate a concrete catalyst directly impacting the stock.",
+      "catalyst_is_real": false,
+      "evidence_sources": [
+        "15 news items (Finnhub)",
+        "price/volume (yfinance)"
+      ],
+      "reasoning_summary": "Top-6 by transparent score.",
+      "risk_notes": "",
+      "model_used": "gpt-4o-mini",
+      "created_at": "2026-08-06T21:31:31.685243+00:00"
+    },
+    {
+      "ticker": "LLY",
+      "candidate_score": 0.4421,
+      "score_breakdown": {
+        "momentum": 0.033,
+        "relative_strength": 0.25,
+        "volume_confirmation": -0.0192,
+        "catalyst": 0.2,
+        "earnings_risk_penalty": -0.015,
+        "volatility_penalty": -0.0066,
+        "weak_evidence_penalty": -0.0,
+        "total": 0.4421
+      },
+      "catalyst_assessment": "The recent 1.89% increase in LLY's stock price is likely driven by raised guidance on GLP-1 demand discussed in the earnings call, which is a concrete catalyst.",
+      "catalyst_is_real": true,
+      "evidence_sources": [
+        "15 news items (Finnhub)",
+        "SEC filing: 10-Q, 8-K, Form 4",
+        "price/volume (yfinance)"
+      ],
+      "reasoning_summary": "Top-6 by transparent score.",
+      "risk_notes": "",
+      "model_used": "gpt-4o-mini",
+      "created_at": "2026-08-06T21:31:31.685243+00:00"
+    }
+  ],
+  "risk_review": {
+    "portfolio_risk": "The portfolio exhibits potential sector crowding, particularly in XLK (Technology) and XLE (Energy), which may amplify exposure to sector-specific risks. Additionally, the reliance on recent price movements and catalysts without clear earnings visibility could increase vulnerability to unforeseen events.",
+    "ticker_risks": {
+      "MSFT": "Chasing recent gains in a crowded tech sector without clear earnings visibility.",
+      "XOM": "Potential overconfidence in a real catalyst despite recent negative performance.",
+      "CVX": "Similar sector exposure as XOM with unclear earnings risk, increasing concentration risk.",
+      "NVDA": "High recent gains may reflect overconfidence in tech sector momentum without a real catalyst.",
+      "AVGO": "Following recent tech sector momentum with low earnings risk but no real catalyst.",
+      "LLY": "Real catalyst present, but earnings risk remains unknown, posing potential event risk."
+    },
+    "model_used": "gpt-4o"
+  },
+  "committee_decision": {
+    "picks": [
+      {
+        "ticker": "XOM",
+        "action": "long",
+        "probability_band": "medium",
+        "confidence": 3,
+        "horizon_days": 1,
+        "entry_reference_price": 154.83999633789062,
+        "thesis": "XOM's recent price increase is supported by strong earnings reports, indicating significant profit potential.",
+        "evidence_sources": [
+          "15 news items (Finnhub)",
+          "SEC filing: 10-Q",
+          "price/volume (yfinance)"
+        ],
+        "reasoning_summary": "XOM's recent positive earnings report suggests a solid financial footing, which could drive short-term performance despite recent negative trends.",
+        "risk_notes": "Potential overconfidence in the catalyst and sector concentration risk could impact performance.",
+        "model_used": "gpt-4o",
+        "created_at": "2026-08-06T21:31:51.522960+00:00"
+      },
+      {
+        "ticker": "LLY",
+        "action": "long",
+        "probability_band": "medium",
+        "confidence": 4,
+        "horizon_days": 1,
+        "entry_reference_price": 1191.93994140625,
+        "thesis": "LLY's stock price increase is driven by raised guidance on GLP-1 demand, indicating strong market potential.",
+        "evidence_sources": [
+          "15 news items (Finnhub)",
+          "SEC filing: 10-Q, 8-K, Form 4",
+          "price/volume (yfinance)"
+        ],
+        "reasoning_summary": "The raised guidance on GLP-1 demand provides a strong catalyst for LLY, suggesting potential for short-term outperformance.",
+        "risk_notes": "While the catalyst is real, unknown earnings risks could pose challenges.",
+        "model_used": "gpt-4o",
+        "created_at": "2026-08-06T21:31:51.522960+00:00"
+      },
+      {
+        "ticker": "CVX",
+        "action": "watch",
+        "probability_band": "low",
+        "confidence": 2,
+        "horizon_days": 1,
+        "entry_reference_price": 189.22999572753906,
+        "thesis": "CVX's recent price movement is supported by positive sentiment from its earnings performance.",
+        "evidence_sources": [
+          "15 news items (Finnhub)",
+          "SEC filing: 10-Q, Form 4",
+          "price/volume (yfinance)"
+        ],
+        "reasoning_summary": "CVX shows potential due to positive earnings sentiment, but sector concentration and unclear earnings risk warrant caution.",
+        "risk_notes": "Sector concentration risk and unclear earnings visibility could impact performance.",
+        "model_used": "gpt-4o",
+        "created_at": "2026-08-06T21:31:51.522960+00:00"
+      }
+    ],
+    "rejected": [
+      {
+        "ticker": "MSFT",
+        "reason": "No real catalyst identified; recent gains may not be sustainable."
+      },
+      {
+        "ticker": "NVDA",
+        "reason": "High recent gains without a real catalyst; potential overconfidence in tech momentum."
+      },
+      {
+        "ticker": "AVGO",
+        "reason": "No real catalyst identified; following sector momentum without clear earnings visibility."
+      }
+    ],
+    "committee_summary": "Today's picks focus on stocks with real catalysts and strong earnings reports, while maintaining caution due to sector concentration risks. XOM and LLY present opportunities supported by earnings and market sentiment, while CVX is flagged for observation due to sector exposure."
+  },
+  "warnings": []
+}

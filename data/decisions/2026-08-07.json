@@ -1,0 +1,294 @@
+{
+  "run_date": "2026-08-07",
+  "yesterday_date": "2026-08-06",
+  "macro": {
+    "market_regime": "risk_on",
+    "qqq_return_1d": 0.011726026161803071,
+    "spy_return_1d": 0.0061153484724176385,
+    "vix_change": null,
+    "ten_year_yield_change": 0.0600000000000005,
+    "notes": "regime=risk_on, QQQ +1.17%, 10y +0.06pp"
+  },
+  "performance_review": {
+    "reviewed_date": "2026-08-06",
+    "benchmark": "QQQ",
+    "outcomes": [
+      {
+        "ticker": "XOM",
+        "action": "long",
+        "entry_reference_price": 154.83999633789062,
+        "close_price": 153.0399932861328,
+        "return_pct": -1.162,
+        "benchmark_return_pct": 1.173,
+        "excess_return_pct": -2.335,
+        "outperformed": false,
+        "original_thesis": "XOM's recent price increase is supported by strong earnings reports, indicating significant profit potential.",
+        "original_confidence": 3
+      },
+      {
+        "ticker": "LLY",
+        "action": "long",
+        "entry_reference_price": 1191.93994140625,
+        "close_price": 1185.7099609375,
+        "return_pct": -0.523,
+        "benchmark_return_pct": 1.173,
+        "excess_return_pct": -1.695,
+        "outperformed": false,
+        "original_thesis": "LLY's stock price increase is driven by raised guidance on GLP-1 demand, indicating strong market potential.",
+        "original_confidence": 4
+      },
+      {
+        "ticker": "CVX",
+        "action": "watch",
+        "entry_reference_price": 189.22999572753906,
+        "close_price": 186.55999755859375,
+        "return_pct": -1.411,
+        "benchmark_return_pct": 1.173,
+        "excess_return_pct": -2.584,
+        "outperformed": false,
+        "original_thesis": "CVX's recent price movement is supported by positive sentiment from its earnings performance.",
+        "original_confidence": 2
+      }
+    ],
+    "hit_rate": 0.0,
+    "avg_pick_return_pct": -1.032,
+    "benchmark_return_pct": 1.173,
+    "avg_excess_return_pct": -2.205,
+    "narrative": "The PAPER portfolio's performance shows significant underperformance relative to the QQQ benchmark, with an average pick return of -1.032% and a hit rate of 0.0%. This suggests that the results are more indicative of market beta rather than stock-specific skill, as all picks failed to generate positive excess returns. Additionally, the lack of successful picks raises questions about the confidence calibration in the investment theses, as the anticipated positive outcomes did not materialize. Overall, the results reflect a misalignment between expectations and actual performance."
+  },
+  "candidates": [
+    {
+      "ticker": "CRM",
+      "candidate_score": 0.6603,
+      "score_breakdown": {
+        "momentum": 0.3,
+        "relative_strength": 0.25,
+        "volume_confirmation": -0.047,
+        "catalyst": 0.2,
+        "earnings_risk_penalty": -0.0,
+        "volatility_penalty": -0.0427,
+        "weak_evidence_penalty": -0.0,
+        "total": 0.6603
+      },
+      "catalyst_assessment": "The recent 3.20% increase in CRM's stock price can be attributed to the Department of Defense authorizing Salesforce Agentforce 360 at Impact Level 5, which is a significant development for the company.",
+      "catalyst_is_real": true,
+      "evidence_sources": [
+        "15 news items (Finnhub)",
+        "SEC filing: 8-K",
+        "price/volume (yfinance)"
+      ],
+      "reasoning_summary": "Top-6 by transparent score.",
+      "risk_notes": "",
+      "model_used": "gpt-4o-mini",
+      "created_at": "2026-08-07T21:31:37.657062+00:00"
+    },
+    {
+      "ticker": "ONDS",
+      "candidate_score": 0.5993,
+      "score_breakdown": {
+        "momentum": 0.3,
+        "relative_strength": 0.25,
+        "volume_confirmation": -0.0507,
+        "catalyst": 0.2,
+        "earnings_risk_penalty": -0.0,
+        "volatility_penalty": -0.1,
+        "weak_evidence_penalty": -0.0,
+        "total": 0.5993
+      },
+      "catalyst_assessment": "The recent 4.23% increase in ONDS stock is likely driven by the announcement of a significant $50M order from the U.S. Army, which represents a concrete catalyst for the stock's movement.",
+      "catalyst_is_real": true,
+      "evidence_sources": [
+        "15 news items (Finnhub)",
+        "SEC filing: 8-K",
+        "price/volume (yfinance)"
+      ],
+      "reasoning_summary": "Top-6 by transparent score.",
+      "risk_notes": "",
+      "model_used": "gpt-4o-mini",
+      "created_at": "2026-08-07T21:31:37.657062+00:00"
+    },
+    {
+      "ticker": "NVDA",
+      "candidate_score": 0.5704,
+      "score_breakdown": {
+        "momentum": 0.2821,
+        "relative_strength": 0.1371,
+        "volume_confirmation": -0.0265,
+        "catalyst": 0.2,
+        "earnings_risk_penalty": -0.0,
+        "volatility_penalty": -0.0223,
+        "weak_evidence_penalty": -0.0,
+        "total": 0.5704
+      },
+      "catalyst_assessment": "Nvidia's stock rise of 2.27% can be attributed to SpaceX's commitment to using its chips, which is a concrete catalyst indicating increased demand for Nvidia's products.",
+      "catalyst_is_real": true,
+      "evidence_sources": [
+        "15 news items (Finnhub)",
+        "SEC filing: Form 4",
+        "price/volume (yfinance)"
+      ],
+      "reasoning_summary": "Top-6 by transparent score.",
+      "risk_notes": "",
+      "model_used": "gpt-4o-mini",
+      "created_at": "2026-08-07T21:31:37.657062+00:00"
+    },
+    {
+      "ticker": "ORCL",
+      "candidate_score": 0.4938,
+      "score_breakdown": {
+        "momentum": 0.2921,
+        "relative_strength": 0.1627,
+        "volume_confirmation": -0.0798,
+        "catalyst": 0.2,
+        "earnings_risk_penalty": -0.0,
+        "volatility_penalty": -0.0813,
+        "weak_evidence_penalty": -0.0,
+        "total": 0.4938
+      },
+      "catalyst_assessment": "The recent 2.47% move in ORCL stock appears unexplained from available public sources, as the news items primarily focus on broader market concerns and competitor actions rather than specific developments related to Oracle.",
+      "catalyst_is_real": false,
+      "evidence_sources": [
+        "15 news items (Finnhub)",
+        "price/volume (yfinance)"
+      ],
+      "reasoning_summary": "Top-6 by transparent score.",
+      "risk_notes": "",
+      "model_used": "gpt-4o-mini",
+      "created_at": "2026-08-07T21:31:37.657062+00:00"
+    },
+    {
+      "ticker": "AVGO",
+      "candidate_score": 0.4507,
+      "score_breakdown": {
+        "momentum": 0.2613,
+        "relative_strength": 0.0671,
+        "volume_confirmation": -0.0522,
+        "catalyst": 0.2,
+        "earnings_risk_penalty": -0.0,
+        "volatility_penalty": -0.0255,
+        "weak_evidence_penalty": -0.0,
+        "total": 0.4507
+      },
+      "catalyst_assessment": "The recent 1.71% move in AVGO appears to be unexplained from available public sources, as none of the news items directly pertain to Broadcom's specific performance or announcements.",
+      "catalyst_is_real": false,
+      "evidence_sources": [
+        "15 news items (Finnhub)",
+        "price/volume (yfinance)"
+      ],
+      "reasoning_summary": "Top-6 by transparent score.",
+      "risk_notes": "",
+      "model_used": "gpt-4o-mini",
+      "created_at": "2026-08-07T21:31:37.657062+00:00"
+    },
+    {
+      "ticker": "HD",
+      "candidate_score": 0.4318,
+      "score_breakdown": {
+        "momentum": 0.1714,
+        "relative_strength": 0.0716,
+        "volume_confirmation": -0.0112,
+        "catalyst": 0.2,
+        "earnings_risk_penalty": -0.0,
+        "volatility_penalty": -0.0,
+        "weak_evidence_penalty": -0.0,
+        "total": 0.4318
+      },
+      "catalyst_assessment": "The recent 1.75% move in HD appears unexplained from available public sources, as there are no concrete catalysts identified in the news items.",
+      "catalyst_is_real": false,
+      "evidence_sources": [
+        "15 news items (Finnhub)",
+        "price/volume (yfinance)"
+      ],
+      "reasoning_summary": "Top-6 by transparent score.",
+      "risk_notes": "",
+      "model_used": "gpt-4o-mini",
+      "created_at": "2026-08-07T21:31:37.657062+00:00"
+    }
+  ],
+  "risk_review": {
+    "portfolio_risk": "The portfolio exhibits significant sector crowding in XLK, increasing vulnerability to sector-specific downturns. Additionally, recent strong performance may lead to overconfidence and chasing past gains, particularly in a risk-on market regime.",
+    "ticker_risks": {
+      "CRM": "CRM's recent gains may be driven by short-term catalysts, risking a reversal if momentum fades.",
+      "ONDS": "ONDS's sharp 5-day rise suggests potential overextension, with volatility indicating heightened event risk.",
+      "NVDA": "NVDA's strong performance could be chasing past moves, with sector concentration adding to systemic risk.",
+      "ORCL": "ORCL lacks a clear catalyst, raising concerns about sustainability of recent gains.",
+      "AVGO": "AVGO's performance may be driven by sector momentum rather than company-specific factors.",
+      "HD": "HD's moderate gains are overshadowed by sector crowding, with limited catalysts to justify further upside."
+    },
+    "model_used": "gpt-4o"
+  },
+  "committee_decision": {
+    "picks": [
+      {
+        "ticker": "CRM",
+        "action": "long",
+        "probability_band": "medium",
+        "confidence": 4,
+        "horizon_days": 1,
+        "entry_reference_price": 192.74,
+        "thesis": "CRM's recent Department of Defense authorization provides a solid catalyst, potentially driving further short-term gains.",
+        "evidence_sources": [
+          "15 news items (Finnhub)",
+          "SEC filing: 8-K",
+          "price/volume (yfinance)"
+        ],
+        "reasoning_summary": "The Department of Defense's authorization for Salesforce Age is a concrete catalyst that could sustain CRM's momentum in the short term, despite the risk of reversal if momentum fades.",
+        "risk_notes": "CRM's recent gains may be driven by short-term catalysts, risking a reversal if momentum fades.",
+        "model_used": "gpt-4o",
+        "created_at": "2026-08-07T21:31:57.985786+00:00"
+      },
+      {
+        "ticker": "ONDS",
+        "action": "watch",
+        "probability_band": "medium",
+        "confidence": 3,
+        "horizon_days": 1,
+        "entry_reference_price": 9.11,
+        "thesis": "ONDS's significant $50M order from the U.S. provides a strong catalyst, but recent sharp gains suggest potential overextension.",
+        "evidence_sources": [
+          "15 news items (Finnhub)",
+          "SEC filing: 8-K",
+          "price/volume (yfinance)"
+        ],
+        "reasoning_summary": "The announcement of a significant order is a strong catalyst, but the sharp 5-day rise indicates potential overextension, warranting caution.",
+        "risk_notes": "ONDS's sharp 5-day rise suggests potential overextension, with volatility indicating heightened event risk.",
+        "model_used": "gpt-4o",
+        "created_at": "2026-08-07T21:31:57.985786+00:00"
+      },
+      {
+        "ticker": "NVDA",
+        "action": "long",
+        "probability_band": "medium",
+        "confidence": 4,
+        "horizon_days": 1,
+        "entry_reference_price": 223.96,
+        "thesis": "Nvidia's partnership with SpaceX provides a concrete catalyst, supporting continued momentum in a risk-on market.",
+        "evidence_sources": [
+          "15 news items (Finnhub)",
+          "SEC filing: Form 4",
+          "price/volume (yfinance)"
+        ],
+        "reasoning_summary": "The commitment from SpaceX to use Nvidia's chips is a concrete catalyst that supports continued momentum, despite sector concentration risks.",
+        "risk_notes": "NVDA's strong performance could be chasing past moves, with sector concentration adding to systemic risk.",
+        "model_used": "gpt-4o",
+        "created_at": "2026-08-07T21:31:57.985786+00:00"
+      }
+    ],
+    "rejected": [
+      {
+        "ticker": "ORCL",
+        "reason": "Lacks a clear catalyst, raising concerns about sustainability of recent gains."
+      },
+      {
+        "ticker": "AVGO",
+        "reason": "Performance may be driven by sector momentum rather than company-specific factors."
+      },
+      {
+        "ticker": "HD",
+        "reason": "Moderate gains overshadowed by sector crowding, with limited catalysts to justify further upside."
+      }
+    ],
+    "committee_summary": "Today's picks focus on candidates with concrete catalysts that align with the current risk-on market regime. CRM and NVDA are selected for their strong catalysts and potential for continued momentum, while ONDS is placed on watch due to potential overextension despite a significant order announcement. Rejected candidates lack clear catalysts or are driven by sector momentum, which does not align with our selection criteria."
+  },
+  "warnings": []
+}

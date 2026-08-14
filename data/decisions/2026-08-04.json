@@ -1,0 +1,277 @@
+{
+  "run_date": "2026-08-04",
+  "yesterday_date": "2026-08-03",
+  "macro": {
+    "market_regime": "risk_on",
+    "qqq_return_1d": 0.03396798607700628,
+    "spy_return_1d": 0.018029002715958583,
+    "vix_change": null,
+    "ten_year_yield_change": -0.04999999999999982,
+    "notes": "regime=risk_on, QQQ +3.40%, 10y -0.05pp"
+  },
+  "performance_review": {
+    "reviewed_date": "2026-08-03",
+    "benchmark": "QQQ",
+    "outcomes": [
+      {
+        "ticker": "AMZN",
+        "action": "long",
+        "entry_reference_price": 284.0199890136719,
+        "close_price": 277.4200134277344,
+        "return_pct": -2.324,
+        "benchmark_return_pct": 3.397,
+        "excess_return_pct": -5.721,
+        "outperformed": false,
+        "original_thesis": "AMZN's recent price surge is driven by strong performance and positive sentiment, making it a potential outperformer in the current risk-on market regime.",
+        "original_confidence": 3
+      },
+      {
+        "ticker": "MSFT",
+        "action": "long",
+        "entry_reference_price": 487.6499938964844,
+        "close_price": 492.80999755859375,
+        "return_pct": 1.058,
+        "benchmark_return_pct": 3.397,
+        "excess_return_pct": -2.339,
+        "outperformed": false,
+        "original_thesis": "MSFT's recent gains are driven by positive sentiment surrounding its AI investments, positioning it well for short-term outperformance.",
+        "original_confidence": 3
+      }
+    ],
+    "hit_rate": 0.0,
+    "avg_pick_return_pct": -0.633,
+    "benchmark_return_pct": 3.397,
+    "avg_excess_return_pct": -4.03,
+    "narrative": "The PAPER portfolio's prior-day picks significantly underperformed the benchmark QQQ return of 3.397%, with an average pick return of -0.633% and a hit rate of 0.0%. This suggests that the results are more indicative of market beta rather than stock-specific skill, as both picks failed to capitalize on their respective theses. Additionally, the lack of positive returns and the substantial negative excess returns indicate that confidence in these picks was not well-calibrated. Overall, the performance reflects a disconnect between the expected outcomes and actual results."
+  },
+  "candidates": [
+    {
+      "ticker": "AVGO",
+      "candidate_score": 0.7729,
+      "score_breakdown": {
+        "momentum": 0.3,
+        "relative_strength": 0.25,
+        "volume_confirmation": 0.056,
+        "catalyst": 0.2,
+        "earnings_risk_penalty": -0.0,
+        "volatility_penalty": -0.0331,
+        "weak_evidence_penalty": -0.0,
+        "total": 0.7729
+      },
+      "catalyst_assessment": "The recent 6.61% move in Broadcom's stock appears to be part of a broader rally in semiconductor stocks, driven by market sentiment rather than a specific, identifiable catalyst related to AVGO itself.",
+      "catalyst_is_real": false,
+      "evidence_sources": [
+        "15 news items (Finnhub)",
+        "price/volume (yfinance)"
+      ],
+      "reasoning_summary": "Top-6 by transparent score.",
+      "risk_notes": "",
+      "model_used": "gpt-4o-mini",
+      "created_at": "2026-08-04T21:33:40.684539+00:00"
+    },
+    {
+      "ticker": "AMD",
+      "candidate_score": 0.5087,
+      "score_breakdown": {
+        "momentum": 0.259,
+        "relative_strength": 0.25,
+        "volume_confirmation": 0.0497,
+        "catalyst": 0.2,
+        "earnings_risk_penalty": -0.15,
+        "volatility_penalty": -0.1,
+        "weak_evidence_penalty": -0.0,
+        "total": 0.5087
+      },
+      "catalyst_assessment": "The recent 7.00% increase in AMD's stock is likely driven by positive sentiment surrounding upcoming earnings, as indicated by multiple headlines discussing analyst upgrades and favorable news from Microsoft CEO Satya Nadella. Additionally, the filing of a material event report (8-K) suggests there may be significant developments influencing investor confidence.",
+      "catalyst_is_real": true,
+      "evidence_sources": [
+        "15 news items (Finnhub)",
+        "SEC filing: 8-K",
+        "price/volume (yfinance)"
+      ],
+      "reasoning_summary": "Top-6 by transparent score.",
+      "risk_notes": "",
+      "model_used": "gpt-4o-mini",
+      "created_at": "2026-08-04T21:33:40.684539+00:00"
+    },
+    {
+      "ticker": "ONDS",
+      "candidate_score": 0.4606,
+      "score_breakdown": {
+        "momentum": 0.3,
+        "relative_strength": 0.25,
+        "volume_confirmation": -0.0494,
+        "catalyst": 0.06,
+        "earnings_risk_penalty": -0.0,
+        "volatility_penalty": -0.1,
+        "weak_evidence_penalty": -0.0,
+        "total": 0.4606
+      },
+      "catalyst_assessment": "The stock's 5.85% increase is likely driven by the news of Redwire receiving $20M in follow-on purchase orders from the Navy and Marine Corps, which indicates strong demand for their advanced navigation systems.",
+      "catalyst_is_real": true,
+      "evidence_sources": [
+        "2 news items (Finnhub)",
+        "price/volume (yfinance)"
+      ],
+      "reasoning_summary": "Top-6 by transparent score.",
+      "risk_notes": "",
+      "model_used": "gpt-4o-mini",
+      "created_at": "2026-08-04T21:33:40.684539+00:00"
+    },
+    {
+      "ticker": "ASML",
+      "candidate_score": 0.3402,
+      "score_breakdown": {
+        "momentum": 0.1223,
+        "relative_strength": 0.1033,
+        "volume_confirmation": -0.0343,
+        "catalyst": 0.2,
+        "earnings_risk_penalty": -0.015,
+        "volatility_penalty": -0.0362,
+        "weak_evidence_penalty": -0.0,
+        "total": 0.3402
+      },
+      "catalyst_assessment": "ASML's 4.22% increase is likely driven by the announcement of a 17% interim dividend raise and reaffirmation of 2026 guidance, which are concrete catalysts indicating strong financial health.",
+      "catalyst_is_real": true,
+      "evidence_sources": [
+        "13 news items (Finnhub)",
+        "price/volume (yfinance)"
+      ],
+      "reasoning_summary": "Top-6 by transparent score.",
+      "risk_notes": "",
+      "model_used": "gpt-4o-mini",
+      "created_at": "2026-08-04T21:33:40.684539+00:00"
+    },
+    {
+      "ticker": "ORCL",
+      "candidate_score": 0.3268,
+      "score_breakdown": {
+        "momentum": 0.3,
+        "relative_strength": -0.0818,
+        "volume_confirmation": -0.0087,
+        "catalyst": 0.2,
+        "earnings_risk_penalty": -0.0,
+        "volatility_penalty": -0.0827,
+        "weak_evidence_penalty": -0.0,
+        "total": 0.3268
+      },
+      "catalyst_assessment": "The recent 2.74% increase in Oracle's stock appears to be driven by the news of deepening integration with Google Gemini, which suggests a strategic move in the competitive AI landscape. This development is likely to positively influence investor sentiment.",
+      "catalyst_is_real": true,
+      "evidence_sources": [
+        "15 news items (Finnhub)",
+        "price/volume (yfinance)"
+      ],
+      "reasoning_summary": "Top-6 by transparent score.",
+      "risk_notes": "",
+      "model_used": "gpt-4o-mini",
+      "created_at": "2026-08-04T21:33:40.684539+00:00"
+    },
+    {
+      "ticker": "NVDA",
+      "candidate_score": 0.2988,
+      "score_breakdown": {
+        "momentum": 0.2279,
+        "relative_strength": -0.104,
+        "volume_confirmation": 0.0011,
+        "catalyst": 0.2,
+        "earnings_risk_penalty": -0.0,
+        "volatility_penalty": -0.0262,
+        "weak_evidence_penalty": -0.0,
+        "total": 0.2988
+      },
+      "catalyst_assessment": "The recent 2.56% move in NVDA appears to be unexplained from available public sources, as none of the news items directly relate to NVIDIA or provide a concrete catalyst for the stock's movement.",
+      "catalyst_is_real": false,
+      "evidence_sources": [
+        "15 news items (Finnhub)",
+        "price/volume (yfinance)"
+      ],
+      "reasoning_summary": "Top-6 by transparent score.",
+      "risk_notes": "",
+      "model_used": "gpt-4o-mini",
+      "created_at": "2026-08-04T21:33:40.684539+00:00"
+    }
+  ],
+  "risk_review": {
+    "portfolio_risk": "The portfolio exhibits significant sector crowding in XLK, increasing vulnerability to sector-specific downturns. High recent gains suggest potential chasing of momentum, with several picks showing elevated volatility, indicating heightened risk exposure.",
+    "ticker_risks": {
+      "AVGO": "Recent gains may reflect chasing momentum; lack of real catalyst raises sustainability concerns.",
+      "AMD": "High earnings risk coupled with recent sharp gains suggests potential volatility and overconfidence.",
+      "ONDS": "High volatility and recent gains without substantial news may indicate speculative trading.",
+      "ASML": "Earnings risk is unknown, presenting uncertainty; recent gains may not be supported by fundamentals.",
+      "ORCL": "Significant recent gains could be driven by overconfidence; ensure gains are backed by sustainable catalysts.",
+      "NVDA": "Lack of real catalyst despite recent gains suggests potential overvaluation and chasing of past performance."
+    },
+    "model_used": "gpt-4o"
+  },
+  "committee_decision": {
+    "picks": [
+      {
+        "ticker": "ASML",
+        "action": "long",
+        "probability_band": "medium",
+        "confidence": 4,
+        "horizon_days": 1,
+        "entry_reference_price": 1711.89,
+        "thesis": "ASML's recent dividend raise and reaffirmation of guidance provide a strong fundamental catalyst in a risk-on market regime.",
+        "evidence_sources": [
+          "13 news items (Finnhub)",
+          "price/volume (yfinance)"
+        ],
+        "reasoning_summary": "ASML's 17% interim dividend raise and reaffirmed 2026 guidance are positive signals, suggesting confidence in future cash flows. These factors, combined with the current risk-on market sentiment, support a potential short-term outperformance against QQQ.",
+        "risk_notes": "Earnings risk is unknown, which could introduce volatility. Recent gains may not be entirely supported by fundamentals, warranting caution.",
+        "model_used": "gpt-4o",
+        "created_at": "2026-08-04T21:34:02.370863+00:00"
+      },
+      {
+        "ticker": "ORCL",
+        "action": "watch",
+        "probability_band": "medium",
+        "confidence": 3,
+        "horizon_days": 1,
+        "entry_reference_price": 145.74,
+        "thesis": "Oracle's integration with Google Gemini presents a strategic growth opportunity, but recent gains may reflect overconfidence.",
+        "evidence_sources": [
+          "15 news items (Finnhub)",
+          "price/volume (yfinance)"
+        ],
+        "reasoning_summary": "The deepening integration with Google Gemini could enhance Oracle's cloud capabilities, potentially driving future growth. However, the significant recent gains suggest that the market may have already priced in this news, warranting a cautious approach.",
+        "risk_notes": "Recent gains could be driven by overconfidence, and the sustainability of these gains needs further validation.",
+        "model_used": "gpt-4o",
+        "created_at": "2026-08-04T21:34:02.370863+00:00"
+      },
+      {
+        "ticker": "ONDS",
+        "action": "watch",
+        "probability_band": "low",
+        "confidence": 2,
+        "horizon_days": 1,
+        "entry_reference_price": 8.86,
+        "thesis": "Redwire's $20M follow-on purchase orders provide a short-term catalyst, but high volatility suggests speculative trading.",
+        "evidence_sources": [
+          "2 news items (Finnhub)",
+          "price/volume (yfinance)"
+        ],
+        "reasoning_summary": "The news of Redwire receiving significant purchase orders is a positive catalyst for ONDS. However, the stock's high volatility and recent gains without substantial news indicate speculative trading, suggesting a cautious stance.",
+        "risk_notes": "High volatility and speculative trading patterns increase risk, and the sustainability of recent gains is uncertain.",
+        "model_used": "gpt-4o",
+        "created_at": "2026-08-04T21:34:02.370863+00:00"
+      }
+    ],
+    "rejected": [
+      {
+        "ticker": "AVGO",
+        "reason": "Lack of real catalyst raises sustainability concerns despite recent gains."
+      },
+      {
+        "ticker": "AMD",
+        "reason": "Upcoming earnings present high risk, and recent sharp gains suggest potential volatility."
+      },
+      {
+        "ticker": "NVDA",
+        "reason": "Lack of real catalyst despite recent gains suggests potential overvaluation."
+      }
+    ],
+    "committee_summary": "Today's picks focus on companies with tangible catalysts and strategic developments, while maintaining caution due to recent gains and market volatility. ASML is favored for its dividend and guidance reaffirmation, while ORCL and ONDS are placed on watch due to potential overconfidence and speculative trading, respectively."
+  },
+  "warnings": []
+}

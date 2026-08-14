@@ -7,87 +7,242 @@
     "benchmark": "QQQ",
     "confidence_penalty_if_no_catalyst": true
   },
-  "promoted_rules": [],
-  "tentative_lessons": [
+  "promoted_rules": [
     {
-      "text": "Require volume confirmation or a filing/news catalyst before high confidence.",
-      "count": 1
+      "text": "Varying confidence levels among picks can provide a nuanced approach to decision-making, allowing for flexibility in response to market changes.",
+      "promoted_from_count": 3
+    },
+    {
+      "text": "A high market beta in a risk-on regime may lead to underperformance if stock-specific factors are not adequately considered.",
+      "promoted_from_count": 3
+    },
+    {
+      "text": "A strong thesis and confidence level in individual picks, such as JNJ, can lead to positive outcomes, but it's crucial to ensure that the strategy is robust across multiple selections.",
+      "promoted_from_count": 3
     },
     {
       "text": "In a risk-off market regime, it may be prudent to focus on companies with strong fundamentals and stable business models, as they might be less volatile.",
-      "count": 1
+      "promoted_from_count": 3
+    }
+  ],
+  "tentative_lessons": [
+    {
+      "text": "Require volume confirmation or a filing/news catalyst before high confidence.",
+      "count": 1,
+      "appearances": [
+        {
+          "run": 5,
+          "week": "2026-W29"
+        }
+      ]
     },
     {
       "text": "Maintaining a watchlist with confidence levels can help in adjusting strategies based on market conditions without making hasty decisions.",
-      "count": 1
+      "count": 1,
+      "appearances": [
+        {
+          "run": 22,
+          "week": "2026-W33"
+        }
+      ]
     },
     {
       "text": "In a risk-off market regime, maintaining a watch status on potential picks may help mitigate exposure to volatility.",
-      "count": 1
-    },
-    {
-      "text": "Varying confidence levels among picks can provide a nuanced approach to decision-making, allowing for flexibility in response to market changes.",
-      "count": 1
-    },
-    {
-      "text": "In a risk-off market regime, it may be beneficial to diversify strategies across different confidence levels to manage risk.",
-      "count": 1
+      "count": 2,
+      "appearances": [
+        {
+          "run": 11,
+          "week": "2026-W31"
+        },
+        {
+          "run": 18,
+          "week": "2026-W32"
+        }
+      ]
     },
     {
       "text": "Tracking the performance of initial picks in a new or gap day can provide valuable insights for future decision-making.",
       "count": 1
     },
     {
-      "text": "A high market beta in a risk-on regime may lead to underperformance if stock-specific factors are not adequately considered.",
+      "text": "A low hit rate might indicate that the current selection criteria need refinement to improve the consistency of positive excess returns.",
+      "count": 2,
+      "appearances": [
+        {
+          "run": 7,
+          "week": "2026-W30"
+        },
+        {
+          "run": 8,
+          "week": "2026-W30"
+        }
+      ]
+    },
+    {
+      "text": "In a rising market environment, aligning stock selections more closely with broader market trends may improve performance.",
+      "appearances": [
+        {
+          "run": 13,
+          "week": "2026-W31"
+        }
+      ],
       "count": 1
     },
     {
-      "text": "A low hit rate might indicate that the current selection criteria need refinement to improve the consistency of positive excess returns.",
+      "text": "Consistent outperformance by certain stocks like GOOGL and MSFT may suggest a pattern worth further exploration, but caution is advised until more data confirms this trend.",
+      "appearances": [
+        {
+          "run": 15,
+          "week": "2026-W32"
+        }
+      ],
+      "count": 1
+    },
+    {
+      "text": "A diversified selection approach may help mitigate the impact of underperforming stocks, as seen with NVDA's negative return amidst overall gains.",
+      "appearances": [
+        {
+          "run": 20,
+          "week": "2026-W33"
+        },
+        {
+          "run": 23,
+          "week": "2026-W33"
+        }
+      ],
+      "count": 2
+    },
+    {
+      "text": "A neutral market regime may necessitate a more balanced approach between stock-specific factors and broader market influences to enhance portfolio resilience.",
+      "appearances": [
+        {
+          "run": 21,
+          "week": "2026-W33"
+        }
+      ],
       "count": 1
     }
   ],
   "observations": [
     {
-      "text": "No prior decision found; this is the first run or a gap day."
+      "text": "The performance was driven by a single thesis on LLY, suggesting a potential concentration risk in the strategy."
     },
     {
-      "text": "Made 3 paper pick(s) in risk_off regime."
+      "text": "The PAPER portfolio achieved an average pick return of 1.278%, outperforming the benchmark decline of -0.972%, indicating some level of stock-specific skill."
     },
     {
-      "text": "The market is currently in a risk-off regime, indicated by a slight decline in major indices like QQQ (-0.42%) and a minor decrease in the 10-year yield (-0.01pp)."
+      "text": "The hit rate of 0.5 suggests that only half of the picks performed well, highlighting variability in the success of the strategy."
     },
     {
-      "text": "Today's picks include companies with a strong market presence and relatively stable business models, suggesting a cautious approach in uncertain market conditions."
+      "text": "CRM's strong performance aligns with its positive thesis, while ONDS's negative performance raises concerns about the robustness of its investment thesis."
     },
     {
-      "text": "No prior performance data is available for today's picks, indicating this is either the first run or a gap day in the strategy's execution."
+      "text": "The PAPER portfolio's picks achieved an average excess return of 1.63% over the benchmark QQQ, despite the overall negative market trend."
     },
     {
-      "text": "The market is currently in a risk-off regime, indicated by a slight decline in the Nasdaq-100 (QQQ) and a minor decrease in the 10-year Treasury yield."
+      "text": "Only one of the selected picks, MA, generated a positive return, highlighting potential overconfidence in the selection process."
     },
     {
-      "text": "Today's picks are all on 'watch' status, suggesting a cautious approach with no immediate action recommended."
+      "text": "The hit rate of 1.0 does not align with the overall negative returns, suggesting a misalignment between confidence levels and actual market performance."
     },
     {
-      "text": "The confidence levels for today's picks vary slightly, with HD and JNJ having a higher confidence level than V."
+      "text": "The prior-day picks underperformed the QQQ benchmark significantly, indicating a potential misalignment with the broader market's upward trend."
     },
     {
-      "text": "The market is currently in a risk-off regime, indicated by a slight decline in QQQ and a stable 10-year yield."
+      "text": "None of the selected stocks achieved positive returns, resulting in a hit rate of 0.0%, which suggests a lack of effective stock selection."
     },
     {
-      "text": "Today's picks include a mix of long, watch, and avoid strategies, reflecting varied confidence levels."
+      "text": "The average excess return was -3.681%, highlighting a substantial deviation from the expected performance based on the confidence levels assigned."
     },
     {
-      "text": "There is no prior performance data available, suggesting this is the first run or a gap day."
+      "text": "The portfolio achieved an average pick return of 1.365%, outperforming the QQQ benchmark by 0.715%, indicating effective stock selection."
     },
     {
-      "text": "The portfolio's average pick return of 0.573% was below the QQQ benchmark return of 0.811%, indicating a reliance on market movements rather than stock-specific selection."
+      "text": "A hit rate of 66.7% suggests that two-thirds of the picks performed as expected, reflecting a reasonable level of predictive accuracy."
     },
     {
-      "text": "The hit rate of 33.3% suggests that only a third of the picks yielded positive excess returns, pointing to potential issues in stock selection criteria."
+      "text": "Despite the overall positive performance, the negative return from MA highlights the need for careful confidence calibration in individual stock picks."
     },
     {
-      "text": "The negative excess returns, particularly from Visa, highlight potential misjudgments in the thesis calibration for certain picks."
+      "text": "The PAPER portfolio achieved an average pick return of 2.653%, outperforming the QQQ benchmark by 0.897%."
+    },
+    {
+      "text": "GOOGL and MSFT significantly outperformed the benchmark, indicating potential stock-specific skill in these selections."
+    },
+    {
+      "text": "CVX's negative return highlights the variability in individual stock performance within the portfolio."
+    },
+    {
+      "text": "The PAPER portfolio's picks underperformed significantly compared to the QQQ benchmark, which had a strong positive return of 3.40%."
+    },
+    {
+      "text": "The hit rate for the day was 0.0%, indicating that none of the picks achieved positive returns."
+    },
+    {
+      "text": "The average excess return was -4.03%, suggesting a substantial deviation from the expected performance."
+    },
+    {
+      "text": "The overall market environment was risk-off, as indicated by the decline in QQQ and the 10-year yield, which likely influenced the underperformance of stock picks."
+    },
+    {
+      "text": "The average return of the selected stocks was slightly worse than the benchmark, suggesting that the picks did not effectively hedge against market downturns."
+    },
+    {
+      "text": "The hit rate of 33.3% indicates a low success rate in stock selection, with only one out of three picks yielding a positive return."
+    },
+    {
+      "text": "The PAPER portfolio's picks underperformed the QQQ benchmark, with an average return of -0.71% compared to QQQ's -0.369%."
+    },
+    {
+      "text": "None of the selected stocks achieved positive excess returns, indicating a lack of stock-specific skill in today's selections."
+    },
+    {
+      "text": "The hit rate for today's picks was 0.0%, suggesting that the confidence levels assigned to the picks may not have been well-calibrated."
+    },
+    {
+      "text": "The PAPER portfolio's average pick return was -1.032%, significantly underperforming the QQQ benchmark, which rose by 1.17%."
+    },
+    {
+      "text": "None of the selected stocks generated positive excess returns, resulting in a hit rate of 0.0%."
+    },
+    {
+      "text": "The market regime was 'risk_on,' indicating a favorable environment for growth stocks, yet the portfolio did not capitalize on this trend."
+    },
+    {
+      "text": "The portfolio achieved an average pick return of 0.603%, outperforming the benchmark by 0.901%, indicating effective stock selection despite a neutral market regime."
+    },
+    {
+      "text": "The hit rate of 0.667 reflects a moderate level of accuracy in the day's picks, suggesting some degree of stock-specific skill."
+    },
+    {
+      "text": "Despite the overall positive performance, the negative return from NVDA highlights the inherent risk and variability in individual stock performance."
+    },
+    {
+      "text": "The PAPER portfolio's average pick return of -0.604% underperformed the QQQ benchmark by 0.268%, indicating a lack of stock-specific alpha generation."
+    },
+    {
+      "text": "The hit rate of 33.3% suggests that only a third of the picks performed better than the benchmark, highlighting potential issues in stock selection or market timing."
+    },
+    {
+      "text": "The significant underperformance of high-confidence picks like LLY and MSFT points to possible overestimation of their short-term potential."
+    },
+    {
+      "text": "The PAPER portfolio's picks significantly underperformed the QQQ benchmark, indicating potential issues with stock selection or timing."
+    },
+    {
+      "text": "The hit rate for the day was 0.0, suggesting that none of the selected stocks met or exceeded expectations."
+    },
+    {
+      "text": "The average excess return was -2.135%, highlighting a potential misalignment between the portfolio's risk assessment and actual market performance."
+    },
+    {
+      "text": "The portfolio's average pick return of 0.966% was positive but underperformed the QQQ benchmark, indicating a reliance on market movements rather than stock-specific performance."
+    },
+    {
+      "text": "The hit rate of 0.667 suggests that while a majority of the picks were successful, the performance was uneven, with some stocks like BAC significantly underperforming."
+    },
+    {
+      "text": "Despite high confidence in picks like ORCL and NFLX, the overall excess return was negative, highlighting potential overconfidence or misjudgment in stock selection."
     }
   ],
   "deprecated_rules": [],
@@ -99,8 +254,9 @@
     "news": 1.0
   },
   "recent_performance": {
-    "last_5_days_hit_rate": 0.333,
-    "last_20_days_vs_benchmark": -0.237,
+    "last_5_days_hit_rate": 0.667,
+    "last_20_days_vs_benchmark": -0.191,
     "common_failure_mode": null
-  }
+  },
+  "run_counter": 23
 }

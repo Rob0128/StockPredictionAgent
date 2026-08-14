@@ -1,0 +1,255 @@
+{
+  "run_date": "2026-07-24",
+  "yesterday_date": "2026-07-23",
+  "macro": {
+    "market_regime": "risk_off",
+    "qqq_return_1d": -0.018983418269998737,
+    "spy_return_1d": -0.012349287272575827,
+    "vix_change": null,
+    "ten_year_yield_change": 0.040000000000000036,
+    "notes": "regime=risk_off, QQQ -1.90%, 10y +0.04pp"
+  },
+  "performance_review": {
+    "reviewed_date": "2026-07-23",
+    "benchmark": "QQQ",
+    "outcomes": [
+      {
+        "ticker": "JNJ",
+        "action": "long",
+        "entry_reference_price": 255.63,
+        "close_price": 259.2699890136719,
+        "return_pct": 1.424,
+        "benchmark_return_pct": -1.898,
+        "excess_return_pct": 3.322,
+        "outperformed": true,
+        "original_thesis": "JNJ's recent FDA approval for its MedTech division is a significant catalyst that could drive short-term price appreciation.",
+        "original_confidence": 4
+      },
+      {
+        "ticker": "AMD",
+        "action": "watch",
+        "entry_reference_price": 552.33,
+        "close_price": 539.6900024414062,
+        "return_pct": -2.288,
+        "benchmark_return_pct": -1.898,
+        "excess_return_pct": -0.39,
+        "outperformed": false,
+        "original_thesis": "AMD's new $5 billion partnership announcement is a significant development, but the high volatility suggests a cautious approach.",
+        "original_confidence": 3
+      }
+    ],
+    "hit_rate": 0.5,
+    "avg_pick_return_pct": -0.432,
+    "benchmark_return_pct": -1.898,
+    "avg_excess_return_pct": 1.466,
+    "narrative": "The PAPER portfolio's average pick return of -0.432% against a benchmark return of -1.898% suggests a degree of outperformance, primarily driven by JNJ's strong performance, which appears to reflect stock-specific skill rather than just market beta. However, the overall hit rate of 0.5 indicates that the success was not consistent across all picks, particularly with AMD underperforming. The confidence in the JNJ thesis seems well-calibrated given its positive outcome, but the mixed results raise questions about the robustness of the overall strategy."
+  },
+  "candidates": [
+    {
+      "ticker": "CVX",
+      "candidate_score": 0.7048,
+      "score_breakdown": {
+        "momentum": 0.2642,
+        "relative_strength": 0.25,
+        "volume_confirmation": -0.0093,
+        "catalyst": 0.2,
+        "earnings_risk_penalty": -0.0,
+        "volatility_penalty": -0.0,
+        "weak_evidence_penalty": -0.0,
+        "total": 0.7048
+      },
+      "catalyst_assessment": "The recent 1-day move of CVX appears to be unexplained from available public sources, as there are no specific catalysts directly linked to the stock's performance.",
+      "catalyst_is_real": false,
+      "evidence_sources": [
+        "15 news items (Finnhub)",
+        "price/volume (yfinance)"
+      ],
+      "reasoning_summary": "Top-6 by transparent score.",
+      "risk_notes": "",
+      "model_used": "gpt-4o-mini",
+      "created_at": "2026-07-24T04:17:11.144435+00:00"
+    },
+    {
+      "ticker": "XOM",
+      "candidate_score": 0.6034,
+      "score_breakdown": {
+        "momentum": 0.3,
+        "relative_strength": 0.25,
+        "volume_confirmation": 0.0034,
+        "catalyst": 0.2,
+        "earnings_risk_penalty": -0.15,
+        "volatility_penalty": -0.0,
+        "weak_evidence_penalty": -0.0,
+        "total": 0.6034
+      },
+      "catalyst_assessment": "The recent 1.58% increase in XOM's stock price appears to be unexplained from available public sources, as the news items do not provide a concrete catalyst directly linked to the company's performance.",
+      "catalyst_is_real": false,
+      "evidence_sources": [
+        "15 news items (Finnhub)",
+        "price/volume (yfinance)"
+      ],
+      "reasoning_summary": "Top-6 by transparent score.",
+      "risk_notes": "",
+      "model_used": "gpt-4o-mini",
+      "created_at": "2026-07-24T04:17:11.145432+00:00"
+    },
+    {
+      "ticker": "JNJ",
+      "candidate_score": 0.5831,
+      "score_breakdown": {
+        "momentum": 0.1579,
+        "relative_strength": 0.25,
+        "volume_confirmation": -0.0099,
+        "catalyst": 0.2,
+        "earnings_risk_penalty": -0.015,
+        "volatility_penalty": -0.0,
+        "weak_evidence_penalty": -0.0,
+        "total": 0.5831
+      },
+      "catalyst_assessment": "The recent 1.42% move in JNJ stock appears unexplained from available public sources, as the news items do not indicate a specific catalyst such as earnings, guidance, or significant regulatory news.",
+      "catalyst_is_real": false,
+      "evidence_sources": [
+        "15 news items (Finnhub)",
+        "SEC filing: 10-Q, Form 4",
+        "price/volume (yfinance)"
+      ],
+      "reasoning_summary": "Top-6 by transparent score.",
+      "risk_notes": "",
+      "model_used": "gpt-4o-mini",
+      "created_at": "2026-07-24T04:17:11.145432+00:00"
+    },
+    {
+      "ticker": "JPM",
+      "candidate_score": 0.5352,
+      "score_breakdown": {
+        "momentum": 0.0946,
+        "relative_strength": 0.25,
+        "volume_confirmation": 0.0056,
+        "catalyst": 0.2,
+        "earnings_risk_penalty": -0.015,
+        "volatility_penalty": -0.0,
+        "weak_evidence_penalty": -0.0,
+        "total": 0.5352
+      },
+      "catalyst_assessment": "The recent 1-day move of JPM is unexplained from available public sources, as none of the news items directly relate to JPMorgan's operations or financial performance.",
+      "catalyst_is_real": false,
+      "evidence_sources": [
+        "15 news items (Finnhub)",
+        "SEC filing: 8-K",
+        "price/volume (yfinance)"
+      ],
+      "reasoning_summary": "Top-6 by transparent score.",
+      "risk_notes": "",
+      "model_used": "gpt-4o-mini",
+      "created_at": "2026-07-24T04:17:11.145432+00:00"
+    },
+    {
+      "ticker": "LLY",
+      "candidate_score": 0.487,
+      "score_breakdown": {
+        "momentum": 0.0994,
+        "relative_strength": 0.25,
+        "volume_confirmation": -0.0495,
+        "catalyst": 0.2,
+        "earnings_risk_penalty": -0.0,
+        "volatility_penalty": -0.0128,
+        "weak_evidence_penalty": -0.0,
+        "total": 0.487
+      },
+      "catalyst_assessment": "Eli Lilly's stock rise is likely driven by positive news regarding its obesity drug pipeline, particularly the advancements in trials for Retatrutide and plans for a 2027 filing, which are concrete catalysts for investor sentiment.",
+      "catalyst_is_real": true,
+      "evidence_sources": [
+        "15 news items (Finnhub)",
+        "SEC filing: Form 4",
+        "price/volume (yfinance)"
+      ],
+      "reasoning_summary": "Top-6 by transparent score.",
+      "risk_notes": "",
+      "model_used": "gpt-4o-mini",
+      "created_at": "2026-07-24T04:17:11.145432+00:00"
+    },
+    {
+      "ticker": "BAC",
+      "candidate_score": 0.3948,
+      "score_breakdown": {
+        "momentum": 0.0676,
+        "relative_strength": 0.1683,
+        "volume_confirmation": -0.0261,
+        "catalyst": 0.2,
+        "earnings_risk_penalty": -0.015,
+        "volatility_penalty": -0.0,
+        "weak_evidence_penalty": -0.0,
+        "total": 0.3948
+      },
+      "catalyst_assessment": "The recent 1-day move of -0.55% for BAC appears to be unexplained from available public sources, as none of the news items directly relate to a significant catalyst affecting the stock.",
+      "catalyst_is_real": false,
+      "evidence_sources": [
+        "15 news items (Finnhub)",
+        "SEC filing: Form 4",
+        "price/volume (yfinance)"
+      ],
+      "reasoning_summary": "Top-6 by transparent score.",
+      "risk_notes": "",
+      "model_used": "gpt-4o-mini",
+      "created_at": "2026-07-24T04:17:11.145432+00:00"
+    }
+  ],
+  "risk_review": {
+    "portfolio_risk": "The current selection shows a significant concentration in the Energy sector (XLE), which could expose the portfolio to sector-specific risks, especially in a risk-off market regime. Additionally, the absence of strong catalysts and reliance on recent performance trends could indicate a potential overconfidence bias.",
+    "ticker_risks": {
+      "CVX": "CVX's recent gains may be driven by sector momentum rather than intrinsic catalysts, posing a risk of chasing yesterday's move.",
+      "XOM": "XOM faces high earnings risk, which could lead to volatility, especially in a risk-off environment.",
+      "JNJ": "JNJ's unknown earnings risk and lack of real catalysts make its recent performance potentially unsustainable.",
+      "JPM": "JPM's modest gains without clear catalysts suggest a potential overconfidence in its ability to outperform in a risk-off market.",
+      "LLY": "LLY's real catalyst presence is a positive, but its high volatility could amplify downside risk in a risk-off regime.",
+      "BAC": "BAC's negative short-term performance and lack of catalysts highlight weak evidence for a turnaround."
+    },
+    "model_used": "gpt-4o"
+  },
+  "committee_decision": {
+    "picks": [
+      {
+        "ticker": "LLY",
+        "action": "watch",
+        "probability_band": "medium",
+        "confidence": 4,
+        "horizon_days": 1,
+        "entry_reference_price": 1185.87,
+        "thesis": "Eli Lilly's stock is buoyed by positive developments in its obesity drug pipeline, which could provide a competitive edge in the pharmaceutical sector.",
+        "evidence_sources": [
+          "15 news items (Finnhub)",
+          "SEC filing: Form 4",
+          "price/volume (yfinance)"
+        ],
+        "reasoning_summary": "LLY's real catalyst presence, driven by advancements in its obesity drug pipeline, offers a tangible reason for its recent stock price increase. This positions LLY as a potential outperformer in the short term, despite the risk-off market regime.",
+        "risk_notes": "While the real catalyst is a positive, LLY's high volatility could amplify downside risk in a risk-off regime.",
+        "model_used": "gpt-4o",
+        "created_at": "2026-07-24T04:17:24.611402+00:00"
+      }
+    ],
+    "rejected": [
+      {
+        "ticker": "CVX",
+        "reason": "Lacks real catalysts and recent gains may be driven by sector momentum, posing a risk of chasing yesterday's move."
+      },
+      {
+        "ticker": "XOM",
+        "reason": "Faces high earnings risk and lacks real catalysts, making it unsuitable in a risk-off environment."
+      },
+      {
+        "ticker": "JNJ",
+        "reason": "Unknown earnings risk and lack of real catalysts make its recent performance potentially unsustainable."
+      },
+      {
+        "ticker": "JPM",
+        "reason": "Modest gains without clear catalysts suggest potential overconfidence in a risk-off market."
+      },
+      {
+        "ticker": "BAC",
+        "reason": "Negative short-term performance and lack of catalysts highlight weak evidence for a turnaround."
+      }
+    ],
+    "committee_summary": "In today's risk-off market regime, the committee has chosen to watch Eli Lilly (LLY) due to its real catalyst presence, driven by advancements in its obesity drug pipeline. This positions LLY as a potential outperformer in the short term, despite the inherent risks of high volatility. Other candidates were rejected due to the absence of real catalysts and high sector-specific risks, particularly in the energy sector."
+  },
+  "warnings": []
+}

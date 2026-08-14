@@ -1,0 +1,263 @@
+{
+  "run_date": "2026-07-21",
+  "yesterday_date": "2026-07-18",
+  "macro": {
+    "market_regime": "neutral",
+    "qqq_return_1d": 0.0010498331019926025,
+    "spy_return_1d": -0.0016143782471810173,
+    "vix_change": null,
+    "ten_year_yield_change": -0.020000000000000462,
+    "notes": "regime=neutral, QQQ +0.10%, 10y -0.02pp"
+  },
+  "performance_review": {
+    "reviewed_date": "2026-07-18",
+    "benchmark": "QQQ",
+    "outcomes": [
+      {
+        "ticker": "AAPL",
+        "action": "long",
+        "entry_reference_price": 333.739990234375,
+        "close_price": 326.5899963378906,
+        "return_pct": -2.142,
+        "benchmark_return_pct": 0.105,
+        "excess_return_pct": -2.247,
+        "outperformed": false,
+        "original_thesis": "AAPL's recent price target reset by a top analyst could drive short-term momentum, despite the risk-off market regime.",
+        "original_confidence": 4
+      },
+      {
+        "ticker": "CVX",
+        "action": "watch",
+        "entry_reference_price": 187.3800048828125,
+        "close_price": 189.7100067138672,
+        "return_pct": 1.243,
+        "benchmark_return_pct": 0.105,
+        "excess_return_pct": 1.138,
+        "outperformed": true,
+        "original_thesis": "Chevron's strategic exploration of a new pipeline could mitigate geopolitical risks, but sector crowding in energy warrants caution.",
+        "original_confidence": 3
+      }
+    ],
+    "hit_rate": 0.5,
+    "avg_pick_return_pct": -0.449,
+    "benchmark_return_pct": 0.105,
+    "avg_excess_return_pct": -0.554,
+    "narrative": "The portfolio's performance indicates a significant underperformance relative to the benchmark QQQ, with an average pick return of -0.449% and an average excess return of -0.554%. The hit rate of 0.5 suggests that the picks were not consistently successful, and the negative return from AAPL, despite a bullish thesis, points more towards market beta rather than stock-specific skill. Overall, the confidence in these picks appears to be overestimated, as the results do not support a strong predictive ability in this instance."
+  },
+  "candidates": [
+    {
+      "ticker": "CRM",
+      "candidate_score": 0.5949,
+      "score_breakdown": {
+        "momentum": 0.201,
+        "relative_strength": 0.2079,
+        "volume_confirmation": -0.0009,
+        "catalyst": 0.2,
+        "earnings_risk_penalty": -0.0,
+        "volatility_penalty": -0.0132,
+        "weak_evidence_penalty": -0.0,
+        "total": 0.5949
+      },
+      "catalyst_assessment": "The recent 1-day move in Salesforce (CRM) stock can be attributed to the announcement of a significant contract with the Air Force, which is a concrete catalyst indicating growth potential.",
+      "catalyst_is_real": true,
+      "evidence_sources": [
+        "11 news items (Finnhub)",
+        "price/volume (yfinance)"
+      ],
+      "reasoning_summary": "Top-6 by transparent score.",
+      "risk_notes": "",
+      "model_used": "gpt-4o-mini",
+      "created_at": "2026-07-21T06:14:03.058248+00:00"
+    },
+    {
+      "ticker": "MSFT",
+      "candidate_score": 0.5065,
+      "score_breakdown": {
+        "momentum": 0.1244,
+        "relative_strength": 0.25,
+        "volume_confirmation": -0.0577,
+        "catalyst": 0.2,
+        "earnings_risk_penalty": -0.0,
+        "volatility_penalty": -0.0103,
+        "weak_evidence_penalty": -0.0,
+        "total": 0.5065
+      },
+      "catalyst_assessment": "The recent 2.15% move in MSFT appears unexplained from available public sources, as none of the news items directly relate to Microsoft or provide a concrete catalyst for the stock's movement.",
+      "catalyst_is_real": false,
+      "evidence_sources": [
+        "15 news items (Finnhub)",
+        "price/volume (yfinance)"
+      ],
+      "reasoning_summary": "Top-6 by transparent score.",
+      "risk_notes": "",
+      "model_used": "gpt-4o-mini",
+      "created_at": "2026-07-21T06:14:03.058248+00:00"
+    },
+    {
+      "ticker": "CVX",
+      "candidate_score": 0.5064,
+      "score_breakdown": {
+        "momentum": 0.1853,
+        "relative_strength": 0.1423,
+        "volume_confirmation": -0.0213,
+        "catalyst": 0.2,
+        "earnings_risk_penalty": -0.0,
+        "volatility_penalty": -0.0,
+        "weak_evidence_penalty": -0.0,
+        "total": 0.5064
+      },
+      "catalyst_assessment": "The recent 1.24% move in CVX appears to be unexplained from available public sources, as the news items do not provide a concrete catalyst such as earnings, guidance, or regulatory changes.",
+      "catalyst_is_real": false,
+      "evidence_sources": [
+        "15 news items (Finnhub)",
+        "price/volume (yfinance)"
+      ],
+      "reasoning_summary": "Top-6 by transparent score.",
+      "risk_notes": "",
+      "model_used": "gpt-4o-mini",
+      "created_at": "2026-07-21T06:14:03.058248+00:00"
+    },
+    {
+      "ticker": "MA",
+      "candidate_score": 0.4025,
+      "score_breakdown": {
+        "momentum": 0.1738,
+        "relative_strength": 0.0752,
+        "volume_confirmation": -0.0465,
+        "catalyst": 0.2,
+        "earnings_risk_penalty": -0.0,
+        "volatility_penalty": -0.0,
+        "weak_evidence_penalty": -0.0,
+        "total": 0.4025
+      },
+      "catalyst_assessment": "The recent 1-day move of Mastercard's stock appears to be unexplained from available public sources, as none of the news items directly relate to a specific catalyst affecting the stock.",
+      "catalyst_is_real": false,
+      "evidence_sources": [
+        "9 news items (Finnhub)",
+        "price/volume (yfinance)"
+      ],
+      "reasoning_summary": "Top-6 by transparent score.",
+      "risk_notes": "",
+      "model_used": "gpt-4o-mini",
+      "created_at": "2026-07-21T06:14:03.058248+00:00"
+    },
+    {
+      "ticker": "V",
+      "candidate_score": 0.3632,
+      "score_breakdown": {
+        "momentum": 0.1364,
+        "relative_strength": 0.0569,
+        "volume_confirmation": -0.0302,
+        "catalyst": 0.2,
+        "earnings_risk_penalty": -0.0,
+        "volatility_penalty": -0.0,
+        "weak_evidence_penalty": -0.0,
+        "total": 0.3632
+      },
+      "catalyst_assessment": "Visa's recent launch of a stablecoin platform for banks and fintechs is a concrete catalyst that likely contributed to the stock's 1-day move of +0.56%. This development indicates strategic innovation in the digital payments space, which can positively influence investor sentiment.",
+      "catalyst_is_real": true,
+      "evidence_sources": [
+        "15 news items (Finnhub)",
+        "price/volume (yfinance)"
+      ],
+      "reasoning_summary": "Top-6 by transparent score.",
+      "risk_notes": "",
+      "model_used": "gpt-4o-mini",
+      "created_at": "2026-07-21T06:14:03.059250+00:00"
+    },
+    {
+      "ticker": "AMZN",
+      "candidate_score": 0.3056,
+      "score_breakdown": {
+        "momentum": 0.047,
+        "relative_strength": 0.1264,
+        "volume_confirmation": -0.0679,
+        "catalyst": 0.2,
+        "earnings_risk_penalty": -0.0,
+        "volatility_penalty": -0.0,
+        "weak_evidence_penalty": -0.0,
+        "total": 0.3056
+      },
+      "catalyst_assessment": "The recent 1.12% move in AMZN appears unexplained from available public sources, as none of the news items directly relate to a concrete catalyst such as earnings, guidance, or significant corporate actions.",
+      "catalyst_is_real": false,
+      "evidence_sources": [
+        "15 news items (Finnhub)",
+        "price/volume (yfinance)"
+      ],
+      "reasoning_summary": "Top-6 by transparent score.",
+      "risk_notes": "",
+      "model_used": "gpt-4o-mini",
+      "created_at": "2026-07-21T06:14:03.059250+00:00"
+    }
+  ],
+  "risk_review": {
+    "portfolio_risk": "The portfolio exhibits sector crowding, particularly within the XLK sector, which could amplify risks if technology stocks face a downturn. Additionally, the reliance on recent positive momentum may indicate a tendency to chase past performance, which can lead to overconfidence.",
+    "ticker_risks": {
+      "CRM": "CRM's recent gains may be driven by short-term catalysts, raising concerns about sustainability in a neutral market regime.",
+      "MSFT": "MSFT's lack of a real catalyst suggests that recent price movements may not be supported by fundamental changes.",
+      "CVX": "CVX's strong 5-day performance could be susceptible to reversal, especially with no real catalyst to justify the rise.",
+      "MA": "MA's modest gains lack a clear catalyst, indicating potential vulnerability to broader financial sector movements.",
+      "V": "V's performance is supported by a real catalyst, but its low score suggests limited upside potential.",
+      "AMZN": "AMZN's recent price increase lacks a real catalyst, raising concerns about the durability of its current momentum."
+    },
+    "model_used": "gpt-4o"
+  },
+  "committee_decision": {
+    "picks": [
+      {
+        "ticker": "CRM",
+        "action": "long",
+        "probability_band": "medium",
+        "confidence": 4,
+        "horizon_days": 1,
+        "entry_reference_price": 173.79,
+        "thesis": "Salesforce's recent contract announcement provides a tangible catalyst that could drive short-term outperformance.",
+        "evidence_sources": [
+          "11 news items (Finnhub)",
+          "price/volume (yfinance)"
+        ],
+        "reasoning_summary": "The significant contract announcement is a strong catalyst that aligns with CRM's recent positive momentum, suggesting potential for continued gains.",
+        "risk_notes": "The reliance on a short-term catalyst in a neutral market regime could lead to volatility if broader market conditions shift.",
+        "model_used": "gpt-4o",
+        "created_at": "2026-07-21T06:14:20.926443+00:00"
+      },
+      {
+        "ticker": "V",
+        "action": "watch",
+        "probability_band": "low",
+        "confidence": 3,
+        "horizon_days": 1,
+        "entry_reference_price": 360.57,
+        "thesis": "Visa's stablecoin platform launch is a noteworthy development, but the low score indicates limited immediate upside potential.",
+        "evidence_sources": [
+          "15 news items (Finnhub)",
+          "price/volume (yfinance)"
+        ],
+        "reasoning_summary": "While the stablecoin platform launch is a real catalyst, the low score suggests that the market may have already priced in the news, limiting short-term gains.",
+        "risk_notes": "Potential for limited upside due to already priced-in catalyst; broader financial sector movements could impact performance.",
+        "model_used": "gpt-4o",
+        "created_at": "2026-07-21T06:14:20.926443+00:00"
+      }
+    ],
+    "rejected": [
+      {
+        "ticker": "MSFT",
+        "reason": "Lack of real catalyst reduces confidence in sustained price movement."
+      },
+      {
+        "ticker": "CVX",
+        "reason": "No real catalyst to support recent gains, increasing risk of reversal."
+      },
+      {
+        "ticker": "MA",
+        "reason": "Modest gains without a clear catalyst make it vulnerable to sector movements."
+      },
+      {
+        "ticker": "AMZN",
+        "reason": "Recent price increase lacks a real catalyst, raising concerns about momentum sustainability."
+      }
+    ],
+    "committee_summary": "Today's picks focus on CRM due to its strong catalyst and potential for short-term gains, while V is on watch due to its real catalyst but limited upside potential. Other candidates were rejected due to lack of real catalysts or high risk of reversal."
+  },
+  "warnings": []
+}

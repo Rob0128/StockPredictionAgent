@@ -1,0 +1,295 @@
+{
+  "run_date": "2026-07-30",
+  "yesterday_date": "2026-07-29",
+  "macro": {
+    "market_regime": "risk_on",
+    "qqq_return_1d": 0.03297418579820443,
+    "spy_return_1d": 0.016765799496011913,
+    "vix_change": null,
+    "ten_year_yield_change": 0.05999999999999961,
+    "notes": "regime=risk_on, QQQ +3.30%, 10y +0.06pp"
+  },
+  "performance_review": {
+    "reviewed_date": "2026-07-29",
+    "benchmark": "QQQ",
+    "outcomes": [
+      {
+        "ticker": "V",
+        "action": "long",
+        "entry_reference_price": 368.73,
+        "close_price": 366.2699890136719,
+        "return_pct": -0.667,
+        "benchmark_return_pct": 3.297,
+        "excess_return_pct": -3.965,
+        "outperformed": false,
+        "original_thesis": "Visa's recent positive analyst commentary suggests potential for short-term gains despite market volatility.",
+        "original_confidence": 3
+      },
+      {
+        "ticker": "XOM",
+        "action": "watch",
+        "entry_reference_price": 156.75,
+        "close_price": 156.97000122070312,
+        "return_pct": 0.14,
+        "benchmark_return_pct": 3.297,
+        "excess_return_pct": -3.157,
+        "outperformed": false,
+        "original_thesis": "XOM's stock is buoyed by a significant rise in oil prices, offering potential gains if the trend continues.",
+        "original_confidence": 3
+      },
+      {
+        "ticker": "NFLX",
+        "action": "watch",
+        "entry_reference_price": 73.63,
+        "close_price": 73.16999816894531,
+        "return_pct": -0.625,
+        "benchmark_return_pct": 3.297,
+        "excess_return_pct": -3.922,
+        "outperformed": false,
+        "original_thesis": "Netflix's acquisition of broadcast rights provides a potential catalyst for short-term gains, though sustainability is uncertain.",
+        "original_confidence": 2
+      }
+    ],
+    "hit_rate": 0.0,
+    "avg_pick_return_pct": -0.384,
+    "benchmark_return_pct": 3.297,
+    "avg_excess_return_pct": -3.681,
+    "narrative": "The prior-day picks underperformed significantly compared to the QQQ benchmark, suggesting that the results are more indicative of market beta rather than stock-specific skill. With an average pick return of -0.384% and a hit rate of 0.0%, it appears that the confidence in these selections was not well-calibrated, as none of the picks generated positive returns. Overall, the performance reflects a lack of effective stock selection rather than a misjudgment of market conditions."
+  },
+  "candidates": [
+    {
+      "ticker": "MSFT",
+      "candidate_score": 0.8263,
+      "score_breakdown": {
+        "momentum": 0.3,
+        "relative_strength": 0.25,
+        "volume_confirmation": 0.15,
+        "catalyst": 0.2,
+        "earnings_risk_penalty": -0.015,
+        "volatility_penalty": -0.0587,
+        "weak_evidence_penalty": -0.0,
+        "total": 0.8263
+      },
+      "catalyst_assessment": "Microsoft's stock surge is primarily driven by an upbeat forecast for Azure, which has positively impacted investor sentiment and led to a significant market cap gain.",
+      "catalyst_is_real": true,
+      "evidence_sources": [
+        "15 news items (Finnhub)",
+        "SEC filing: 10-K, 8-K",
+        "price/volume (yfinance)"
+      ],
+      "reasoning_summary": "Top-6 by transparent score.",
+      "risk_notes": "",
+      "model_used": "gpt-4o-mini",
+      "created_at": "2026-07-30T21:30:58.387513+00:00"
+    },
+    {
+      "ticker": "AVGO",
+      "candidate_score": 0.3981,
+      "score_breakdown": {
+        "momentum": 0.0389,
+        "relative_strength": 0.1792,
+        "volume_confirmation": 0.0079,
+        "catalyst": 0.2,
+        "earnings_risk_penalty": -0.0,
+        "volatility_penalty": -0.0279,
+        "weak_evidence_penalty": -0.0,
+        "total": 0.3981
+      },
+      "catalyst_assessment": "The recent 4.73% move in AVGO appears unexplained from available public sources, as none of the news items directly relate to a specific catalyst affecting Broadcom's stock.",
+      "catalyst_is_real": false,
+      "evidence_sources": [
+        "15 news items (Finnhub)",
+        "price/volume (yfinance)"
+      ],
+      "reasoning_summary": "Top-6 by transparent score.",
+      "risk_notes": "",
+      "model_used": "gpt-4o-mini",
+      "created_at": "2026-07-30T21:30:58.387513+00:00"
+    },
+    {
+      "ticker": "ORCL",
+      "candidate_score": 0.365,
+      "score_breakdown": {
+        "momentum": -0.013,
+        "relative_strength": 0.25,
+        "volume_confirmation": -0.0077,
+        "catalyst": 0.2,
+        "earnings_risk_penalty": -0.0,
+        "volatility_penalty": -0.0642,
+        "weak_evidence_penalty": -0.0,
+        "total": 0.365
+      },
+      "catalyst_assessment": "The recent 8.34% increase in Oracle's stock is primarily attributed to its expanded partnership with Google Gemini and strong results from Microsoft Cloud, which are concrete catalysts identified in the news.",
+      "catalyst_is_real": true,
+      "evidence_sources": [
+        "15 news items (Finnhub)",
+        "SEC filing: Form 4",
+        "price/volume (yfinance)"
+      ],
+      "reasoning_summary": "Top-6 by transparent score.",
+      "risk_notes": "",
+      "model_used": "gpt-4o-mini",
+      "created_at": "2026-07-30T21:30:58.387513+00:00"
+    },
+    {
+      "ticker": "MA",
+      "candidate_score": 0.2946,
+      "score_breakdown": {
+        "momentum": 0.2859,
+        "relative_strength": -0.1009,
+        "volume_confirmation": 0.0596,
+        "catalyst": 0.2,
+        "earnings_risk_penalty": -0.15,
+        "volatility_penalty": -0.0,
+        "weak_evidence_penalty": -0.0,
+        "total": 0.2946
+      },
+      "catalyst_assessment": "The recent 2.49% increase in Mastercard's stock is primarily driven by its Q2 earnings beat, which was highlighted in multiple news items, indicating strong performance and growth in cross-border volume.",
+      "catalyst_is_real": true,
+      "evidence_sources": [
+        "15 news items (Finnhub)",
+        "SEC filing: 10-Q, 8-K",
+        "price/volume (yfinance)"
+      ],
+      "reasoning_summary": "Top-6 by transparent score.",
+      "risk_notes": "",
+      "model_used": "gpt-4o-mini",
+      "created_at": "2026-07-30T21:30:58.387513+00:00"
+    },
+    {
+      "ticker": "AMZN",
+      "candidate_score": 0.252,
+      "score_breakdown": {
+        "momentum": -0.0166,
+        "relative_strength": 0.0759,
+        "volume_confirmation": 0.1427,
+        "catalyst": 0.2,
+        "earnings_risk_penalty": -0.15,
+        "volatility_penalty": -0.0,
+        "weak_evidence_penalty": -0.0,
+        "total": 0.252
+      },
+      "catalyst_assessment": "The stock's 3.90% increase is likely driven by the positive reaction to Amazon's Q2 results, which highlighted accelerating growth in AWS, a concrete catalyst identified in the news.",
+      "catalyst_is_real": true,
+      "evidence_sources": [
+        "15 news items (Finnhub)",
+        "SEC filing: 8-K",
+        "price/volume (yfinance)"
+      ],
+      "reasoning_summary": "Top-6 by transparent score.",
+      "risk_notes": "",
+      "model_used": "gpt-4o-mini",
+      "created_at": "2026-07-30T21:30:58.387513+00:00"
+    },
+    {
+      "ticker": "CRM",
+      "candidate_score": 0.1781,
+      "score_breakdown": {
+        "momentum": 0.3,
+        "relative_strength": -0.25,
+        "volume_confirmation": -0.0309,
+        "catalyst": 0.2,
+        "earnings_risk_penalty": -0.0,
+        "volatility_penalty": -0.041,
+        "weak_evidence_penalty": -0.0,
+        "total": 0.1781
+      },
+      "catalyst_assessment": "The recent 4.07% decline in CRM stock appears to be unexplained from available public sources, as there are no specific catalysts such as earnings, guidance, or significant news directly related to Salesforce.",
+      "catalyst_is_real": false,
+      "evidence_sources": [
+        "15 news items (Finnhub)",
+        "price/volume (yfinance)"
+      ],
+      "reasoning_summary": "Top-6 by transparent score.",
+      "risk_notes": "",
+      "model_used": "gpt-4o-mini",
+      "created_at": "2026-07-30T21:30:58.387513+00:00"
+    }
+  ],
+  "risk_review": {
+    "portfolio_risk": "The portfolio exhibits significant sector crowding in XLK, increasing vulnerability to tech sector volatility. Additionally, the high concentration in recent high-momentum names suggests a potential overconfidence bias and susceptibility to chasing yesterday's moves.",
+    "ticker_risks": {
+      "MSFT": "Recent sharp gains may reflect overconfidence and chasing momentum; earnings risk remains unknown.",
+      "AVGO": "Despite a positive daily move, the lack of a real catalyst and recent underperformance raises concerns about weak evidence for sustained growth.",
+      "ORCL": "While benefiting from a real catalyst, the tech sector crowding could amplify downside risk if sentiment shifts.",
+      "MA": "High earnings risk and financial sector exposure could lead to volatility, especially with recent gains.",
+      "AMZN": "High earnings risk and modest recent performance suggest potential vulnerability to negative earnings surprises.",
+      "CRM": "Recent decline despite overall gains indicates potential weakness and lack of a real catalyst, raising concerns about sustainability."
+    },
+    "model_used": "gpt-4o"
+  },
+  "committee_decision": {
+    "picks": [
+      {
+        "ticker": "MSFT",
+        "action": "long",
+        "probability_band": "high",
+        "confidence": 4,
+        "horizon_days": 1,
+        "entry_reference_price": 451.1,
+        "thesis": "Microsoft's recent surge is driven by a strong forecast for Azure, indicating robust growth potential in cloud services.",
+        "evidence_sources": [
+          "15 news items (Finnhub)",
+          "SEC filing: 10-K, 8-K",
+          "price/volume (yfinance)"
+        ],
+        "reasoning_summary": "Microsoft's positive outlook for Azure has catalyzed investor sentiment, suggesting continued momentum. Despite recent gains, the real catalyst supports a high probability of short-term outperformance.",
+        "risk_notes": "The sharp recent gains could reflect overconfidence and momentum chasing. Earnings risk remains unknown, adding potential volatility.",
+        "model_used": "gpt-4o",
+        "created_at": "2026-07-30T21:31:12.353730+00:00"
+      },
+      {
+        "ticker": "ORCL",
+        "action": "long",
+        "probability_band": "medium",
+        "confidence": 3,
+        "horizon_days": 1,
+        "entry_reference_price": 127.56,
+        "thesis": "Oracle's partnership with Google Gemini enhances its cloud capabilities, offering a competitive edge in the tech sector.",
+        "evidence_sources": [
+          "15 news items (Finnhub)",
+          "SEC filing: Form 4",
+          "price/volume (yfinance)"
+        ],
+        "reasoning_summary": "The expanded partnership with Google Gemini provides Oracle with a strategic advantage, likely supporting its stock performance in the short term. However, tech sector crowding poses a risk.",
+        "risk_notes": "Tech sector crowding could amplify downside risk if sentiment shifts. The broader market's tech concentration adds to volatility concerns.",
+        "model_used": "gpt-4o",
+        "created_at": "2026-07-30T21:31:12.353730+00:00"
+      },
+      {
+        "ticker": "MA",
+        "action": "watch",
+        "probability_band": "medium",
+        "confidence": 2,
+        "horizon_days": 1,
+        "entry_reference_price": 577.35,
+        "thesis": "Mastercard's recent gains are driven by a Q2 earnings beat, but high earnings risk and sector exposure warrant caution.",
+        "evidence_sources": [
+          "15 news items (Finnhub)",
+          "SEC filing: 10-Q, 8-K",
+          "price/volume (yfinance)"
+        ],
+        "reasoning_summary": "While Mastercard's earnings beat has driven recent gains, the financial sector's volatility and high earnings risk suggest a cautious approach.",
+        "risk_notes": "High earnings risk and financial sector exposure could lead to volatility, especially with recent gains. Monitoring is advised.",
+        "model_used": "gpt-4o",
+        "created_at": "2026-07-30T21:31:12.353730+00:00"
+      }
+    ],
+    "rejected": [
+      {
+        "ticker": "AVGO",
+        "reason": "Lack of a real catalyst and recent underperformance raise concerns about weak evidence for sustained growth."
+      },
+      {
+        "ticker": "AMZN",
+        "reason": "High earnings risk and modest recent performance suggest potential vulnerability to negative earnings surprises."
+      },
+      {
+        "ticker": "CRM",
+        "reason": "Recent decline despite overall gains indicates potential weakness and lack of a real catalyst, raising concerns about sustainability."
+      }
+    ],
+    "committee_summary": "Today's picks focus on stocks with real catalysts and strong growth potential, while maintaining caution due to sector crowding and earnings risks. Microsoft and Oracle are favored for their strategic advancements, while Mastercard is monitored due to its earnings-driven gains and sector exposure."
+  },
+  "warnings": []
+}

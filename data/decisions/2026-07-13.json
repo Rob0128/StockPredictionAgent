@@ -1,0 +1,276 @@
+{
+  "run_date": "2026-07-13",
+  "yesterday_date": "2026-07-10",
+  "macro": {
+    "market_regime": "risk_off",
+    "qqq_return_1d": -0.01897977883957574,
+    "spy_return_1d": -0.007656174850540876,
+    "vix_change": null,
+    "ten_year_yield_change": 0.019999999999999574,
+    "notes": "regime=risk_off, QQQ -1.90%, 10y +0.02pp"
+  },
+  "performance_review": {
+    "reviewed_date": "2026-07-10",
+    "benchmark": "QQQ",
+    "outcomes": [
+      {
+        "ticker": "NVDA",
+        "action": "long",
+        "entry_reference_price": 210.96,
+        "close_price": 203.52999877929688,
+        "return_pct": -3.522,
+        "benchmark_return_pct": -1.898,
+        "excess_return_pct": -1.624,
+        "outperformed": false,
+        "original_thesis": "Nvidia's recent announcement of the Vera CPU presents a tangible catalyst that could drive short-term gains, especially given the market's positive reception.",
+        "original_confidence": 4
+      },
+      {
+        "ticker": "META",
+        "action": "watch",
+        "entry_reference_price": 669.21,
+        "close_price": 656.72998046875,
+        "return_pct": -1.865,
+        "benchmark_return_pct": -1.898,
+        "excess_return_pct": 0.033,
+        "outperformed": true,
+        "original_thesis": "META's recent surge lacks a clear catalyst, suggesting speculative momentum rather than fundamental changes.",
+        "original_confidence": 2
+      },
+      {
+        "ticker": "AMD",
+        "action": "avoid",
+        "entry_reference_price": 557.89,
+        "close_price": 534.3900146484375,
+        "return_pct": -4.212,
+        "benchmark_return_pct": -1.898,
+        "excess_return_pct": -2.314,
+        "outperformed": false,
+        "original_thesis": "AMD's recent gains are unsupported by a real catalyst, increasing the risk of volatility and potential downturn.",
+        "original_confidence": 1
+      }
+    ],
+    "hit_rate": 0.333,
+    "avg_pick_return_pct": -3.2,
+    "benchmark_return_pct": -1.898,
+    "avg_excess_return_pct": -1.302,
+    "narrative": "The portfolio's performance appears to reflect a combination of stock-specific challenges rather than a clear demonstration of skill, as the average pick return significantly underperformed the benchmark QQQ return. With an average excess return of -1.302% and a hit rate of only 33.3%, the results suggest that the confidence in the picks may have been overestimated, particularly given the negative outcomes across all selections. Overall, the evidence points more towards market beta influences rather than effective stock selection."
+  },
+  "candidates": [
+    {
+      "ticker": "V",
+      "candidate_score": 0.6018,
+      "score_breakdown": {
+        "momentum": 0.1481,
+        "relative_strength": 0.25,
+        "volume_confirmation": 0.0037,
+        "catalyst": 0.2,
+        "earnings_risk_penalty": -0.0,
+        "volatility_penalty": -0.0,
+        "weak_evidence_penalty": -0.0,
+        "total": 0.6018
+      },
+      "catalyst_assessment": "The recent 2.52% move in Visa's stock appears unexplained from available public sources, as there are no concrete catalysts identified in the news items.",
+      "catalyst_is_real": false,
+      "evidence_sources": [
+        "15 news items (Finnhub)",
+        "price/volume (yfinance)"
+      ],
+      "reasoning_summary": "Top-6 by transparent score.",
+      "risk_notes": "",
+      "model_used": "gpt-4o-mini",
+      "created_at": "2026-07-13T21:31:19.132840+00:00"
+    },
+    {
+      "ticker": "CVX",
+      "candidate_score": 0.5426,
+      "score_breakdown": {
+        "momentum": 0.1276,
+        "relative_strength": 0.25,
+        "volume_confirmation": -0.035,
+        "catalyst": 0.2,
+        "earnings_risk_penalty": -0.0,
+        "volatility_penalty": -0.0,
+        "weak_evidence_penalty": -0.0,
+        "total": 0.5426
+      },
+      "catalyst_assessment": "The recent 3.29% increase in CVX stock is likely driven by rising crude oil prices due to geopolitical tensions, specifically Trump's plans regarding Iran, which have been reported in multiple news items.",
+      "catalyst_is_real": true,
+      "evidence_sources": [
+        "15 news items (Finnhub)",
+        "price/volume (yfinance)"
+      ],
+      "reasoning_summary": "Top-6 by transparent score.",
+      "risk_notes": "",
+      "model_used": "gpt-4o-mini",
+      "created_at": "2026-07-13T21:31:19.132840+00:00"
+    },
+    {
+      "ticker": "XOM",
+      "candidate_score": 0.5421,
+      "score_breakdown": {
+        "momentum": 0.0894,
+        "relative_strength": 0.25,
+        "volume_confirmation": 0.0028,
+        "catalyst": 0.2,
+        "earnings_risk_penalty": -0.0,
+        "volatility_penalty": -0.0,
+        "weak_evidence_penalty": -0.0,
+        "total": 0.5421
+      },
+      "catalyst_assessment": "The 4.05% increase in XOM's stock price is likely driven by escalating tensions in the Strait of Hormuz, which poses risks to oil supply and has led to a surge in oil stocks, as indicated by multiple news headlines.",
+      "catalyst_is_real": true,
+      "evidence_sources": [
+        "15 news items (Finnhub)",
+        "price/volume (yfinance)"
+      ],
+      "reasoning_summary": "Top-6 by transparent score.",
+      "risk_notes": "",
+      "model_used": "gpt-4o-mini",
+      "created_at": "2026-07-13T21:31:19.132840+00:00"
+    },
+    {
+      "ticker": "MA",
+      "candidate_score": 0.513,
+      "score_breakdown": {
+        "momentum": 0.1418,
+        "relative_strength": 0.25,
+        "volume_confirmation": -0.0788,
+        "catalyst": 0.2,
+        "earnings_risk_penalty": -0.0,
+        "volatility_penalty": -0.0,
+        "weak_evidence_penalty": -0.0,
+        "total": 0.513
+      },
+      "catalyst_assessment": "The recent 2.08% increase in Mastercard's stock is likely driven by news regarding its consideration of a majority sale of Vocalink, which indicates potential strategic shifts and value realization.",
+      "catalyst_is_real": true,
+      "evidence_sources": [
+        "15 news items (Finnhub)",
+        "SEC filing: Form 4",
+        "price/volume (yfinance)"
+      ],
+      "reasoning_summary": "Top-6 by transparent score.",
+      "risk_notes": "",
+      "model_used": "gpt-4o-mini",
+      "created_at": "2026-07-13T21:31:19.132840+00:00"
+    },
+    {
+      "ticker": "AAPL",
+      "candidate_score": 0.5042,
+      "score_breakdown": {
+        "momentum": 0.1148,
+        "relative_strength": 0.25,
+        "volume_confirmation": -0.0538,
+        "catalyst": 0.2,
+        "earnings_risk_penalty": -0.0,
+        "volatility_penalty": -0.0068,
+        "weak_evidence_penalty": -0.0,
+        "total": 0.5042
+      },
+      "catalyst_assessment": "The recent price target hike from Citi ahead of the iPhone 18 launch likely contributed to Apple's 0.63% increase, providing a concrete catalyst for the stock's movement.",
+      "catalyst_is_real": true,
+      "evidence_sources": [
+        "15 news items (Finnhub)",
+        "price/volume (yfinance)"
+      ],
+      "reasoning_summary": "Top-6 by transparent score.",
+      "risk_notes": "",
+      "model_used": "gpt-4o-mini",
+      "created_at": "2026-07-13T21:31:19.132840+00:00"
+    },
+    {
+      "ticker": "CRM",
+      "candidate_score": 0.4948,
+      "score_breakdown": {
+        "momentum": 0.0949,
+        "relative_strength": 0.25,
+        "volume_confirmation": -0.032,
+        "catalyst": 0.2,
+        "earnings_risk_penalty": -0.0,
+        "volatility_penalty": -0.0181,
+        "weak_evidence_penalty": -0.0,
+        "total": 0.4948
+      },
+      "catalyst_assessment": "The recent 4.84% move in CRM appears to be unexplained from available public sources, as there are no concrete catalysts identified in the news items.",
+      "catalyst_is_real": false,
+      "evidence_sources": [
+        "15 news items (Finnhub)",
+        "price/volume (yfinance)"
+      ],
+      "reasoning_summary": "Top-6 by transparent score.",
+      "risk_notes": "",
+      "model_used": "gpt-4o-mini",
+      "created_at": "2026-07-13T21:31:19.132840+00:00"
+    }
+  ],
+  "risk_review": {
+    "portfolio_risk": "The current portfolio candidates exhibit significant sector crowding, particularly within the XLE and XLF sectors, which could amplify risk in a risk-off market regime. Additionally, recent price movements suggest potential overconfidence and chasing of short-term gains.",
+    "ticker_risks": {
+      "V": "Potential sector crowding in XLF with no real catalyst, risking overexposure.",
+      "CVX": "Recent gains may reflect chasing yesterday's move; sector concentration in XLE is high.",
+      "XOM": "High sector concentration in XLE; recent price surge could be a reaction to short-term news.",
+      "MA": "Sector crowding in XLF with a real catalyst, but risk of overconfidence in recent gains.",
+      "AAPL": "Moderate gains with a real catalyst, but potential for weak evidence in a risk-off environment.",
+      "CRM": "Significant recent gains without a real catalyst, indicating potential overconfidence."
+    },
+    "model_used": "gpt-4o"
+  },
+  "committee_decision": {
+    "picks": [
+      {
+        "ticker": "CVX",
+        "action": "watch",
+        "probability_band": "medium",
+        "confidence": 3,
+        "horizon_days": 1,
+        "entry_reference_price": 182.2,
+        "thesis": "Chevron's recent price movement is driven by geopolitical tensions affecting crude oil prices, which could sustain its upward momentum in the short term.",
+        "evidence_sources": [
+          "15 news items (Finnhub)",
+          "price/volume (yfinance)"
+        ],
+        "reasoning_summary": "CVX has shown a strong upward trend due to external geopolitical factors impacting oil prices. While this presents an opportunity, the risk of sector concentration in XLE and potential short-term volatility warrants a cautious approach.",
+        "risk_notes": "High sector concentration in XLE and potential for short-term volatility due to geopolitical factors.",
+        "model_used": "gpt-4o",
+        "created_at": "2026-07-13T21:31:36.321425+00:00"
+      },
+      {
+        "ticker": "AAPL",
+        "action": "long",
+        "probability_band": "medium",
+        "confidence": 4,
+        "horizon_days": 1,
+        "entry_reference_price": 317.31,
+        "thesis": "Apple's price target hike by Citi, ahead of a major product launch, provides a solid catalyst for potential short-term gains.",
+        "evidence_sources": [
+          "15 news items (Finnhub)",
+          "price/volume (yfinance)"
+        ],
+        "reasoning_summary": "The upcoming iPhone launch and positive analyst sentiment provide a strong catalyst for AAPL, making it a favorable pick despite the risk-off environment.",
+        "risk_notes": "Potential for weak evidence in a risk-off environment, but strong catalyst from product launch.",
+        "model_used": "gpt-4o",
+        "created_at": "2026-07-13T21:31:36.321425+00:00"
+      }
+    ],
+    "rejected": [
+      {
+        "ticker": "V",
+        "reason": "No real catalyst and potential sector crowding in XLF."
+      },
+      {
+        "ticker": "XOM",
+        "reason": "High sector concentration in XLE and recent price surge could be reactionary."
+      },
+      {
+        "ticker": "MA",
+        "reason": "Sector crowding in XLF with risk of overconfidence in recent gains."
+      },
+      {
+        "ticker": "CRM",
+        "reason": "Significant recent gains without a real catalyst, indicating potential overconfidence."
+      }
+    ],
+    "committee_summary": "In today's risk-off market regime, the committee has selected AAPL for a long position due to its strong catalyst from an upcoming product launch and positive analyst sentiment. CVX is placed on watch due to geopolitical factors affecting oil prices, but with caution due to sector concentration risks. Other candidates were rejected due to lack of real catalysts or sector crowding concerns."
+  },
+  "warnings": []
+}

@@ -1,0 +1,290 @@
+{
+  "run_date": "2026-07-29",
+  "yesterday_date": "2026-07-28",
+  "macro": {
+    "market_regime": "risk_off",
+    "qqq_return_1d": -0.02037041253690626,
+    "spy_return_1d": -0.01538747348258604,
+    "vix_change": null,
+    "ten_year_yield_change": -0.040000000000000036,
+    "notes": "regime=risk_off, QQQ -2.04%, 10y -0.04pp"
+  },
+  "performance_review": {
+    "reviewed_date": "2026-07-28",
+    "benchmark": "QQQ",
+    "outcomes": [
+      {
+        "ticker": "MA",
+        "action": "long",
+        "entry_reference_price": 562.75,
+        "close_price": 563.3200073242188,
+        "return_pct": 0.101,
+        "benchmark_return_pct": -2.037,
+        "excess_return_pct": 2.138,
+        "outperformed": true,
+        "original_thesis": "Mastercard's recent price increase is supported by positive sentiment surrounding its upcoming events, which could drive short-term performance.",
+        "original_confidence": 3
+      },
+      {
+        "ticker": "LLY",
+        "action": "watch",
+        "entry_reference_price": 1220.66,
+        "close_price": 1210.02001953125,
+        "return_pct": -0.872,
+        "benchmark_return_pct": -2.037,
+        "excess_return_pct": 1.165,
+        "outperformed": true,
+        "original_thesis": "Eli Lilly's recent price movement is driven by positive analyst actions, suggesting potential for short-term gains.",
+        "original_confidence": 2
+      },
+      {
+        "ticker": "JNJ",
+        "action": "watch",
+        "entry_reference_price": 266.73,
+        "close_price": 265.5299987792969,
+        "return_pct": -0.45,
+        "benchmark_return_pct": -2.037,
+        "excess_return_pct": 1.587,
+        "outperformed": true,
+        "original_thesis": "Johnson & Johnson's recent price movement is linked to news of a proposed settlement, which may influence short-term performance.",
+        "original_confidence": 2
+      }
+    ],
+    "hit_rate": 1.0,
+    "avg_pick_return_pct": -0.407,
+    "benchmark_return_pct": -2.037,
+    "avg_excess_return_pct": 1.63,
+    "narrative": "The PAPER portfolio's picks exhibited a modest outperformance relative to the benchmark QQQ, with an average excess return of 1.63%. However, the overall negative returns of the picks suggest that the outperformance may be more attributable to market beta rather than stock-specific skill, especially given that only one pick (MA) generated a positive return. The confidence in the picks appears to have been overestimated, as the hit rate of 1.0 does not reflect the overall performance, indicating that the underlying thesis may not have been well-calibrated to the market conditions."
+  },
+  "candidates": [
+    {
+      "ticker": "CRM",
+      "candidate_score": 0.7366,
+      "score_breakdown": {
+        "momentum": 0.3,
+        "relative_strength": 0.25,
+        "volume_confirmation": 0.0244,
+        "catalyst": 0.2,
+        "earnings_risk_penalty": -0.0,
+        "volatility_penalty": -0.0378,
+        "weak_evidence_penalty": -0.0,
+        "total": 0.7366
+      },
+      "catalyst_assessment": "The recent 3.79% move in CRM stock appears to be unexplained from available public sources, as none of the news items directly relate to a specific catalyst affecting Salesforce.",
+      "catalyst_is_real": false,
+      "evidence_sources": [
+        "15 news items (Finnhub)",
+        "price/volume (yfinance)"
+      ],
+      "reasoning_summary": "Top-6 by transparent score.",
+      "risk_notes": "",
+      "model_used": "gpt-4o-mini",
+      "created_at": "2026-07-29T21:31:06.924059+00:00"
+    },
+    {
+      "ticker": "V",
+      "candidate_score": 0.6628,
+      "score_breakdown": {
+        "momentum": 0.1677,
+        "relative_strength": 0.25,
+        "volume_confirmation": 0.0601,
+        "catalyst": 0.2,
+        "earnings_risk_penalty": -0.015,
+        "volatility_penalty": -0.0,
+        "weak_evidence_penalty": -0.0,
+        "total": 0.6628
+      },
+      "catalyst_assessment": "The recent rise in Visa's stock can be attributed to positive analyst commentary from UBS regarding its Q4 exit rate and guidance for 2027, as well as a strong earnings report that exceeded expectations.",
+      "catalyst_is_real": true,
+      "evidence_sources": [
+        "15 news items (Finnhub)",
+        "SEC filing: 10-Q, 8-K",
+        "price/volume (yfinance)"
+      ],
+      "reasoning_summary": "Top-6 by transparent score.",
+      "risk_notes": "",
+      "model_used": "gpt-4o-mini",
+      "created_at": "2026-07-29T21:31:06.924059+00:00"
+    },
+    {
+      "ticker": "XOM",
+      "candidate_score": 0.6017,
+      "score_breakdown": {
+        "momentum": 0.2026,
+        "relative_strength": 0.25,
+        "volume_confirmation": -0.0359,
+        "catalyst": 0.2,
+        "earnings_risk_penalty": -0.015,
+        "volatility_penalty": -0.0,
+        "weak_evidence_penalty": -0.0,
+        "total": 0.6017
+      },
+      "catalyst_assessment": "The 2.42% rise in XOM's stock is primarily driven by a significant increase in oil prices, which surged nearly 7% following geopolitical tensions related to Iran's actions. This correlation with oil price movements serves as a concrete catalyst for the stock's performance.",
+      "catalyst_is_real": true,
+      "evidence_sources": [
+        "15 news items (Finnhub)",
+        "price/volume (yfinance)"
+      ],
+      "reasoning_summary": "Top-6 by transparent score.",
+      "risk_notes": "",
+      "model_used": "gpt-4o-mini",
+      "created_at": "2026-07-29T21:31:06.924059+00:00"
+    },
+    {
+      "ticker": "NFLX",
+      "candidate_score": 0.5688,
+      "score_breakdown": {
+        "momentum": 0.1714,
+        "relative_strength": 0.25,
+        "volume_confirmation": -0.0191,
+        "catalyst": 0.2,
+        "earnings_risk_penalty": -0.015,
+        "volatility_penalty": -0.0185,
+        "weak_evidence_penalty": -0.0,
+        "total": 0.5688
+      },
+      "catalyst_assessment": "The recent 1.71% increase in NFLX stock is likely driven by the announcement of Netflix acquiring the broadcast rights for the US Women\u2019s World Cup for $200 million, which is a concrete catalyst that could enhance its content offerings and attract more subscribers.",
+      "catalyst_is_real": true,
+      "evidence_sources": [
+        "15 news items (Finnhub)",
+        "price/volume (yfinance)"
+      ],
+      "reasoning_summary": "Top-6 by transparent score.",
+      "risk_notes": "",
+      "model_used": "gpt-4o-mini",
+      "created_at": "2026-07-29T21:31:06.924059+00:00"
+    },
+    {
+      "ticker": "CVX",
+      "candidate_score": 0.5612,
+      "score_breakdown": {
+        "momentum": 0.1785,
+        "relative_strength": 0.25,
+        "volume_confirmation": 0.0077,
+        "catalyst": 0.2,
+        "earnings_risk_penalty": -0.075,
+        "volatility_penalty": -0.0,
+        "weak_evidence_penalty": -0.0,
+        "total": 0.5612
+      },
+      "catalyst_assessment": "The recent 2.28% increase in CVX's stock price is likely driven by surging oil prices following geopolitical tensions, specifically the surprise attack by Iran on U.S. forces, which has been reported in multiple news items.",
+      "catalyst_is_real": true,
+      "evidence_sources": [
+        "15 news items (Finnhub)",
+        "price/volume (yfinance)"
+      ],
+      "reasoning_summary": "Top-6 by transparent score.",
+      "risk_notes": "",
+      "model_used": "gpt-4o-mini",
+      "created_at": "2026-07-29T21:31:06.924059+00:00"
+    },
+    {
+      "ticker": "COST",
+      "candidate_score": 0.5555,
+      "score_breakdown": {
+        "momentum": 0.1402,
+        "relative_strength": 0.25,
+        "volume_confirmation": -0.0347,
+        "catalyst": 0.2,
+        "earnings_risk_penalty": -0.0,
+        "volatility_penalty": -0.0,
+        "weak_evidence_penalty": -0.0,
+        "total": 0.5555
+      },
+      "catalyst_assessment": "The recent 1-day move of Costco's stock appears to be unexplained from available public sources, as none of the news items indicate a concrete catalyst such as earnings, guidance, or significant corporate actions.",
+      "catalyst_is_real": false,
+      "evidence_sources": [
+        "15 news items (Finnhub)",
+        "price/volume (yfinance)"
+      ],
+      "reasoning_summary": "Top-6 by transparent score.",
+      "risk_notes": "",
+      "model_used": "gpt-4o-mini",
+      "created_at": "2026-07-29T21:31:06.924059+00:00"
+    }
+  ],
+  "risk_review": {
+    "portfolio_risk": "The current portfolio exhibits potential sector crowding, particularly in technology (CRM) and energy (XOM, CVX), which could amplify risk in a risk-off market regime. Additionally, reliance on recent momentum may lead to overconfidence.",
+    "ticker_risks": {
+      "CRM": "Chasing recent gains in a tech-heavy sector during a risk-off environment may lead to volatility.",
+      "V": "Uncertain earnings risk and moderate recent gains suggest potential vulnerability to market shifts.",
+      "XOM": "Energy sector exposure with unknown earnings risk could be problematic in a risk-off regime.",
+      "NFLX": "Momentum-driven gains without clear catalysts may not be sustainable in a volatile market.",
+      "CVX": "Medium earnings risk in the energy sector could exacerbate downside in a risk-off market.",
+      "COST": "Low earnings risk but lacking catalysts, recent gains may not be indicative of future performance."
+    },
+    "model_used": "gpt-4o"
+  },
+  "committee_decision": {
+    "picks": [
+      {
+        "ticker": "V",
+        "action": "long",
+        "probability_band": "medium",
+        "confidence": 3,
+        "horizon_days": 1,
+        "entry_reference_price": 368.73,
+        "thesis": "Visa's recent positive analyst commentary suggests potential for short-term gains despite market volatility.",
+        "evidence_sources": [
+          "15 news items (Finnhub)",
+          "SEC filing: 10-Q, 8-K",
+          "price/volume (yfinance)"
+        ],
+        "reasoning_summary": "Visa's stock has shown resilience with a modest gain, supported by positive analyst insights. This positions it as a potential outperformer in the short term, even in a risk-off market.",
+        "risk_notes": "Potential vulnerability due to uncertain earnings risk and moderate recent gains.",
+        "model_used": "gpt-4o",
+        "created_at": "2026-07-29T21:31:24.692278+00:00"
+      },
+      {
+        "ticker": "XOM",
+        "action": "watch",
+        "probability_band": "medium",
+        "confidence": 3,
+        "horizon_days": 1,
+        "entry_reference_price": 156.75,
+        "thesis": "XOM's stock is buoyed by a significant rise in oil prices, offering potential gains if the trend continues.",
+        "evidence_sources": [
+          "15 news items (Finnhub)",
+          "price/volume (yfinance)"
+        ],
+        "reasoning_summary": "The energy sector's recent performance, driven by oil price increases, suggests potential for short-term gains. However, the risk-off market regime necessitates caution.",
+        "risk_notes": "Energy sector exposure with unknown earnings risk could be problematic in a risk-off regime.",
+        "model_used": "gpt-4o",
+        "created_at": "2026-07-29T21:31:24.692278+00:00"
+      },
+      {
+        "ticker": "NFLX",
+        "action": "watch",
+        "probability_band": "low",
+        "confidence": 2,
+        "horizon_days": 1,
+        "entry_reference_price": 73.63,
+        "thesis": "Netflix's acquisition of broadcast rights provides a potential catalyst for short-term gains, though sustainability is uncertain.",
+        "evidence_sources": [
+          "15 news items (Finnhub)",
+          "price/volume (yfinance)"
+        ],
+        "reasoning_summary": "While the acquisition news offers a catalyst, the lack of broader market support and momentum-driven gains suggest caution.",
+        "risk_notes": "Momentum-driven gains without clear catalysts may not be sustainable in a volatile market.",
+        "model_used": "gpt-4o",
+        "created_at": "2026-07-29T21:31:24.692278+00:00"
+      }
+    ],
+    "rejected": [
+      {
+        "ticker": "CRM",
+        "reason": "Chasing recent gains in a tech-heavy sector during a risk-off environment may lead to volatility."
+      },
+      {
+        "ticker": "CVX",
+        "reason": "Medium earnings risk in the energy sector could exacerbate downside in a risk-off market."
+      },
+      {
+        "ticker": "COST",
+        "reason": "Lack of catalysts and recent gains may not be indicative of future performance."
+      }
+    ],
+    "committee_summary": "In today's risk-off market regime, the committee has selected Visa for a potential long position due to positive analyst commentary and resilience in recent performance. ExxonMobil and Netflix are on watch due to sector-specific catalysts, though caution is advised given the broader market conditions. Other candidates were rejected due to sector crowding risks and lack of clear catalysts."
+  },
+  "warnings": []
+}

@@ -1,0 +1,278 @@
+{
+  "run_date": "2026-07-23",
+  "yesterday_date": "2026-07-22",
+  "macro": {
+    "market_regime": "risk_off",
+    "qqq_return_1d": -0.0051059921671962345,
+    "spy_return_1d": -0.0011627413779321393,
+    "vix_change": null,
+    "ten_year_yield_change": 0.03000000000000025,
+    "notes": "regime=risk_off, QQQ -0.51%, 10y +0.03pp"
+  },
+  "performance_review": {
+    "reviewed_date": "2026-07-22",
+    "benchmark": "QQQ",
+    "outcomes": [
+      {
+        "ticker": "UNH",
+        "action": "long",
+        "entry_reference_price": 436.35,
+        "close_price": 431.30999755859375,
+        "return_pct": -1.155,
+        "benchmark_return_pct": -0.511,
+        "excess_return_pct": -0.644,
+        "outperformed": false,
+        "original_thesis": "UNH has shown a significant price increase driven by a concrete catalyst, an analyst upgrade to 'Strong Buy', which suggests potential for continued positive momentum.",
+        "original_confidence": 4
+      },
+      {
+        "ticker": "AMD",
+        "action": "watch",
+        "entry_reference_price": 544.43,
+        "close_price": 552.3300170898438,
+        "return_pct": 1.451,
+        "benchmark_return_pct": -0.511,
+        "excess_return_pct": 1.962,
+        "outperformed": true,
+        "original_thesis": "AMD's recent price surge is driven by positive analyst actions, indicating potential for further upward movement, though the sharp increase suggests caution.",
+        "original_confidence": 3
+      },
+      {
+        "ticker": "ASML",
+        "action": "long",
+        "entry_reference_price": 1801.51,
+        "close_price": 1801.8599853515625,
+        "return_pct": 0.019,
+        "benchmark_return_pct": -0.511,
+        "excess_return_pct": 0.53,
+        "outperformed": true,
+        "original_thesis": "ASML's recent price increase is supported by a positive earnings report, providing a solid catalyst for potential continued gains.",
+        "original_confidence": 4
+      }
+    ],
+    "hit_rate": 0.667,
+    "avg_pick_return_pct": 0.105,
+    "benchmark_return_pct": -0.511,
+    "avg_excess_return_pct": 0.616,
+    "narrative": "The portfolio's average pick return of 0.105% and excess return of 0.616% relative to the benchmark QQQ's decline suggests some level of stock-specific skill, particularly given the hit rate of 66.7%. However, the mixed performance of individual picks, especially UNH's significant underperformance, indicates that not all selections were well-calibrated or based on robust analysis. Overall, while there are signs of skill in the positive excess returns from AMD and ASML, the results should be interpreted cautiously, as they may still reflect broader market movements rather than consistent stock-picking prowess."
+  },
+  "candidates": [
+    {
+      "ticker": "JNJ",
+      "candidate_score": 0.5889,
+      "score_breakdown": {
+        "momentum": 0.1458,
+        "relative_strength": 0.25,
+        "volume_confirmation": 0.0081,
+        "catalyst": 0.2,
+        "earnings_risk_penalty": -0.015,
+        "volatility_penalty": -0.0,
+        "weak_evidence_penalty": -0.0,
+        "total": 0.5889
+      },
+      "catalyst_assessment": "The recent 2.00% increase in JNJ's stock price is likely driven by the news of J&J MedTech securing FDA approval for its OTTAVA surgical robot, which represents a significant advancement in their product offerings.",
+      "catalyst_is_real": true,
+      "evidence_sources": [
+        "15 news items (Finnhub)",
+        "SEC filing: Form 4",
+        "price/volume (yfinance)"
+      ],
+      "reasoning_summary": "Top-6 by transparent score.",
+      "risk_notes": "",
+      "model_used": "gpt-4o-mini",
+      "created_at": "2026-07-23T04:22:04.659752+00:00"
+    },
+    {
+      "ticker": "CVX",
+      "candidate_score": 0.5719,
+      "score_breakdown": {
+        "momentum": 0.2287,
+        "relative_strength": 0.1888,
+        "volume_confirmation": -0.0456,
+        "catalyst": 0.2,
+        "earnings_risk_penalty": -0.0,
+        "volatility_penalty": -0.0,
+        "weak_evidence_penalty": -0.0,
+        "total": 0.5719
+      },
+      "catalyst_assessment": "The recent 1-day move in CVX can be attributed to the surge in oil prices following Donald Trump's announcement regarding Iran, which directly impacts Chevron's operations and profitability.",
+      "catalyst_is_real": true,
+      "evidence_sources": [
+        "15 news items (Finnhub)",
+        "price/volume (yfinance)"
+      ],
+      "reasoning_summary": "Top-6 by transparent score.",
+      "risk_notes": "",
+      "model_used": "gpt-4o-mini",
+      "created_at": "2026-07-23T04:22:04.659752+00:00"
+    },
+    {
+      "ticker": "XOM",
+      "candidate_score": 0.5336,
+      "score_breakdown": {
+        "momentum": 0.2502,
+        "relative_strength": 0.25,
+        "volume_confirmation": -0.0166,
+        "catalyst": 0.2,
+        "earnings_risk_penalty": -0.15,
+        "volatility_penalty": -0.0,
+        "weak_evidence_penalty": -0.0,
+        "total": 0.5336
+      },
+      "catalyst_assessment": "The recent 1.81% move in XOM appears to be unexplained from available public sources, as there are no concrete catalysts identified in the news items.",
+      "catalyst_is_real": false,
+      "evidence_sources": [
+        "15 news items (Finnhub)",
+        "price/volume (yfinance)"
+      ],
+      "reasoning_summary": "Top-6 by transparent score.",
+      "risk_notes": "",
+      "model_used": "gpt-4o-mini",
+      "created_at": "2026-07-23T04:22:04.659752+00:00"
+    },
+    {
+      "ticker": "NVDA",
+      "candidate_score": 0.5119,
+      "score_breakdown": {
+        "momentum": 0.0684,
+        "relative_strength": 0.25,
+        "volume_confirmation": 0.0015,
+        "catalyst": 0.2,
+        "earnings_risk_penalty": -0.0,
+        "volatility_penalty": -0.008,
+        "weak_evidence_penalty": -0.0,
+        "total": 0.5119
+      },
+      "catalyst_assessment": "The recent 2.30% move in NVDA appears unexplained from available public sources, as none of the news items directly relate to Nvidia's performance or announcements.",
+      "catalyst_is_real": false,
+      "evidence_sources": [
+        "15 news items (Finnhub)",
+        "price/volume (yfinance)"
+      ],
+      "reasoning_summary": "Top-6 by transparent score.",
+      "risk_notes": "",
+      "model_used": "gpt-4o-mini",
+      "created_at": "2026-07-23T04:22:04.659752+00:00"
+    },
+    {
+      "ticker": "AMD",
+      "candidate_score": 0.4938,
+      "score_breakdown": {
+        "momentum": 0.1539,
+        "relative_strength": 0.2452,
+        "volume_confirmation": -0.0185,
+        "catalyst": 0.2,
+        "earnings_risk_penalty": -0.0,
+        "volatility_penalty": -0.0867,
+        "weak_evidence_penalty": -0.0,
+        "total": 0.4938
+      },
+      "catalyst_assessment": "The recent 1.45% move in AMD's stock is likely driven by the announcement of a significant $5 billion partnership with Anthropic for AI chips, which is a concrete and identifiable catalyst.",
+      "catalyst_is_real": true,
+      "evidence_sources": [
+        "15 news items (Finnhub)",
+        "price/volume (yfinance)"
+      ],
+      "reasoning_summary": "Top-6 by transparent score.",
+      "risk_notes": "",
+      "model_used": "gpt-4o-mini",
+      "created_at": "2026-07-23T04:22:04.659752+00:00"
+    },
+    {
+      "ticker": "BAC",
+      "candidate_score": 0.4759,
+      "score_breakdown": {
+        "momentum": 0.0778,
+        "relative_strength": 0.1455,
+        "volume_confirmation": 0.0677,
+        "catalyst": 0.2,
+        "earnings_risk_penalty": -0.015,
+        "volatility_penalty": -0.0,
+        "weak_evidence_penalty": -0.0,
+        "total": 0.4759
+      },
+      "catalyst_assessment": "The recent 1-day move of Bank of America (BAC) appears unexplained from available public sources, as the news items do not directly relate to BAC's performance or specific catalysts affecting its stock.",
+      "catalyst_is_real": false,
+      "evidence_sources": [
+        "15 news items (Finnhub)",
+        "SEC filing: Form 4",
+        "price/volume (yfinance)"
+      ],
+      "reasoning_summary": "Top-6 by transparent score.",
+      "risk_notes": "",
+      "model_used": "gpt-4o-mini",
+      "created_at": "2026-07-23T04:22:04.659752+00:00"
+    }
+  ],
+  "risk_review": {
+    "portfolio_risk": "The current portfolio candidates exhibit sector crowding, particularly in the energy (XLE) and technology (XLK) sectors, which could amplify volatility in a risk-off market regime. Additionally, the reliance on recent positive movements may indicate a tendency to chase yesterday's moves, increasing exposure to potential reversals.",
+    "ticker_risks": {
+      "JNJ": "Earnings risk is unknown, which could lead to unexpected volatility.",
+      "CVX": "Sector crowding in XLE increases vulnerability to energy market fluctuations.",
+      "XOM": "High earnings risk coupled with lack of real catalysts could lead to significant downside.",
+      "NVDA": "Recent price increase may be a reaction to past events, lacking real catalysts.",
+      "AMD": "High volatility suggests potential overreaction to recent positive news.",
+      "BAC": "Minimal price movement and unknown earnings risk indicate weak evidence for upside."
+    },
+    "model_used": "gpt-4o"
+  },
+  "committee_decision": {
+    "picks": [
+      {
+        "ticker": "JNJ",
+        "action": "long",
+        "probability_band": "medium",
+        "confidence": 4,
+        "horizon_days": 1,
+        "entry_reference_price": 255.63,
+        "thesis": "JNJ's recent FDA approval for its MedTech division is a significant catalyst that could drive short-term price appreciation.",
+        "evidence_sources": [
+          "15 news items (Finnhub)",
+          "SEC filing: Form 4",
+          "price/volume (yfinance)"
+        ],
+        "reasoning_summary": "JNJ's FDA approval is a strong catalyst, likely to sustain the recent positive momentum. The stock's recent 2% increase aligns with this news, suggesting further upside potential.",
+        "risk_notes": "Unknown earnings risk could introduce volatility, but the catalyst provides a buffer against immediate downside.",
+        "model_used": "gpt-4o",
+        "created_at": "2026-07-23T04:22:18.474404+00:00"
+      },
+      {
+        "ticker": "AMD",
+        "action": "watch",
+        "probability_band": "medium",
+        "confidence": 3,
+        "horizon_days": 1,
+        "entry_reference_price": 552.33,
+        "thesis": "AMD's new $5 billion partnership announcement is a significant development, but the high volatility suggests a cautious approach.",
+        "evidence_sources": [
+          "15 news items (Finnhub)",
+          "price/volume (yfinance)"
+        ],
+        "reasoning_summary": "The partnership news is a positive catalyst, but the stock's volatility indicates potential overreaction. Monitoring for stability before taking action is prudent.",
+        "risk_notes": "High volatility and potential overreaction to news could lead to price swings.",
+        "model_used": "gpt-4o",
+        "created_at": "2026-07-23T04:22:18.474404+00:00"
+      }
+    ],
+    "rejected": [
+      {
+        "ticker": "CVX",
+        "reason": "Sector crowding in XLE increases vulnerability to energy market fluctuations."
+      },
+      {
+        "ticker": "XOM",
+        "reason": "Lack of real catalysts and high earnings risk suggest potential downside."
+      },
+      {
+        "ticker": "NVDA",
+        "reason": "Recent price increase lacks real catalysts, reducing confidence."
+      },
+      {
+        "ticker": "BAC",
+        "reason": "Minimal price movement and unknown earnings risk indicate weak evidence for upside."
+      }
+    ],
+    "committee_summary": "Today's picks focus on stocks with real catalysts that could drive short-term performance. JNJ is selected for its FDA approval news, while AMD is placed on watch due to its significant partnership announcement but high volatility. Other candidates were rejected due to sector crowding, lack of catalysts, or insufficient evidence of upside potential."
+  },
+  "warnings": []
+}

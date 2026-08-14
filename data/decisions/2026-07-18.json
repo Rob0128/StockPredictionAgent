@@ -1,0 +1,278 @@
+{
+  "run_date": "2026-07-18",
+  "yesterday_date": "2026-07-16",
+  "macro": {
+    "market_regime": "risk_off",
+    "qqq_return_1d": -0.015029585113280416,
+    "spy_return_1d": -0.009897156017872166,
+    "vix_change": null,
+    "ten_year_yield_change": 0.020000000000000462,
+    "notes": "regime=risk_off, QQQ -1.50%, 10y +0.02pp"
+  },
+  "performance_review": {
+    "reviewed_date": "2026-07-16",
+    "benchmark": "QQQ",
+    "outcomes": [
+      {
+        "ticker": "AAPL",
+        "action": "watch",
+        "entry_reference_price": 333.26,
+        "close_price": 333.739990234375,
+        "return_pct": 0.144,
+        "benchmark_return_pct": -1.503,
+        "excess_return_pct": 1.647,
+        "outperformed": true,
+        "original_thesis": "Apple's recent price increase is driven by positive sentiment following regulatory approval, but caution is warranted given the risk-off market.",
+        "original_confidence": 3
+      },
+      {
+        "ticker": "CRM",
+        "action": "watch",
+        "entry_reference_price": 172.68,
+        "close_price": 170.77000427246094,
+        "return_pct": -1.106,
+        "benchmark_return_pct": -1.503,
+        "excess_return_pct": 0.397,
+        "outperformed": true,
+        "original_thesis": "Salesforce's selection by the Air Force provides a concrete catalyst, but tech sector reliance poses risks.",
+        "original_confidence": 3
+      },
+      {
+        "ticker": "V",
+        "action": "watch",
+        "entry_reference_price": 365.14,
+        "close_price": 358.55999755859375,
+        "return_pct": -1.802,
+        "benchmark_return_pct": -1.503,
+        "excess_return_pct": -0.299,
+        "outperformed": false,
+        "original_thesis": "Visa's stablecoin platform unveiling offers a solid catalyst, but financial sector crowding increases systemic risk.",
+        "original_confidence": 3
+      }
+    ],
+    "hit_rate": 0.667,
+    "avg_pick_return_pct": -0.921,
+    "benchmark_return_pct": -1.503,
+    "avg_excess_return_pct": 0.582,
+    "narrative": "The portfolio's average pick return of -0.921% and an excess return of 0.582% relative to the benchmark suggests some degree of stock-specific skill, particularly given the hit rate of 0.667, indicating that two-thirds of the picks outperformed their expected returns. However, the overall negative performance relative to the benchmark indicates that the picks did not fully capitalize on market conditions, and the mixed results across individual stocks imply that confidence may not have been well-calibrated. The positive excess return from AAPL stands out, but the losses from CRM and V highlight the risks of relying on specific catalysts in a challenging market environment."
+  },
+  "candidates": [
+    {
+      "ticker": "AAPL",
+      "candidate_score": 0.6456,
+      "score_breakdown": {
+        "momentum": 0.2584,
+        "relative_strength": 0.2059,
+        "volume_confirmation": -0.0091,
+        "catalyst": 0.2,
+        "earnings_risk_penalty": -0.0,
+        "volatility_penalty": -0.0095,
+        "weak_evidence_penalty": -0.0,
+        "total": 0.6456
+      },
+      "catalyst_assessment": "The recent move in AAPL's stock can be attributed to a top analyst resetting the price target ahead of earnings, which indicates a concrete catalyst influencing investor sentiment.",
+      "catalyst_is_real": true,
+      "evidence_sources": [
+        "15 news items (Finnhub)",
+        "price/volume (yfinance)"
+      ],
+      "reasoning_summary": "Top-6 by transparent score.",
+      "risk_notes": "",
+      "model_used": "gpt-4o-mini",
+      "created_at": "2026-07-18T02:25:24.903291+00:00"
+    },
+    {
+      "ticker": "XOM",
+      "candidate_score": 0.6301,
+      "score_breakdown": {
+        "momentum": 0.1664,
+        "relative_strength": 0.25,
+        "volume_confirmation": 0.0138,
+        "catalyst": 0.2,
+        "earnings_risk_penalty": -0.0,
+        "volatility_penalty": -0.0,
+        "weak_evidence_penalty": -0.0,
+        "total": 0.6301
+      },
+      "catalyst_assessment": "The recent 1-day move of ExxonMobil's stock appears to be unexplained from available public sources, as none of the news items indicate a concrete catalyst such as earnings, guidance, or significant corporate actions.",
+      "catalyst_is_real": false,
+      "evidence_sources": [
+        "15 news items (Finnhub)",
+        "price/volume (yfinance)"
+      ],
+      "reasoning_summary": "Top-6 by transparent score.",
+      "risk_notes": "",
+      "model_used": "gpt-4o-mini",
+      "created_at": "2026-07-18T02:25:24.903291+00:00"
+    },
+    {
+      "ticker": "UNH",
+      "candidate_score": 0.5967,
+      "score_breakdown": {
+        "momentum": 0.086,
+        "relative_strength": 0.25,
+        "volume_confirmation": 0.0756,
+        "catalyst": 0.2,
+        "earnings_risk_penalty": -0.015,
+        "volatility_penalty": -0.0,
+        "weak_evidence_penalty": -0.0,
+        "total": 0.5967
+      },
+      "catalyst_assessment": "The recent 1-day move of +0.64% for UNH appears to be unexplained from available public sources, as the news items do not indicate a specific catalyst directly impacting the stock.",
+      "catalyst_is_real": false,
+      "evidence_sources": [
+        "15 news items (Finnhub)",
+        "SEC filing: 8-K",
+        "price/volume (yfinance)"
+      ],
+      "reasoning_summary": "Top-6 by transparent score.",
+      "risk_notes": "",
+      "model_used": "gpt-4o-mini",
+      "created_at": "2026-07-18T02:25:24.903291+00:00"
+    },
+    {
+      "ticker": "CVX",
+      "candidate_score": 0.5883,
+      "score_breakdown": {
+        "momentum": 0.1783,
+        "relative_strength": 0.25,
+        "volume_confirmation": -0.04,
+        "catalyst": 0.2,
+        "earnings_risk_penalty": -0.0,
+        "volatility_penalty": -0.0,
+        "weak_evidence_penalty": -0.0,
+        "total": 0.5883
+      },
+      "catalyst_assessment": "Chevron's recent move can be attributed to its exploration of a pipeline to bypass the Strait of Hormuz, which addresses geopolitical risks and may enhance production stability. This strategic decision has likely contributed to investor confidence, reflected in the stock's 1.91% increase.",
+      "catalyst_is_real": true,
+      "evidence_sources": [
+        "15 news items (Finnhub)",
+        "price/volume (yfinance)"
+      ],
+      "reasoning_summary": "Top-6 by transparent score.",
+      "risk_notes": "",
+      "model_used": "gpt-4o-mini",
+      "created_at": "2026-07-18T02:25:24.903291+00:00"
+    },
+    {
+      "ticker": "BAC",
+      "candidate_score": 0.4776,
+      "score_breakdown": {
+        "momentum": 0.1489,
+        "relative_strength": 0.1431,
+        "volume_confirmation": 0.0006,
+        "catalyst": 0.2,
+        "earnings_risk_penalty": -0.015,
+        "volatility_penalty": -0.0,
+        "weak_evidence_penalty": -0.0,
+        "total": 0.4776
+      },
+      "catalyst_assessment": "The recent 1-day move of Bank of America (BAC) appears to be unexplained from available public sources, as the news items do not indicate a specific catalyst impacting the stock directly.",
+      "catalyst_is_real": false,
+      "evidence_sources": [
+        "15 news items (Finnhub)",
+        "SEC filing: Form 4, 8-K",
+        "price/volume (yfinance)"
+      ],
+      "reasoning_summary": "Top-6 by transparent score.",
+      "risk_notes": "",
+      "model_used": "gpt-4o-mini",
+      "created_at": "2026-07-18T02:25:24.903291+00:00"
+    },
+    {
+      "ticker": "JNJ",
+      "candidate_score": 0.4736,
+      "score_breakdown": {
+        "momentum": 0.0689,
+        "relative_strength": 0.25,
+        "volume_confirmation": -0.0277,
+        "catalyst": 0.2,
+        "earnings_risk_penalty": -0.015,
+        "volatility_penalty": -0.0027,
+        "weak_evidence_penalty": -0.0,
+        "total": 0.4736
+      },
+      "catalyst_assessment": "The recent 1.23% move in JNJ stock appears to be unexplained from available public sources, as the news items do not directly relate to JNJ's performance or specific catalysts.",
+      "catalyst_is_real": false,
+      "evidence_sources": [
+        "15 news items (Finnhub)",
+        "SEC filing: 8-K",
+        "price/volume (yfinance)"
+      ],
+      "reasoning_summary": "Top-6 by transparent score.",
+      "risk_notes": "",
+      "model_used": "gpt-4o-mini",
+      "created_at": "2026-07-18T02:25:24.903291+00:00"
+    }
+  ],
+  "risk_review": {
+    "portfolio_risk": "The portfolio exhibits sector crowding, particularly in energy (XLE) and healthcare (XLV), which may amplify sector-specific risks. Additionally, the presence of stocks with unknown earnings risk could lead to unforeseen volatility.",
+    "ticker_risks": {
+      "AAPL": "Potential overconfidence in tech sector (XLK) amid risk-off market regime.",
+      "XOM": "Sector crowding in energy (XLE) could heighten exposure to oil price volatility.",
+      "UNH": "Unknown earnings risk presents uncertainty in healthcare (XLV) performance.",
+      "CVX": "Chasing recent gains in energy (XLE) may overlook broader market risk-off sentiment.",
+      "BAC": "Weak evidence of catalyst and unknown earnings risk in financials (XLF) could lead to underperformance.",
+      "JNJ": "Recent negative performance and unknown earnings risk in healthcare (XLV) raise caution."
+    },
+    "model_used": "gpt-4o"
+  },
+  "committee_decision": {
+    "picks": [
+      {
+        "ticker": "AAPL",
+        "action": "long",
+        "probability_band": "medium",
+        "confidence": 4,
+        "horizon_days": 1,
+        "entry_reference_price": 333.739990234375,
+        "thesis": "AAPL's recent price target reset by a top analyst could drive short-term momentum, despite the risk-off market regime.",
+        "evidence_sources": [
+          "15 news items (Finnhub)",
+          "price/volume (yfinance)"
+        ],
+        "reasoning_summary": "AAPL's positive analyst coverage and recent price action suggest potential for short-term outperformance, even as tech faces broader market headwinds.",
+        "risk_notes": "Potential overconfidence in tech sector (XLK) amid risk-off market regime.",
+        "model_used": "gpt-4o",
+        "created_at": "2026-07-18T02:25:41.112196+00:00"
+      },
+      {
+        "ticker": "CVX",
+        "action": "watch",
+        "probability_band": "low",
+        "confidence": 3,
+        "horizon_days": 1,
+        "entry_reference_price": 187.3800048828125,
+        "thesis": "Chevron's strategic exploration of a new pipeline could mitigate geopolitical risks, but sector crowding in energy warrants caution.",
+        "evidence_sources": [
+          "15 news items (Finnhub)",
+          "price/volume (yfinance)"
+        ],
+        "reasoning_summary": "While CVX's strategic moves are promising, the broader risk-off sentiment and sector crowding in energy suggest a cautious approach.",
+        "risk_notes": "Chasing recent gains in energy (XLE) may overlook broader market risk-off sentiment.",
+        "model_used": "gpt-4o",
+        "created_at": "2026-07-18T02:25:41.112196+00:00"
+      }
+    ],
+    "rejected": [
+      {
+        "ticker": "XOM",
+        "reason": "Lack of real catalyst and sector crowding in energy heightens risk."
+      },
+      {
+        "ticker": "UNH",
+        "reason": "Unexplained price movement and unknown earnings risk in healthcare."
+      },
+      {
+        "ticker": "BAC",
+        "reason": "Weak catalyst evidence and unknown earnings risk in financials."
+      },
+      {
+        "ticker": "JNJ",
+        "reason": "Recent negative performance and unexplained price movement in healthcare."
+      }
+    ],
+    "committee_summary": "Today's picks focus on AAPL due to strong analyst support and CVX for its strategic initiatives, albeit with a cautious stance due to sector crowding and market regime. Other candidates were rejected due to lack of catalysts and sector-specific risks."
+  },
+  "warnings": []
+}

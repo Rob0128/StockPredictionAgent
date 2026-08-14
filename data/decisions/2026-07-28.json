@@ -1,0 +1,281 @@
+{
+  "run_date": "2026-07-28",
+  "yesterday_date": "2026-07-27",
+  "macro": {
+    "market_regime": "risk_off",
+    "qqq_return_1d": -0.009719704641810819,
+    "spy_return_1d": 0.00239478065158613,
+    "vix_change": null,
+    "ten_year_yield_change": -0.040000000000000036,
+    "notes": "regime=risk_off, QQQ -0.97%, 10y -0.04pp"
+  },
+  "performance_review": {
+    "reviewed_date": "2026-07-27",
+    "benchmark": "QQQ",
+    "outcomes": [
+      {
+        "ticker": "CRM",
+        "action": "long",
+        "entry_reference_price": 173.6,
+        "close_price": 181.5,
+        "return_pct": 4.551,
+        "benchmark_return_pct": -0.972,
+        "excess_return_pct": 5.523,
+        "outperformed": true,
+        "original_thesis": "Salesforce's recent contract win with the federal government for AI solutions provides a strong catalyst for potential short-term gains.",
+        "original_confidence": 4
+      },
+      {
+        "ticker": "ONDS",
+        "action": "watch",
+        "entry_reference_price": 8.02,
+        "close_price": 7.860000133514404,
+        "return_pct": -1.995,
+        "benchmark_return_pct": -0.972,
+        "excess_return_pct": -1.023,
+        "outperformed": false,
+        "original_thesis": "Ondas' strategic investment in an AI counter-drone startup could signal future growth opportunities, but current volatility suggests caution.",
+        "original_confidence": 3
+      }
+    ],
+    "hit_rate": 0.5,
+    "avg_pick_return_pct": 1.278,
+    "benchmark_return_pct": -0.972,
+    "avg_excess_return_pct": 2.25,
+    "narrative": "The PAPER portfolio's average pick return of 1.278% against a benchmark decline of -0.972% suggests some level of stock-specific skill, particularly highlighted by the strong performance of CRM, which significantly outperformed the market. However, the hit rate of 0.5 indicates that half of the picks did not perform well, which tempers the confidence in the overall strategy. The excess return of CRM aligns well with its positive thesis, while ONDS's negative performance raises questions about the robustness of the investment thesis. Overall, while there is evidence of skill in the successful pick, the mixed results suggest a need for more consistent calibration of confidence in future selections."
+  },
+  "candidates": [
+    {
+      "ticker": "CRM",
+      "candidate_score": 0.7664,
+      "score_breakdown": {
+        "momentum": 0.3,
+        "relative_strength": 0.25,
+        "volume_confirmation": 0.0526,
+        "catalyst": 0.2,
+        "earnings_risk_penalty": -0.0,
+        "volatility_penalty": -0.0362,
+        "weak_evidence_penalty": -0.0,
+        "total": 0.7664
+      },
+      "catalyst_assessment": "The recent 4.55% move in CRM stock appears to be unexplained from available public sources, as the news items do not provide a concrete catalyst directly related to Salesforce's performance.",
+      "catalyst_is_real": false,
+      "evidence_sources": [
+        "15 news items (Finnhub)",
+        "SEC filing: Form 4",
+        "price/volume (yfinance)"
+      ],
+      "reasoning_summary": "Top-6 by transparent score.",
+      "risk_notes": "",
+      "model_used": "gpt-4o-mini",
+      "created_at": "2026-07-28T22:10:16.459592+00:00"
+    },
+    {
+      "ticker": "AAPL",
+      "candidate_score": 0.6665,
+      "score_breakdown": {
+        "momentum": 0.3,
+        "relative_strength": 0.2391,
+        "volume_confirmation": 0.0024,
+        "catalyst": 0.2,
+        "earnings_risk_penalty": -0.075,
+        "volatility_penalty": -0.0,
+        "weak_evidence_penalty": -0.0,
+        "total": 0.6665
+      },
+      "catalyst_assessment": "The recent 1-day move of AAPL appears to be unexplained from available public sources, as the headlines do not indicate a specific catalyst such as earnings, guidance, or regulatory news.",
+      "catalyst_is_real": false,
+      "evidence_sources": [
+        "15 news items (Finnhub)",
+        "price/volume (yfinance)"
+      ],
+      "reasoning_summary": "Top-6 by transparent score.",
+      "risk_notes": "",
+      "model_used": "gpt-4o-mini",
+      "created_at": "2026-07-28T22:10:16.459592+00:00"
+    },
+    {
+      "ticker": "MA",
+      "candidate_score": 0.5775,
+      "score_breakdown": {
+        "momentum": 0.2036,
+        "relative_strength": 0.25,
+        "volume_confirmation": -0.0011,
+        "catalyst": 0.2,
+        "earnings_risk_penalty": -0.075,
+        "volatility_penalty": -0.0,
+        "weak_evidence_penalty": -0.0,
+        "total": 0.5775
+      },
+      "catalyst_assessment": "The recent 2.00% increase in Mastercard's stock is likely influenced by the positive sentiment surrounding its upcoming Q2 earnings report, as indicated by the headline discussing the potential for a beat. Additionally, the introduction of a new corporate debit card in Egypt may also contribute to investor optimism.",
+      "catalyst_is_real": true,
+      "evidence_sources": [
+        "15 news items (Finnhub)",
+        "price/volume (yfinance)"
+      ],
+      "reasoning_summary": "Top-6 by transparent score.",
+      "risk_notes": "",
+      "model_used": "gpt-4o-mini",
+      "created_at": "2026-07-28T22:10:16.459592+00:00"
+    },
+    {
+      "ticker": "JNJ",
+      "candidate_score": 0.5373,
+      "score_breakdown": {
+        "momentum": 0.1539,
+        "relative_strength": 0.1582,
+        "volume_confirmation": 0.0402,
+        "catalyst": 0.2,
+        "earnings_risk_penalty": -0.015,
+        "volatility_penalty": -0.0,
+        "weak_evidence_penalty": -0.0,
+        "total": 0.5373
+      },
+      "catalyst_assessment": "The recent 1-day move in JNJ stock can be attributed to the news regarding the proposed $5.5 billion settlement to resolve talc litigation, which is a significant legal and financial development for the company.",
+      "catalyst_is_real": true,
+      "evidence_sources": [
+        "15 news items (Finnhub)",
+        "SEC filing: 8-K, 10-Q",
+        "price/volume (yfinance)"
+      ],
+      "reasoning_summary": "Top-6 by transparent score.",
+      "risk_notes": "",
+      "model_used": "gpt-4o-mini",
+      "created_at": "2026-07-28T22:10:16.459592+00:00"
+    },
+    {
+      "ticker": "COST",
+      "candidate_score": 0.5341,
+      "score_breakdown": {
+        "momentum": 0.0769,
+        "relative_strength": 0.25,
+        "volume_confirmation": 0.0072,
+        "catalyst": 0.2,
+        "earnings_risk_penalty": -0.0,
+        "volatility_penalty": -0.0,
+        "weak_evidence_penalty": -0.0,
+        "total": 0.5341
+      },
+      "catalyst_assessment": "The recent 1.58% move in COST appears to be unexplained from available public sources, as the news items do not indicate a concrete catalyst such as earnings, guidance, or significant corporate actions.",
+      "catalyst_is_real": false,
+      "evidence_sources": [
+        "15 news items (Finnhub)",
+        "price/volume (yfinance)"
+      ],
+      "reasoning_summary": "Top-6 by transparent score.",
+      "risk_notes": "",
+      "model_used": "gpt-4o-mini",
+      "created_at": "2026-07-28T22:10:16.459592+00:00"
+    },
+    {
+      "ticker": "LLY",
+      "candidate_score": 0.5065,
+      "score_breakdown": {
+        "momentum": 0.0603,
+        "relative_strength": 0.25,
+        "volume_confirmation": -0.0037,
+        "catalyst": 0.2,
+        "earnings_risk_penalty": -0.0,
+        "volatility_penalty": -0.0,
+        "weak_evidence_penalty": -0.0,
+        "total": 0.5065
+      },
+      "catalyst_assessment": "The recent 1.93% increase in Eli Lilly's stock is likely driven by positive analyst actions, as indicated by the headline about analysts lifting targets based on GLP-1 outlook, which is a concrete catalyst.",
+      "catalyst_is_real": true,
+      "evidence_sources": [
+        "15 news items (Finnhub)",
+        "price/volume (yfinance)"
+      ],
+      "reasoning_summary": "Top-6 by transparent score.",
+      "risk_notes": "",
+      "model_used": "gpt-4o-mini",
+      "created_at": "2026-07-28T22:10:16.459592+00:00"
+    }
+  ],
+  "risk_review": {
+    "portfolio_risk": "The current portfolio candidates exhibit potential sector crowding, particularly within the XLK sector, which may amplify risk in a risk-off market regime. Additionally, the absence of strong catalysts for several picks raises concerns about chasing recent price movements without substantial evidence.",
+    "ticker_risks": {
+      "CRM": "Recent gains may reflect chasing momentum without a real catalyst, increasing risk in a risk-off market.",
+      "AAPL": "Medium earnings risk and lack of catalyst suggest vulnerability to market sentiment shifts.",
+      "MA": "While a real catalyst exists, medium earnings risk could pose challenges in a risk-off environment.",
+      "JNJ": "Unknown earnings risk and reliance on a catalyst make this pick speculative.",
+      "COST": "Low earnings risk but no real catalyst; recent gains may not be sustainable.",
+      "LLY": "Despite a real catalyst, low earnings risk may not justify recent price movements in a risk-off regime."
+    },
+    "model_used": "gpt-4o"
+  },
+  "committee_decision": {
+    "picks": [
+      {
+        "ticker": "MA",
+        "action": "long",
+        "probability_band": "medium",
+        "confidence": 3,
+        "horizon_days": 1,
+        "entry_reference_price": 562.75,
+        "thesis": "Mastercard's recent price increase is supported by positive sentiment surrounding its upcoming events, which could drive short-term performance.",
+        "evidence_sources": [
+          "15 news items (Finnhub)",
+          "price/volume (yfinance)"
+        ],
+        "reasoning_summary": "Despite the risk-off market regime, Mastercard's real catalyst provides a potential for short-term gains. The positive sentiment around upcoming events may help it outperform the broader market.",
+        "risk_notes": "Medium earnings risk could pose challenges, but the real catalyst provides a buffer against market sentiment shifts.",
+        "model_used": "gpt-4o",
+        "created_at": "2026-07-28T22:10:33.845957+00:00"
+      },
+      {
+        "ticker": "LLY",
+        "action": "watch",
+        "probability_band": "medium",
+        "confidence": 2,
+        "horizon_days": 1,
+        "entry_reference_price": 1220.66,
+        "thesis": "Eli Lilly's recent price movement is driven by positive analyst actions, suggesting potential for short-term gains.",
+        "evidence_sources": [
+          "15 news items (Finnhub)",
+          "price/volume (yfinance)"
+        ],
+        "reasoning_summary": "While the real catalyst of positive analyst actions supports a potential short-term gain, the low earnings risk may not justify the recent price movements in a risk-off regime.",
+        "risk_notes": "The risk-off market regime and low earnings risk may limit the potential for significant gains.",
+        "model_used": "gpt-4o",
+        "created_at": "2026-07-28T22:10:33.845957+00:00"
+      },
+      {
+        "ticker": "JNJ",
+        "action": "watch",
+        "probability_band": "low",
+        "confidence": 2,
+        "horizon_days": 1,
+        "entry_reference_price": 266.73,
+        "thesis": "Johnson & Johnson's recent price movement is linked to news of a proposed settlement, which may influence short-term performance.",
+        "evidence_sources": [
+          "15 news items (Finnhub)",
+          "SEC filing: 8-K, 10-Q",
+          "price/volume (yfinance)"
+        ],
+        "reasoning_summary": "The proposed settlement news provides a real catalyst, but the unknown earnings risk and speculative nature of the pick in a risk-off regime warrant caution.",
+        "risk_notes": "Speculative nature and unknown earnings risk make this pick less reliable in a risk-off environment.",
+        "model_used": "gpt-4o",
+        "created_at": "2026-07-28T22:10:33.845957+00:00"
+      }
+    ],
+    "rejected": [
+      {
+        "ticker": "CRM",
+        "reason": "Recent gains lack a real catalyst, increasing risk in a risk-off market."
+      },
+      {
+        "ticker": "AAPL",
+        "reason": "Medium earnings risk and lack of catalyst suggest vulnerability to market sentiment shifts."
+      },
+      {
+        "ticker": "COST",
+        "reason": "No real catalyst; recent gains may not be sustainable in a risk-off regime."
+      }
+    ],
+    "committee_summary": "In today's risk-off market regime, the committee has selected Mastercard for a long position due to its real catalyst and positive sentiment. Eli Lilly and Johnson & Johnson are placed on watch due to their real catalysts, but with caution due to the speculative nature and market conditions. Other candidates were rejected due to lack of catalysts or increased risk."
+  },
+  "warnings": [
+    "finnhub news failed for NFLX: HTTPSConnectionPool(host='finnhub.io', port=443): Max retries exceeded with url: /api/v1/company-news?symbol=NFLX&from=2026-07-25&to=2026-07-28&token=d8uisp1r01qrt65qs3kgd8uisp1r01qrt65qs3l0 (Caused by SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:1129)')))"
+  ]
+}

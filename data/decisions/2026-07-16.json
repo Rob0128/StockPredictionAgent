@@ -1,0 +1,292 @@
+{
+  "run_date": "2026-07-16",
+  "yesterday_date": "2026-07-15",
+  "macro": {
+    "market_regime": "risk_off",
+    "qqq_return_1d": -0.016440476988213396,
+    "spy_return_1d": -0.005418617756386107,
+    "vix_change": null,
+    "ten_year_yield_change": -0.03000000000000025,
+    "notes": "regime=risk_off, QQQ -1.64%, 10y -0.03pp"
+  },
+  "performance_review": {
+    "reviewed_date": "2026-07-15",
+    "benchmark": "QQQ",
+    "outcomes": [
+      {
+        "ticker": "AAPL",
+        "action": "long",
+        "entry_reference_price": 327.5,
+        "close_price": 333.260009765625,
+        "return_pct": 1.759,
+        "benchmark_return_pct": -1.644,
+        "excess_return_pct": 3.403,
+        "outperformed": true,
+        "original_thesis": "Apple's recent partnership with Qwen AI for its China iPhone market presents a tangible catalyst that could drive short-term performance.",
+        "original_confidence": 3
+      },
+      {
+        "ticker": "AMZN",
+        "action": "long",
+        "entry_reference_price": 254.96,
+        "close_price": 249.88999938964844,
+        "return_pct": -1.989,
+        "benchmark_return_pct": -1.644,
+        "excess_return_pct": -0.345,
+        "outperformed": false,
+        "original_thesis": "Amazon's stock is likely to benefit from the CEO's comments on AI chip demand and organizational restructuring, which are expected to drive growth.",
+        "original_confidence": 3
+      },
+      {
+        "ticker": "JPM",
+        "action": "watch",
+        "entry_reference_price": 346.91,
+        "close_price": 343.1499938964844,
+        "return_pct": -1.084,
+        "benchmark_return_pct": -1.644,
+        "excess_return_pct": 0.56,
+        "outperformed": true,
+        "original_thesis": "JPM's recent performance is buoyed by positive sentiment around bank earnings, but potential volatility remains due to earnings uncertainty.",
+        "original_confidence": 2
+      }
+    ],
+    "hit_rate": 0.667,
+    "avg_pick_return_pct": -0.438,
+    "benchmark_return_pct": -1.644,
+    "avg_excess_return_pct": 1.206,
+    "narrative": "The portfolio's average pick return of -0.438% against a benchmark decline of -1.644% indicates some degree of stock-specific skill, particularly highlighted by AAPL's strong performance relative to the market. However, the overall hit rate of 0.667 suggests that not all picks were successful, and the negative return from AMZN and JPM raises questions about the robustness of the underlying theses. Confidence in the picks appears somewhat well-calibrated, but the mixed results imply that while there is some skill evident, it may not be consistent across all selections."
+  },
+  "candidates": [
+    {
+      "ticker": "AAPL",
+      "candidate_score": 0.6645,
+      "score_breakdown": {
+        "momentum": 0.2334,
+        "relative_strength": 0.25,
+        "volume_confirmation": -0.0084,
+        "catalyst": 0.2,
+        "earnings_risk_penalty": -0.0,
+        "volatility_penalty": -0.0105,
+        "weak_evidence_penalty": -0.0,
+        "total": 0.6645
+      },
+      "catalyst_assessment": "The recent 1.76% increase in AAPL's stock price appears to be driven by positive sentiment surrounding Apple's approval for its AI-related product in China, as indicated by multiple news items highlighting this development.",
+      "catalyst_is_real": true,
+      "evidence_sources": [
+        "15 news items (Finnhub)",
+        "price/volume (yfinance)"
+      ],
+      "reasoning_summary": "Top-6 by transparent score.",
+      "risk_notes": "",
+      "model_used": "gpt-4o-mini",
+      "created_at": "2026-07-16T21:31:02.079079+00:00"
+    },
+    {
+      "ticker": "MA",
+      "candidate_score": 0.6081,
+      "score_breakdown": {
+        "momentum": 0.2177,
+        "relative_strength": 0.25,
+        "volume_confirmation": -0.0595,
+        "catalyst": 0.2,
+        "earnings_risk_penalty": -0.0,
+        "volatility_penalty": -0.0,
+        "weak_evidence_penalty": -0.0,
+        "total": 0.6081
+      },
+      "catalyst_assessment": "The recent 3.05% move in Mastercard's stock appears unexplained from available public sources, as the news items primarily focus on Visa and other companies, with no direct catalyst related to Mastercard itself.",
+      "catalyst_is_real": false,
+      "evidence_sources": [
+        "15 news items (Finnhub)",
+        "SEC filing: Form 4",
+        "price/volume (yfinance)"
+      ],
+      "reasoning_summary": "Top-6 by transparent score.",
+      "risk_notes": "",
+      "model_used": "gpt-4o-mini",
+      "created_at": "2026-07-16T21:31:02.079079+00:00"
+    },
+    {
+      "ticker": "V",
+      "candidate_score": 0.5803,
+      "score_breakdown": {
+        "momentum": 0.2029,
+        "relative_strength": 0.25,
+        "volume_confirmation": -0.0726,
+        "catalyst": 0.2,
+        "earnings_risk_penalty": -0.0,
+        "volatility_penalty": -0.0,
+        "weak_evidence_penalty": -0.0,
+        "total": 0.5803
+      },
+      "catalyst_assessment": "The recent 2.82% increase in Visa's stock is likely driven by the unveiling of its stablecoin platform, which is a concrete development that could enhance its payment capabilities and market position.",
+      "catalyst_is_real": true,
+      "evidence_sources": [
+        "15 news items (Finnhub)",
+        "SEC filing: 8-K",
+        "price/volume (yfinance)"
+      ],
+      "reasoning_summary": "Top-6 by transparent score.",
+      "risk_notes": "",
+      "model_used": "gpt-4o-mini",
+      "created_at": "2026-07-16T21:31:02.079079+00:00"
+    },
+    {
+      "ticker": "CRM",
+      "candidate_score": 0.5491,
+      "score_breakdown": {
+        "momentum": 0.1942,
+        "relative_strength": 0.25,
+        "volume_confirmation": -0.0734,
+        "catalyst": 0.2,
+        "earnings_risk_penalty": -0.0,
+        "volatility_penalty": -0.0217,
+        "weak_evidence_penalty": -0.0,
+        "total": 0.5491
+      },
+      "catalyst_assessment": "The recent 3.40% increase in CRM's stock price is likely driven by the Air Force selecting Salesforce to manage its fleet, which indicates a significant contract win and potential revenue growth.",
+      "catalyst_is_real": true,
+      "evidence_sources": [
+        "15 news items (Finnhub)",
+        "price/volume (yfinance)"
+      ],
+      "reasoning_summary": "Top-6 by transparent score.",
+      "risk_notes": "",
+      "model_used": "gpt-4o-mini",
+      "created_at": "2026-07-16T21:31:02.079079+00:00"
+    },
+    {
+      "ticker": "BAC",
+      "candidate_score": 0.5398,
+      "score_breakdown": {
+        "momentum": 0.1662,
+        "relative_strength": 0.1852,
+        "volume_confirmation": 0.0034,
+        "catalyst": 0.2,
+        "earnings_risk_penalty": -0.015,
+        "volatility_penalty": -0.0,
+        "weak_evidence_penalty": -0.0,
+        "total": 0.5398
+      },
+      "catalyst_assessment": "The recent 1-day move of Bank of America (BAC) appears to be unexplained from available public sources, as there are no specific catalysts directly impacting BAC's stock performance.",
+      "catalyst_is_real": false,
+      "evidence_sources": [
+        "15 news items (Finnhub)",
+        "SEC filing: 8-K",
+        "price/volume (yfinance)"
+      ],
+      "reasoning_summary": "Top-6 by transparent score.",
+      "risk_notes": "",
+      "model_used": "gpt-4o-mini",
+      "created_at": "2026-07-16T21:31:02.079079+00:00"
+    },
+    {
+      "ticker": "XOM",
+      "candidate_score": 0.5272,
+      "score_breakdown": {
+        "momentum": 0.1458,
+        "relative_strength": 0.25,
+        "volume_confirmation": -0.0686,
+        "catalyst": 0.2,
+        "earnings_risk_penalty": -0.0,
+        "volatility_penalty": -0.0,
+        "weak_evidence_penalty": -0.0,
+        "total": 0.5272
+      },
+      "catalyst_assessment": "The recent 1-day move of +1.00% for XOM appears to be unexplained from available public sources, as there are no concrete catalysts identified in the news items.",
+      "catalyst_is_real": false,
+      "evidence_sources": [
+        "15 news items (Finnhub)",
+        "price/volume (yfinance)"
+      ],
+      "reasoning_summary": "Top-6 by transparent score.",
+      "risk_notes": "",
+      "model_used": "gpt-4o-mini",
+      "created_at": "2026-07-16T21:31:02.079079+00:00"
+    }
+  ],
+  "risk_review": {
+    "portfolio_risk": "The current selection shows a significant concentration in the financial (XLF) and technology (XLK) sectors, which could expose the portfolio to sector-specific downturns. Additionally, the overall market regime is risk-off, suggesting heightened caution.",
+    "ticker_risks": {
+      "AAPL": "Potential overconfidence in tech sector as recent gains may not be sustainable in a risk-off market.",
+      "MA": "Chasing recent gains without a clear catalyst could lead to vulnerability in a risk-off environment.",
+      "V": "Sector crowding in financials increases exposure to systemic risks despite recent positive performance.",
+      "CRM": "Earnings risk is low, but reliance on tech sector momentum may be risky in current market conditions.",
+      "BAC": "Uncertain earnings risk and lack of catalyst make it susceptible to broader financial sector volatility.",
+      "XOM": "Energy sector exposure could be risky without a real catalyst, especially in a risk-off market."
+    },
+    "model_used": "gpt-4o"
+  },
+  "committee_decision": {
+    "picks": [
+      {
+        "ticker": "AAPL",
+        "action": "watch",
+        "probability_band": "medium",
+        "confidence": 3,
+        "horizon_days": 1,
+        "entry_reference_price": 333.26,
+        "thesis": "Apple's recent price increase is driven by positive sentiment following regulatory approval, but caution is warranted given the risk-off market.",
+        "evidence_sources": [
+          "15 news items (Finnhub)",
+          "price/volume (yfinance)"
+        ],
+        "reasoning_summary": "AAPL's recent gains are supported by a real catalyst, but the tech sector's current overconfidence could lead to volatility in a risk-off environment.",
+        "risk_notes": "Potential overconfidence in the tech sector as recent gains may not be sustainable in a risk-off market.",
+        "model_used": "gpt-4o",
+        "created_at": "2026-07-16T21:31:20.822082+00:00"
+      },
+      {
+        "ticker": "CRM",
+        "action": "watch",
+        "probability_band": "medium",
+        "confidence": 3,
+        "horizon_days": 1,
+        "entry_reference_price": 172.68,
+        "thesis": "Salesforce's selection by the Air Force provides a concrete catalyst, but tech sector reliance poses risks.",
+        "evidence_sources": [
+          "15 news items (Finnhub)",
+          "price/volume (yfinance)"
+        ],
+        "reasoning_summary": "CRM's recent gains are backed by a real catalyst, but the tech sector's momentum may be risky in the current market regime.",
+        "risk_notes": "Earnings risk is low, but reliance on tech sector momentum may be risky in current market conditions.",
+        "model_used": "gpt-4o",
+        "created_at": "2026-07-16T21:31:20.822082+00:00"
+      },
+      {
+        "ticker": "V",
+        "action": "watch",
+        "probability_band": "medium",
+        "confidence": 3,
+        "horizon_days": 1,
+        "entry_reference_price": 365.14,
+        "thesis": "Visa's stablecoin platform unveiling offers a solid catalyst, but financial sector crowding increases systemic risk.",
+        "evidence_sources": [
+          "15 news items (Finnhub)",
+          "SEC filing: 8-K",
+          "price/volume (yfinance)"
+        ],
+        "reasoning_summary": "Visa's recent performance is supported by a real catalyst, but financial sector exposure could be risky in a risk-off market.",
+        "risk_notes": "Sector crowding in financials increases exposure to systemic risks despite recent positive performance.",
+        "model_used": "gpt-4o",
+        "created_at": "2026-07-16T21:31:20.822082+00:00"
+      }
+    ],
+    "rejected": [
+      {
+        "ticker": "MA",
+        "reason": "Lack of a clear catalyst makes recent gains vulnerable in a risk-off environment."
+      },
+      {
+        "ticker": "BAC",
+        "reason": "Unexplained price movement and lack of catalyst increase vulnerability to financial sector volatility."
+      },
+      {
+        "ticker": "XOM",
+        "reason": "Energy sector exposure without a real catalyst is risky in a risk-off market."
+      }
+    ],
+    "committee_summary": "Today's picks focus on stocks with real catalysts, balancing potential gains with sector-specific risks in a risk-off market regime. The committee emphasizes caution due to the current market conditions and sector concentration risks."
+  },
+  "warnings": []
+}

@@ -1,0 +1,279 @@
+{
+  "run_date": "2026-07-15",
+  "yesterday_date": "2026-07-14",
+  "macro": {
+    "market_regime": "neutral",
+    "qqq_return_1d": -0.002709516875899649,
+    "spy_return_1d": 0.00396363592968102,
+    "vix_change": null,
+    "ten_year_yield_change": -0.040000000000000036,
+    "notes": "regime=neutral, QQQ -0.27%, 10y -0.04pp"
+  },
+  "performance_review": {
+    "reviewed_date": "2026-07-14",
+    "benchmark": "QQQ",
+    "outcomes": [
+      {
+        "ticker": "AMD",
+        "action": "long",
+        "entry_reference_price": 548.13,
+        "close_price": 529.1400146484375,
+        "return_pct": -3.465,
+        "benchmark_return_pct": -0.271,
+        "excess_return_pct": -3.194,
+        "outperformed": false,
+        "original_thesis": "AMD's recent price increase is driven by positive analyst upgrades, indicating potential for short-term outperformance.",
+        "original_confidence": 4
+      },
+      {
+        "ticker": "AVGO",
+        "action": "watch",
+        "entry_reference_price": 389.11,
+        "close_price": 394.2799987792969,
+        "return_pct": 1.329,
+        "benchmark_return_pct": -0.271,
+        "excess_return_pct": 1.6,
+        "outperformed": true,
+        "original_thesis": "Broadcom's new supplier role with a major client presents a tangible catalyst for potential short-term gains.",
+        "original_confidence": 3
+      }
+    ],
+    "hit_rate": 0.5,
+    "avg_pick_return_pct": -1.068,
+    "benchmark_return_pct": -0.271,
+    "avg_excess_return_pct": -0.797,
+    "narrative": "The portfolio's performance appears to reflect a negative stock-specific skill rather than market beta, as the average pick return of -1.068% significantly underperformed the benchmark QQQ return of -0.271%. The hit rate of 0.5 suggests that the picks were not consistently successful, and the substantial negative excess return indicates that the confidence in these selections may have been overestimated. Overall, the results do not support a strong thesis for skillful stock selection in this instance."
+  },
+  "candidates": [
+    {
+      "ticker": "META",
+      "candidate_score": 0.679,
+      "score_breakdown": {
+        "momentum": 0.3,
+        "relative_strength": 0.25,
+        "volume_confirmation": -0.0205,
+        "catalyst": 0.2,
+        "earnings_risk_penalty": -0.0,
+        "volatility_penalty": -0.0505,
+        "weak_evidence_penalty": -0.0,
+        "total": 0.679
+      },
+      "catalyst_assessment": "The recent 3.07% move in META appears to be unexplained from available public sources, as none of the news items indicate a concrete catalyst such as earnings, guidance, or regulatory changes.",
+      "catalyst_is_real": false,
+      "evidence_sources": [
+        "15 news items (Finnhub)",
+        "price/volume (yfinance)"
+      ],
+      "reasoning_summary": "Top-6 by transparent score.",
+      "risk_notes": "",
+      "model_used": "gpt-4o-mini",
+      "created_at": "2026-07-15T21:30:59.140307+00:00"
+    },
+    {
+      "ticker": "BAC",
+      "candidate_score": 0.641,
+      "score_breakdown": {
+        "momentum": 0.2244,
+        "relative_strength": 0.2339,
+        "volume_confirmation": -0.0023,
+        "catalyst": 0.2,
+        "earnings_risk_penalty": -0.015,
+        "volatility_penalty": -0.0,
+        "weak_evidence_penalty": -0.0,
+        "total": 0.641
+      },
+      "catalyst_assessment": "Bank of America's reported earnings from its consumer unit, which earned nearly $3.3 billion, likely contributed to the stock's positive movement, indicating strong consumer spending.",
+      "catalyst_is_real": true,
+      "evidence_sources": [
+        "15 news items (Finnhub)",
+        "SEC filing: 8-K, Form 4",
+        "price/volume (yfinance)"
+      ],
+      "reasoning_summary": "Top-6 by transparent score.",
+      "risk_notes": "",
+      "model_used": "gpt-4o-mini",
+      "created_at": "2026-07-15T21:30:59.140307+00:00"
+    },
+    {
+      "ticker": "AAPL",
+      "candidate_score": 0.6366,
+      "score_breakdown": {
+        "momentum": 0.2069,
+        "relative_strength": 0.25,
+        "volume_confirmation": -0.0102,
+        "catalyst": 0.2,
+        "earnings_risk_penalty": -0.0,
+        "volatility_penalty": -0.01,
+        "weak_evidence_penalty": -0.0,
+        "total": 0.6366
+      },
+      "catalyst_assessment": "The recent 4.01% increase in AAPL stock is likely driven by the news that Apple has selected Qwen AI for its China iPhones, indicating a strategic move in AI technology, which can positively impact future growth.",
+      "catalyst_is_real": true,
+      "evidence_sources": [
+        "15 news items (Finnhub)",
+        "price/volume (yfinance)"
+      ],
+      "reasoning_summary": "Top-6 by transparent score.",
+      "risk_notes": "",
+      "model_used": "gpt-4o-mini",
+      "created_at": "2026-07-15T21:30:59.140307+00:00"
+    },
+    {
+      "ticker": "JPM",
+      "candidate_score": 0.5506,
+      "score_breakdown": {
+        "momentum": 0.192,
+        "relative_strength": 0.1804,
+        "volume_confirmation": -0.0068,
+        "catalyst": 0.2,
+        "earnings_risk_penalty": -0.015,
+        "volatility_penalty": -0.0,
+        "weak_evidence_penalty": -0.0,
+        "total": 0.5506
+      },
+      "catalyst_assessment": "The recent 1-day move in JPM's stock can be attributed to the positive sentiment surrounding banks' earnings, which have overshadowed tech stocks, as highlighted in the news. This context suggests that the broader market dynamics, particularly strong earnings reports from banks, are influencing JPM's stock performance.",
+      "catalyst_is_real": true,
+      "evidence_sources": [
+        "15 news items (Finnhub)",
+        "SEC filing: 8-K",
+        "price/volume (yfinance)"
+      ],
+      "reasoning_summary": "Top-6 by transparent score.",
+      "risk_notes": "",
+      "model_used": "gpt-4o-mini",
+      "created_at": "2026-07-15T21:30:59.140307+00:00"
+    },
+    {
+      "ticker": "AMZN",
+      "candidate_score": 0.528,
+      "score_breakdown": {
+        "momentum": 0.1274,
+        "relative_strength": 0.25,
+        "volume_confirmation": -0.0455,
+        "catalyst": 0.2,
+        "earnings_risk_penalty": -0.0,
+        "volatility_penalty": -0.004,
+        "weak_evidence_penalty": -0.0,
+        "total": 0.528
+      },
+      "catalyst_assessment": "The recent 3.02% rise in Amazon's stock is likely driven by the CEO's comments on booming AI chip demand and the reshuffling of AWS leadership, both of which are concrete catalysts that could positively influence investor sentiment.",
+      "catalyst_is_real": true,
+      "evidence_sources": [
+        "15 news items (Finnhub)",
+        "price/volume (yfinance)"
+      ],
+      "reasoning_summary": "Top-6 by transparent score.",
+      "risk_notes": "",
+      "model_used": "gpt-4o-mini",
+      "created_at": "2026-07-15T21:30:59.140307+00:00"
+    },
+    {
+      "ticker": "GOOGL",
+      "candidate_score": 0.4687,
+      "score_breakdown": {
+        "momentum": 0.0499,
+        "relative_strength": 0.25,
+        "volume_confirmation": -0.0269,
+        "catalyst": 0.2,
+        "earnings_risk_penalty": -0.0,
+        "volatility_penalty": -0.0042,
+        "weak_evidence_penalty": -0.0,
+        "total": 0.4687
+      },
+      "catalyst_assessment": "The recent 3.17% move in GOOGL appears to be unexplained from available public sources, as there are no concrete catalysts identified in the news items.",
+      "catalyst_is_real": false,
+      "evidence_sources": [
+        "15 news items (Finnhub)",
+        "price/volume (yfinance)"
+      ],
+      "reasoning_summary": "Top-6 by transparent score.",
+      "risk_notes": "",
+      "model_used": "gpt-4o-mini",
+      "created_at": "2026-07-15T21:30:59.140307+00:00"
+    }
+  ],
+  "risk_review": {
+    "portfolio_risk": "The current selection shows a potential concentration in large-cap tech and financial sectors, which could expose the portfolio to sector-specific downturns. Additionally, the reliance on recent positive momentum may indicate a risk of chasing past performance without sufficient forward-looking catalysts.",
+    "ticker_risks": {
+      "META": "META's recent surge may be overextended, lacking a real catalyst to justify sustained momentum.",
+      "BAC": "BAC's earnings risk remains unknown, posing potential volatility around upcoming financial disclosures.",
+      "AAPL": "AAPL's recent gains could be driven by overconfidence in its catalyst, risking a pullback if expectations aren't met.",
+      "JPM": "JPM faces earnings uncertainty, which could lead to unexpected volatility in the financial sector.",
+      "AMZN": "AMZN's gains may be vulnerable if the catalyst doesn't materialize as expected, risking a reversal.",
+      "GOOGL": "GOOGL's performance lacks a real catalyst, raising concerns about the sustainability of its recent price increase."
+    },
+    "model_used": "gpt-4o"
+  },
+  "committee_decision": {
+    "picks": [
+      {
+        "ticker": "AAPL",
+        "action": "long",
+        "probability_band": "medium",
+        "confidence": 3,
+        "horizon_days": 1,
+        "entry_reference_price": 327.5,
+        "thesis": "Apple's recent partnership with Qwen AI for its China iPhone market presents a tangible catalyst that could drive short-term performance.",
+        "evidence_sources": [
+          "15 news items (Finnhub)",
+          "price/volume (yfinance)"
+        ],
+        "reasoning_summary": "The partnership with Qwen AI is a significant development that could enhance Apple's market position in China, providing a real catalyst for the recent price increase.",
+        "risk_notes": "The market may have overestimated the impact of this catalyst, risking a pullback if expectations aren't met.",
+        "model_used": "gpt-4o",
+        "created_at": "2026-07-15T21:31:20.754725+00:00"
+      },
+      {
+        "ticker": "AMZN",
+        "action": "long",
+        "probability_band": "medium",
+        "confidence": 3,
+        "horizon_days": 1,
+        "entry_reference_price": 254.96,
+        "thesis": "Amazon's stock is likely to benefit from the CEO's comments on AI chip demand and organizational restructuring, which are expected to drive growth.",
+        "evidence_sources": [
+          "15 news items (Finnhub)",
+          "price/volume (yfinance)"
+        ],
+        "reasoning_summary": "The CEO's comments provide a strong catalyst for Amazon's stock, aligning with broader market trends in AI technology.",
+        "risk_notes": "If the anticipated demand for AI chips doesn't materialize, the stock could face a reversal.",
+        "model_used": "gpt-4o",
+        "created_at": "2026-07-15T21:31:20.754725+00:00"
+      },
+      {
+        "ticker": "JPM",
+        "action": "watch",
+        "probability_band": "low",
+        "confidence": 2,
+        "horizon_days": 1,
+        "entry_reference_price": 346.91,
+        "thesis": "JPM's recent performance is buoyed by positive sentiment around bank earnings, but potential volatility remains due to earnings uncertainty.",
+        "evidence_sources": [
+          "15 news items (Finnhub)",
+          "SEC filing: 8-K",
+          "price/volume (yfinance)"
+        ],
+        "reasoning_summary": "While the positive sentiment around bank earnings supports JPM's stock, the lack of clarity on future earnings introduces risk.",
+        "risk_notes": "Earnings uncertainty could lead to unexpected volatility, making it prudent to watch rather than take a position.",
+        "model_used": "gpt-4o",
+        "created_at": "2026-07-15T21:31:20.754725+00:00"
+      }
+    ],
+    "rejected": [
+      {
+        "ticker": "META",
+        "reason": "Lacks a real catalyst to justify recent momentum, increasing risk of a pullback."
+      },
+      {
+        "ticker": "BAC",
+        "reason": "Upcoming earnings risk introduces potential volatility, making it less favorable."
+      },
+      {
+        "ticker": "GOOGL",
+        "reason": "Recent performance lacks a real catalyst, raising concerns about sustainability."
+      }
+    ],
+    "committee_summary": "Today's picks focus on companies with tangible catalysts and potential for short-term gains, while avoiding those with unexplained momentum or significant earnings risk. The committee remains cautious of sector concentration risks and the potential for overconfidence in catalysts."
+  },
+  "warnings": []
+}
