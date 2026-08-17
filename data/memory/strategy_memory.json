@@ -125,9 +125,6 @@
   ],
   "observations": [
     {
-      "text": "The hit rate of 0.5 suggests that only half of the picks performed well, highlighting variability in the success of the strategy."
-    },
-    {
       "text": "CRM's strong performance aligns with its positive thesis, while ONDS's negative performance raises concerns about the robustness of its investment thesis."
     },
     {
@@ -243,6 +240,9 @@
     },
     {
       "text": "Made 3 paper pick(s) in neutral regime."
+    },
+    {
+      "text": "Reviewed 2026-08-14: 3 pick(s), hit rate 0.667, avg excess vs QQQ 0.032%."
     }
   ],
   "deprecated_rules": [],
@@ -254,9 +254,9 @@
     "news": 1.0
   },
   "recent_performance": {
-    "last_5_days_hit_rate": 0.333,
-    "last_20_days_vs_benchmark": -1.213,
+    "last_5_days_hit_rate": 0.667,
+    "last_20_days_vs_benchmark": 0.032,
     "common_failure_mode": null
   },
-  "run_counter": 24
+  "run_counter": 25
 }
