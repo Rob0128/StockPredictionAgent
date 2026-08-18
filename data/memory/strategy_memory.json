@@ -125,12 +125,6 @@
   ],
   "observations": [
     {
-      "text": "CRM's strong performance aligns with its positive thesis, while ONDS's negative performance raises concerns about the robustness of its investment thesis."
-    },
-    {
-      "text": "The PAPER portfolio's picks achieved an average excess return of 1.63% over the benchmark QQQ, despite the overall negative market trend."
-    },
-    {
       "text": "Only one of the selected picks, MA, generated a positive return, highlighting potential overconfidence in the selection process."
     },
     {
@@ -243,6 +237,12 @@
     },
     {
       "text": "Reviewed 2026-08-14: 3 pick(s), hit rate 0.667, avg excess vs QQQ 0.032%."
+    },
+    {
+      "text": "Reviewed 2026-08-17: 3 pick(s), hit rate 0.667, avg excess vs QQQ 1.621%."
+    },
+    {
+      "text": "Made 3 paper pick(s) in risk_off regime."
     }
   ],
   "deprecated_rules": [],
@@ -255,8 +255,8 @@
   },
   "recent_performance": {
     "last_5_days_hit_rate": 0.667,
-    "last_20_days_vs_benchmark": 0.032,
+    "last_20_days_vs_benchmark": 1.621,
     "common_failure_mode": null
   },
-  "run_counter": 25
+  "run_counter": 26
 }
