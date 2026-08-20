@@ -125,9 +125,6 @@
   ],
   "observations": [
     {
-      "text": "The hit rate of 1.0 does not align with the overall negative returns, suggesting a misalignment between confidence levels and actual market performance."
-    },
-    {
       "text": "The prior-day picks underperformed the QQQ benchmark significantly, indicating a potential misalignment with the broader market's upward trend."
     },
     {
@@ -243,6 +240,9 @@
     },
     {
       "text": "Reviewed 2026-08-18: 3 pick(s), hit rate 0.667, avg excess vs QQQ 1.094%."
+    },
+    {
+      "text": "Reviewed 2026-08-19: 3 pick(s), hit rate 0.667, avg excess vs QQQ -0.356%."
     }
   ],
   "deprecated_rules": [],
@@ -255,8 +255,8 @@
   },
   "recent_performance": {
     "last_5_days_hit_rate": 0.667,
-    "last_20_days_vs_benchmark": 1.094,
+    "last_20_days_vs_benchmark": -0.356,
     "common_failure_mode": null
   },
-  "run_counter": 27
+  "run_counter": 28
 }
