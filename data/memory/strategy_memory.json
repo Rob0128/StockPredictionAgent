@@ -125,9 +125,6 @@
   ],
   "observations": [
     {
-      "text": "The prior-day picks underperformed the QQQ benchmark significantly, indicating a potential misalignment with the broader market's upward trend."
-    },
-    {
       "text": "None of the selected stocks achieved positive returns, resulting in a hit rate of 0.0%, which suggests a lack of effective stock selection."
     },
     {
@@ -243,6 +240,9 @@
     },
     {
       "text": "Reviewed 2026-08-19: 3 pick(s), hit rate 0.667, avg excess vs QQQ -0.356%."
+    },
+    {
+      "text": "Reviewed 2026-08-20: 3 pick(s), hit rate 0.333, avg excess vs QQQ -0.184%."
     }
   ],
   "deprecated_rules": [],
@@ -254,9 +254,9 @@
     "news": 1.0
   },
   "recent_performance": {
-    "last_5_days_hit_rate": 0.667,
-    "last_20_days_vs_benchmark": -0.356,
+    "last_5_days_hit_rate": 0.333,
+    "last_20_days_vs_benchmark": -0.184,
     "common_failure_mode": null
   },
-  "run_counter": 28
+  "run_counter": 29
 }
