@@ -1,0 +1,306 @@
+{
+  "run_date": "2026-08-24",
+  "yesterday_date": "2026-08-21",
+  "macro": {
+    "market_regime": "risk_off",
+    "qqq_return_1d": -0.009979809224073127,
+    "spy_return_1d": -0.0029384110198065355,
+    "vix_change": null,
+    "ten_year_yield_change": null,
+    "notes": "regime=risk_off, QQQ -1.00%"
+  },
+  "performance_review": {
+    "reviewed_date": "2026-08-21",
+    "benchmark": "QQQ",
+    "outcomes": [
+      {
+        "ticker": "TSLA",
+        "action": "long",
+        "entry_reference_price": 362.8599853515625,
+        "close_price": 348.95001220703125,
+        "return_pct": -3.833,
+        "benchmark_return_pct": -0.998,
+        "excess_return_pct": -2.835,
+        "outperformed": false,
+        "original_thesis": "0 news item(s) in 72h; no source-backed catalyst found.",
+        "original_confidence": 3
+      },
+      {
+        "ticker": "ORCL",
+        "action": "long",
+        "entry_reference_price": 146.47000122070312,
+        "close_price": 142.4499969482422,
+        "return_pct": -2.745,
+        "benchmark_return_pct": -0.998,
+        "excess_return_pct": -1.747,
+        "outperformed": false,
+        "original_thesis": "0 news item(s) in 72h; no source-backed catalyst found.",
+        "original_confidence": 3
+      },
+      {
+        "ticker": "CRM",
+        "action": "long",
+        "entry_reference_price": 209.1699981689453,
+        "close_price": 209.05999755859375,
+        "return_pct": -0.053,
+        "benchmark_return_pct": -0.998,
+        "excess_return_pct": 0.945,
+        "outperformed": true,
+        "original_thesis": "0 news item(s) in 72h; no source-backed catalyst found.",
+        "original_confidence": 3
+      }
+    ],
+    "hit_rate": 0.333,
+    "avg_pick_return_pct": -2.21,
+    "benchmark_return_pct": -0.998,
+    "avg_excess_return_pct": -1.212,
+    "narrative": "Reviewed 2026-08-21: 3 pick(s), hit rate 0.333, avg excess vs QQQ -1.212%."
+  },
+  "candidates": [
+    {
+      "ticker": "MA",
+      "candidate_score": 0.3604,
+      "score_breakdown": {
+        "momentum": 0.2251,
+        "relative_strength": 0.25,
+        "volume_confirmation": 0.0003,
+        "catalyst": 0.0,
+        "earnings_risk_penalty": -0.015,
+        "volatility_penalty": -0.0,
+        "weak_evidence_penalty": -0.1,
+        "total": 0.3604
+      },
+      "catalyst_assessment": "0 news item(s) in 72h; no source-backed catalyst found.",
+      "catalyst_is_real": false,
+      "evidence_sources": [
+        "price/volume (yfinance)"
+      ],
+      "reasoning_summary": "Top-6 by transparent score.",
+      "risk_notes": "",
+      "model_used": "deterministic",
+      "created_at": "2026-08-24T22:40:57.519488+00:00"
+    },
+    {
+      "ticker": "V",
+      "candidate_score": 0.3392,
+      "score_breakdown": {
+        "momentum": 0.184,
+        "relative_strength": 0.25,
+        "volume_confirmation": 0.0201,
+        "catalyst": 0.0,
+        "earnings_risk_penalty": -0.015,
+        "volatility_penalty": -0.0,
+        "weak_evidence_penalty": -0.1,
+        "total": 0.3392
+      },
+      "catalyst_assessment": "0 news item(s) in 72h; no source-backed catalyst found.",
+      "catalyst_is_real": false,
+      "evidence_sources": [
+        "price/volume (yfinance)"
+      ],
+      "reasoning_summary": "Top-6 by transparent score.",
+      "risk_notes": "",
+      "model_used": "deterministic",
+      "created_at": "2026-08-24T22:40:57.519516+00:00"
+    },
+    {
+      "ticker": "NFLX",
+      "candidate_score": 0.3385,
+      "score_breakdown": {
+        "momentum": 0.2583,
+        "relative_strength": 0.1907,
+        "volume_confirmation": -0.0541,
+        "catalyst": 0.0,
+        "earnings_risk_penalty": -0.015,
+        "volatility_penalty": -0.0014,
+        "weak_evidence_penalty": -0.04,
+        "total": 0.3385
+      },
+      "catalyst_assessment": "0 news item(s) in 72h; no source-backed catalyst found.",
+      "catalyst_is_real": false,
+      "evidence_sources": [
+        "price/volume (yfinance)"
+      ],
+      "reasoning_summary": "Top-6 by transparent score.",
+      "risk_notes": "",
+      "model_used": "deterministic",
+      "created_at": "2026-08-24T22:40:57.519532+00:00"
+    },
+    {
+      "ticker": "MSFT",
+      "candidate_score": 0.3346,
+      "score_breakdown": {
+        "momentum": 0.3,
+        "relative_strength": 0.23,
+        "volume_confirmation": -0.0804,
+        "catalyst": 0.0,
+        "earnings_risk_penalty": -0.015,
+        "volatility_penalty": -0.06,
+        "weak_evidence_penalty": -0.04,
+        "total": 0.3346
+      },
+      "catalyst_assessment": "0 news item(s) in 72h; no source-backed catalyst found.",
+      "catalyst_is_real": false,
+      "evidence_sources": [
+        "price/volume (yfinance)"
+      ],
+      "reasoning_summary": "Top-6 by transparent score.",
+      "risk_notes": "",
+      "model_used": "deterministic",
+      "created_at": "2026-08-24T22:40:57.519568+00:00"
+    },
+    {
+      "ticker": "CRM",
+      "candidate_score": 0.2904,
+      "score_breakdown": {
+        "momentum": 0.3,
+        "relative_strength": 0.1182,
+        "volume_confirmation": -0.0476,
+        "catalyst": 0.0,
+        "earnings_risk_penalty": -0.015,
+        "volatility_penalty": -0.0252,
+        "weak_evidence_penalty": -0.04,
+        "total": 0.2904
+      },
+      "catalyst_assessment": "0 news item(s) in 72h; no source-backed catalyst found.",
+      "catalyst_is_real": false,
+      "evidence_sources": [
+        "price/volume (yfinance)"
+      ],
+      "reasoning_summary": "Top-6 by transparent score.",
+      "risk_notes": "",
+      "model_used": "deterministic",
+      "created_at": "2026-08-24T22:40:57.519584+00:00"
+    },
+    {
+      "ticker": "GOOGL",
+      "candidate_score": 0.2709,
+      "score_breakdown": {
+        "momentum": 0.1002,
+        "relative_strength": 0.2422,
+        "volume_confirmation": -0.0017,
+        "catalyst": 0.0,
+        "earnings_risk_penalty": -0.015,
+        "volatility_penalty": -0.0148,
+        "weak_evidence_penalty": -0.04,
+        "total": 0.2709
+      },
+      "catalyst_assessment": "0 news item(s) in 72h; no source-backed catalyst found.",
+      "catalyst_is_real": false,
+      "evidence_sources": [
+        "price/volume (yfinance)"
+      ],
+      "reasoning_summary": "Top-6 by transparent score.",
+      "risk_notes": "",
+      "model_used": "deterministic",
+      "created_at": "2026-08-24T22:40:57.519597+00:00"
+    }
+  ],
+  "risk_review": {
+    "portfolio_risk": "No severe single-sector concentration detected.",
+    "ticker_risks": {
+      "MA": "thin evidence",
+      "V": "thin evidence",
+      "NFLX": "thin evidence",
+      "MSFT": "elevated volatility; thin evidence",
+      "CRM": "thin evidence",
+      "GOOGL": "thin evidence"
+    },
+    "model_used": "deterministic"
+  },
+  "committee_decision": {
+    "picks": [
+      {
+        "ticker": "MA",
+        "action": "long",
+        "probability_band": "high",
+        "confidence": 3,
+        "horizon_days": 1,
+        "entry_reference_price": 599.8599853515625,
+        "thesis": "0 news item(s) in 72h; no source-backed catalyst found.",
+        "evidence_sources": [
+          "price/volume (yfinance)"
+        ],
+        "reasoning_summary": "candidate_score=0.3604; 0 news item(s) in 72h; no source-backed catalyst found.",
+        "risk_notes": "thin evidence",
+        "model_used": "deterministic",
+        "created_at": "2026-08-24T22:40:57.520959+00:00"
+      },
+      {
+        "ticker": "V",
+        "action": "long",
+        "probability_band": "high",
+        "confidence": 3,
+        "horizon_days": 1,
+        "entry_reference_price": 382.4100036621094,
+        "thesis": "0 news item(s) in 72h; no source-backed catalyst found.",
+        "evidence_sources": [
+          "price/volume (yfinance)"
+        ],
+        "reasoning_summary": "candidate_score=0.3392; 0 news item(s) in 72h; no source-backed catalyst found.",
+        "risk_notes": "thin evidence",
+        "model_used": "deterministic",
+        "created_at": "2026-08-24T22:40:57.520975+00:00"
+      },
+      {
+        "ticker": "NFLX",
+        "action": "long",
+        "probability_band": "high",
+        "confidence": 3,
+        "horizon_days": 1,
+        "entry_reference_price": 80.01000213623047,
+        "thesis": "0 news item(s) in 72h; no source-backed catalyst found.",
+        "evidence_sources": [
+          "price/volume (yfinance)"
+        ],
+        "reasoning_summary": "candidate_score=0.3385; 0 news item(s) in 72h; no source-backed catalyst found.",
+        "risk_notes": "thin evidence",
+        "model_used": "deterministic",
+        "created_at": "2026-08-24T22:40:57.520984+00:00"
+      }
+    ],
+    "rejected": [
+      {
+        "ticker": "MSFT",
+        "reason": "daily pick limit reached"
+      },
+      {
+        "ticker": "CRM",
+        "reason": "daily pick limit reached"
+      },
+      {
+        "ticker": "GOOGL",
+        "reason": "daily pick limit reached"
+      }
+    ],
+    "committee_summary": "Selected 3 paper pick(s) by transparent score; 3 rejected. Paper tracking only."
+  },
+  "warnings": [
+    "edgar ticker map failed: 403 Client Error: Forbidden for url: https://www.sec.gov/files/company_tickers.json",
+    "edgar ticker map failed: 403 Client Error: Forbidden for url: https://www.sec.gov/files/company_tickers.json",
+    "edgar ticker map failed: 403 Client Error: Forbidden for url: https://www.sec.gov/files/company_tickers.json",
+    "edgar ticker map failed: 403 Client Error: Forbidden for url: https://www.sec.gov/files/company_tickers.json",
+    "edgar ticker map failed: 403 Client Error: Forbidden for url: https://www.sec.gov/files/company_tickers.json",
+    "edgar ticker map failed: 403 Client Error: Forbidden for url: https://www.sec.gov/files/company_tickers.json",
+    "edgar ticker map failed: 403 Client Error: Forbidden for url: https://www.sec.gov/files/company_tickers.json",
+    "edgar ticker map failed: 403 Client Error: Forbidden for url: https://www.sec.gov/files/company_tickers.json",
+    "edgar ticker map failed: 403 Client Error: Forbidden for url: https://www.sec.gov/files/company_tickers.json",
+    "edgar ticker map failed: 403 Client Error: Forbidden for url: https://www.sec.gov/files/company_tickers.json",
+    "edgar ticker map failed: 403 Client Error: Forbidden for url: https://www.sec.gov/files/company_tickers.json",
+    "edgar ticker map failed: 403 Client Error: Forbidden for url: https://www.sec.gov/files/company_tickers.json",
+    "edgar ticker map failed: 403 Client Error: Forbidden for url: https://www.sec.gov/files/company_tickers.json",
+    "edgar ticker map failed: 403 Client Error: Forbidden for url: https://www.sec.gov/files/company_tickers.json",
+    "edgar ticker map failed: 403 Client Error: Forbidden for url: https://www.sec.gov/files/company_tickers.json",
+    "edgar ticker map failed: 403 Client Error: Forbidden for url: https://www.sec.gov/files/company_tickers.json",
+    "edgar ticker map failed: 403 Client Error: Forbidden for url: https://www.sec.gov/files/company_tickers.json",
+    "edgar ticker map failed: 403 Client Error: Forbidden for url: https://www.sec.gov/files/company_tickers.json",
+    "edgar ticker map failed: 403 Client Error: Forbidden for url: https://www.sec.gov/files/company_tickers.json",
+    "edgar ticker map failed: 403 Client Error: Forbidden for url: https://www.sec.gov/files/company_tickers.json",
+    "edgar ticker map failed: 403 Client Error: Forbidden for url: https://www.sec.gov/files/company_tickers.json",
+    "edgar ticker map failed: 403 Client Error: Forbidden for url: https://www.sec.gov/files/company_tickers.json",
+    "edgar ticker map failed: 403 Client Error: Forbidden for url: https://www.sec.gov/files/company_tickers.json",
+    "edgar ticker map failed: 403 Client Error: Forbidden for url: https://www.sec.gov/files/company_tickers.json",
+    "edgar ticker map failed: 403 Client Error: Forbidden for url: https://www.sec.gov/files/company_tickers.json",
+    "edgar ticker map failed: 403 Client Error: Forbidden for url: https://www.sec.gov/files/company_tickers.json"
+  ]
+}
