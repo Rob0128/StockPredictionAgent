@@ -2,12 +2,12 @@
   "run_date": "2026-08-28",
   "yesterday_date": "2026-08-26",
   "macro": {
-    "market_regime": "risk_on",
-    "qqq_return_1d": 0.013691876662257147,
-    "spy_return_1d": 0.006552786111251644,
+    "market_regime": "risk_off",
+    "qqq_return_1d": -0.0064899845666394635,
+    "spy_return_1d": -0.0022694852229378213,
     "vix_change": null,
     "ten_year_yield_change": null,
-    "notes": "regime=risk_on, QQQ +1.37%"
+    "notes": "regime=risk_off, QQQ -0.65%"
   },
   "performance_review": {
     "reviewed_date": "2026-08-26",
@@ -17,11 +17,11 @@
         "ticker": "ORCL",
         "action": "long",
         "entry_reference_price": 148.8699951171875,
-        "close_price": 151.94000244140625,
-        "return_pct": 2.062,
-        "benchmark_return_pct": 1.369,
-        "excess_return_pct": 0.693,
-        "outperformed": true,
+        "close_price": 150.85000610351562,
+        "return_pct": -0.717,
+        "benchmark_return_pct": -0.649,
+        "excess_return_pct": -0.068,
+        "outperformed": false,
         "original_thesis": "0 news item(s) in 72h; no source-backed catalyst found.",
         "original_confidence": 3
       },
@@ -29,10 +29,10 @@
         "ticker": "MSFT",
         "action": "long",
         "entry_reference_price": 496.3699951171875,
-        "close_price": 505.05999755859375,
-        "return_pct": 1.751,
-        "benchmark_return_pct": 1.369,
-        "excess_return_pct": 0.382,
+        "close_price": 513.530029296875,
+        "return_pct": 1.677,
+        "benchmark_return_pct": -0.649,
+        "excess_return_pct": 2.326,
         "outperformed": true,
         "original_thesis": "0 news item(s) in 72h; no source-backed catalyst found.",
         "original_confidence": 2
@@ -41,45 +41,22 @@
         "ticker": "META",
         "action": "long",
         "entry_reference_price": 576.1400146484375,
-        "close_price": 571.0999755859375,
-        "return_pct": -0.875,
-        "benchmark_return_pct": 1.369,
-        "excess_return_pct": -2.244,
-        "outperformed": false,
+        "close_price": 578.02001953125,
+        "return_pct": 1.212,
+        "benchmark_return_pct": -0.649,
+        "excess_return_pct": 1.861,
+        "outperformed": true,
         "original_thesis": "0 news item(s) in 72h; no source-backed catalyst found.",
         "original_confidence": 2
       }
     ],
     "hit_rate": 0.667,
-    "avg_pick_return_pct": 0.979,
-    "benchmark_return_pct": 1.369,
-    "avg_excess_return_pct": -0.39,
-    "narrative": "Reviewed 2026-08-26: 3 pick(s), hit rate 0.667, avg excess vs QQQ -0.39%."
+    "avg_pick_return_pct": 0.724,
+    "benchmark_return_pct": -0.649,
+    "avg_excess_return_pct": 1.373,
+    "narrative": "Reviewed 2026-08-26: 3 pick(s), hit rate 0.667, avg excess vs QQQ 1.373%."
   },
   "candidates": [
-    {
-      "ticker": "NVDA",
-      "candidate_score": 0.5547,
-      "score_breakdown": {
-        "momentum": 0.2951,
-        "relative_strength": 0.25,
-        "volume_confirmation": 0.15,
-        "catalyst": 0.0,
-        "earnings_risk_penalty": -0.015,
-        "volatility_penalty": -0.0253,
-        "weak_evidence_penalty": -0.1,
-        "total": 0.5547
-      },
-      "catalyst_assessment": "0 news item(s) in 72h; no source-backed catalyst found.",
-      "catalyst_is_real": false,
-      "evidence_sources": [
-        "price/volume (yfinance)"
-      ],
-      "reasoning_summary": "Top-6 by transparent score.",
-      "risk_notes": "",
-      "model_used": "deterministic",
-      "created_at": "2026-08-28T01:16:09.157848+00:00"
-    },
     {
       "ticker": "CRM",
       "candidate_score": 0.485,
@@ -101,89 +78,20 @@
       "reasoning_summary": "Top-6 by transparent score.",
       "risk_notes": "",
       "model_used": "deterministic",
-      "created_at": "2026-08-28T01:16:09.157881+00:00"
-    },
-    {
-      "ticker": "ONDS",
-      "candidate_score": 0.3299,
-      "score_breakdown": {
-        "momentum": 0.2647,
-        "relative_strength": 0.25,
-        "volume_confirmation": 0.0218,
-        "catalyst": 0.0,
-        "earnings_risk_penalty": -0.015,
-        "volatility_penalty": -0.0916,
-        "weak_evidence_penalty": -0.1,
-        "total": 0.3299
-      },
-      "catalyst_assessment": "0 news item(s) in 72h; no source-backed catalyst found.",
-      "catalyst_is_real": false,
-      "evidence_sources": [
-        "price/volume (yfinance)"
-      ],
-      "reasoning_summary": "Top-6 by transparent score.",
-      "risk_notes": "",
-      "model_used": "deterministic",
-      "created_at": "2026-08-28T01:16:09.157898+00:00"
-    },
-    {
-      "ticker": "ORCL",
-      "candidate_score": 0.2538,
-      "score_breakdown": {
-        "momentum": 0.3,
-        "relative_strength": 0.0866,
-        "volume_confirmation": 0.0238,
-        "catalyst": 0.0,
-        "earnings_risk_penalty": -0.015,
-        "volatility_penalty": -0.0416,
-        "weak_evidence_penalty": -0.1,
-        "total": 0.2538
-      },
-      "catalyst_assessment": "0 news item(s) in 72h; no source-backed catalyst found.",
-      "catalyst_is_real": false,
-      "evidence_sources": [
-        "price/volume (yfinance)"
-      ],
-      "reasoning_summary": "Top-6 by transparent score.",
-      "risk_notes": "",
-      "model_used": "deterministic",
-      "created_at": "2026-08-28T01:16:09.157912+00:00"
-    },
-    {
-      "ticker": "TSLA",
-      "candidate_score": 0.2405,
-      "score_breakdown": {
-        "momentum": 0.2291,
-        "relative_strength": 0.1538,
-        "volume_confirmation": -0.0151,
-        "catalyst": 0.0,
-        "earnings_risk_penalty": -0.015,
-        "volatility_penalty": -0.0123,
-        "weak_evidence_penalty": -0.1,
-        "total": 0.2405
-      },
-      "catalyst_assessment": "0 news item(s) in 72h; no source-backed catalyst found.",
-      "catalyst_is_real": false,
-      "evidence_sources": [
-        "price/volume (yfinance)"
-      ],
-      "reasoning_summary": "Top-6 by transparent score.",
-      "risk_notes": "",
-      "model_used": "deterministic",
-      "created_at": "2026-08-28T01:16:09.157924+00:00"
+      "created_at": "2026-08-28T22:33:29.873679+00:00"
     },
     {
       "ticker": "MSFT",
-      "candidate_score": 0.1584,
+      "candidate_score": 0.3763,
       "score_breakdown": {
-        "momentum": 0.233,
-        "relative_strength": 0.0477,
-        "volume_confirmation": -0.0073,
+        "momentum": 0.2389,
+        "relative_strength": 0.25,
+        "volume_confirmation": 0.0024,
         "catalyst": 0.0,
         "earnings_risk_penalty": -0.015,
         "volatility_penalty": -0.0,
         "weak_evidence_penalty": -0.1,
-        "total": 0.1584
+        "total": 0.3763
       },
       "catalyst_assessment": "0 news item(s) in 72h; no source-backed catalyst found.",
       "catalyst_is_real": false,
@@ -193,46 +101,122 @@
       "reasoning_summary": "Top-6 by transparent score.",
       "risk_notes": "",
       "model_used": "deterministic",
-      "created_at": "2026-08-28T01:16:09.157937+00:00"
+      "created_at": "2026-08-28T22:33:29.873707+00:00"
+    },
+    {
+      "ticker": "NFLX",
+      "candidate_score": 0.3479,
+      "score_breakdown": {
+        "momentum": 0.2157,
+        "relative_strength": 0.25,
+        "volume_confirmation": -0.0004,
+        "catalyst": 0.0,
+        "earnings_risk_penalty": -0.015,
+        "volatility_penalty": -0.0024,
+        "weak_evidence_penalty": -0.1,
+        "total": 0.3479
+      },
+      "catalyst_assessment": "0 news item(s) in 72h; no source-backed catalyst found.",
+      "catalyst_is_real": false,
+      "evidence_sources": [
+        "price/volume (yfinance)"
+      ],
+      "reasoning_summary": "Top-6 by transparent score.",
+      "risk_notes": "",
+      "model_used": "deterministic",
+      "created_at": "2026-08-28T22:33:29.873723+00:00"
+    },
+    {
+      "ticker": "META",
+      "candidate_score": 0.3019,
+      "score_breakdown": {
+        "momentum": 0.138,
+        "relative_strength": 0.2326,
+        "volume_confirmation": -0.004,
+        "catalyst": 0.0,
+        "earnings_risk_penalty": -0.015,
+        "volatility_penalty": -0.0096,
+        "weak_evidence_penalty": -0.04,
+        "total": 0.3019
+      },
+      "catalyst_assessment": "0 news item(s) in 72h; no source-backed catalyst found.",
+      "catalyst_is_real": false,
+      "evidence_sources": [
+        "price/volume (yfinance)"
+      ],
+      "reasoning_summary": "Top-6 by transparent score.",
+      "risk_notes": "",
+      "model_used": "deterministic",
+      "created_at": "2026-08-28T22:33:29.873737+00:00"
+    },
+    {
+      "ticker": "AAPL",
+      "candidate_score": 0.2213,
+      "score_breakdown": {
+        "momentum": 0.1021,
+        "relative_strength": 0.25,
+        "volume_confirmation": -0.0159,
+        "catalyst": 0.0,
+        "earnings_risk_penalty": -0.015,
+        "volatility_penalty": -0.0,
+        "weak_evidence_penalty": -0.1,
+        "total": 0.2213
+      },
+      "catalyst_assessment": "0 news item(s) in 72h; no source-backed catalyst found.",
+      "catalyst_is_real": false,
+      "evidence_sources": [
+        "price/volume (yfinance)"
+      ],
+      "reasoning_summary": "Top-6 by transparent score.",
+      "risk_notes": "",
+      "model_used": "deterministic",
+      "created_at": "2026-08-28T22:33:29.873749+00:00"
+    },
+    {
+      "ticker": "AMZN",
+      "candidate_score": 0.2101,
+      "score_breakdown": {
+        "momentum": 0.0315,
+        "relative_strength": 0.25,
+        "volume_confirmation": 0.0435,
+        "catalyst": 0.0,
+        "earnings_risk_penalty": -0.015,
+        "volatility_penalty": -0.0,
+        "weak_evidence_penalty": -0.1,
+        "total": 0.2101
+      },
+      "catalyst_assessment": "0 news item(s) in 72h; no source-backed catalyst found.",
+      "catalyst_is_real": false,
+      "evidence_sources": [
+        "price/volume (yfinance)"
+      ],
+      "reasoning_summary": "Top-6 by transparent score.",
+      "risk_notes": "",
+      "model_used": "deterministic",
+      "created_at": "2026-08-28T22:33:29.873761+00:00"
     }
   ],
   "risk_review": {
-    "portfolio_risk": "Sector concentration in XLK.",
+    "portfolio_risk": "No severe single-sector concentration detected.",
     "ticker_risks": {
-      "NVDA": "thin evidence",
       "CRM": "elevated volatility; thin evidence",
-      "ONDS": "elevated volatility; thin evidence",
-      "ORCL": "elevated volatility; thin evidence",
-      "TSLA": "thin evidence",
-      "MSFT": "thin evidence"
+      "MSFT": "thin evidence",
+      "NFLX": "thin evidence",
+      "META": "thin evidence",
+      "AAPL": "thin evidence",
+      "AMZN": "thin evidence"
     },
     "model_used": "deterministic"
   },
   "committee_decision": {
     "picks": [
       {
-        "ticker": "NVDA",
-        "action": "long",
-        "probability_band": "high",
-        "confidence": 3,
-        "horizon_days": 1,
-        "entry_reference_price": 227.97999572753906,
-        "thesis": "0 news item(s) in 72h; no source-backed catalyst found.",
-        "evidence_sources": [
-          "price/volume (yfinance)"
-        ],
-        "reasoning_summary": "candidate_score=0.5547; 0 news item(s) in 72h; no source-backed catalyst found.",
-        "risk_notes": "thin evidence",
-        "model_used": "deterministic",
-        "created_at": "2026-08-28T01:16:09.159271+00:00"
-      },
-      {
         "ticker": "CRM",
         "action": "long",
         "probability_band": "high",
         "confidence": 3,
         "horizon_days": 1,
-        "entry_reference_price": 252.0500030517578,
+        "entry_reference_price": 256.0,
         "thesis": "0 news item(s) in 72h; no source-backed catalyst found.",
         "evidence_sources": [
           "price/volume (yfinance)"
@@ -240,36 +224,52 @@
         "reasoning_summary": "candidate_score=0.485; 0 news item(s) in 72h; no source-backed catalyst found.",
         "risk_notes": "elevated volatility; thin evidence",
         "model_used": "deterministic",
-        "created_at": "2026-08-28T01:16:09.159285+00:00"
+        "created_at": "2026-08-28T22:33:29.875118+00:00"
       },
       {
-        "ticker": "ONDS",
+        "ticker": "MSFT",
         "action": "long",
         "probability_band": "high",
         "confidence": 3,
         "horizon_days": 1,
-        "entry_reference_price": 8.75,
+        "entry_reference_price": 513.530029296875,
         "thesis": "0 news item(s) in 72h; no source-backed catalyst found.",
         "evidence_sources": [
           "price/volume (yfinance)"
         ],
-        "reasoning_summary": "candidate_score=0.3299; 0 news item(s) in 72h; no source-backed catalyst found.",
-        "risk_notes": "elevated volatility; thin evidence",
+        "reasoning_summary": "candidate_score=0.3763; 0 news item(s) in 72h; no source-backed catalyst found.",
+        "risk_notes": "thin evidence",
         "model_used": "deterministic",
-        "created_at": "2026-08-28T01:16:09.159294+00:00"
+        "created_at": "2026-08-28T22:33:29.875133+00:00"
+      },
+      {
+        "ticker": "NFLX",
+        "action": "long",
+        "probability_band": "high",
+        "confidence": 3,
+        "horizon_days": 1,
+        "entry_reference_price": 81.72000122070312,
+        "thesis": "0 news item(s) in 72h; no source-backed catalyst found.",
+        "evidence_sources": [
+          "price/volume (yfinance)"
+        ],
+        "reasoning_summary": "candidate_score=0.3479; 0 news item(s) in 72h; no source-backed catalyst found.",
+        "risk_notes": "thin evidence",
+        "model_used": "deterministic",
+        "created_at": "2026-08-28T22:33:29.875142+00:00"
       }
     ],
     "rejected": [
       {
-        "ticker": "ORCL",
+        "ticker": "META",
         "reason": "daily pick limit reached"
       },
       {
-        "ticker": "TSLA",
+        "ticker": "AAPL",
         "reason": "daily pick limit reached"
       },
       {
-        "ticker": "MSFT",
+        "ticker": "AMZN",
         "reason": "daily pick limit reached"
       }
     ],
