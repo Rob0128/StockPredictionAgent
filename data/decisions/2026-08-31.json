@@ -1,0 +1,306 @@
+{
+  "run_date": "2026-08-31",
+  "yesterday_date": "2026-08-28",
+  "macro": {
+    "market_regime": "neutral",
+    "qqq_return_1d": 0.00046064108596455494,
+    "spy_return_1d": -0.002989520850009877,
+    "vix_change": null,
+    "ten_year_yield_change": null,
+    "notes": "regime=neutral, QQQ +0.05%"
+  },
+  "performance_review": {
+    "reviewed_date": "2026-08-28",
+    "benchmark": "QQQ",
+    "outcomes": [
+      {
+        "ticker": "CRM",
+        "action": "long",
+        "entry_reference_price": 256.0,
+        "close_price": 257.5400085449219,
+        "return_pct": 0.602,
+        "benchmark_return_pct": 0.046,
+        "excess_return_pct": 0.556,
+        "outperformed": true,
+        "original_thesis": "0 news item(s) in 72h; no source-backed catalyst found.",
+        "original_confidence": 3
+      },
+      {
+        "ticker": "MSFT",
+        "action": "long",
+        "entry_reference_price": 513.530029296875,
+        "close_price": 507.2900085449219,
+        "return_pct": -1.215,
+        "benchmark_return_pct": 0.046,
+        "excess_return_pct": -1.261,
+        "outperformed": false,
+        "original_thesis": "0 news item(s) in 72h; no source-backed catalyst found.",
+        "original_confidence": 3
+      },
+      {
+        "ticker": "NFLX",
+        "action": "long",
+        "entry_reference_price": 81.72000122070312,
+        "close_price": 81.05000305175781,
+        "return_pct": -0.82,
+        "benchmark_return_pct": 0.046,
+        "excess_return_pct": -0.866,
+        "outperformed": false,
+        "original_thesis": "0 news item(s) in 72h; no source-backed catalyst found.",
+        "original_confidence": 3
+      }
+    ],
+    "hit_rate": 0.333,
+    "avg_pick_return_pct": -0.478,
+    "benchmark_return_pct": 0.046,
+    "avg_excess_return_pct": -0.524,
+    "narrative": "Reviewed 2026-08-28: 3 pick(s), hit rate 0.333, avg excess vs QQQ -0.524%."
+  },
+  "candidates": [
+    {
+      "ticker": "TSLA",
+      "candidate_score": 0.5015,
+      "score_breakdown": {
+        "momentum": 0.2689,
+        "relative_strength": 0.25,
+        "volume_confirmation": 0.1173,
+        "catalyst": 0.0,
+        "earnings_risk_penalty": -0.015,
+        "volatility_penalty": -0.0197,
+        "weak_evidence_penalty": -0.1,
+        "total": 0.5015
+      },
+      "catalyst_assessment": "0 news item(s) in 72h; no source-backed catalyst found.",
+      "catalyst_is_real": false,
+      "evidence_sources": [
+        "price/volume (yfinance)"
+      ],
+      "reasoning_summary": "Top-6 by transparent score.",
+      "risk_notes": "",
+      "model_used": "deterministic",
+      "created_at": "2026-08-31T22:34:15.706853+00:00"
+    },
+    {
+      "ticker": "CVX",
+      "candidate_score": 0.319,
+      "score_breakdown": {
+        "momentum": 0.1075,
+        "relative_strength": 0.25,
+        "volume_confirmation": 0.0765,
+        "catalyst": 0.0,
+        "earnings_risk_penalty": -0.015,
+        "volatility_penalty": -0.0,
+        "weak_evidence_penalty": -0.1,
+        "total": 0.319
+      },
+      "catalyst_assessment": "0 news item(s) in 72h; no source-backed catalyst found.",
+      "catalyst_is_real": false,
+      "evidence_sources": [
+        "price/volume (yfinance)"
+      ],
+      "reasoning_summary": "Top-6 by transparent score.",
+      "risk_notes": "",
+      "model_used": "deterministic",
+      "created_at": "2026-08-31T22:34:15.706888+00:00"
+    },
+    {
+      "ticker": "NVDA",
+      "candidate_score": 0.2784,
+      "score_breakdown": {
+        "momentum": 0.1883,
+        "relative_strength": 0.1798,
+        "volume_confirmation": -0.0043,
+        "catalyst": 0.0,
+        "earnings_risk_penalty": -0.015,
+        "volatility_penalty": -0.0304,
+        "weak_evidence_penalty": -0.04,
+        "total": 0.2784
+      },
+      "catalyst_assessment": "0 news item(s) in 72h; no source-backed catalyst found.",
+      "catalyst_is_real": false,
+      "evidence_sources": [
+        "price/volume (yfinance)"
+      ],
+      "reasoning_summary": "Top-6 by transparent score.",
+      "risk_notes": "",
+      "model_used": "deterministic",
+      "created_at": "2026-08-31T22:34:15.706906+00:00"
+    },
+    {
+      "ticker": "CRM",
+      "candidate_score": 0.265,
+      "score_breakdown": {
+        "momentum": 0.3,
+        "relative_strength": 0.0694,
+        "volume_confirmation": 0.0506,
+        "catalyst": 0.0,
+        "earnings_risk_penalty": -0.015,
+        "volatility_penalty": -0.1,
+        "weak_evidence_penalty": -0.04,
+        "total": 0.265
+      },
+      "catalyst_assessment": "0 news item(s) in 72h; no source-backed catalyst found.",
+      "catalyst_is_real": false,
+      "evidence_sources": [
+        "price/volume (yfinance)"
+      ],
+      "reasoning_summary": "Top-6 by transparent score.",
+      "risk_notes": "",
+      "model_used": "deterministic",
+      "created_at": "2026-08-31T22:34:15.706920+00:00"
+    },
+    {
+      "ticker": "XOM",
+      "candidate_score": 0.1861,
+      "score_breakdown": {
+        "momentum": 0.0116,
+        "relative_strength": 0.25,
+        "volume_confirmation": 0.0395,
+        "catalyst": 0.0,
+        "earnings_risk_penalty": -0.015,
+        "volatility_penalty": -0.0,
+        "weak_evidence_penalty": -0.1,
+        "total": 0.1861
+      },
+      "catalyst_assessment": "0 news item(s) in 72h; no source-backed catalyst found.",
+      "catalyst_is_real": false,
+      "evidence_sources": [
+        "price/volume (yfinance)"
+      ],
+      "reasoning_summary": "Top-6 by transparent score.",
+      "risk_notes": "",
+      "model_used": "deterministic",
+      "created_at": "2026-08-31T22:34:15.706933+00:00"
+    },
+    {
+      "ticker": "WMT",
+      "candidate_score": 0.0236,
+      "score_breakdown": {
+        "momentum": -0.0907,
+        "relative_strength": 0.2101,
+        "volume_confirmation": 0.0319,
+        "catalyst": 0.0,
+        "earnings_risk_penalty": -0.015,
+        "volatility_penalty": -0.0127,
+        "weak_evidence_penalty": -0.1,
+        "total": 0.0236
+      },
+      "catalyst_assessment": "0 news item(s) in 72h; no source-backed catalyst found.",
+      "catalyst_is_real": false,
+      "evidence_sources": [
+        "price/volume (yfinance)"
+      ],
+      "reasoning_summary": "Top-6 by transparent score.",
+      "risk_notes": "",
+      "model_used": "deterministic",
+      "created_at": "2026-08-31T22:34:15.706946+00:00"
+    }
+  ],
+  "risk_review": {
+    "portfolio_risk": "No severe single-sector concentration detected.",
+    "ticker_risks": {
+      "TSLA": "thin evidence",
+      "CVX": "thin evidence",
+      "NVDA": "thin evidence",
+      "CRM": "elevated volatility; thin evidence",
+      "XOM": "thin evidence",
+      "WMT": "thin evidence"
+    },
+    "model_used": "deterministic"
+  },
+  "committee_decision": {
+    "picks": [
+      {
+        "ticker": "TSLA",
+        "action": "long",
+        "probability_band": "high",
+        "confidence": 3,
+        "horizon_days": 1,
+        "entry_reference_price": 367.95001220703125,
+        "thesis": "0 news item(s) in 72h; no source-backed catalyst found.",
+        "evidence_sources": [
+          "price/volume (yfinance)"
+        ],
+        "reasoning_summary": "candidate_score=0.5015; 0 news item(s) in 72h; no source-backed catalyst found.",
+        "risk_notes": "thin evidence",
+        "model_used": "deterministic",
+        "created_at": "2026-08-31T22:34:15.708364+00:00"
+      },
+      {
+        "ticker": "CVX",
+        "action": "long",
+        "probability_band": "high",
+        "confidence": 3,
+        "horizon_days": 1,
+        "entry_reference_price": 206.13999938964844,
+        "thesis": "0 news item(s) in 72h; no source-backed catalyst found.",
+        "evidence_sources": [
+          "price/volume (yfinance)"
+        ],
+        "reasoning_summary": "candidate_score=0.319; 0 news item(s) in 72h; no source-backed catalyst found.",
+        "risk_notes": "thin evidence",
+        "model_used": "deterministic",
+        "created_at": "2026-08-31T22:34:15.708381+00:00"
+      },
+      {
+        "ticker": "NVDA",
+        "action": "long",
+        "probability_band": "high",
+        "confidence": 3,
+        "horizon_days": 1,
+        "entry_reference_price": 220.77999877929688,
+        "thesis": "0 news item(s) in 72h; no source-backed catalyst found.",
+        "evidence_sources": [
+          "price/volume (yfinance)"
+        ],
+        "reasoning_summary": "candidate_score=0.2784; 0 news item(s) in 72h; no source-backed catalyst found.",
+        "risk_notes": "thin evidence",
+        "model_used": "deterministic",
+        "created_at": "2026-08-31T22:34:15.708391+00:00"
+      }
+    ],
+    "rejected": [
+      {
+        "ticker": "CRM",
+        "reason": "daily pick limit reached"
+      },
+      {
+        "ticker": "XOM",
+        "reason": "daily pick limit reached"
+      },
+      {
+        "ticker": "WMT",
+        "reason": "score below threshold"
+      }
+    ],
+    "committee_summary": "Selected 3 paper pick(s) by transparent score; 3 rejected. Paper tracking only."
+  },
+  "warnings": [
+    "edgar ticker map failed: 403 Client Error: Forbidden for url: https://www.sec.gov/files/company_tickers.json",
+    "edgar ticker map failed: 403 Client Error: Forbidden for url: https://www.sec.gov/files/company_tickers.json",
+    "edgar ticker map failed: 403 Client Error: Forbidden for url: https://www.sec.gov/files/company_tickers.json",
+    "edgar ticker map failed: 403 Client Error: Forbidden for url: https://www.sec.gov/files/company_tickers.json",
+    "edgar ticker map failed: 403 Client Error: Forbidden for url: https://www.sec.gov/files/company_tickers.json",
+    "edgar ticker map failed: 403 Client Error: Forbidden for url: https://www.sec.gov/files/company_tickers.json",
+    "edgar ticker map failed: 403 Client Error: Forbidden for url: https://www.sec.gov/files/company_tickers.json",
+    "edgar ticker map failed: 403 Client Error: Forbidden for url: https://www.sec.gov/files/company_tickers.json",
+    "edgar ticker map failed: 403 Client Error: Forbidden for url: https://www.sec.gov/files/company_tickers.json",
+    "edgar ticker map failed: 403 Client Error: Forbidden for url: https://www.sec.gov/files/company_tickers.json",
+    "edgar ticker map failed: 403 Client Error: Forbidden for url: https://www.sec.gov/files/company_tickers.json",
+    "edgar ticker map failed: 403 Client Error: Forbidden for url: https://www.sec.gov/files/company_tickers.json",
+    "edgar ticker map failed: 403 Client Error: Forbidden for url: https://www.sec.gov/files/company_tickers.json",
+    "edgar ticker map failed: 403 Client Error: Forbidden for url: https://www.sec.gov/files/company_tickers.json",
+    "edgar ticker map failed: 403 Client Error: Forbidden for url: https://www.sec.gov/files/company_tickers.json",
+    "edgar ticker map failed: 403 Client Error: Forbidden for url: https://www.sec.gov/files/company_tickers.json",
+    "edgar ticker map failed: 403 Client Error: Forbidden for url: https://www.sec.gov/files/company_tickers.json",
+    "edgar ticker map failed: 403 Client Error: Forbidden for url: https://www.sec.gov/files/company_tickers.json",
+    "edgar ticker map failed: 403 Client Error: Forbidden for url: https://www.sec.gov/files/company_tickers.json",
+    "edgar ticker map failed: 403 Client Error: Forbidden for url: https://www.sec.gov/files/company_tickers.json",
+    "edgar ticker map failed: 403 Client Error: Forbidden for url: https://www.sec.gov/files/company_tickers.json",
+    "edgar ticker map failed: 403 Client Error: Forbidden for url: https://www.sec.gov/files/company_tickers.json",
+    "edgar ticker map failed: 403 Client Error: Forbidden for url: https://www.sec.gov/files/company_tickers.json",
+    "edgar ticker map failed: 403 Client Error: Forbidden for url: https://www.sec.gov/files/company_tickers.json",
+    "edgar ticker map failed: 403 Client Error: Forbidden for url: https://www.sec.gov/files/company_tickers.json",
+    "edgar ticker map failed: 403 Client Error: Forbidden for url: https://www.sec.gov/files/company_tickers.json"
+  ]
+}

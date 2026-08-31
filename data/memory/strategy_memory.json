@@ -125,9 +125,6 @@
   ],
   "observations": [
     {
-      "text": "GOOGL and MSFT significantly outperformed the benchmark, indicating potential stock-specific skill in these selections."
-    },
-    {
       "text": "CVX's negative return highlights the variability in individual stock performance within the portfolio."
     },
     {
@@ -243,6 +240,9 @@
     },
     {
       "text": "Reviewed 2026-08-26: 3 pick(s), hit rate 0.667, avg excess vs QQQ 1.373%."
+    },
+    {
+      "text": "Reviewed 2026-08-28: 3 pick(s), hit rate 0.333, avg excess vs QQQ -0.524%."
     }
   ],
   "deprecated_rules": [],
@@ -254,9 +254,9 @@
     "news": 1.0
   },
   "recent_performance": {
-    "last_5_days_hit_rate": 0.667,
-    "last_20_days_vs_benchmark": 1.373,
+    "last_5_days_hit_rate": 0.333,
+    "last_20_days_vs_benchmark": -0.524,
     "common_failure_mode": null
   },
-  "run_counter": 34
+  "run_counter": 35
 }
