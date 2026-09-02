@@ -125,9 +125,6 @@
   ],
   "observations": [
     {
-      "text": "The PAPER portfolio's picks underperformed significantly compared to the QQQ benchmark, which had a strong positive return of 3.40%."
-    },
-    {
       "text": "The hit rate for the day was 0.0%, indicating that none of the picks achieved positive returns."
     },
     {
@@ -243,6 +240,9 @@
     },
     {
       "text": "Reviewed 2026-08-31: 3 pick(s), hit rate 0.333, avg excess vs QQQ 0.488%."
+    },
+    {
+      "text": "Reviewed 2026-09-01: 3 pick(s), hit rate 0.333, avg excess vs QQQ -0.281%."
     }
   ],
   "deprecated_rules": [],
@@ -255,8 +255,8 @@
   },
   "recent_performance": {
     "last_5_days_hit_rate": 0.333,
-    "last_20_days_vs_benchmark": 0.488,
+    "last_20_days_vs_benchmark": -0.281,
     "common_failure_mode": null
   },
-  "run_counter": 36
+  "run_counter": 37
 }
