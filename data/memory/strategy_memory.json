@@ -125,9 +125,6 @@
   ],
   "observations": [
     {
-      "text": "The PAPER portfolio's picks underperformed the QQQ benchmark, with an average return of -0.71% compared to QQQ's -0.369%."
-    },
-    {
       "text": "None of the selected stocks achieved positive excess returns, indicating a lack of stock-specific skill in today's selections."
     },
     {
@@ -243,6 +240,9 @@
     },
     {
       "text": "Reviewed 2026-09-08: 3 pick(s), hit rate 0.667, avg excess vs QQQ 1.083%."
+    },
+    {
+      "text": "Reviewed 2026-09-09: 3 pick(s), hit rate 0.333, avg excess vs QQQ -0.694%."
     }
   ],
   "deprecated_rules": [],
@@ -254,9 +254,9 @@
     "news": 1.0
   },
   "recent_performance": {
-    "last_5_days_hit_rate": 0.667,
-    "last_20_days_vs_benchmark": 1.083,
+    "last_5_days_hit_rate": 0.333,
+    "last_20_days_vs_benchmark": -0.694,
     "common_failure_mode": null
   },
-  "run_counter": 42
+  "run_counter": 43
 }
