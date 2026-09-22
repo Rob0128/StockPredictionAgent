@@ -125,9 +125,6 @@
   ],
   "observations": [
     {
-      "text": "The PAPER portfolio's average pick return of -0.604% underperformed the QQQ benchmark by 0.268%, indicating a lack of stock-specific alpha generation."
-    },
-    {
       "text": "The hit rate of 33.3% suggests that only a third of the picks performed better than the benchmark, highlighting potential issues in stock selection or market timing."
     },
     {
@@ -243,6 +240,9 @@
     },
     {
       "text": "Made 2 paper pick(s) in risk_on regime."
+    },
+    {
+      "text": "Reviewed 2026-09-21: 2 pick(s), hit rate 0.5, avg excess vs QQQ -0.452%."
     }
   ],
   "deprecated_rules": [],
@@ -254,9 +254,9 @@
     "news": 1.0
   },
   "recent_performance": {
-    "last_5_days_hit_rate": 0.333,
-    "last_20_days_vs_benchmark": 1.635,
+    "last_5_days_hit_rate": 0.5,
+    "last_20_days_vs_benchmark": -0.452,
     "common_failure_mode": null
   },
-  "run_counter": 50
+  "run_counter": 51
 }
