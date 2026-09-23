@@ -125,9 +125,6 @@
   ],
   "observations": [
     {
-      "text": "The hit rate of 33.3% suggests that only a third of the picks performed better than the benchmark, highlighting potential issues in stock selection or market timing."
-    },
-    {
       "text": "The significant underperformance of high-confidence picks like LLY and MSFT points to possible overestimation of their short-term potential."
     },
     {
@@ -243,6 +240,9 @@
     },
     {
       "text": "Reviewed 2026-09-21: 2 pick(s), hit rate 0.5, avg excess vs QQQ -0.452%."
+    },
+    {
+      "text": "Reviewed 2026-09-22: 3 pick(s), hit rate 0.667, avg excess vs QQQ 1.119%."
     }
   ],
   "deprecated_rules": [],
@@ -254,9 +254,9 @@
     "news": 1.0
   },
   "recent_performance": {
-    "last_5_days_hit_rate": 0.5,
-    "last_20_days_vs_benchmark": -0.452,
+    "last_5_days_hit_rate": 0.667,
+    "last_20_days_vs_benchmark": 1.119,
     "common_failure_mode": null
   },
-  "run_counter": 51
+  "run_counter": 52
 }
