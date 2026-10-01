@@ -125,12 +125,6 @@
   ],
   "observations": [
     {
-      "text": "The hit rate of 0.667 suggests that while a majority of the picks were successful, the performance was uneven, with some stocks like BAC significantly underperforming."
-    },
-    {
-      "text": "Despite high confidence in picks like ORCL and NFLX, the overall excess return was negative, highlighting potential overconfidence or misjudgment in stock selection."
-    },
-    {
       "text": "Reviewed 2026-08-13: 3 pick(s), hit rate 0.333, avg excess vs QQQ -1.213%."
     },
     {
@@ -243,6 +237,12 @@
     },
     {
       "text": "Reviewed 2026-09-29: 3 pick(s), hit rate 0.333, avg excess vs QQQ -1.046%."
+    },
+    {
+      "text": "Reviewed 2026-09-30: 3 pick(s), hit rate 0.333, avg excess vs QQQ -0.661%."
+    },
+    {
+      "text": "Made 2 paper pick(s) in neutral regime."
     }
   ],
   "deprecated_rules": [],
@@ -255,8 +255,8 @@
   },
   "recent_performance": {
     "last_5_days_hit_rate": 0.333,
-    "last_20_days_vs_benchmark": -1.046,
+    "last_20_days_vs_benchmark": -0.661,
     "common_failure_mode": null
   },
-  "run_counter": 57
+  "run_counter": 58
 }
