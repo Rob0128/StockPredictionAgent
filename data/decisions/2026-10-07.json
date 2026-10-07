@@ -1,0 +1,306 @@
+{
+  "run_date": "2026-10-07",
+  "yesterday_date": "2026-10-06",
+  "macro": {
+    "market_regime": "neutral",
+    "qqq_return_1d": -0.0025406007213888758,
+    "spy_return_1d": -0.0024003081645026236,
+    "vix_change": null,
+    "ten_year_yield_change": null,
+    "notes": "regime=neutral, QQQ -0.25%"
+  },
+  "performance_review": {
+    "reviewed_date": "2026-10-06",
+    "benchmark": "QQQ",
+    "outcomes": [
+      {
+        "ticker": "AMD",
+        "action": "long",
+        "entry_reference_price": 649.4199829101562,
+        "close_price": 645.8599853515625,
+        "return_pct": -0.548,
+        "benchmark_return_pct": -0.254,
+        "excess_return_pct": -0.294,
+        "outperformed": false,
+        "original_thesis": "0 news item(s) in 72h; no source-backed catalyst found.",
+        "original_confidence": 3
+      },
+      {
+        "ticker": "AVGO",
+        "action": "long",
+        "entry_reference_price": 375.80999755859375,
+        "close_price": 376.510009765625,
+        "return_pct": 0.186,
+        "benchmark_return_pct": -0.254,
+        "excess_return_pct": 0.44,
+        "outperformed": true,
+        "original_thesis": "0 news item(s) in 72h; no source-backed catalyst found.",
+        "original_confidence": 3
+      },
+      {
+        "ticker": "MSFT",
+        "action": "long",
+        "entry_reference_price": 529.2999877929688,
+        "close_price": 529.760009765625,
+        "return_pct": 0.087,
+        "benchmark_return_pct": -0.254,
+        "excess_return_pct": 0.341,
+        "outperformed": true,
+        "original_thesis": "0 news item(s) in 72h; no source-backed catalyst found.",
+        "original_confidence": 1
+      }
+    ],
+    "hit_rate": 0.667,
+    "avg_pick_return_pct": -0.092,
+    "benchmark_return_pct": -0.254,
+    "avg_excess_return_pct": 0.162,
+    "narrative": "Reviewed 2026-10-06: 3 pick(s), hit rate 0.667, avg excess vs QQQ 0.162%."
+  },
+  "candidates": [
+    {
+      "ticker": "AMZN",
+      "candidate_score": 0.263,
+      "score_breakdown": {
+        "momentum": 0.1136,
+        "relative_strength": 0.2088,
+        "volume_confirmation": -0.0043,
+        "catalyst": 0.0,
+        "earnings_risk_penalty": -0.015,
+        "volatility_penalty": -0.0,
+        "weak_evidence_penalty": -0.04,
+        "total": 0.263
+      },
+      "catalyst_assessment": "0 news item(s) in 72h; no source-backed catalyst found.",
+      "catalyst_is_real": false,
+      "evidence_sources": [
+        "price/volume (yfinance)"
+      ],
+      "reasoning_summary": "Top-6 by transparent score.",
+      "risk_notes": "",
+      "model_used": "deterministic",
+      "created_at": "2026-10-07T22:38:46.586176+00:00"
+    },
+    {
+      "ticker": "LLY",
+      "candidate_score": 0.2567,
+      "score_breakdown": {
+        "momentum": 0.1181,
+        "relative_strength": 0.25,
+        "volume_confirmation": 0.0037,
+        "catalyst": 0.0,
+        "earnings_risk_penalty": -0.015,
+        "volatility_penalty": -0.0,
+        "weak_evidence_penalty": -0.1,
+        "total": 0.2567
+      },
+      "catalyst_assessment": "0 news item(s) in 72h; no source-backed catalyst found.",
+      "catalyst_is_real": false,
+      "evidence_sources": [
+        "price/volume (yfinance)"
+      ],
+      "reasoning_summary": "Top-6 by transparent score.",
+      "risk_notes": "",
+      "model_used": "deterministic",
+      "created_at": "2026-10-07T22:38:46.586205+00:00"
+    },
+    {
+      "ticker": "AAPL",
+      "candidate_score": 0.1664,
+      "score_breakdown": {
+        "momentum": 0.1009,
+        "relative_strength": 0.1457,
+        "volume_confirmation": -0.0252,
+        "catalyst": 0.0,
+        "earnings_risk_penalty": -0.015,
+        "volatility_penalty": -0.0,
+        "weak_evidence_penalty": -0.04,
+        "total": 0.1664
+      },
+      "catalyst_assessment": "0 news item(s) in 72h; no source-backed catalyst found.",
+      "catalyst_is_real": false,
+      "evidence_sources": [
+        "price/volume (yfinance)"
+      ],
+      "reasoning_summary": "Top-6 by transparent score.",
+      "risk_notes": "",
+      "model_used": "deterministic",
+      "created_at": "2026-10-07T22:38:46.586223+00:00"
+    },
+    {
+      "ticker": "GOOGL",
+      "candidate_score": 0.149,
+      "score_breakdown": {
+        "momentum": 0.1056,
+        "relative_strength": 0.1331,
+        "volume_confirmation": -0.0348,
+        "catalyst": 0.0,
+        "earnings_risk_penalty": -0.015,
+        "volatility_penalty": -0.0,
+        "weak_evidence_penalty": -0.04,
+        "total": 0.149
+      },
+      "catalyst_assessment": "0 news item(s) in 72h; no source-backed catalyst found.",
+      "catalyst_is_real": false,
+      "evidence_sources": [
+        "price/volume (yfinance)"
+      ],
+      "reasoning_summary": "Top-6 by transparent score.",
+      "risk_notes": "",
+      "model_used": "deterministic",
+      "created_at": "2026-10-07T22:38:46.586237+00:00"
+    },
+    {
+      "ticker": "WMT",
+      "candidate_score": 0.1459,
+      "score_breakdown": {
+        "momentum": 0.0999,
+        "relative_strength": 0.1437,
+        "volume_confirmation": -0.0427,
+        "catalyst": 0.0,
+        "earnings_risk_penalty": -0.015,
+        "volatility_penalty": -0.0,
+        "weak_evidence_penalty": -0.04,
+        "total": 0.1459
+      },
+      "catalyst_assessment": "0 news item(s) in 72h; no source-backed catalyst found.",
+      "catalyst_is_real": false,
+      "evidence_sources": [
+        "price/volume (yfinance)"
+      ],
+      "reasoning_summary": "Top-6 by transparent score.",
+      "risk_notes": "",
+      "model_used": "deterministic",
+      "created_at": "2026-10-07T22:38:46.586249+00:00"
+    },
+    {
+      "ticker": "COST",
+      "candidate_score": 0.1425,
+      "score_breakdown": {
+        "momentum": 0.1158,
+        "relative_strength": 0.1195,
+        "volume_confirmation": -0.0379,
+        "catalyst": 0.0,
+        "earnings_risk_penalty": -0.015,
+        "volatility_penalty": -0.0,
+        "weak_evidence_penalty": -0.04,
+        "total": 0.1425
+      },
+      "catalyst_assessment": "0 news item(s) in 72h; no source-backed catalyst found.",
+      "catalyst_is_real": false,
+      "evidence_sources": [
+        "price/volume (yfinance)"
+      ],
+      "reasoning_summary": "Top-6 by transparent score.",
+      "risk_notes": "",
+      "model_used": "deterministic",
+      "created_at": "2026-10-07T22:38:46.586262+00:00"
+    }
+  ],
+  "risk_review": {
+    "portfolio_risk": "No severe single-sector concentration detected.",
+    "ticker_risks": {
+      "AMZN": "thin evidence",
+      "LLY": "thin evidence",
+      "AAPL": "thin evidence",
+      "GOOGL": "thin evidence",
+      "WMT": "thin evidence",
+      "COST": "thin evidence"
+    },
+    "model_used": "deterministic"
+  },
+  "committee_decision": {
+    "picks": [
+      {
+        "ticker": "AMZN",
+        "action": "long",
+        "probability_band": "high",
+        "confidence": 3,
+        "horizon_days": 1,
+        "entry_reference_price": 259.9200134277344,
+        "thesis": "0 news item(s) in 72h; no source-backed catalyst found.",
+        "evidence_sources": [
+          "price/volume (yfinance)"
+        ],
+        "reasoning_summary": "candidate_score=0.263; 0 news item(s) in 72h; no source-backed catalyst found.",
+        "risk_notes": "thin evidence",
+        "model_used": "deterministic",
+        "created_at": "2026-10-07T22:38:46.587691+00:00"
+      },
+      {
+        "ticker": "LLY",
+        "action": "long",
+        "probability_band": "high",
+        "confidence": 3,
+        "horizon_days": 1,
+        "entry_reference_price": 1188.719970703125,
+        "thesis": "0 news item(s) in 72h; no source-backed catalyst found.",
+        "evidence_sources": [
+          "price/volume (yfinance)"
+        ],
+        "reasoning_summary": "candidate_score=0.2567; 0 news item(s) in 72h; no source-backed catalyst found.",
+        "risk_notes": "thin evidence",
+        "model_used": "deterministic",
+        "created_at": "2026-10-07T22:38:46.587707+00:00"
+      },
+      {
+        "ticker": "AAPL",
+        "action": "long",
+        "probability_band": "medium",
+        "confidence": 2,
+        "horizon_days": 1,
+        "entry_reference_price": 336.6700134277344,
+        "thesis": "0 news item(s) in 72h; no source-backed catalyst found.",
+        "evidence_sources": [
+          "price/volume (yfinance)"
+        ],
+        "reasoning_summary": "candidate_score=0.1664; 0 news item(s) in 72h; no source-backed catalyst found.",
+        "risk_notes": "thin evidence",
+        "model_used": "deterministic",
+        "created_at": "2026-10-07T22:38:46.587718+00:00"
+      }
+    ],
+    "rejected": [
+      {
+        "ticker": "GOOGL",
+        "reason": "daily pick limit reached"
+      },
+      {
+        "ticker": "WMT",
+        "reason": "daily pick limit reached"
+      },
+      {
+        "ticker": "COST",
+        "reason": "daily pick limit reached"
+      }
+    ],
+    "committee_summary": "Selected 3 paper pick(s) by transparent score; 3 rejected. Paper tracking only."
+  },
+  "warnings": [
+    "edgar ticker map failed: 403 Client Error: Forbidden for url: https://www.sec.gov/files/company_tickers.json",
+    "edgar ticker map failed: 403 Client Error: Forbidden for url: https://www.sec.gov/files/company_tickers.json",
+    "edgar ticker map failed: 403 Client Error: Forbidden for url: https://www.sec.gov/files/company_tickers.json",
+    "edgar ticker map failed: 403 Client Error: Forbidden for url: https://www.sec.gov/files/company_tickers.json",
+    "edgar ticker map failed: 403 Client Error: Forbidden for url: https://www.sec.gov/files/company_tickers.json",
+    "edgar ticker map failed: 403 Client Error: Forbidden for url: https://www.sec.gov/files/company_tickers.json",
+    "edgar ticker map failed: 403 Client Error: Forbidden for url: https://www.sec.gov/files/company_tickers.json",
+    "edgar ticker map failed: 403 Client Error: Forbidden for url: https://www.sec.gov/files/company_tickers.json",
+    "edgar ticker map failed: 403 Client Error: Forbidden for url: https://www.sec.gov/files/company_tickers.json",
+    "edgar ticker map failed: 403 Client Error: Forbidden for url: https://www.sec.gov/files/company_tickers.json",
+    "edgar ticker map failed: 403 Client Error: Forbidden for url: https://www.sec.gov/files/company_tickers.json",
+    "edgar ticker map failed: 403 Client Error: Forbidden for url: https://www.sec.gov/files/company_tickers.json",
+    "edgar ticker map failed: 403 Client Error: Forbidden for url: https://www.sec.gov/files/company_tickers.json",
+    "edgar ticker map failed: 403 Client Error: Forbidden for url: https://www.sec.gov/files/company_tickers.json",
+    "edgar ticker map failed: 403 Client Error: Forbidden for url: https://www.sec.gov/files/company_tickers.json",
+    "edgar ticker map failed: 403 Client Error: Forbidden for url: https://www.sec.gov/files/company_tickers.json",
+    "edgar ticker map failed: 403 Client Error: Forbidden for url: https://www.sec.gov/files/company_tickers.json",
+    "edgar ticker map failed: 403 Client Error: Forbidden for url: https://www.sec.gov/files/company_tickers.json",
+    "edgar ticker map failed: 403 Client Error: Forbidden for url: https://www.sec.gov/files/company_tickers.json",
+    "edgar ticker map failed: 403 Client Error: Forbidden for url: https://www.sec.gov/files/company_tickers.json",
+    "edgar ticker map failed: 403 Client Error: Forbidden for url: https://www.sec.gov/files/company_tickers.json",
+    "edgar ticker map failed: 403 Client Error: Forbidden for url: https://www.sec.gov/files/company_tickers.json",
+    "edgar ticker map failed: 403 Client Error: Forbidden for url: https://www.sec.gov/files/company_tickers.json",
+    "edgar ticker map failed: 403 Client Error: Forbidden for url: https://www.sec.gov/files/company_tickers.json",
+    "edgar ticker map failed: 403 Client Error: Forbidden for url: https://www.sec.gov/files/company_tickers.json",
+    "edgar ticker map failed: 403 Client Error: Forbidden for url: https://www.sec.gov/files/company_tickers.json"
+  ]
+}
