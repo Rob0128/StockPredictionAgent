@@ -125,9 +125,6 @@
   ],
   "observations": [
     {
-      "text": "Reviewed 2026-08-24: 3 pick(s), hit rate 0.333, avg excess vs QQQ 0.426%."
-    },
-    {
       "text": "Made 3 paper pick(s) in risk_on regime."
     },
     {
@@ -243,6 +240,9 @@
     },
     {
       "text": "Reviewed 2026-10-09: 3 pick(s), hit rate 1.0, avg excess vs QQQ 1.742%."
+    },
+    {
+      "text": "Reviewed 2026-10-12: 3 pick(s), hit rate 1.0, avg excess vs QQQ 1.598%."
     }
   ],
   "deprecated_rules": [],
@@ -255,8 +255,8 @@
   },
   "recent_performance": {
     "last_5_days_hit_rate": 1.0,
-    "last_20_days_vs_benchmark": 1.742,
+    "last_20_days_vs_benchmark": 1.598,
     "common_failure_mode": null
   },
-  "run_counter": 65
+  "run_counter": 66
 }
