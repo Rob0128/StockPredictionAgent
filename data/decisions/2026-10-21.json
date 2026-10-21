@@ -1,0 +1,306 @@
+{
+  "run_date": "2026-10-21",
+  "yesterday_date": "2026-10-20",
+  "macro": {
+    "market_regime": "risk_on",
+    "qqq_return_1d": 0.010548621535766075,
+    "spy_return_1d": 0.005253285386680994,
+    "vix_change": null,
+    "ten_year_yield_change": null,
+    "notes": "regime=risk_on, QQQ +1.05%"
+  },
+  "performance_review": {
+    "reviewed_date": "2026-10-20",
+    "benchmark": "QQQ",
+    "outcomes": [
+      {
+        "ticker": "LLY",
+        "action": "long",
+        "entry_reference_price": 1283.6600341796875,
+        "close_price": 1270.75,
+        "return_pct": -1.006,
+        "benchmark_return_pct": 1.055,
+        "excess_return_pct": -2.061,
+        "outperformed": false,
+        "original_thesis": "0 news item(s) in 72h; no source-backed catalyst found.",
+        "original_confidence": 3
+      },
+      {
+        "ticker": "UNH",
+        "action": "long",
+        "entry_reference_price": 419.260009765625,
+        "close_price": 417.0,
+        "return_pct": -0.539,
+        "benchmark_return_pct": 1.055,
+        "excess_return_pct": -1.594,
+        "outperformed": false,
+        "original_thesis": "0 news item(s) in 72h; no source-backed catalyst found.",
+        "original_confidence": 3
+      },
+      {
+        "ticker": "V",
+        "action": "long",
+        "entry_reference_price": 406.57000732421875,
+        "close_price": 407.8500061035156,
+        "return_pct": 0.315,
+        "benchmark_return_pct": 1.055,
+        "excess_return_pct": -0.74,
+        "outperformed": false,
+        "original_thesis": "0 news item(s) in 72h; no source-backed catalyst found.",
+        "original_confidence": 3
+      }
+    ],
+    "hit_rate": 0.0,
+    "avg_pick_return_pct": -0.41,
+    "benchmark_return_pct": 1.055,
+    "avg_excess_return_pct": -1.465,
+    "narrative": "Reviewed 2026-10-20: 3 pick(s), hit rate 0.0, avg excess vs QQQ -1.465%."
+  },
+  "candidates": [
+    {
+      "ticker": "TSLA",
+      "candidate_score": 0.2826,
+      "score_breakdown": {
+        "momentum": 0.1147,
+        "relative_strength": 0.25,
+        "volume_confirmation": 0.0401,
+        "catalyst": 0.0,
+        "earnings_risk_penalty": -0.015,
+        "volatility_penalty": -0.0071,
+        "weak_evidence_penalty": -0.1,
+        "total": 0.2826
+      },
+      "catalyst_assessment": "0 news item(s) in 72h; no source-backed catalyst found.",
+      "catalyst_is_real": false,
+      "evidence_sources": [
+        "price/volume (yfinance)"
+      ],
+      "reasoning_summary": "Top-6 by transparent score.",
+      "risk_notes": "",
+      "model_used": "deterministic",
+      "created_at": "2026-10-21T22:37:59.232588+00:00"
+    },
+    {
+      "ticker": "V",
+      "candidate_score": 0.0708,
+      "score_breakdown": {
+        "momentum": 0.2293,
+        "relative_strength": -0.0925,
+        "volume_confirmation": -0.011,
+        "catalyst": 0.0,
+        "earnings_risk_penalty": -0.015,
+        "volatility_penalty": -0.0,
+        "weak_evidence_penalty": -0.04,
+        "total": 0.0708
+      },
+      "catalyst_assessment": "0 news item(s) in 72h; no source-backed catalyst found.",
+      "catalyst_is_real": false,
+      "evidence_sources": [
+        "price/volume (yfinance)"
+      ],
+      "reasoning_summary": "Top-6 by transparent score.",
+      "risk_notes": "",
+      "model_used": "deterministic",
+      "created_at": "2026-10-21T22:37:59.232615+00:00"
+    },
+    {
+      "ticker": "ASML",
+      "candidate_score": 0.0635,
+      "score_breakdown": {
+        "momentum": -0.0176,
+        "relative_strength": 0.2196,
+        "volume_confirmation": -0.0234,
+        "catalyst": 0.0,
+        "earnings_risk_penalty": -0.015,
+        "volatility_penalty": -0.0,
+        "weak_evidence_penalty": -0.1,
+        "total": 0.0635
+      },
+      "catalyst_assessment": "0 news item(s) in 72h; no source-backed catalyst found.",
+      "catalyst_is_real": false,
+      "evidence_sources": [
+        "price/volume (yfinance)"
+      ],
+      "reasoning_summary": "Top-6 by transparent score.",
+      "risk_notes": "",
+      "model_used": "deterministic",
+      "created_at": "2026-10-21T22:37:59.232623+00:00"
+    },
+    {
+      "ticker": "CVX",
+      "candidate_score": 0.0443,
+      "score_breakdown": {
+        "momentum": 0.1626,
+        "relative_strength": -0.0726,
+        "volume_confirmation": 0.0092,
+        "catalyst": 0.0,
+        "earnings_risk_penalty": -0.015,
+        "volatility_penalty": -0.0,
+        "weak_evidence_penalty": -0.04,
+        "total": 0.0443
+      },
+      "catalyst_assessment": "0 news item(s) in 72h; no source-backed catalyst found.",
+      "catalyst_is_real": false,
+      "evidence_sources": [
+        "price/volume (yfinance)"
+      ],
+      "reasoning_summary": "Top-6 by transparent score.",
+      "risk_notes": "",
+      "model_used": "deterministic",
+      "created_at": "2026-10-21T22:37:59.232630+00:00"
+    },
+    {
+      "ticker": "MA",
+      "candidate_score": 0.0382,
+      "score_breakdown": {
+        "momentum": 0.1922,
+        "relative_strength": -0.0875,
+        "volume_confirmation": -0.0115,
+        "catalyst": 0.0,
+        "earnings_risk_penalty": -0.015,
+        "volatility_penalty": -0.0,
+        "weak_evidence_penalty": -0.04,
+        "total": 0.0382
+      },
+      "catalyst_assessment": "0 news item(s) in 72h; no source-backed catalyst found.",
+      "catalyst_is_real": false,
+      "evidence_sources": [
+        "price/volume (yfinance)"
+      ],
+      "reasoning_summary": "Top-6 by transparent score.",
+      "risk_notes": "",
+      "model_used": "deterministic",
+      "created_at": "2026-10-21T22:37:59.232636+00:00"
+    },
+    {
+      "ticker": "NVDA",
+      "candidate_score": 0.0323,
+      "score_breakdown": {
+        "momentum": -0.0134,
+        "relative_strength": 0.1857,
+        "volume_confirmation": -0.025,
+        "catalyst": 0.0,
+        "earnings_risk_penalty": -0.015,
+        "volatility_penalty": -0.0,
+        "weak_evidence_penalty": -0.1,
+        "total": 0.0323
+      },
+      "catalyst_assessment": "0 news item(s) in 72h; no source-backed catalyst found.",
+      "catalyst_is_real": false,
+      "evidence_sources": [
+        "price/volume (yfinance)"
+      ],
+      "reasoning_summary": "Top-6 by transparent score.",
+      "risk_notes": "",
+      "model_used": "deterministic",
+      "created_at": "2026-10-21T22:37:59.232643+00:00"
+    }
+  ],
+  "risk_review": {
+    "portfolio_risk": "No severe single-sector concentration detected.",
+    "ticker_risks": {
+      "TSLA": "thin evidence",
+      "V": "thin evidence",
+      "ASML": "thin evidence",
+      "CVX": "thin evidence",
+      "MA": "thin evidence",
+      "NVDA": "thin evidence"
+    },
+    "model_used": "deterministic"
+  },
+  "committee_decision": {
+    "picks": [
+      {
+        "ticker": "TSLA",
+        "action": "long",
+        "probability_band": "high",
+        "confidence": 3,
+        "horizon_days": 1,
+        "entry_reference_price": 386.4700012207031,
+        "thesis": "0 news item(s) in 72h; no source-backed catalyst found.",
+        "evidence_sources": [
+          "price/volume (yfinance)"
+        ],
+        "reasoning_summary": "candidate_score=0.2826; 0 news item(s) in 72h; no source-backed catalyst found.",
+        "risk_notes": "thin evidence",
+        "model_used": "deterministic",
+        "created_at": "2026-10-21T22:37:59.233465+00:00"
+      },
+      {
+        "ticker": "V",
+        "action": "long",
+        "probability_band": "low",
+        "confidence": 1,
+        "horizon_days": 1,
+        "entry_reference_price": 407.8500061035156,
+        "thesis": "0 news item(s) in 72h; no source-backed catalyst found.",
+        "evidence_sources": [
+          "price/volume (yfinance)"
+        ],
+        "reasoning_summary": "candidate_score=0.0708; 0 news item(s) in 72h; no source-backed catalyst found.",
+        "risk_notes": "thin evidence",
+        "model_used": "deterministic",
+        "created_at": "2026-10-21T22:37:59.233473+00:00"
+      },
+      {
+        "ticker": "ASML",
+        "action": "long",
+        "probability_band": "low",
+        "confidence": 1,
+        "horizon_days": 1,
+        "entry_reference_price": 1676.68994140625,
+        "thesis": "0 news item(s) in 72h; no source-backed catalyst found.",
+        "evidence_sources": [
+          "price/volume (yfinance)"
+        ],
+        "reasoning_summary": "candidate_score=0.0635; 0 news item(s) in 72h; no source-backed catalyst found.",
+        "risk_notes": "thin evidence",
+        "model_used": "deterministic",
+        "created_at": "2026-10-21T22:37:59.233477+00:00"
+      }
+    ],
+    "rejected": [
+      {
+        "ticker": "CVX",
+        "reason": "score below threshold"
+      },
+      {
+        "ticker": "MA",
+        "reason": "score below threshold"
+      },
+      {
+        "ticker": "NVDA",
+        "reason": "score below threshold"
+      }
+    ],
+    "committee_summary": "Selected 3 paper pick(s) by transparent score; 3 rejected. Paper tracking only."
+  },
+  "warnings": [
+    "edgar ticker map failed: 403 Client Error: Forbidden for url: https://www.sec.gov/files/company_tickers.json",
+    "edgar ticker map failed: 403 Client Error: Forbidden for url: https://www.sec.gov/files/company_tickers.json",
+    "edgar ticker map failed: 403 Client Error: Forbidden for url: https://www.sec.gov/files/company_tickers.json",
+    "edgar ticker map failed: 403 Client Error: Forbidden for url: https://www.sec.gov/files/company_tickers.json",
+    "edgar ticker map failed: 403 Client Error: Forbidden for url: https://www.sec.gov/files/company_tickers.json",
+    "edgar ticker map failed: 403 Client Error: Forbidden for url: https://www.sec.gov/files/company_tickers.json",
+    "edgar ticker map failed: 403 Client Error: Forbidden for url: https://www.sec.gov/files/company_tickers.json",
+    "edgar ticker map failed: 403 Client Error: Forbidden for url: https://www.sec.gov/files/company_tickers.json",
+    "edgar ticker map failed: 403 Client Error: Forbidden for url: https://www.sec.gov/files/company_tickers.json",
+    "edgar ticker map failed: 403 Client Error: Forbidden for url: https://www.sec.gov/files/company_tickers.json",
+    "edgar ticker map failed: 403 Client Error: Forbidden for url: https://www.sec.gov/files/company_tickers.json",
+    "edgar ticker map failed: 403 Client Error: Forbidden for url: https://www.sec.gov/files/company_tickers.json",
+    "edgar ticker map failed: 403 Client Error: Forbidden for url: https://www.sec.gov/files/company_tickers.json",
+    "edgar ticker map failed: 403 Client Error: Forbidden for url: https://www.sec.gov/files/company_tickers.json",
+    "edgar ticker map failed: 403 Client Error: Forbidden for url: https://www.sec.gov/files/company_tickers.json",
+    "edgar ticker map failed: 403 Client Error: Forbidden for url: https://www.sec.gov/files/company_tickers.json",
+    "edgar ticker map failed: 403 Client Error: Forbidden for url: https://www.sec.gov/files/company_tickers.json",
+    "edgar ticker map failed: 403 Client Error: Forbidden for url: https://www.sec.gov/files/company_tickers.json",
+    "edgar ticker map failed: 403 Client Error: Forbidden for url: https://www.sec.gov/files/company_tickers.json",
+    "edgar ticker map failed: 403 Client Error: Forbidden for url: https://www.sec.gov/files/company_tickers.json",
+    "edgar ticker map failed: 403 Client Error: Forbidden for url: https://www.sec.gov/files/company_tickers.json",
+    "edgar ticker map failed: 403 Client Error: Forbidden for url: https://www.sec.gov/files/company_tickers.json",
+    "edgar ticker map failed: 403 Client Error: Forbidden for url: https://www.sec.gov/files/company_tickers.json",
+    "edgar ticker map failed: 403 Client Error: Forbidden for url: https://www.sec.gov/files/company_tickers.json",
+    "edgar ticker map failed: 403 Client Error: Forbidden for url: https://www.sec.gov/files/company_tickers.json",
+    "edgar ticker map failed: 403 Client Error: Forbidden for url: https://www.sec.gov/files/company_tickers.json"
+  ]
+}
