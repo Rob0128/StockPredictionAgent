@@ -1,0 +1,269 @@
+{
+  "run_date": "2026-11-06",
+  "yesterday_date": "2026-11-05",
+  "macro": {
+    "market_regime": "risk_on",
+    "qqq_return_1d": 0.013986535760301103,
+    "spy_return_1d": 0.003124117363361187,
+    "vix_change": null,
+    "ten_year_yield_change": null,
+    "notes": "regime=risk_on, QQQ +1.40%"
+  },
+  "performance_review": {
+    "reviewed_date": "2026-11-05",
+    "benchmark": "QQQ",
+    "outcomes": [
+      {
+        "ticker": "WMT",
+        "action": "long",
+        "entry_reference_price": 127.72000122070312,
+        "close_price": 125.5199966430664,
+        "return_pct": -1.723,
+        "benchmark_return_pct": 1.399,
+        "excess_return_pct": -3.121,
+        "outperformed": false,
+        "original_thesis": "0 news item(s) in 72h; no source-backed catalyst found.",
+        "original_confidence": 3
+      },
+      {
+        "ticker": "COST",
+        "action": "long",
+        "entry_reference_price": 1065.5899658203125,
+        "close_price": 1053.56005859375,
+        "return_pct": -1.129,
+        "benchmark_return_pct": 1.399,
+        "excess_return_pct": -2.528,
+        "outperformed": false,
+        "original_thesis": "0 news item(s) in 72h; no source-backed catalyst found.",
+        "original_confidence": 3
+      },
+      {
+        "ticker": "HD",
+        "action": "long",
+        "entry_reference_price": 349.94000244140625,
+        "close_price": 343.4700012207031,
+        "return_pct": -1.849,
+        "benchmark_return_pct": 1.399,
+        "excess_return_pct": -3.248,
+        "outperformed": false,
+        "original_thesis": "0 news item(s) in 72h; no source-backed catalyst found.",
+        "original_confidence": 3
+      }
+    ],
+    "hit_rate": 0.0,
+    "avg_pick_return_pct": -1.567,
+    "benchmark_return_pct": 1.399,
+    "avg_excess_return_pct": -2.965,
+    "narrative": "Reviewed 2026-11-05: 3 pick(s), hit rate 0.0, avg excess vs QQQ -2.965%."
+  },
+  "candidates": [
+    {
+      "ticker": "JNJ",
+      "candidate_score": 0.0459,
+      "score_breakdown": {
+        "momentum": 0.0877,
+        "relative_strength": 0.0042,
+        "volume_confirmation": 0.0137,
+        "catalyst": 0.0,
+        "earnings_risk_penalty": -0.015,
+        "volatility_penalty": -0.0047,
+        "weak_evidence_penalty": -0.04,
+        "total": 0.0459
+      },
+      "catalyst_assessment": "0 news item(s) in 72h; no source-backed catalyst found.",
+      "catalyst_is_real": false,
+      "evidence_sources": [
+        "price/volume (yfinance)"
+      ],
+      "reasoning_summary": "Top-6 by transparent score.",
+      "risk_notes": "",
+      "model_used": "deterministic",
+      "created_at": "2026-11-06T22:33:36.325706+00:00"
+    },
+    {
+      "ticker": "V",
+      "candidate_score": -0.0362,
+      "score_breakdown": {
+        "momentum": 0.1552,
+        "relative_strength": -0.1731,
+        "volume_confirmation": 0.0367,
+        "catalyst": 0.0,
+        "earnings_risk_penalty": -0.015,
+        "volatility_penalty": -0.0,
+        "weak_evidence_penalty": -0.04,
+        "total": -0.0362
+      },
+      "catalyst_assessment": "0 news item(s) in 72h; no source-backed catalyst found.",
+      "catalyst_is_real": false,
+      "evidence_sources": [
+        "price/volume (yfinance)"
+      ],
+      "reasoning_summary": "Top-6 by transparent score.",
+      "risk_notes": "",
+      "model_used": "deterministic",
+      "created_at": "2026-11-06T22:33:36.325734+00:00"
+    },
+    {
+      "ticker": "HD",
+      "candidate_score": -0.0602,
+      "score_breakdown": {
+        "momentum": 0.2957,
+        "relative_strength": -0.25,
+        "volume_confirmation": 0.0235,
+        "catalyst": 0.0,
+        "earnings_risk_penalty": -0.015,
+        "volatility_penalty": -0.0144,
+        "weak_evidence_penalty": -0.1,
+        "total": -0.0602
+      },
+      "catalyst_assessment": "0 news item(s) in 72h; no source-backed catalyst found.",
+      "catalyst_is_real": false,
+      "evidence_sources": [
+        "price/volume (yfinance)"
+      ],
+      "reasoning_summary": "Top-6 by transparent score.",
+      "risk_notes": "",
+      "model_used": "deterministic",
+      "created_at": "2026-11-06T22:33:36.325748+00:00"
+    },
+    {
+      "ticker": "COST",
+      "candidate_score": -0.0918,
+      "score_breakdown": {
+        "momentum": 0.2085,
+        "relative_strength": -0.25,
+        "volume_confirmation": 0.0047,
+        "catalyst": 0.0,
+        "earnings_risk_penalty": -0.015,
+        "volatility_penalty": -0.0,
+        "weak_evidence_penalty": -0.04,
+        "total": -0.0918
+      },
+      "catalyst_assessment": "0 news item(s) in 72h; no source-backed catalyst found.",
+      "catalyst_is_real": false,
+      "evidence_sources": [
+        "price/volume (yfinance)"
+      ],
+      "reasoning_summary": "Top-6 by transparent score.",
+      "risk_notes": "",
+      "model_used": "deterministic",
+      "created_at": "2026-11-06T22:33:36.325760+00:00"
+    },
+    {
+      "ticker": "MA",
+      "candidate_score": -0.1324,
+      "score_breakdown": {
+        "momentum": 0.1709,
+        "relative_strength": -0.2362,
+        "volume_confirmation": -0.0121,
+        "catalyst": 0.0,
+        "earnings_risk_penalty": -0.015,
+        "volatility_penalty": -0.0,
+        "weak_evidence_penalty": -0.04,
+        "total": -0.1324
+      },
+      "catalyst_assessment": "0 news item(s) in 72h; no source-backed catalyst found.",
+      "catalyst_is_real": false,
+      "evidence_sources": [
+        "price/volume (yfinance)"
+      ],
+      "reasoning_summary": "Top-6 by transparent score.",
+      "risk_notes": "",
+      "model_used": "deterministic",
+      "created_at": "2026-11-06T22:33:36.325771+00:00"
+    },
+    {
+      "ticker": "AMD",
+      "candidate_score": -0.167,
+      "score_breakdown": {
+        "momentum": -0.3,
+        "relative_strength": 0.25,
+        "volume_confirmation": 0.098,
+        "catalyst": 0.0,
+        "earnings_risk_penalty": -0.015,
+        "volatility_penalty": -0.1,
+        "weak_evidence_penalty": -0.1,
+        "total": -0.167
+      },
+      "catalyst_assessment": "0 news item(s) in 72h; no source-backed catalyst found.",
+      "catalyst_is_real": false,
+      "evidence_sources": [
+        "price/volume (yfinance)"
+      ],
+      "reasoning_summary": "Top-6 by transparent score.",
+      "risk_notes": "",
+      "model_used": "deterministic",
+      "created_at": "2026-11-06T22:33:36.325782+00:00"
+    }
+  ],
+  "risk_review": {
+    "portfolio_risk": "No severe single-sector concentration detected.",
+    "ticker_risks": {
+      "JNJ": "thin evidence",
+      "V": "thin evidence",
+      "HD": "thin evidence",
+      "COST": "thin evidence",
+      "MA": "thin evidence",
+      "AMD": "elevated volatility; thin evidence"
+    },
+    "model_used": "deterministic"
+  },
+  "committee_decision": {
+    "picks": [],
+    "rejected": [
+      {
+        "ticker": "JNJ",
+        "reason": "score below threshold"
+      },
+      {
+        "ticker": "V",
+        "reason": "score below threshold"
+      },
+      {
+        "ticker": "HD",
+        "reason": "score below threshold"
+      },
+      {
+        "ticker": "COST",
+        "reason": "score below threshold"
+      },
+      {
+        "ticker": "MA",
+        "reason": "score below threshold"
+      },
+      {
+        "ticker": "AMD",
+        "reason": "score below threshold"
+      }
+    ],
+    "committee_summary": "Selected 0 paper pick(s) by transparent score; 6 rejected. Paper tracking only."
+  },
+  "warnings": [
+    "edgar ticker map failed: 403 Client Error: Forbidden for url: https://www.sec.gov/files/company_tickers.json",
+    "edgar ticker map failed: 403 Client Error: Forbidden for url: https://www.sec.gov/files/company_tickers.json",
+    "edgar ticker map failed: 403 Client Error: Forbidden for url: https://www.sec.gov/files/company_tickers.json",
+    "edgar ticker map failed: 403 Client Error: Forbidden for url: https://www.sec.gov/files/company_tickers.json",
+    "edgar ticker map failed: 403 Client Error: Forbidden for url: https://www.sec.gov/files/company_tickers.json",
+    "edgar ticker map failed: 403 Client Error: Forbidden for url: https://www.sec.gov/files/company_tickers.json",
+    "edgar ticker map failed: 403 Client Error: Forbidden for url: https://www.sec.gov/files/company_tickers.json",
+    "edgar ticker map failed: 403 Client Error: Forbidden for url: https://www.sec.gov/files/company_tickers.json",
+    "edgar ticker map failed: 403 Client Error: Forbidden for url: https://www.sec.gov/files/company_tickers.json",
+    "edgar ticker map failed: 403 Client Error: Forbidden for url: https://www.sec.gov/files/company_tickers.json",
+    "edgar ticker map failed: 403 Client Error: Forbidden for url: https://www.sec.gov/files/company_tickers.json",
+    "edgar ticker map failed: 403 Client Error: Forbidden for url: https://www.sec.gov/files/company_tickers.json",
+    "edgar ticker map failed: 403 Client Error: Forbidden for url: https://www.sec.gov/files/company_tickers.json",
+    "edgar ticker map failed: 403 Client Error: Forbidden for url: https://www.sec.gov/files/company_tickers.json",
+    "edgar ticker map failed: 403 Client Error: Forbidden for url: https://www.sec.gov/files/company_tickers.json",
+    "edgar ticker map failed: 403 Client Error: Forbidden for url: https://www.sec.gov/files/company_tickers.json",
+    "edgar ticker map failed: 403 Client Error: Forbidden for url: https://www.sec.gov/files/company_tickers.json",
+    "edgar ticker map failed: 403 Client Error: Forbidden for url: https://www.sec.gov/files/company_tickers.json",
+    "edgar ticker map failed: 403 Client Error: Forbidden for url: https://www.sec.gov/files/company_tickers.json",
+    "edgar ticker map failed: 403 Client Error: Forbidden for url: https://www.sec.gov/files/company_tickers.json",
+    "edgar ticker map failed: 403 Client Error: Forbidden for url: https://www.sec.gov/files/company_tickers.json",
+    "edgar ticker map failed: 403 Client Error: Forbidden for url: https://www.sec.gov/files/company_tickers.json",
+    "edgar ticker map failed: 403 Client Error: Forbidden for url: https://www.sec.gov/files/company_tickers.json",
+    "edgar ticker map failed: 403 Client Error: Forbidden for url: https://www.sec.gov/files/company_tickers.json",
+    "edgar ticker map failed: 403 Client Error: Forbidden for url: https://www.sec.gov/files/company_tickers.json",
+    "edgar ticker map failed: 403 Client Error: Forbidden for url: https://www.sec.gov/files/company_tickers.json"
+  ]
+}
