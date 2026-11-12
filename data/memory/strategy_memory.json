@@ -125,9 +125,6 @@
   ],
   "observations": [
     {
-      "text": "Reviewed 2026-09-23: 3 pick(s), hit rate 0.333, avg excess vs QQQ 0.901%."
-    },
-    {
       "text": "Reviewed 2026-09-24: 3 pick(s), hit rate 0.0, avg excess vs QQQ -1.453%."
     },
     {
@@ -243,6 +240,9 @@
     },
     {
       "text": "Reviewed 2026-11-10: 3 pick(s), hit rate 0.0, avg excess vs QQQ -2.821%."
+    },
+    {
+      "text": "Reviewed 2026-11-11: 3 pick(s), hit rate 0.667, avg excess vs QQQ 3.792%."
     }
   ],
   "deprecated_rules": [],
@@ -254,9 +254,9 @@
     "news": 1.0
   },
   "recent_performance": {
-    "last_5_days_hit_rate": 0.0,
-    "last_20_days_vs_benchmark": -2.821,
+    "last_5_days_hit_rate": 0.667,
+    "last_20_days_vs_benchmark": 3.792,
     "common_failure_mode": null
   },
-  "run_counter": 87
+  "run_counter": 88
 }
